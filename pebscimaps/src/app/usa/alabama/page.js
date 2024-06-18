@@ -1,4 +1,4 @@
-import StateInfo from "@/components/StateInfo";
+import StateInfo from '../../../components/StateInfo'
 
 
 import usa from '../../../data/usa.json'
