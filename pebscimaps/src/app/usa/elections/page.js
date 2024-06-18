@@ -4,7 +4,6 @@ import usa from '../../../data/usa.json'
 import USAMap from '../USAMap';
 import {useState} from 'react'
 import { useRouter, usePathname, useSearchParams } from 'next/navigation';
-import { Suspense } from 'react';
 
 import Link from 'next/link'
 
@@ -12,11 +11,10 @@ function UsaElections() {
     const router = useRouter();
 
     const pathname = usePathname(); 
-    const searchParams = useSearchParams();
+    //const searchParams = useSearchParams();
 
     console.log(router.query);
     console.log(pathname);
-    console.log(searchParams.get('year'));
 
     const [selectedYear, setSelectedYear] = useState(2020);
     
@@ -30,7 +28,6 @@ function UsaElections() {
     
     
     return (
-      <Suspense fallback={<div>Loading...</div>}>
         <div style={{color: 'black'}}>
           <div style={{display: 'flex', justifyContent: 'center', height: '100vh'}}>
             <USAMap infoType={"elections"} selectedYear={selectedYear}/>
@@ -49,7 +46,6 @@ function UsaElections() {
                 <p>Combine states and see how they would have voted if they were apart of the same state.</p>
           </div>
         </div>
-      </Suspense>
       );
   }
 
