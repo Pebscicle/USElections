@@ -1,0 +1,2396 @@
+{
+    "id": "usa",
+    "name": "United States of America",
+    "electionsInfo": [
+        {
+            "year": 2020,
+            "republicanCandidate": "Donald Trump",
+            "democraticCandidate": "Joe Biden",
+            "independentCandidate": "none",
+            "libertarianCandidate": "Jo Jorgensen",
+            "greenCandidate": "Howie Hawkins",
+            "otherCandidate": "other"
+        },
+        {
+            "year": 2016,
+            "republicanCandidate": "Donald Trump",
+            "democraticCandidate": "Hillary Clinton",
+            "independentCandidate": "Evan McMullin",
+            "libertarianCandidate": "Gary Johnson",
+            "greenCandidate": "Jill Stein",
+            "otherCandidate": "other"
+        },
+        {
+            "year": 2012,
+            "republicanCandidate": "Mitt Romney",
+            "democraticCandidate": "Barack Obama",
+            "independentCandidate": "none",
+            "libertarianCandidate": "Gary Johnson",
+            "greenCandidate": "Jill Stein",
+            "otherCandidate": "other"
+        },
+        {
+            "year": 2008,
+            "republicanCandidate": "John McCain",
+            "democraticCandidate": "Barack Obama",
+            "independentCandidate": "Ralph Nader",
+            "libertarianCandidate": "Bob Barr",
+            "greenCandidate": "Cynthia McKinney",
+            "otherCandidate": "other"
+        }
+    ],
+    "states": [
+        {
+            "id": "AL",
+            "name": "Alabama",
+            "electionResults": [
+                {
+                    "year": 2020,
+                    "republican": 1441170,
+                    "democrat": 849624,
+                    "independent": 0,
+                    "libertarian": 25176,
+                    "green": 0,
+                    "other": 7312
+                },
+                {
+                    "year": 2016,
+                    "republican": 1318255,
+                    "democrat": 729547,
+                    "independent": 0,
+                    "libertarian": 44467,
+                    "green": 9391,
+                    "other": 21712
+                },
+                {
+                    "year": 2012,
+                    "republican": 1255925,
+                    "democrat": 795696,
+                    "independent": 0,
+                    "libertarian": 12328,
+                    "green": 3397,
+                    "other": 6992
+                },
+                {
+                    "year": 2008,
+                    "republican": 1266546,
+                    "democrat": 813479,
+                    "independent": 6788,
+                    "libertarian": 4991,
+                    "green": 0,
+                    "other": 8015
+                }
+            ]
+        },
+        {
+            "id": "AK",
+            "name": "Alaska",
+            "electionResults": [
+                {
+                    "year": 2020,
+                    "republican": 189951,
+                    "democrat": 153778,
+                    "independent": 0,
+                    "libertarian": 8897,
+                    "green": 0,
+                    "other": 6904 
+                },
+                {
+                    "year": 2016,
+                    "republican": 163387,
+                    "democrat": 116454,
+                    "independent": 0,
+                    "libertarian": 18725,
+                    "green": 5735,
+                    "other": 14307
+                },
+                {
+                    "year": 2012,
+                    "republican": 164676,
+                    "democrat": 122640,
+                    "independent": 0,
+                    "libertarian": 7392,
+                    "green": 2917,
+                    "other": 2870
+                },
+                {
+                    "year": 2008,
+                    "republican": 193841,
+                    "democrat": 123594,
+                    "independent": 3783,
+                    "libertarian": 1589,
+                    "green": 0,
+                    "other": 3390
+                }
+            ]
+        },
+        {
+            "id": "AZ",
+            "name": "Arizona",
+            "electionResults": [
+                {
+                    "year": 2020,
+                    "republican": 1661686,
+                    "democrat": 1672143,
+                    "independent": 0,
+                    "libertarian": 51465,
+                    "green": 1557,
+                    "other": 475
+                },
+                {
+                    "year": 2016,
+                    "republican": 1252401,
+                    "democrat": 1161167,
+                    "independent": 17449,
+                    "libertarian": 106327,
+                    "green": 34345,
+                    "other": 32968
+                },
+                {
+                    "year": 2012,
+                    "republican": 1233654,
+                    "democrat": 1025232,
+                    "independent": 0,
+                    "libertarian": 32100,
+                    "green": 7816,
+                    "other": 452
+                },
+                {
+                    "year": 2008,
+                    "republican": 1230111,
+                    "democrat": 1034707,
+                    "independent": 11301,
+                    "libertarian": 12555,
+                    "green": 3406,
+                    "other": 1395
+                }
+            ]
+        },
+        {
+            "id": "AR",
+            "name": "Arkansas",
+            "electionResults": [
+                {
+                    "year": 2020,
+                    "republican": 760647,
+                    "democrat": 423932,
+                    "independent": 0,
+                    "libertarian": 13133,
+                    "green": 2980,
+                    "other": 18377
+                },
+                {
+                    "year": 2016,
+                    "republican": 684872,
+                    "democrat": 380494,
+                    "independent": 13176,
+                    "libertarian": 29949,
+                    "green": 9473,
+                    "other": 12712
+                },
+                {
+                    "year": 2012,
+                    "republican": 647744,
+                    "democrat": 394409,
+                    "independent": 0,
+                    "libertarian": 16276,
+                    "green": 9305,
+                    "other": 1734
+                },
+                {
+                    "year": 2008,
+                    "republican": 638017,
+                    "democrat": 422310,
+                    "independent": 12882,
+                    "libertarian": 4776,
+                    "green": 3470,
+                    "other": 5162
+                }
+            ]
+        },
+        {
+            "id": "CA",
+            "name": "California",
+            "electionResults": [
+                {
+                    "year": 2020,
+                    "republican": 6006518,
+                    "democrat": 11110639,
+                    "independent": 0,
+                    "libertarian": 187910,
+                    "green": 81032,
+                    "other": 115281
+                },
+                {
+                    "year": 2016,
+                    "republican": 4483810,
+                    "democrat": 8753788,
+                    "independent": 39596,
+                    "libertarian": 478500,
+                    "green": 278657,
+                    "other": 147244
+                },
+                {
+                    "year": 2012,
+                    "republican": 4839958,
+                    "democrat": 7854285,
+                    "independent": 0,
+                    "libertarian": 143221,
+                    "green": 85638,
+                    "other": 115445
+                },
+                {
+                    "year": 2008,
+                    "republican": 5011781,
+                    "democrat": 8274473,
+                    "independent": 108381,
+                    "libertarian": 67582,
+                    "green": 38774,
+                    "other": 60909
+                }
+            ]
+        },
+        {
+            "id": "CO",
+            "name": "Colorado",
+            "electionResults": [
+                {
+                    "year": 2020,
+                    "republican": 1364607,
+                    "democrat": 1804352,
+                    "independent": 0,
+                    "libertarian": 52460,
+                    "green": 8986,
+                    "other": 26575
+                },
+                {
+                    "year": 2016,
+                    "republican": 1202484,
+                    "democrat": 1338870,
+                    "independent": 28917,
+                    "libertarian": 144121,
+                    "green": 38437,
+                    "other": 27418
+                },
+                {
+                    "year": 2012,
+                    "republican": 1185243,
+                    "democrat": 1323101,
+                    "independent": 0,
+                    "libertarian": 35545,
+                    "green": 7508,
+                    "other": 18121
+                },
+                {
+                    "year": 2008,
+                    "republican": 1073629,
+                    "democrat": 1288633,
+                    "independent": 13352,
+                    "libertarian": 10898,
+                    "green": 2822,
+                    "other": 12128
+                }
+            ]
+        },
+        {
+            "id": "CT",
+            "name": "Connecticut",
+            "electionResults": [
+                {
+                    "year": 2020,
+                    "republican": 714717,
+                    "democrat": 1080831,
+                    "independent": 0,
+                    "libertarian": 20230,
+                    "green": 7538,
+                    "other": 541
+                },
+                {
+                    "year": 2016,
+                    "republican": 673215,
+                    "democrat": 897572,
+                    "independent": 2108,
+                    "libertarian": 48676,
+                    "green": 22841,
+                    "other": 508
+                },
+                {
+                    "year": 2012,
+                    "republican": 634892,
+                    "democrat": 905083,
+                    "independent": 0,
+                    "libertarian": 12580,
+                    "green": 863,
+                    "other": 5542
+                },
+                {
+                    "year": 2008,
+                    "republican": 629428,
+                    "democrat": 997772,
+                    "independent": 19162,
+                    "libertarian": 0,
+                    "green": 90,
+                    "other": 345
+                }
+            ]
+        },
+        {
+            "id": "DE",
+            "name": "Delaware",
+            "electionResults": [
+                {
+                    "year": 2020,
+                    "republican": 200603,
+                    "democrat": 296268,
+                    "independent": 0,
+                    "libertarian": 5000,
+                    "green": 2139,
+                    "other": 336
+                },
+                {
+                    "year": 2016,
+                    "republican": 185127,
+                    "democrat": 235603,
+                    "independent": 706,
+                    "libertarian": 14757,
+                    "green": 6103,
+                    "other": 1518
+                },
+                {
+                    "year": 2012,
+                    "republican": 165484,
+                    "democrat": 242584,
+                    "independent": 0,
+                    "libertarian": 3882,
+                    "green": 1940,
+                    "other": 31
+                },
+                {
+                    "year": 2008,
+                    "republican": 152374,
+                    "democrat": 255459,
+                    "independent": 2401,
+                    "libertarian": 1109,
+                    "green": 385,
+                    "other": 684
+                }
+            ]
+        },
+        {
+            "id": "DC",
+            "name": "Washington D.C.",
+            "electionResults": [
+                {
+                    "year": 2020,
+                    "republican": 18586,
+                    "democrat": 317323,
+                    "independent": 0,
+                    "libertarian": 2036,
+                    "green": 1726,
+                    "other": 4685
+                },
+                {
+                    "year": 2016,
+                    "republican": 12723,
+                    "democrat": 282830,
+                    "independent": 0,
+                    "libertarian": 4906,
+                    "green": 4258,
+                    "other": 6551
+                },
+                {
+                    "year": 2012,
+                    "republican": 21381,
+                    "democrat": 267070,
+                    "independent": 0,
+                    "libertarian": 2083,
+                    "green": 2458,
+                    "other": 772
+                },
+                {
+                    "year": 2008,
+                    "republican": 17367,
+                    "democrat": 245800,
+                    "independent": 958,
+                    "libertarian": 0,
+                    "green": 590,
+                    "other": 1138
+                }
+            ]
+        },
+        {
+            "id": "FL",
+            "name": "Florida",
+            "electionResults": [
+                {
+                    "year": 2020,
+                    "republican": 5668731,
+                    "democrat": 5297045,
+                    "independent": 0,
+                    "libertarian": 70324,
+                    "green": 14721,
+                    "other": 16635
+                },
+                {
+                    "year": 2016,
+                    "republican": 4617886,
+                    "democrat": 4504975,
+                    "independent": 0,
+                    "libertarian": 207043,
+                    "green": 64399,
+                    "other": 25736
+                },
+                {
+                    "year": 2012,
+                    "republican": 4163447,
+                    "democrat": 4237756,
+                    "independent": 0,
+                    "libertarian": 44726,
+                    "green": 8947,
+                    "other": 19303
+                },
+                {
+                    "year": 2008,
+                    "republican": 4045624,
+                    "democrat": 4282074,
+                    "independent": 28124,
+                    "libertarian": 17218,
+                    "green": 2887,
+                    "other": 14817
+                }
+            ]
+        },
+        {
+            "id": "GA",
+            "name": "Georgia",
+            "electionResults": [
+                {
+                    "year": 2020,
+                    "republican": 2461854,
+                    "democrat": 2473633,
+                    "independent": 0,
+                    "libertarian": 62229,
+                    "green": 1013,
+                    "other": 1231
+                },
+                {
+                    "year": 2016,
+                    "republican": 2089104,
+                    "democrat": 1877963,
+                    "independent": 13017,
+                    "libertarian": 125306,
+                    "green": 7674,
+                    "other": 1668
+                },
+                {
+                    "year": 2012,
+                    "republican": 2078688,
+                    "democrat": 1773827,
+                    "independent": 0,
+                    "libertarian": 45324,
+                    "green": 1516,
+                    "other": 695
+                },
+                {
+                    "year": 2008,
+                    "republican": 2048759,
+                    "democrat": 1844123,
+                    "independent": 1158,
+                    "libertarian": 28731,
+                    "green": 250,
+                    "other": 1465
+                }
+            ]
+        },
+        {
+            "id": "HI",
+            "name": "Hawaii",
+            "electionResults": [
+                {
+                    "year": 2020,
+                    "republican": 196864,
+                    "democrat": 366130,
+                    "independent": 0,
+                    "libertarian": 5539,
+                    "green": 3822,
+                    "other": 2114	
+                },
+                {
+                    "year": 2016,
+                    "republican": 128847,
+                    "democrat": 266891,
+                    "independent": 0,
+                    "libertarian": 15954,
+                    "green": 12737,
+                    "other": 4508
+                },
+                {
+                    "year": 2012,
+                    "republican": 121015,
+                    "democrat": 306658,
+                    "independent": 0,
+                    "libertarian": 3840,
+                    "green": 3184,
+                    "other": 0
+                },
+                {
+                    "year": 2008,
+                    "republican": 120566,
+                    "democrat": 325871,
+                    "independent": 3825,
+                    "libertarian": 1314,
+                    "green": 979,
+                    "other": 1013
+                }
+            ]
+        },
+        {
+            "id": "ID",
+            "name": "Idaho",
+            "electionResults": [
+                {
+                    "year": 2020,
+                    "republican": 554119,
+                    "democrat": 287021,
+                    "independent": 0,
+                    "libertarian": 16404,
+                    "green": 407,
+                    "other": 9983
+                },
+                {
+                    "year": 2016,
+                    "republican": 409055,
+                    "democrat": 189765,
+                    "independent": 46476,
+                    "libertarian": 28331,
+                    "green": 8496,
+                    "other": 8132
+                },
+                {
+                    "year": 2012,
+                    "republican": 420911,
+                    "democrat": 212787,
+                    "independent": 0,
+                    "libertarian": 9453,
+                    "green": 4402,
+                    "other": 4721
+                },
+                {
+                    "year": 2008,
+                    "republican": 403012,
+                    "democrat": 236440,
+                    "independent": 7175,
+                    "libertarian": 3658,
+                    "green": 39,
+                    "other": 4798
+                }
+            ]
+        },
+        {
+            "id": "IL",
+            "name": "Illinois",
+            "electionResults": [
+                {
+                    "year": 2020,
+                    "republican": 2446891,
+                    "democrat": 3471915,
+                    "independent": 0,
+                    "libertarian": 66544,
+                    "green": 30494,
+                    "other": 17900
+                },
+                {
+                    "year": 2016,
+                    "republican": 2146015,
+                    "democrat": 3090729,
+                    "independent": 11655,
+                    "libertarian": 209596,
+                    "green": 76802,
+                    "other": 1627
+                },
+                {
+                    "year": 2012,
+                    "republican": 2135216,
+                    "democrat": 3019512,
+                    "independent": 0,
+                    "libertarian": 56229,
+                    "green": 30222,
+                    "other": 835
+                },
+                {
+                    "year": 2008,
+                    "republican": 2031179,
+                    "democrat": 3419348,
+                    "independent": 30948,
+                    "libertarian": 19642,
+                    "green": 11838,
+                    "other": 9416
+                }
+            ]
+        },
+        {
+            "id": "IN",
+            "name": "Indiana",
+            "electionResults": [
+                {
+                    "year": 2020,
+                    "republican": 1729857,
+                    "democrat": 1242498,
+                    "independent": 0,
+                    "libertarian": 58901,
+                    "green": 989,
+                    "other": 965
+                },
+                {
+                    "year": 2016,
+                    "republican": 1557286,
+                    "democrat": 1033126,
+                    "independent": 0,
+                    "libertarian": 133993,
+                    "green": 7841,
+                    "other": 2712
+                },
+                {
+                    "year": 2012,
+                    "republican": 1420543,
+                    "democrat": 1152887,
+                    "independent": 0,
+                    "libertarian": 50111,
+                    "green": 625,
+                    "other": 368
+                },
+                {
+                    "year": 2008,
+                    "republican": 1345648,
+                    "democrat": 1374039,
+                    "independent": 909,
+                    "libertarian": 29257,
+                    "green": 87,
+                    "other": 1114
+                }
+            ]
+        },
+        {
+            "id": "IA",
+            "name": "Iowa",
+            "electionResults": [
+                {
+                    "year": 2020,
+                    "republican": 897672,
+                    "democrat": 759061,
+                    "independent": 0,
+                    "libertarian": 19637,
+                    "green": 3075,
+                    "other": 11426
+                },
+                {
+                    "year": 2016,
+                    "republican": 800983,
+                    "democrat": 653669,
+                    "independent": 12366,
+                    "libertarian": 59186,
+                    "green": 11479,
+                    "other": 28348
+                },
+                {
+                    "year": 2012,
+                    "republican": 730617,
+                    "democrat": 822544,
+                    "independent": 0,
+                    "libertarian": 12926,
+                    "green": 3769,
+                    "other": 12324
+                },
+                {
+                    "year": 2008,
+                    "republican": 682379,
+                    "democrat": 828940,
+                    "independent": 8014,
+                    "libertarian": 4590,
+                    "green": 1423,
+                    "other": 11777
+                }
+            ]
+        },
+        {
+            "id": "KS",
+            "name": "Kansas",
+            "electionResults": [
+                {
+                    "year": 2020,
+                    "republican": 771406,
+                    "democrat": 570323,
+                    "independent": 0,
+                    "libertarian": 30574,
+                    "green": 669,
+                    "other": 1014
+                },
+                {
+                    "year": 2016,
+                    "republican": 671018,
+                    "democrat": 427005,
+                    "independent": 6520,
+                    "libertarian": 55406,
+                    "green": 23506,
+                    "other": 947
+                },
+                {
+                    "year": 2012,
+                    "republican": 692634,
+                    "democrat": 440726,
+                    "independent": 0,
+                    "libertarian": 20456,
+                    "green": 714,
+                    "other": 5441
+                },
+                {
+                    "year": 2008,
+                    "republican": 699655,
+                    "democrat": 514765,
+                    "independent": 10527,
+                    "libertarian": 6706,
+                    "green": 35,
+                    "other": 4148
+                }
+            ]
+        },
+        {
+            "id": "KY",
+            "name": "Kentucky",
+            "electionResults": [
+                {
+                    "year": 2020,
+                    "republican": 1326646,
+                    "democrat": 772474,
+                    "independent": 0,
+                    "libertarian": 26234,
+                    "green": 716,
+                    "other": 10698
+                },
+                {
+                    "year": 2016,
+                    "republican": 1202971,
+                    "democrat": 628854,
+                    "independent": 22780,
+                    "libertarian": 53752,
+                    "green": 13913,
+                    "other": 1879
+                },
+                {
+                    "year": 2012,
+                    "republican": 1087190,
+                    "democrat": 679370,
+                    "independent": 0,
+                    "libertarian": 17063,
+                    "green": 6337,
+                    "other": 7252
+                },
+                {
+                    "year": 2008,
+                    "republican": 1048462,
+                    "democrat": 751985,
+                    "independent": 15378,
+                    "libertarian": 5989,
+                    "green": 0,
+                    "other": 4806
+                }
+            ]
+        },
+        {
+            "id": "LA",
+            "name": "Louisiana",
+            "electionResults": [
+                {
+                    "year": 2020,
+                    "republican": 1255776,
+                    "democrat": 856034,
+                    "independent": 0,
+                    "libertarian": 21645,
+                    "green": 0,
+                    "other": 14607
+                },
+                {
+                    "year": 2016,
+                    "republican": 1178638,
+                    "democrat": 780154,
+                    "independent": 8547,
+                    "libertarian": 37978,
+                    "green": 14031,
+                    "other": 9684
+                },
+                {
+                    "year": 2012,
+                    "republican": 1152262,
+                    "democrat": 809141,
+                    "independent": 0,
+                    "libertarian": 18157,
+                    "green": 6978,
+                    "other": 7527
+                },
+                {
+                    "year": 2008,
+                    "republican": 1148275,
+                    "democrat": 782989,
+                    "independent": 6997,
+                    "libertarian": 0,
+                    "green": 9187,
+                    "other": 13313
+                }
+            ]
+        },
+        {
+            "id": "ME",
+            "name": "Maine",
+            "electionResults": [
+                {
+                    "year": 2020,
+                    "republican": 360737,
+                    "democrat": 435072,
+                    "independent": 0,
+                    "libertarian": 14152,
+                    "green": 8230,
+                    "other": 1270
+                },
+                {
+                    "year": 2016,
+                    "republican": 335593,
+                    "democrat": 357735,
+                    "independent": 1887,
+                    "libertarian": 38105,
+                    "green": 14251,
+                    "other": 356
+                },
+                {
+                    "year": 2012,
+                    "republican": 292276,
+                    "democrat": 401306,
+                    "independent": 0,
+                    "libertarian": 9352,
+                    "green": 8119,
+                    "other": 2127
+                },
+                {
+                    "year": 2008,
+                    "republican": 295273,
+                    "democrat": 421923,
+                    "independent": 10636,
+                    "libertarian": 251,
+                    "green": 2900,
+                    "other": 180
+                }
+            ]
+        },
+            {
+                "id": "ME1",
+                "name": "Maine's 1st Congressional District",
+                "electionResults": [
+                    {
+                        "year": 2020,
+                        "republican": 164045,
+                        "democrat": 266376,
+                        "independent": 0,
+                        "libertarian": 7343,
+                        "green": 4654,
+                        "other": 694
+                    },
+                    {
+                        "year": 2016,
+                        "republican": 154384,
+                        "democrat": 212774,
+                        "independent": 807,
+                        "libertarian": 18592,
+                        "green": 7563,
+                        "other": 209
+                    },
+                    {
+                        "year": 2012,
+                        "republican": 142937,
+                        "democrat": 223035,
+                        "independent": 0,
+                        "libertarian": 4501,
+                        "green": 3946,
+                        "other": 0
+                    },
+                    {
+                        "year": 2008,
+                        "republican": 144604,
+                        "democrat": 232145,
+                        "independent": 5263,
+                        "libertarian": 126,
+                        "green": 1362,
+                        "other": 252
+                    }
+                ]
+            },
+            {
+                "id": "ME2",
+                "name": "Maine's 2nd Congressional District",
+                "electionResults": [
+                    {
+                        "year": 2020,
+                        "republican": 196692,
+                        "democrat": 168696,
+                        "independent": 0,
+                        "libertarian": 6809,
+                        "green": 3576,
+                        "other": 576
+                    },
+                    {
+                        "year": 2016,
+                        "republican": 181177,
+                        "democrat": 144817,
+                        "independent": 1080,
+                        "libertarian": 19510,
+                        "green": 6685,
+                        "other": 147
+                    },
+                    {
+                        "year": 2012,
+                        "republican": 149215,
+                        "democrat": 177998,
+                        "independent": 0,
+                        "libertarian": 4843,
+                        "green": 4170,
+                        "other": 0
+                    },
+                    {
+                        "year": 2008,
+                        "republican": 150669,
+                        "democrat": 189778,
+                        "independent": 5373,
+                        "libertarian": 125,
+                        "green": 1538,
+                        "other": 179
+                    }
+                ]
+            },
+        {
+            "id": "MD",
+            "name": "Maryland",
+            "electionResults": [
+                {
+                    "year": 2020,
+                    "republican": 976414,
+                    "democrat": 1985023,
+                    "independent": 0,
+                    "libertarian": 33488,
+                    "green": 15799,
+                    "other": 26306
+                },
+                {
+                    "year": 2016,
+                    "republican": 943169,
+                    "democrat": 1677928,
+                    "independent": 9630,
+                    "libertarian": 79605,
+                    "green": 35945,
+                    "other": 35169
+                },
+                {
+                    "year": 2012,
+                    "republican": 971869,
+                    "democrat": 1677844,
+                    "independent": 0,
+                    "libertarian": 30195,
+                    "green": 17110,
+                    "other": 10309
+                },
+                {
+                    "year": 2008,
+                    "republican": 959862,
+                    "democrat": 1629467,
+                    "independent": 14713,
+                    "libertarian": 9842,
+                    "green": 4747,
+                    "other": 12965
+                }
+            ]
+        },
+        {
+            "id": "MA",
+            "name": "Massachusetts",
+            "electionResults": [
+                {
+                    "year": 2020,
+                    "republican": 1167202,
+                    "democrat": 2382202,
+                    "independent": 0,
+                    "libertarian": 47013,
+                    "green": 18658,
+                    "other": 16327
+                },
+                {
+                    "year": 2016,
+                    "republican": 1090893,
+                    "democrat": 1995196,
+                    "independent": 2719,
+                    "libertarian": 138018,
+                    "green": 47661,
+                    "other": 50559
+                },
+                {
+                    "year": 2012,
+                    "republican": 1188314,
+                    "democrat": 1921290,
+                    "independent": 0,
+                    "libertarian": 30920,
+                    "green": 20691,
+                    "other": 6552
+                },
+                {
+                    "year": 2008,
+                    "republican": 1108854,
+                    "democrat": 1904097,
+                    "independent": 28841,
+                    "libertarian": 13189,
+                    "green": 6550,
+                    "other": 19454
+                }
+            ]
+        },
+        {
+            "id": "MI",
+            "name": "Michigan",
+            "electionResults": [
+                {
+                    "year": 2020,
+                    "republican": 2649852,
+                    "democrat": 2804040,
+                    "independent": 0,
+                    "libertarian": 60381,
+                    "green": 13718,
+                    "other": 11311
+                },
+                {
+                    "year": 2016,
+                    "republican": 2279543,
+                    "democrat": 2268839,
+                    "independent": 8177,
+                    "libertarian": 172136,
+                    "green": 51463,
+                    "other": 19126
+                },
+                {
+                    "year": 2012,
+                    "republican": 2115256,
+                    "democrat": 2564569,
+                    "independent": 0,
+                    "libertarian": 7774,
+                    "green": 21897,
+                    "other": 21465
+                },
+                {
+                    "year": 2008,
+                    "republican": 2048639,
+                    "democrat": 2872579,
+                    "independent": 33085,
+                    "libertarian": 23716,
+                    "green": 8892,
+                    "other": 14855
+                }
+            ]
+        },
+        {
+            "id": "MN",
+            "name": "Minnesota",
+            "electionResults": [
+                {
+                    "year": 2020,
+                    "republican": 1484065,
+                    "democrat": 1717077,
+                    "independent": 0,
+                    "libertarian": 34976,
+                    "green": 10033,
+                    "other": 31020
+                },
+                {
+                    "year": 2016,
+                    "republican": 1322951,
+                    "democrat": 1367716,
+                    "independent": 53076,
+                    "libertarian": 112972,
+                    "green": 36985,
+                    "other": 51113
+                },
+                {
+                    "year": 2012,
+                    "republican": 1320225	,
+                    "democrat": 1546167,
+                    "independent": 0,
+                    "libertarian": 35098,
+                    "green": 13023,
+                    "other": 22048	
+                },
+                {
+                    "year": 2008,
+                    "republican": 1275409,
+                    "democrat": 1573354,
+                    "independent": 30152,
+                    "libertarian": 9174,
+                    "green": 5174,
+                    "other": 17106
+                }
+            ]
+        },
+        {
+            "id": "MS",
+            "name": "Mississippi",
+            "electionResults": [
+                {
+                    "year": 2020,
+                    "republican": 756764,
+                    "democrat": 539398,
+                    "independent": 0,
+                    "libertarian": 8026,
+                    "green": 1498,
+                    "other": 8073
+                },
+                {
+                    "year": 2016,
+                    "republican": 700714,
+                    "democrat": 485131,
+                    "independent": 0,
+                    "libertarian": 14435,
+                    "green": 3731,
+                    "other": 5346
+                },
+                {
+                    "year": 2012,
+                    "republican": 710746,
+                    "democrat": 562949,
+                    "independent": 0,
+                    "libertarian": 6676,
+                    "green": 1588,
+                    "other": 3625
+                },
+                {
+                    "year": 2008,
+                    "republican": 724597,
+                    "democrat": 554662,
+                    "independent": 4011,
+                    "libertarian": 2529,
+                    "green": 1034,
+                    "other": 3032
+                }
+            ]
+        },
+        {
+            "id": "MO",
+            "name": "Missouri",
+            "electionResults": [
+                {
+                    "year": 2020,
+                    "republican": 1718736,
+                    "democrat": 1253014,
+                    "independent": 0,
+                    "libertarian": 41205,
+                    "green": 8283,
+                    "other": 4724
+                },
+                {
+                    "year": 2016,
+                    "republican": 1594511,
+                    "democrat": 1071068,
+                    "independent": 7071,
+                    "libertarian": 97359,
+                    "green": 25419,
+                    "other": 13177
+                },
+                {
+                    "year": 2012,
+                    "republican": 1482440,
+                    "democrat": 1223796,
+                    "independent": 0,
+                    "libertarian": 43151,
+                    "green": 0,
+                    "other": 7936
+                },
+                {
+                    "year": 2008,
+                    "republican": 1445814,
+                    "democrat": 1441911,
+                    "independent": 17813,
+                    "libertarian": 11386,
+                    "green": 80,
+                    "other": 8201
+                }
+            ]
+        },
+        {
+            "id": "MT",
+            "name": "Montana",
+            "electionResults": [
+                {
+                    "year": 2020,
+                    "republican": 343602,
+                    "democrat": 244786,
+                    "independent": 0,
+                    "libertarian": 15252,
+                    "green": 0,
+                    "other": 34
+                },
+                {
+                    "year": 2016,
+                    "republican": 279240,
+                    "democrat": 177709,
+                    "independent": 2297,
+                    "libertarian": 28037,
+                    "green": 7970,
+                    "other": 1894
+                },
+                {
+                    "year": 2012,
+                    "republican": 267928,
+                    "democrat": 201839,
+                    "independent": 0,
+                    "libertarian": 14165,
+                    "green": 0,
+                    "other": 116
+                },
+                {
+                    "year": 2008,
+                    "republican": 242763,
+                    "democrat": 231667,
+                    "independent": 3686,
+                    "libertarian": 1355,
+                    "green": 23,
+                    "other": 10808
+                }
+            ]
+        },
+        {
+            "id": "NE",
+            "name": "Nebraska",
+            "electionResults": [
+                {
+                    "year": 2020,
+                    "republican": 556846,
+                    "democrat": 374583,
+                    "independent": 0,
+                    "libertarian": 20283,
+                    "green": 0,
+                    "other": 4671
+                },
+                {
+                    "year": 2016,
+                    "republican": 495961,
+                    "democrat": 284494,
+                    "independent": 0,
+                    "libertarian": 38946,
+                    "green": 8775,
+                    "other": 16051
+                },
+                {
+                    "year": 2012,
+                    "republican": 475064,
+                    "democrat": 302081,
+                    "independent": 0,
+                    "libertarian": 11109,
+                    "green": 0,
+                    "other": 6125
+                },
+                {
+                    "year": 2008,
+                    "republican": 0,
+                    "democrat": 0,
+                    "independent": 0,
+                    "libertarian": 0,
+                    "green": 0,
+                    "other": 0
+                }
+            ]
+        },
+            {
+                "id": "NE1",
+                "name": "Nebraska's 1st Congressional District",
+                "electionResults": [
+                    {
+                        "year": 2020,
+                        "republican": 180290,
+                        "democrat": 132261,
+                        "independent": 0,
+                        "libertarian": 7495,
+                        "green": 0,
+                        "other": 1840
+                    },
+                    {
+                        "year": 2016,
+                        "republican": 158642,
+                        "democrat": 100132,
+                        "independent": 0,
+                        "libertarian": 14033,
+                        "green": 3374,
+                        "other": 6181
+                    },
+                    {
+                        "year": 2012,
+                        "republican": 152021,
+                        "democrat": 108082,
+                        "independent": 0,
+                        "libertarian": 3847,
+                        "green": 0,
+                        "other": 762	
+                    },
+                    {
+                        "year": 2008,
+                        "republican": 0,
+                        "democrat": 0,
+                        "independent": 0,
+                        "libertarian": 0,
+                        "green": 0,
+                        "other": 0
+                    }
+                ]
+            },
+            {
+                "id": "NE2",
+                "name": "Nebraska's 2nd Congressional District",
+                "electionResults": [
+                    {
+                        "year": 2020,
+                        "republican": 154377,
+                        "democrat": 176468,
+                        "independent": 0,
+                        "libertarian": 6909,
+                        "green": 0,
+                        "other": 1912
+                    },
+                    {
+                        "year": 2016,
+                        "republican": 137564,
+                        "democrat": 131030,
+                        "independent": 0,
+                        "libertarian": 13245,
+                        "green": 3347,
+                        "other": 6494
+                    },
+                    {
+                        "year": 2012,
+                        "republican": 140976,
+                        "democrat": 121889,
+                        "independent": 0,
+                        "libertarian": 3393,
+                        "green": 0,
+                        "other": 469
+                    },
+                    {
+                        "year": 2008,
+                        "republican": 0,
+                        "democrat": 0,
+                        "independent": 0,
+                        "libertarian": 0,
+                        "green": 0,
+                        "other": 0
+                    }
+                ]
+            },
+            {
+                "id": "NE3",
+                "name": "Nebraska's 3rd Congressional District",
+                "electionResults": [
+                    {
+                        "year": 2020,
+                        "republican": 222179,
+                        "democrat": 65854,
+                        "independent": 0,
+                        "libertarian": 5879,
+                        "green": 0,
+                        "other": 919
+                    },
+                    {
+                        "year": 2016,
+                        "republican": 199755,
+                        "democrat": 53332,
+                        "independent": 0,
+                        "libertarian": 11668,
+                        "green": 2054,
+                        "other": 3451
+                    },
+                    {
+                        "year": 2012,
+                        "republican": 182067,
+                        "democrat": 72110,
+                        "independent": 0,
+                        "libertarian": 3869,
+                        "green": 0,
+                        "other": 1177
+                    },
+                    {
+                        "year": 2008,
+                        "republican": 0,
+                        "democrat": 0,
+                        "independent": 0,
+                        "libertarian": 0,
+                        "green": 0,
+                        "other": 0
+                    }
+                ]
+            },
+        {
+            "id": "NV",
+            "name": "Nevada",
+            "electionResults": [
+                {
+                    "year": 2020,
+                    "republican": 669890,
+                    "democrat": 703486,
+                    "independent": 0,
+                    "libertarian": 14783,
+                    "green": 0,
+                    "other": 17217
+                },
+                {
+                    "year": 2016,
+                    "republican": 512058,
+                    "democrat": 539260,
+                    "independent": 0,
+                    "libertarian": 37384,
+                    "green": 0,
+                    "other": 36683
+                },
+                {
+                    "year": 2012,
+                    "republican": 463567,
+                    "democrat": 531373,
+                    "independent": 0,
+                    "libertarian": 10968,
+                    "green": 0,
+                    "other": 9010
+                },
+                {
+                    "year": 2008,
+                    "republican": 0,
+                    "democrat": 0,
+                    "independent": 0,
+                    "libertarian": 0,
+                    "green": 0,
+                    "other": 0
+                }
+            ]
+        },
+        {
+            "id": "NH",
+            "name": "New Hampshire",
+            "electionResults": [
+                {
+                    "year": 2020,
+                    "republican": 365660,
+                    "democrat": 424937,
+                    "independent": 0,
+                    "libertarian": 13236,
+                    "green": 217,
+                    "other": 2155
+                },
+                {
+                    "year": 2016,
+                    "republican": 345790,
+                    "democrat": 348526,
+                    "independent": 1064,
+                    "libertarian": 30777,
+                    "green": 6496,
+                    "other": 11643
+                },
+                {
+                    "year": 2012,
+                    "republican": 329918,
+                    "democrat": 369561,
+                    "independent": 0,
+                    "libertarian": 8212,
+                    "green": 324,
+                    "other": 2957
+                },
+                {
+                    "year": 2008,
+                    "republican": 0,
+                    "democrat": 0,
+                    "independent": 0,
+                    "libertarian": 0,
+                    "green": 0,
+                    "other": 0
+                }
+            ]
+        },
+        {
+            "id": "NJ",
+            "name": "New Jersey",
+            "electionResults": [
+                {
+                    "year": 2020,
+                    "republican": 1883313,
+                    "democrat": 2608400,
+                    "independent": 0,
+                    "libertarian": 31677,
+                    "green": 14202,
+                    "other": 11865
+                },
+                {
+                    "year": 2016,
+                    "republican": 1601933,
+                    "democrat": 2148278,
+                    "independent": 0,
+                    "libertarian": 72477,
+                    "green": 37772,
+                    "other": 13586
+                },
+                {
+                    "year": 2012,
+                    "republican": 1477568,
+                    "democrat": 2125101,
+                    "independent": 0,
+                    "libertarian": 21045,
+                    "green": 9888,
+                    "other": 6690
+                },
+                {
+                    "year": 2008,
+                    "republican": 0,
+                    "democrat": 0,
+                    "independent": 0,
+                    "libertarian": 0,
+                    "green": 0,
+                    "other": 0
+                }
+            ]
+        },
+        {
+            "id": "NM",
+            "name": "New Mexico",
+            "electionResults": [
+                {
+                    "year": 2020,
+                    "republican": 401894,
+                    "democrat": 501614,
+                    "independent": 0,
+                    "libertarian": 12585,
+                    "green": 4426,
+                    "other": 3446
+                },
+                {
+                    "year": 2016,
+                    "republican": 319667,
+                    "democrat": 385234,
+                    "independent": 5825,
+                    "libertarian": 74541,
+                    "green": 9879,
+                    "other": 3173
+                },
+                {
+                    "year": 2012,
+                    "republican": 335788,
+                    "democrat": 415335,
+                    "independent": 0,
+                    "libertarian": 27788,
+                    "green": 2691,
+                    "other": 2156
+                },
+                {
+                    "year": 2008,
+                    "republican": 0,
+                    "democrat": 0,
+                    "independent": 0,
+                    "libertarian": 0,
+                    "green": 0,
+                    "other": 0
+                }
+            ]
+        },
+        {
+            "id": "NY",
+            "name": "New York",
+            "electionResults": [
+                {
+                    "year": 2020,
+                    "republican": 3251997,
+                    "democrat": 5244886,
+                    "independent": 0,
+                    "libertarian": 60383,
+                    "green": 32832,
+                    "other": 26763
+                },
+                {
+                    "year": 2016,
+                    "republican": 2819534,
+                    "democrat": 4556124,
+                    "independent": 10373,
+                    "libertarian": 176598,
+                    "green": 107934,
+                    "other": 50890
+                },
+                {
+                    "year": 2012,
+                    "republican": 2490431,
+                    "democrat": 4485741,
+                    "independent": 0,
+                    "libertarian": 47256,
+                    "green": 39982,
+                    "other": 17749
+                },
+                {
+                    "year": 2008,
+                    "republican": 0,
+                    "democrat": 0,
+                    "independent": 0,
+                    "libertarian": 0,
+                    "green": 0,
+                    "other": 0
+                }
+            ]
+        },
+        {
+            "id": "NC",
+            "name": "North Carolina",
+            "electionResults": [
+                {
+                    "year": 2020,
+                    "republican": 2758775,
+                    "democrat": 2684292,
+                    "independent": 0,
+                    "libertarian": 48678,
+                    "green": 12195,
+                    "other": 20864
+                },
+                {
+                    "year": 2016,
+                    "republican": 2362631,
+                    "democrat": 2189316,
+                    "independent": 0,
+                    "libertarian": 130126,
+                    "green": 12105,
+                    "other": 47386
+                },
+                {
+                    "year": 2012,
+                    "republican": 2270395,
+                    "democrat": 2178391,
+                    "independent": 0,
+                    "libertarian": 44515,
+                    "green": 0,
+                    "other": 12071
+                },
+                {
+                    "year": 2008,
+                    "republican": 0,
+                    "democrat": 0,
+                    "independent": 0,
+                    "libertarian": 0,
+                    "green": 0,
+                    "other": 0
+                }
+            ]
+        },
+        {
+            "id": "ND",
+            "name": "North Dakota",
+            "electionResults": [
+                {
+                    "year": 2020,
+                    "republican": 235751,
+                    "democrat": 115042,
+                    "independent": 0,
+                    "libertarian": 9371,
+                    "green": 0,
+                    "other": 1860
+                },
+                {
+                    "year": 2016,
+                    "republican": 216794,
+                    "democrat": 93758,
+                    "independent": 0,
+                    "libertarian": 21434,
+                    "green": 3780,
+                    "other": 8594
+                },
+                {
+                    "year": 2012,
+                    "republican": 188163,
+                    "democrat": 124827,
+                    "independent": 0,
+                    "libertarian": 5231,
+                    "green": 1361,
+                    "other": 3045
+                },
+                {
+                    "year": 2008,
+                    "republican": 0,
+                    "democrat": 0,
+                    "independent": 0,
+                    "libertarian": 0,
+                    "green": 0,
+                    "other": 0
+                }
+            ]
+        },
+        {
+            "id": "OH",
+            "name": "Ohio",
+            "electionResults": [
+                {
+                    "year": 2020,
+                    "republican": 3154834,
+                    "democrat": 2679165,
+                    "independent": 0,
+                    "libertarian": 67569,
+                    "green": 18812,
+                    "other": 1822
+                },
+                {
+                    "year": 2016,
+                    "republican": 2841005,
+                    "democrat": 2394164,
+                    "independent": 12574,
+                    "libertarian": 174498,
+                    "green": 46271,
+                    "other": 27975
+                },
+                {
+                    "year": 2012,
+                    "republican": 2661437,
+                    "democrat": 2827709,
+                    "independent": 0,
+                    "libertarian": 49493,
+                    "green": 18573,
+                    "other": 23635
+                },
+                {
+                    "year": 2008,
+                    "republican": 0,
+                    "democrat": 0,
+                    "independent": 0,
+                    "libertarian": 0,
+                    "green": 0,
+                    "other": 0
+                }
+            ]
+        },
+        {
+            "id": "OK",
+            "name": "Oklahoma",
+            "electionResults": [
+                {
+                    "year": 2020,
+                    "republican": 1020280,
+                    "democrat": 503890,
+                    "independent": 0,
+                    "libertarian": 24731,
+                    "green": 0,
+                    "other": 11798
+                },
+                {
+                    "year": 2016,
+                    "republican": 949136,
+                    "democrat": 420375,
+                    "independent": 0,
+                    "libertarian": 83481,
+                    "green": 0,
+                    "other": 0
+                },
+                {
+                    "year": 2012,
+                    "republican": 891325,
+                    "democrat": 443547,
+                    "independent": 0,
+                    "libertarian": 0,
+                    "green": 0,
+                    "other": 0
+                },
+                {
+                    "year": 2008,
+                    "republican": 0,
+                    "democrat": 0,
+                    "independent": 0,
+                    "libertarian": 0,
+                    "green": 0,
+                    "other": 0
+                }
+            ]
+        },
+        {
+            "id": "OR",
+            "name": "Oregon",
+            "electionResults": [
+                {
+                    "year": 2020,
+                    "republican": 958448,
+                    "democrat": 1340383,
+                    "independent": 0,
+                    "libertarian": 41582,
+                    "green": 11831,
+                    "other": 22077
+                },
+                {
+                    "year": 2016,
+                    "republican": 782403,
+                    "democrat": 1002106,
+                    "independent": 0,
+                    "libertarian": 94231,
+                    "green": 50002,
+                    "other": 72594
+                },
+                {
+                    "year": 2012,
+                    "republican": 754175,
+                    "democrat": 970488,
+                    "independent": 0,
+                    "libertarian": 24089,
+                    "green": 19427,
+                    "other": 21091
+                },
+                {
+                    "year": 2008,
+                    "republican": 0,
+                    "democrat": 0,
+                    "independent": 0,
+                    "libertarian": 0,
+                    "green": 0,
+                    "other": 0
+                }
+            ]
+        },
+        {
+            "id": "PA",
+            "name": "Pennsylvania",
+            "electionResults": [
+                {
+                    "year": 2020,
+                    "republican": 3377674,
+                    "democrat": 3458229,
+                    "independent": 0,
+                    "libertarian": 79380,
+                    "green": 1282,
+                    "other": 20411
+                },
+                {
+                    "year": 2016,
+                    "republican": 2970733,
+                    "democrat": 2926441,
+                    "independent": 6472,
+                    "libertarian": 146715,
+                    "green": 49941,
+                    "other": 65176
+                },
+                {
+                    "year": 2012,
+                    "republican": 2680434,
+                    "democrat": 2990274,
+                    "independent": 0,
+                    "libertarian": 49991,
+                    "green": 21341,
+                    "other": 11630
+                },
+                {
+                    "year": 2008,
+                    "republican": 0,
+                    "democrat": 0,
+                    "independent": 0,
+                    "libertarian": 0,
+                    "green": 0,
+                    "other": 0
+                }
+            ]
+        },
+        {
+            "id": "RI",
+            "name": "Rhode Island",
+            "electionResults": [
+                {
+                    "year": 2020,
+                    "republican": 199922,
+                    "democrat": 307486,
+                    "independent": 0,
+                    "libertarian": 5053,
+                    "green": 0,
+                    "other": 5296
+                },
+                {
+                    "year": 2016,
+                    "republican": 180543,
+                    "democrat": 252525,
+                    "independent": 516,
+                    "libertarian": 14746,
+                    "green": 6220,
+                    "other": 9594
+                },
+                {
+                    "year": 2012,
+                    "republican": 157204,
+                    "democrat": 279677,
+                    "independent": 0,
+                    "libertarian": 4388,
+                    "green": 2421,
+                    "other": 2359
+                },
+                {
+                    "year": 2008,
+                    "republican": 0,
+                    "democrat": 0,
+                    "independent": 0,
+                    "libertarian": 0,
+                    "green": 0,
+                    "other": 0
+                }
+            ]
+        },
+        {
+            "id": "SC",
+            "name": "South Carolina",
+            "electionResults": [
+                {
+                    "year": 2020,
+                    "republican": 1385103,
+                    "democrat": 1091541,
+                    "independent": 0,
+                    "libertarian": 27916,
+                    "green": 6907,
+                    "other": 1862
+                },
+                {
+                    "year": 2016,
+                    "republican": 1155389,
+                    "democrat": 855373,
+                    "independent": 21016,
+                    "libertarian": 49204,
+                    "green": 13034,
+                    "other": 9011
+                },
+                {
+                    "year": 2012,
+                    "republican": 1071645,
+                    "democrat": 865941,
+                    "independent": 0,
+                    "libertarian": 16321,
+                    "green": 5446,
+                    "other": 4765
+                },
+                {
+                    "year": 2008,
+                    "republican": 0,
+                    "democrat": 0,
+                    "independent": 0,
+                    "libertarian": 0,
+                    "green": 0,
+                    "other": 0
+                }
+            ]
+        },
+        {
+            "id": "SD",
+            "name": "South Dakota",
+            "electionResults": [
+                {
+                    "year": 2020,
+                    "republican": 261043,
+                    "democrat": 150471,
+                    "independent": 0,
+                    "libertarian": 11095,
+                    "green": 0,
+                    "other": 0
+                },
+                {
+                    "year": 2016,
+                    "republican": 227721,
+                    "democrat": 117458,
+                    "independent": 0,
+                    "libertarian": 20850,
+                    "green": 0,
+                    "other": 4064
+                },
+                {
+                    "year": 2012,
+                    "republican": 210610,
+                    "democrat": 145039,
+                    "independent": 0,
+                    "libertarian": 5795,
+                    "green": 0,
+                    "other": 2371
+                },
+                {
+                    "year": 2008,
+                    "republican": 0,
+                    "democrat": 0,
+                    "independent": 0,
+                    "libertarian": 0,
+                    "green": 0,
+                    "other": 0
+                }
+            ]
+        },
+        {
+            "id": "TN",
+            "name": "Tennessee",
+            "electionResults": [
+                {
+                    "year": 2020,
+                    "republican": 1852475,
+                    "democrat": 1143711,
+                    "independent": 0,
+                    "libertarian": 29877,
+                    "green": 4545,
+                    "other": 23243
+                },
+                {
+                    "year": 2016,
+                    "republican": 1522925,
+                    "democrat": 870695,
+                    "independent": 11991,
+                    "libertarian": 70397,
+                    "green": 15993,
+                    "other": 16026
+                },
+                {
+                    "year": 2012,
+                    "republican": 1462330,
+                    "democrat": 960709,
+                    "independent": 0,
+                    "libertarian": 18623,
+                    "green": 6515,
+                    "other": 10400
+                },
+                {
+                    "year": 2008,
+                    "republican": 0,
+                    "democrat": 0,
+                    "independent": 0,
+                    "libertarian": 0,
+                    "green": 0,
+                    "other": 0
+                }
+            ]
+        },
+        {
+            "id": "TX",
+            "name": "Texas",
+            "electionResults": [
+                {
+                    "year": 2020,
+                    "republican": 5890347,
+                    "democrat": 5259126,
+                    "independent": 0,
+                    "libertarian": 126243,
+                    "green": 33396,
+                    "other": 5944
+                },
+                {
+                    "year": 2016,
+                    "republican": 4685047,
+                    "democrat": 3877868,
+                    "independent": 42366,
+                    "libertarian": 283492,
+                    "green": 71558,
+                    "other": 8895
+                },
+                {
+                    "year": 2012,
+                    "republican": 4569843,
+                    "democrat": 3308124,
+                    "independent": 0,
+                    "libertarian": 88580,
+                    "green": 24657,
+                    "other": 2647
+                },
+                {
+                    "year": 2008,
+                    "republican": 0,
+                    "democrat": 0,
+                    "independent": 0,
+                    "libertarian": 0,
+                    "green": 0,
+                    "other": 0
+                }
+            ]
+        },
+        {
+            "id": "UT",
+            "name": "Utah",
+            "electionResults": [
+                {
+                    "year": 2020,
+                    "republican": 865140,
+                    "democrat": 560282,
+                    "independent": 0,
+                    "libertarian": 38447,
+                    "green": 5053,
+                    "other": 19367
+                },
+                {
+                    "year": 2016,
+                    "republican": 515231,
+                    "democrat": 310676,
+                    "independent": 243690,
+                    "libertarian": 39608,
+                    "green": 9438,
+                    "other": 12787
+                },
+                {
+                    "year": 2012,
+                    "republican": 740600,
+                    "democrat": 251813,
+                    "independent": 0,
+                    "libertarian": 12572,
+                    "green": 3817,
+                    "other": 8638
+                },
+                {
+                    "year": 2008,
+                    "republican": 0,
+                    "democrat": 0,
+                    "independent": 0,
+                    "libertarian": 0,
+                    "green": 0,
+                    "other": 0
+                }
+            ]
+        },
+        {
+            "id": "VT",
+            "name": "Vermont",
+            "electionResults": [
+                {
+                    "year": 2020,
+                    "republican": 112704,
+                    "democrat": 242820,
+                    "independent": 0,
+                    "libertarian": 3608,
+                    "green": 1310,
+                    "other": 6986
+                },
+                {
+                    "year": 2016,
+                    "republican": 95369,
+                    "democrat": 178573,
+                    "independent": 639,
+                    "libertarian": 10078,
+                    "green": 6758,
+                    "other": 23650
+                },
+                {
+                    "year": 2012,
+                    "republican": 92698,
+                    "democrat": 199239,
+                    "independent": 0,
+                    "libertarian": 3487,
+                    "green": 594,
+                    "other": 3272
+                },
+                {
+                    "year": 2008,
+                    "republican": 0,
+                    "democrat": 0,
+                    "independent": 0,
+                    "libertarian": 0,
+                    "green": 0,
+                    "other": 0
+                }
+            ]
+        },
+        {
+            "id": "VA",
+            "name": "Virginia",
+            "electionResults": [
+                {
+                    "year": 2020,
+                    "republican": 1962430,
+                    "democrat": 2413568,
+                    "independent": 0,
+                    "libertarian": 64761,
+                    "green": 0,
+                    "other": 19765
+                },
+                {
+                    "year": 2016,
+                    "republican": 1769443,
+                    "democrat": 1981473,
+                    "independent": 54054,
+                    "libertarian": 118274,
+                    "green": 27638,
+                    "other": 33749
+                },
+                {
+                    "year": 2012,
+                    "republican": 1822522,
+                    "democrat": 1971820,
+                    "independent": 0,
+                    "libertarian": 31216,
+                    "green": 8627,
+                    "other": 20304
+                },
+                {
+                    "year": 2008,
+                    "republican": 0,
+                    "democrat": 0,
+                    "independent": 0,
+                    "libertarian": 0,
+                    "green": 0,
+                    "other": 0
+                }
+            ]
+        },
+        {
+            "id": "WA",
+            "name": "Washington",
+            "electionResults": [
+                {
+                    "year": 2020,
+                    "republican": 1584651,
+                    "democrat": 2369612,
+                    "independent": 0,
+                    "libertarian": 80500,
+                    "green": 18289,
+                    "other": 34579
+                },
+                {
+                    "year": 2016,
+                    "republican": 1221747,
+                    "democrat": 1742718,
+                    "independent": 0,
+                    "libertarian": 160879,
+                    "green": 58417,
+                    "other": 133258
+                },
+                {
+                    "year": 2012,
+                    "republican": 1290670,
+                    "democrat": 1755396,
+                    "independent": 0,
+                    "libertarian": 42202,
+                    "green": 20928,
+                    "other": 16320
+                },
+                {
+                    "year": 2008,
+                    "republican": 0,
+                    "democrat": 0,
+                    "independent": 0,
+                    "libertarian": 0,
+                    "green": 0,
+                    "other": 0
+                }
+            ]
+        },
+        {
+            "id": "WV",
+            "name": "West Virginia",
+            "electionResults": [
+                {
+                    "year": 2020,
+                    "republican": 545382,
+                    "democrat": 235984,
+                    "independent": 0,
+                    "libertarian": 10687,
+                    "green": 2599,
+                    "other": 79
+                },
+                {
+                    "year": 2016,
+                    "republican": 489371,
+                    "democrat": 188794,
+                    "independent": 1104,
+                    "libertarian": 23004,
+                    "green": 8075,
+                    "other": 4075
+                },
+                {
+                    "year": 2012,
+                    "republican": 417655,
+                    "democrat": 238269,
+                    "independent": 0,
+                    "libertarian": 6302,
+                    "green": 4406,
+                    "other": 3806
+                },
+                {
+                    "year": 2008,
+                    "republican": 0,
+                    "democrat": 0,
+                    "independent": 0,
+                    "libertarian": 0,
+                    "green": 0,
+                    "other": 0
+                }
+            ]
+        },
+        {
+            "id": "WI",
+            "name": "Wisconsin",
+            "electionResults": [
+                {
+                    "year": 2020,
+                    "republican": 1610184,
+                    "democrat": 1630866,
+                    "independent": 0,
+                    "libertarian": 38491,
+                    "green": 1089,
+                    "other": 17411
+                },
+                {
+                    "year": 2016,
+                    "republican": 1405284,
+                    "democrat": 1382536,
+                    "independent": 11855,
+                    "libertarian": 106674,
+                    "green": 31072,
+                    "other": 38729
+                },
+                {
+                    "year": 2012,
+                    "republican": 1407966,
+                    "democrat": 1620985,
+                    "independent": 0,
+                    "libertarian": 20439,
+                    "green": 7665,
+                    "other": 11379
+                },
+                {
+                    "year": 2008,
+                    "republican": 0,
+                    "democrat": 0,
+                    "independent": 0,
+                    "libertarian": 0,
+                    "green": 0,
+                    "other": 0
+                }
+            ]
+        },
+        {
+            "id": "WY",
+            "name": "Wyoming",
+            "electionResults": [
+                {
+                    "year": 2020,
+                    "republican": 193559,
+                    "democrat": 73491,
+                    "independent": 0,
+                    "libertarian": 5768,
+                    "green": 0,
+                    "other": 3947
+                },
+                {
+                    "year": 2016,
+                    "republican": 174419,
+                    "democrat": 55973,
+                    "independent": 0,
+                    "libertarian": 13287,
+                    "green": 2515,
+                    "other": 9655
+                },
+                {
+                    "year": 2012,
+                    "republican": 170962,
+                    "democrat": 69286,
+                    "independent": 0,
+                    "libertarian": 5326,
+                    "green": 0,
+                    "other": 3487
+                },
+                {
+                    "year": 2008,
+                    "republican": 0,
+                    "democrat": 0,
+                    "independent": 0,
+                    "libertarian": 0,
+                    "green": 0,
+                    "other": 0
+                }
+            ]
+        }
+    ]
+}

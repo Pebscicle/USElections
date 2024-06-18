@@ -1,0 +1,803 @@
+{
+    "id": "usa",
+    "name": "United States of America",
+    "population": 334914895,
+    "gdp": 27360935,
+    "area": 0,
+    "states": [
+        {
+            "id": "AL",
+            "name": "Alabama",
+            "population": 5108468,
+            "gdp": 300152,
+            "comment": "Population and GDP Data are estimates from the census bureau 2023",
+            "counties": [
+                {
+                    "id": "Autauga County, Alabama",
+                    "name": "Autauga",
+                    "population": 60342
+                },
+                {
+                    "id": "Baldwin County, Alabama",
+                    "name": "Baldwin",
+                    "population": 253507
+                },
+                {
+                    "id": "Barbour County, Alabama",
+                    "name": "Barbour",
+                    "population": 24585
+                },
+                {
+                    "id": "Bibb County, Alabama",
+                    "name": "Bibb",
+                    "population": 21868
+                },
+                {
+                    "id": "Blount County, Alabama",
+                    "name": "Blount",
+                    "population": 59816
+                },
+                {
+                    "id": "Bullock County, Alabama",
+                    "name": "Bullock",
+                    "population": 9897
+                },
+                {
+                    "id": "Butler County, Alabama",
+                    "name": "Butler",
+                    "population": 18382
+                },
+                {
+                    "id": "Calhoun County, Alabama",
+                    "name": "Calhoun",
+                    "population": 116429
+                },
+                {
+                    "id": "Chambers County, Alabama",
+                    "name": "Chambers",
+                    "population": 34079
+                },
+                {
+                    "id": "Cherokee County, Alabama",
+                    "name": "Cherokee",
+                    "population": 25666
+                },
+                {
+                    "id": "Chilton County, Alabama",
+                    "name": "Chilton",
+                    "population": 46431
+                },
+                {
+                    "id": "Choctaw County, Alabama",
+                    "name": "Choctaw",
+                    "population": 12252
+                },
+                {
+                    "id": "Clarke County, Alabama",
+                    "name": "Clarke",
+                    "population": 22337
+                },
+                {
+                    "id": "Clay County, Alabama",
+                    "name": "Clay",
+                    "population": 14111
+                },
+                {
+                    "id": "Cleburne County, Alabama",
+                    "name": "Cleburne",
+                    "population": 15639
+                },
+                {
+                    "id": "Coffee County, Alabama",
+                    "name": "Coffee",
+                    "population": 55643
+                },
+                {
+                    "id": "Colbert County, Alabama",
+                    "name": "Colbert",
+                    "population": 58361
+                },
+                {
+                    "id": "Conecuh County, Alabama",
+                    "name": "Conecuh",
+                    "population": 11174
+                },
+                {
+                    "id": "Coosa County, Alabama",
+                    "name": "Coosa",
+                    "population": 10268
+                },
+                {
+                    "id": "Covington County, Alabama",
+                    "name": "Covington",
+                    "population": 37952
+                },
+                {
+                    "id": "Crenshaw County, Alabama",
+                    "name": "Crenshaw",
+                    "population": 13101
+                },
+                {
+                    "id": "Cullman County, Alabama",
+                    "name": "Cullman",
+                    "population": 92016
+                },
+                {
+                    "id": "Dale County, Alabama",
+                    "name": "Dale",
+                    "population": 49871
+                },
+                {
+                    "id": "Dallas County, Alabama",
+                    "name": "Dallas",
+                    "population": 36165
+                },
+                {
+                    "id": "DeKalb County, Alabama",
+                    "name": "DeKalb",
+                    "population": 72569
+                },
+                {
+                    "id": "Elmore County, Alabama",
+                    "name": "Elmore",
+                    "population": 90441
+                },
+                {
+                    "id": "Escambia County, Alabama",
+                    "name": "Escambia",
+                    "population": 36558
+                },
+                {
+                    "id": "Etowah County, Alabama",
+                    "name": "Etowah",
+                    "population": 103241
+                },
+                {
+                    "id": "Fayette County, Alabama",
+                    "name": "Fayette",
+                    "population": 15967
+                },
+                {
+                    "id": "Franklin County, Alabama",
+                    "name": "Franklin",
+                    "population": 31802
+                },
+                {
+                    "id": "Geneva County, Alabama",
+                    "name": "Geneva",
+                    "population": 26988
+                },
+                {
+                    "id": "Greene County, Alabama",
+                    "name": "Greene",
+                    "population": 7341
+                },
+                {
+                    "id": "Hale County, Alabama",
+                    "name": "Hale",
+                    "population": 14888
+                },
+                {
+                    "id": "Henry County, Alabama",
+                    "name": "Henry",
+                    "population": 17899
+                },
+                {
+                    "id": "Houston County, Alabama",
+                    "name": "Houston",
+                    "population": 108462
+                },
+                {
+                    "id": "Jackson County, Alabama",
+                    "name": "Jackson",
+                    "population": 53467
+                },
+                {
+                    "id": "Jefferson County, Alabama",
+                    "name": "Jefferson",
+                    "population": 662895
+                },
+                {
+                    "id": "Lamar County, Alabama",
+                    "name": "Lamar",
+                    "population": 13661
+                },
+                {
+                    "id": "Lauderdale County, Alabama",
+                    "name": "Lauderdale",
+                    "population": 96814
+                },
+                {
+                    "id": "Lawrence County, Alabama",
+                    "name": "Lawrence",
+                    "population": 33502
+                },
+                {
+                    "id": "Lee County, Alabama",
+                    "name": "Lee",
+                    "population": 183215
+                },
+                {
+                    "id": "Limestone County, Alabama",
+                    "name": "Limestone",
+                    "population": 114654
+                },
+                {
+                    "id": "Lowndes County, Alabama",
+                    "name": "Lowndes",
+                    "population": 9717
+                },
+                {
+                    "id": "Macon County, Alabama",
+                    "name": "Macon",
+                    "population": 18370
+                },
+                {
+                    "id": "Madison County, Alabama",
+                    "name": "Madison",
+                    "population": 412600
+                },
+                {
+                    "id": "Marengo County, Alabama",
+                    "name": "Marengo",
+                    "population": 18684
+                },
+                {
+                    "id": "Marion County, Alabama",
+                    "name": "Marion",
+                    "population": 29244
+                },
+                {
+                    "id": "Marshall County, Alabama",
+                    "name": "Marshall",
+                    "population": 100756
+                },
+                {
+                    "id": "Mobile County, Alabama",
+                    "name": "Mobile",
+                    "population": 411640
+                },
+                {
+                    "id": "Monroe County, Alabama",
+                    "name": "Monroe",
+                    "population": 19229
+                },
+                {
+                    "id": "Montgomery County, Alabama",
+                    "name": "Montgomery",
+                    "population": 224980
+                },
+                {
+                    "id": "Morgan County, Alabama",
+                    "name": "Morgan",
+                    "population": 125133
+                },
+                {
+                    "id": "Perry County, Alabama",
+                    "name": "Perry",
+                    "population": 7738
+                },
+                {
+                    "id": "Pickens County, Alabama",
+                    "name": "Pickens",
+                    "population": 18688
+                },
+                {
+                    "id": "Pike County, Alabama",
+                    "name": "Pike",
+                    "population": 33137
+                },
+                {
+                    "id": "Randolph County, Alabama",
+                    "name": "Randolph",
+                    "population": 22786
+                },
+                {
+                    "id": "Russell County, Alabama",
+                    "name": "Russell",
+                    "population": 58744
+                },
+                {
+                    "id": "St. Clair County, Alabama",
+                    "name": "St. Clair",
+                    "population": 95552
+                },
+                {
+                    "id": "Shelby County, Alabama",
+                    "name": "Shelby",
+                    "population": 233000
+                },
+                {
+                    "id": "Sumter County, Alabama",
+                    "name": "Sumter",
+                    "population": 11727
+                },
+                {
+                    "id": "Talladega County, Alabama",
+                    "name": "Talladega",
+                    "population": 81132
+                },
+                {
+                    "id": "Tallapoosa County, Alabama",
+                    "name": "Tallapoosa",
+                    "population": 40677
+                },
+                {
+                    "id": "Tuscaloosa County, Alabama",
+                    "name": "Tuscaloosa",
+                    "population": 237373
+                },
+                {
+                    "id": "Walker County, Alabama",
+                    "name": "Walker",
+                    "population": 64728
+                },
+                {
+                    "id": "Washington County, Alabama",
+                    "name": "Washington",
+                    "population": 15022
+                },
+                {
+                    "id": "Wilcox County, Alabama",
+                    "name": "Wilcox",
+                    "population": 9944
+                },
+                {
+                    "id": "Winston County, Alabama",
+                    "name": "Winston",
+                    "population": 23611
+                }
+            ]
+        },
+        {
+            "id": "AK",
+            "name": "Alaska",
+            "population": 733406,
+            "gdp": 67337,
+            "counties": [
+                
+            ]
+        },
+        {
+            "id": "AZ",
+            "name": "Arizona",
+            "population": 7431344,
+            "gdp": 508344,
+            "counties": [
+                
+            ]
+        },
+        {
+            "id": "AR",
+            "name": "Arkansas",
+            "population": 3067732,
+            "gdp": 176240,
+            "counties": [
+                
+            ]
+        },
+        {
+            "id": "CA",
+            "name": "California",
+            "population": 38965193,
+            "gdp": 3862171,
+            "counties": [
+                
+            ]
+        },
+        {
+            "id": "CO",
+            "name": "Colorado",
+            "population": 5877610,
+            "gdp": 520389,
+            "counties": [
+                
+            ]
+        },
+        {
+            "id": "CT",
+            "name": "Connecticut",
+            "population": 3617176,
+            "gdp": 340181,
+            "counties": [
+                
+            ]
+        },
+        {
+            "id": "DC",
+            "name": "Washington D.C.",
+            "population": 678972,
+            "gdp": 174796,
+            "counties": [
+                
+            ]
+        },
+        {
+            "id": "DE",
+            "name": "Delaware",
+            "population": 1031890,
+            "gdp": 93595,
+            "counties": [
+                
+            ]
+        },
+        {
+            "id": "FL",
+            "name": "Florida",
+            "population": 22610726,
+            "gdp": 1579503,
+            "counties": [
+                
+            ]
+        },
+        {
+            "id": "GA",
+            "name": "Georgia",
+            "population": 11029227,
+            "gdp": 805397,
+            "counties": [
+                
+            ]
+        },
+        {
+            "id": "HI",
+            "name": "Hawaii",
+            "population": 1435138,
+            "gdp": 108023,
+            "counties": [
+                
+            ]
+        },
+        {
+            "id": "ID",
+            "name": "Idaho",
+            "population": 1964726,
+            "gdp": 118791,
+            "counties": [
+                
+            ]
+        },
+        {
+            "id": "IL",
+            "name": "Illinois",
+            "population": 12549689,
+            "gdp": 1082968,
+            "counties": [
+                
+            ]
+        },
+        {
+            "id": "IN",
+            "name": "Indiana",
+            "population": 6862199,
+            "gdp": 497036,
+            "counties": [
+                
+            ]
+        },
+        {
+            "id": "IA",
+            "name": "Iowa",
+            "population": 3207004,
+            "gdp": 248923,
+            "counties": [
+                
+            ]
+        },
+        {
+            "id": "KS",
+            "name": "Kansas",
+            "population": 2940546,
+            "gdp": 226012,
+            "counties": [
+                
+            ]	
+        },
+        {
+            "id": "KY",
+            "name": "Kentucky",
+            "population": 4526154,
+            "gdp": 277747,
+            "counties": [
+                
+            ]
+        },
+        {
+            "id": "LA",
+            "name": "Louisiana",
+            "population": 4573749,
+            "gdp": 309601,
+            "counties": [
+                
+            ]
+        },
+        {
+            "id": "ME",
+            "name": "Maine",
+            "population": 1395722,
+            "gdp": 91081,
+            "counties": [
+                
+            ]
+        },
+        {
+            "id": "MD",
+            "name": "Maryland",
+            "population": 6180253,
+            "gdp": 512280,
+            "counties": [
+                
+            ]
+        },
+        {
+            "id": "MA",
+            "name": "Massachusetts",
+            "population": 7001399,
+            "gdp": 733860,
+            "counties": [
+                
+            ]
+        },
+        {
+            "id": "MI",
+            "name": "Michigan",
+            "population": 10037261,
+            "gdp": 658992,
+            "counties": [
+                
+            ]
+        },
+        {
+            "id": "MN",
+            "name": "Minnesota",
+            "population": 5737915,
+            "gdp": 471820,
+            "counties": [
+                
+            ]
+        },
+        {
+            "id": "MS",
+            "name": "Mississippi",
+            "population": 2939690,
+            "gdp": 146401,
+            "counties": [
+                
+            ]
+        },
+        {
+            "id": "MO",
+            "name": "Missouri",
+            "population": 6196156,
+            "gdp": 422306,
+            "counties": [
+                
+            ]
+        },
+        {
+            "id": "MT",
+            "name": "Montana",
+            "population": 1132812,
+            "gdp": 70560,
+            "counties": [
+                
+            ]
+        },
+        {
+            "id": "NE",
+            "name": "Nebraska",
+            "population": 1978379,
+            "gdp": 178421,
+            "counties": [
+                
+            ]
+        },
+        {
+            "id": "NV",
+            "name": "Nevada",
+            "population": 3194176,
+            "gdp": 239398,
+            "counties": [
+                
+            ]	
+        },
+        {
+            "id": "NH",
+            "name": "New Hampshire",
+            "population": 1402054,
+            "gdp": 111102,
+            "counties": [
+                
+            ]
+        },
+        {
+            "id": "NJ",
+            "name": "New Jersey",
+            "population": 9290841,
+            "gdp": 799305,
+            "counties": [
+                
+            ]
+        },
+        {
+            "id": "NM",
+            "name": "New Mexico",
+            "population": 2114371,
+            "gdp": 130202,
+            "counties": [
+                
+            ]
+        },
+        {
+            "id": "NY",
+            "name": "New York",
+            "population": 19571216,
+            "gdp": 2152262,
+            "counties": [
+                
+            ]
+        },
+        {
+            "id": "NC",
+            "name": "North Carolina",
+            "population": 10835491,
+            "gdp": 766919,
+            "counties": [
+                
+            ]
+        },
+        {
+            "id": "ND",
+            "name": "North Dakota",
+            "population": 783926,
+            "gdp": 74113,
+            "counties": [
+                
+            ]
+        },
+        {
+            "id": "OH",
+            "name": "Ohio",
+            "population": 11785935,
+            "gdp": 872748,
+            "counties": [
+                
+            ]
+        },
+        {
+            "id": "OK",
+            "name": "Oklahoma",
+            "population": 4053824,
+            "gdp": 254134,
+            "counties": [
+                
+            ]
+        },
+        {
+            "id": "OR",
+            "name": "Oregon",
+            "population": 4233358,
+            "gdp": 316461,
+            "counties": [
+                
+            ]
+        },
+        {
+            "id": "PA",
+            "name": "Pennsylvania",
+            "population": 12961683,
+            "gdp": 965067,
+            "counties": [
+                
+            ]
+        },
+        {
+            "id": "RI",
+            "name": "Rhode Island",
+            "population": 1095962,
+            "gdp": 77322,
+            "counties": [
+                
+            ]
+        },
+        {
+            "id": "SC",
+            "name": "South Carolina",
+            "population": 5118425,
+            "gdp": 322259,
+            "counties": [
+                
+            ]
+        },
+        {
+            "id": "SD",
+            "name": "South Dakota",
+            "population": 919318,
+            "gdp": 72421,
+            "counties": [
+                
+            ]
+        },
+        {
+            "id": "TN",
+            "name": "Tennessee",
+            "population": 7126489,
+            "gdp": 523240,
+            "counties": [
+                
+            ]
+        },
+        {
+            "id": "TX",
+            "name": "Texas",
+            "population": 30503301,
+            "gdp": 2563508,
+            "counties": [
+                
+            ]
+        },
+        {
+            "id": "UT",
+            "name": "Utah",
+            "population": 3417734,
+            "gdp": 272586,
+            "counties": [
+                
+            ]
+        },
+        {
+            "id": "VT",
+            "name": "Vermont",
+            "population": 647464,
+            "gdp": 43130,
+            "counties": [
+                
+            ]
+        },
+        {
+            "id": "VA",
+            "name": "Virginia",
+            "population": 8715698,
+            "gdp": 707085,
+            "counties": [
+                
+            ]
+        },
+        {
+            "id": "WA",
+            "name": "Washington",
+            "population": 7812880,
+            "gdp": 801515,
+            "counties": [
+                
+            ]
+        },
+        {
+            "id": "WV",
+            "name": "West Virginia",
+            "population": 1770071,
+            "gdp": 99511,
+            "counties": [
+                
+            ]
+        },
+        {
+            "id": "WI",
+            "name": "Wisconsin",
+            "population": 5910955,
+            "gdp": 413967,
+            "counties": [
+                
+            ]
+        },
+        {
+            "id": "WY",
+            "name": "Wyoming",
+            "population": 584057,
+            "gdp": 50172,
+            "counties": [
+                
+            ]
+        }
+    ]
+}
