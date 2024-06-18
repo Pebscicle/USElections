@@ -7,7 +7,7 @@ import { useRouter, usePathname, useSearchParams } from 'next/navigation';
 
 import Link from 'next/link'
 
-function usaElections() {
+function UsaElections() {
     const router = useRouter();
 
     const pathname = usePathname(); 
@@ -23,7 +23,7 @@ function usaElections() {
     const handleYearClick = (year) => {
       setSelectedYear(year);
       // Navigate programmatically using the new router
-      router.push(`localhost:3000/${pathname}?year=${year}`);
+      router.push(`${window.location.origin}/${pathname}?year=${year}`);
     };
 
     
@@ -50,4 +50,4 @@ function usaElections() {
       );
   }
 
-export default usaElections;
+export default UsaElections;

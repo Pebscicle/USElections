@@ -8,7 +8,7 @@ import {getRankingForGivenMetric} from '../../services/rankingService';
 import { useRouter, usePathname, useSearchParams } from 'next/navigation';
 
 
-function usaCreator() {
+function UsaCreator() {
     const router = useRouter();
 
     const pathname = usePathname(); 
@@ -100,4 +100,4 @@ function usaCreator() {
       );
   }
 
-export default usaCreator;
+export default UsaCreator;
