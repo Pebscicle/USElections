@@ -15,6 +15,8 @@ function Sidebar() {
             <div style={{width: "100%", border: 'solid black 1px'}}></div>
 
             <SidebarTitle title='Countries' />
+                <SidebarCountry name='Belgium' link='/belgium'/>
+
                 <SidebarCountry name='France' link='/france'/>
 
                 <SidebarCountry name='USA' link='/usa'/>

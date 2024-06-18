@@ -3,7 +3,9 @@ import Image from "next/image";
 export default function Home() {
   return (
     <main className="" style={{color: 'black'}}>
-      MAP OF WORLD, DASHBOARD
+      <div>
+        DASHBOARD IN PROGRESS... (MAP OF WORLD, ETC.)
+      </div>
     </main>
   );
 }
