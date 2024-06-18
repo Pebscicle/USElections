@@ -2,7 +2,7 @@
 
 import {useState} from 'react'
 import InfoModal from '../../components/InfoModal';
-import {getStateFromID, getStateElectionDataFromID, determineDominantColor} from '../services/dbFetcherService';
+import {getStateFromID, getStateElectionDataFromID, determineDominantColor, getImageLinkFromID} from '../services/dbFetcherService';
 import {findIndexOfYear} from "../services/dbFetcherService"
 
 
@@ -16,9 +16,16 @@ function USAMap( {infoType, selectedYear, callbackData, suppliedList} ) {
 
     const [isModalVisible, setIsModalVisible] = useState(false);
     const [selectedState, setSelectedState] = useState('');
+    const [stateImage, setStateImage] = useState('2020.png');
 
     const closeModal = () => {
         setIsModalVisible(false);
+    }
+
+    const getImageLink = (id) => {
+      console.log("get image link");
+      const link = getImageLinkFromID(id);
+      console.log(link);
     }
 
     const logClickedInfo = (e) => {
@@ -35,6 +42,11 @@ function USAMap( {infoType, selectedYear, callbackData, suppliedList} ) {
         callbackData(foundState);
       }
       setSelectedState(foundState);
+
+      console.log(stateImage);
+      console.log(foundState.id)
+      console.log(getImageLinkFromID(foundState.id))
+      setStateImage(getImageLinkFromID(foundState.id));
       setIsModalVisible(true);
     }
 
@@ -61,7 +73,7 @@ function USAMap( {infoType, selectedYear, callbackData, suppliedList} ) {
 
 <div>
   {infoType != 'creator' &&
-<InfoModal infoType={infoType} selectedYear={selectedYear} isVisible={isModalVisible} closeModal={closeModal} entity={selectedState} />
+<InfoModal infoType={infoType} selectedYear={selectedYear} isVisible={isModalVisible} closeModal={closeModal} entity={selectedState} imageLink={stateImage} />
 }
 <div id="info-box"></div>
 <svg xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" version="1.1" id="us-map" preserveAspectRatio="xMinYMin meet" x="0px" y="0px" width="959px" height="593px" viewBox="174 100 959 593" enableBackground="new 174 100 959 593" xmlSpace="preserve">
