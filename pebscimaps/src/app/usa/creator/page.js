@@ -13,11 +13,10 @@ function UsaCreator() {
     const router = useRouter();
 
     const pathname = usePathname(); 
-    const searchParams = useSearchParams();
+    //const searchParams = useSearchParams();
 
     console.log(router.query);
     console.log(pathname);
-    console.log(searchParams.get('year'));
 
     //Default of New England as an example.
     const [selectedStates, setSelectedStates] = useState([{id: 'ME', name: 'Maine', population: 1395722, gdp: 91081},{id: 'NH', name: 'New Hampshire', population: 1402054, gdp: 111102},{id: 'VT', name: 'Vermont', population: 647464, gdp: 43130},{id: 'MA', name: 'Massachusetts', population: 7001399, gdp: 733860},{id: 'CT', name: 'Connecticut', population: 3617176, gdp: 340181},{id: 'RI', name: 'Rhode Island', population: 1095962, gdp: 77322}]);
@@ -99,7 +98,6 @@ function UsaCreator() {
           </div>
 
         </div>
-        </Suspense>
       );
   }
 
