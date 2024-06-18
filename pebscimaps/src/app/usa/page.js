@@ -12,7 +12,7 @@ function USA() {
         </CountryInfo>
       </div>
       {usa.states.map((state) => (
-          <Link style={{display: 'flex', alignItems: 'center', justifyContent: 'start', overflowY: 'scroll'}} href={`/usa/alabama`}>
+          <Link key={state.id} style={{display: 'flex', alignItems: 'center', justifyContent: 'start', overflowY: 'scroll'}} href={`/usa/alabama`}>
               <h1 style={{marginLeft: '16px'}}>{state.name}</h1>
               {/*children*/}
           </Link>
