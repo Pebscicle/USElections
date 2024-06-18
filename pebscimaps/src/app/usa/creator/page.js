@@ -79,7 +79,6 @@ function UsaCreator() {
     
     
     return (
-        <Suspense fallback={<div>Loading...</div>}>
         <div style={{color: 'black', marginTop: '20px', marginBottom: '20vh'}}>
           <div style={{marginLeft: '16px', paddingBottom: '50px'}}>
             <h2 style={{fontSize: '1.3rem'}}>State Creator</h2>
