@@ -3,6 +3,8 @@ import commaifyNumber from "../app/helpers/NumberBeautifier";
 import {findIndexOfYear, determineDominantColor} from "../app/services/dbFetcherService"
 import VotingBar from "./elections/VotingBar";
 
+import colors from '../resources/colors.json'
+
 import {useEffect, useState} from 'react'
 
 function InfoModal( {infoType, selectedYear, isVisible, closeModal, entity, imageLink} ) {
@@ -25,13 +27,14 @@ function InfoModal( {infoType, selectedYear, isVisible, closeModal, entity, imag
     return (
     <>
     {isVisible && infoType === "general" &&
-      <div style={{position: 'fixed', right: '50px', bottom: '25vh', width: '350px', height: '450px', borderRadius: '5px', color: 'black', backgroundColor: '#ffffff', boxShadow: "0px 2px 5px 2px gray"}}> 
+      <div style={{position: 'fixed', right: '50px', bottom: '25vh', width: '350px', height: '450px', borderRadius: '5px', color: 'black', backgroundColor: colors.primary, boxShadow: "0px 2px 5px 2px gray"}}> 
         <div style={{display: 'grid', gridTemplateColumns: '1fr auto'}}>
             <span style={{padding: '2px'}}>{entity.name}</span>
             <span style={{cursor: 'pointer', backgroundColor: 'red', borderRadius: '0px 5px 0px 0px', padding: '0px 8px', display: 'flex', alignItems: 'center'}}onClick={closeModal}>X</span>
         </div>
         <img src={imageLink} style={{ backgroundColor: 'gray', height: '200px', width: '100%', opacity: isLoading? 0.5 : 1 }} alt="placeholder image" height="200px" />
         <div style={{paddingLeft: '4px', paddingTop: '8px'}}>
+          <p>Capital: {entity.capital}</p>
           <p>Population: {commaifyNumber(entity.population)}</p>
           <p>Nominal GDP in billions: ${commaifyNumber(entity.gdp)}</p>
           <p>GDP per capita: ${commaifyNumber( parseInt(entity.gdp/entity.population*1000000) )}</p>

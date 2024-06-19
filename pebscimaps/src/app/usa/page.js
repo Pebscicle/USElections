@@ -3,6 +3,7 @@ import usa from '../../data/usa.json'
 import Link from 'next/link';
 import USAMap from "./USAMap";
 
+
 function USA() {
   return (
     <div style={{color: 'black'}}>
