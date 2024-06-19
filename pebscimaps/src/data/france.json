@@ -1,6 +1,7 @@
 {
     "id": "france",
     "name": "Republic of France",
+    "flag": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c3/Flag_of_France.svg/1920px-Flag_of_France.svg.png",
     "population": 68428531,
     "gdp": 3130014,
     "area": 0

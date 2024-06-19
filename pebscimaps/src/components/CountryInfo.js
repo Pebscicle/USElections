@@ -6,7 +6,7 @@ function CountryInfo( {children, country} ) {
     
     return (
       <div style={{color: 'black'}}> 
-        <h1 style={{display: 'flex', justifyContent: 'center', paddingTop: '16px', paddingBottom: '16px', fontSize: '1.5rem'}}>{country.name}</h1>
+        <h1 style={{display: 'flex', justifyContent: 'center', paddingTop: '16px', paddingBottom: '16px', fontSize: '1.5rem'}}>{country.name} <span style={{display: 'flex', alignItems: 'center', paddingRight: '4px', paddingLeft: '8px'}}><img src={country.flag} width='40px' height='auto' /></span></h1>
         <div>
           {children}
         </div>
