@@ -5,6 +5,7 @@ import InfoModal from '../../components/InfoModal';
 import {getStateFromID, getStateElectionDataFromID, determineDominantColor, getImageLinkFromID} from '../services/dbFetcherService';
 import {findIndexOfYear} from "../services/dbFetcherService"
 
+import colors from '../../resources/colors.json';
 
 /**
  * 
@@ -61,7 +62,7 @@ function USAMap( {infoType, selectedYear, callbackData, suppliedList} ) {
       if(infoType==="creator"){
         for(let i = 0; i < suppliedList.length; i++){
           if(id === suppliedList[i].id){
-            return "rgb(247, 207, 76)";
+            return colors.primary;
           }
         }
       }

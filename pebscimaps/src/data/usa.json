@@ -13,7 +13,12 @@
                 "name": "Montgomery",
                 "population": 385480
             },
+            "largestCity": {
+                "name": "Birmingham",
+                "population": 1184290
+            },
             "population": 5108468,
+            "area": 135767,
             "gdp": 300152,
             "comment": "Population and GDP Data are estimates from the census bureau 2023",
             "counties": [
@@ -361,7 +366,12 @@
                 "name": "Juneau",
                 "population": 32255
             },
+            "largestCity": {
+                "name": "Anchorage",
+                "population": 401314
+            },
             "population": 733406,
+            "area": 1723337,
             "gdp": 67337,
             "counties": [
                 
@@ -374,7 +384,12 @@
                 "name": "Phoenix",
                 "population": 5070110
             },
+            "largestCity": {
+                "name": "Phoenix",
+                "population": 5070110
+            },
             "population": 7431344,
+            "area": 295234,
             "gdp": 508344,
             "counties": [
                 
@@ -387,7 +402,12 @@
                 "name": "Little Rock",
                 "population": 764045
             },
+            "largestCity": {
+                "name": "Little Rock",
+                "population": 764045
+            },
             "population": 3067732,
+            "area": 137732,
             "gdp": 176240,
             "counties": [
                 
@@ -400,7 +420,12 @@
                 "name": "Sacramento",
                 "population": 2420608
             },
+            "largestCity": {
+                "name": "Los Angeles",
+                "population": 12799100
+            },
             "population": 38965193,
+            "area": 423967,
             "gdp": 3862171,
             "counties": [
                 
@@ -413,7 +438,12 @@
                 "name": "Denver",
                 "population": 3005131	
             },
+            "largestCity": {
+                "name": "Denver",
+                "population": 3005131
+            },
             "population": 5877610,
+            "area": 269601,
             "gdp": 520389,
             "counties": [
                 
@@ -426,7 +456,12 @@
                 "name": "Hartford",
                 "population": 1151543	
             },
+            "largestCity": {
+                "name": "Hartford",
+                "population": 1151543
+            },
             "population": 3617176,
+            "area": 14357,
             "gdp": 340181,
             "counties": [
                 
@@ -439,7 +474,12 @@
                 "name": "Washington D.C.",
                 "population": 6304975	
             },
+            "largestCity": {
+                "name": "Washington D.C.",
+                "population": 6304975
+            },
             "population": 678972,
+            "area": 177,
             "gdp": 174796,
             "counties": [
                 
@@ -452,7 +492,12 @@
                 "name": "Dover",
                 "population": 189789	
             },
+            "largestCity": {
+                "name": "Wilmington",
+                "population": 745553
+            },
             "population": 1031890,
+            "area": 6446,
             "gdp": 93595,
             "counties": [
                 
@@ -465,7 +510,12 @@
                 "name": "Tallahassee",
                 "population": 392645	
             },
+            "largestCity": {
+                "name": "Miami",
+                "population": 6183199
+            },
             "population": 22610726,
+            "area": 170312,
             "gdp": 1579503,
             "counties": [
                 
@@ -478,7 +528,12 @@
                 "name": "Atlanta",
                 "population": 6307261	
             },
+            "largestCity": {
+                "name": "Atlanta",
+                "population": 6307261
+            },
             "population": 11029227,
+            "area": 153910,
             "gdp": 805397,
             "counties": [
                 
@@ -491,7 +546,12 @@
                 "name": "Honolulu",
                 "population": 989408	
             },
+            "largestCity": {
+                "name": "Honolulu",
+                "population": 989408
+            },
             "population": 1435138,
+            "area": 28313,
             "gdp": 108023,
             "counties": [
                 
@@ -504,7 +564,12 @@
                 "name": "Boise",
                 "population": 824657	
             },
+            "largestCity": {
+                "name": "Boise",
+                "population": 824657
+            },
             "population": 1964726,
+            "area": 216443,
             "gdp": 118791,
             "counties": [
                 
@@ -517,7 +582,12 @@
                 "name": "Springfield",
                 "population": 205445	
             },
+            "largestCity": {
+                "name": "Chicago",
+                "population": 9262825
+            },
             "population": 12549689,
+            "area": 149995,
             "gdp": 1082968,
             "counties": [
                 
@@ -530,7 +600,12 @@
                 "name": "Indianapolis",
                 "population": 2138468	
             },
+            "largestCity": {
+                "name": "Indianapolis",
+                "population": 2138468
+            },
             "population": 6862199,
+            "area": 94326,
             "gdp": 497036,
             "counties": [
                 
@@ -543,7 +618,12 @@
                 "name": "Des Moines",
                 "population": 737164	
             },
+            "largestCity": {
+                "name": "Des Moines",
+                "population": 737164
+            },
             "population": 3207004,
+            "area": 145746,
             "gdp": 248923,
             "counties": [
                 
@@ -556,7 +636,12 @@
                 "name": "Topeka",
                 "population": 232322	
             },
+            "largestCity": {
+                "name": "Wichita",
+                "population": 652939	
+            },
             "population": 2940546,
+            "area": 213100,
             "gdp": 226012,
             "counties": [
                 
@@ -569,7 +654,12 @@
                 "name": "Frankfort",
                 "population": 28602	
             },
+            "largestCity": {
+                "name": "Louisville",
+                "population": 1365557	
+            },
             "population": 4526154,
+            "area": 104656,
             "gdp": 277747,
             "counties": [
                 
@@ -582,7 +672,12 @@
                 "name": "Baton Rouge",
                 "population": 873661	
             },
+            "largestCity": {
+                "name": "New Orleans",
+                "population": 962165	
+            },
             "population": 4573749,
+            "area": 135659,
             "gdp": 309601,
             "counties": [
                 
@@ -595,7 +690,12 @@
                 "name": "Augusta",
                 "population": 18899	
             },
+            "largestCity": {
+                "name": "Portland",
+                "population": 566329	
+            },
             "population": 1395722,
+            "area": 91633,
             "gdp": 91081,
             "counties": [
                 
@@ -608,7 +708,12 @@
                 "name": "Annapolis",
                 "population": 40812
             },
+            "largestCity": {
+                "name": "Baltimore",
+                "population": 2834316	
+            },
             "population": 6180253,
+            "area": 32131,
             "gdp": 512280,
             "counties": [
                 
@@ -621,7 +726,12 @@
                 "name": "Boston",
                 "population": 4919179
             },
+            "largestCity": {
+                "name": "Boston",
+                "population": 4919179	
+            },
             "population": 7001399,
+            "area": 27336,
             "gdp": 733860,
             "counties": [
                 
@@ -634,7 +744,12 @@
                 "name": "Lansing",
                 "population": 473177
             },
+            "largestCity": {
+                "name": "Detroit",
+                "population": 4342304	
+            },
             "population": 10037261,
+            "area": 250487,
             "gdp": 658992,
             "counties": [
                 
@@ -647,7 +762,12 @@
                 "name": "Saint Paul",
                 "population": 3712020
             },
+            "largestCity": {
+                "name": "Minneapolis",
+                "population": 3712020	
+            },
             "population": 5737915,
+            "area": 225163,
             "gdp": 471820,
             "counties": [
                 
@@ -660,7 +780,12 @@
                 "name": "Jackson",
                 "population": 610257
             },
+            "largestCity": {
+                "name": "Jackson",
+                "population": 610257	
+            },
             "population": 2939690,
+            "area": 125438,
             "gdp": 146401,
             "counties": [
                 
@@ -673,7 +798,12 @@
                 "name": "Jefferson City",
                 "population": 150733
             },
+            "largestCity": {
+                "name": "St. Louis",
+                "population": 2796999	
+            },
             "population": 6196156,
+            "area": 180540,
             "gdp": 422306,
             "counties": [
                 
@@ -686,7 +816,12 @@
                 "name": "Helena",
                 "population": 96091
             },
+            "largestCity": {
+                "name": "Billings",
+                "population": 191435	
+            },
             "population": 1132812,
+            "area": 380831,
             "gdp": 70560,
             "counties": [
                 
@@ -699,7 +834,12 @@
                 "name": "Lincoln",
                 "population": 610257
             },
+            "largestCity": {
+                "name": "Omaha",
+                "population": 983969	
+            },
             "population": 1978379,
+            "area": 200330,
             "gdp": 178421,
             "counties": [
                 
@@ -712,7 +852,12 @@
                 "name": "Carson City",
                 "population": 58036
             },
+            "largestCity": {
+                "name": "Las Vegas",
+                "population": 2336573		
+            },
             "population": 3194176,
+            "area": 286380,
             "gdp": 239398,
             "counties": [
                 
@@ -725,7 +870,12 @@
                 "name": "Concord",
                 "population": 43976
             },
+            "largestCity": {
+                "name": "Manchester",
+                "population": 427354		
+            },
             "population": 1402054,
+            "area": 24214,
             "gdp": 111102,
             "counties": [
                 
@@ -738,7 +888,12 @@
                 "name": "Trenton",
                 "population": 381671
             },
+            "largestCity": {
+                "name": "Trenton",
+                "population": 381671		
+            },
             "population": 9290841,
+            "area": 22591,
             "gdp": 799305,
             "counties": [
                 
@@ -751,7 +906,12 @@
                 "name": "Santa Fe",
                 "population": 155956
             },
+            "largestCity": {
+                "name": "Albuquerque",
+                "population": 922296		
+            },
             "population": 2114371,
+            "area": 314917,
             "gdp": 130202,
             "counties": [
                 
@@ -764,7 +924,12 @@
                 "name": "Albany",
                 "population": 904682
             },
+            "largestCity": {
+                "name": "New York City",
+                "population": 19498249		
+            },
             "population": 19571216,
+            "area": 141297,
             "gdp": 2152262,
             "counties": [
                 
@@ -777,7 +942,12 @@
                 "name": "Raleigh",
                 "population": 1509231
             },
+            "largestCity": {
+                "name": "Charlotte",
+                "population": 2805115		
+            },
             "population": 10835491,
+            "area": 139391,
             "gdp": 766919,
             "counties": [
                 
@@ -790,7 +960,12 @@
                 "name": "Bismarck",
                 "population": 135786
             },
+            "largestCity": {
+                "name": "Fargo",
+                "population": 262620		
+            },
             "population": 783926,
+            "area": 183108,
             "gdp": 74113,
             "counties": [
                 
@@ -803,7 +978,12 @@
                 "name": "Columbus",
                 "population": 2180271
             },
+            "largestCity": {
+                "name": "Cincinnati",
+                "population": 2271479		
+            },
             "population": 11785935,
+            "area": 116098,
             "gdp": 872748,
             "counties": [
                 
@@ -816,7 +996,12 @@
                 "name": "Oklahoma City",
                 "population": 1477926
             },
+            "largestCity": {
+                "name": "Oklahoma City",
+                "population": 1477926		
+            },
             "population": 4053824,
+            "area": 181037,
             "gdp": 254134,
             "counties": [
                 
@@ -829,7 +1014,12 @@
                 "name": "Salem",
                 "population": 436546
             },
+            "largestCity": {
+                "name": "Portland",
+                "population": 2508050		
+            },
             "population": 4233358,
+            "area": 254799,
             "gdp": 316461,
             "counties": [
                 
@@ -842,7 +1032,12 @@
                 "name": "Harrisburg",
                 "population": 606055
             },
+            "largestCity": {
+                "name": "Philadelphia",
+                "population": 6246160		
+            },
             "population": 12961683,
+            "area": 119280,
             "gdp": 965067,
             "counties": [
                 
@@ -855,7 +1050,12 @@
                 "name": "Providence",
                 "population": 1677803
             },
+            "largestCity": {
+                "name": "Providence",
+                "population": 1677803		
+            },
             "population": 1095962,
+            "area": 4001,
             "gdp": 77322,
             "counties": [
                 
@@ -868,7 +1068,12 @@
                 "name": "Columbia",
                 "population": 858302
             },
+            "largestCity": {
+                "name": "Greenville",
+                "population": 975480		
+            },
             "population": 5118425,
+            "area": 82933,
             "gdp": 322259,
             "counties": [
                 
@@ -881,7 +1086,12 @@
                 "name": "Pierre",
                 "population": 14091
             },
+            "largestCity": {
+                "name": "Sioux Falls",
+                "population": 304555		
+            },
             "population": 919318,
+            "area": 199729,
             "gdp": 72421,
             "counties": [
                 
@@ -894,7 +1104,12 @@
                 "name": "Nashville",
                 "population": 2102573
             },
+            "largestCity": {
+                "name": "Nashville",
+                "population": 2102573		
+            },
             "population": 7126489,
+            "area": 109153,
             "gdp": 523240,
             "counties": [
                 
@@ -907,7 +1122,12 @@
                 "name": "Austin",
                 "population": 2473275
             },
+            "largestCity": {
+                "name": "Dallas",
+                "population": 8100037		
+            },
             "population": 30503301,
+            "area": 695662,
             "gdp": 2563508,
             "counties": [
                 
@@ -920,7 +1140,12 @@
                 "name": "Salt Lake City",
                 "population": 1267864
             },
+            "largestCity": {
+                "name": "Salt Lake City",
+                "population": 1267864		
+            },
             "population": 3417734,
+            "area": 219882,
             "gdp": 272586,
             "counties": [
                 
@@ -933,7 +1158,12 @@
                 "name": "Montpelier",
                 "population": 8074
             },
+            "largestCity": {
+                "name": "Burlington",
+                "population": 227942		
+            },
             "population": 647464,
+            "area": 24906,
             "gdp": 43130,
             "counties": [
                 
@@ -946,7 +1176,12 @@
                 "name": "Richmond",
                 "population": 1349732
             },
+            "largestCity": {
+                "name": "Virginia Beach",
+                "population": 1787169		
+            },
             "population": 8715698,
+            "area": 110787,
             "gdp": 707085,
             "counties": [
                 
@@ -959,7 +1194,12 @@
                 "name": "Olympia",
                 "population": 299003
             },
+            "largestCity": {
+                "name": "Seattle",
+                "population": 4044837		
+            },
             "population": 7812880,
+            "area": 184661,
             "gdp": 801515,
             "counties": [
                 
@@ -972,7 +1212,12 @@
                 "name": "Charleston",
                 "population": 203164
             },
+            "largestCity": {
+                "name": "Huntington",
+                "population": 368261		
+            },
             "population": 1770071,
+            "area": 62756,
             "gdp": 99511,
             "counties": [
                 
@@ -985,7 +1230,12 @@
                 "name": "Madison",
                 "population": 694345
             },
+            "largestCity": {
+                "name": "Milwaukee",
+                "population": 1560424		
+            },
             "population": 5910955,
+            "area": 169635,
             "gdp": 413967,
             "counties": [
                 
@@ -998,7 +1248,12 @@
                 "name": "Cheyenne",
                 "population": 100984
             },
+            "largestCity": {
+                "name": "Cheyenne",
+                "population": 100984		
+            },
             "population": 584057,
+            "area": 253335,
             "gdp": 50172,
             "counties": [
                 
