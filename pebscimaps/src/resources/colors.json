@@ -5,5 +5,6 @@
     "secondary": "#B89E97",
     "tertiary": "#DECCCC",
     "open": "#99F7AB",
-    "close": "#BF4342"
+    "close": "#BF4342",
+    "clickable": "#0056b3"
 }
