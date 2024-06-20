@@ -9,6 +9,7 @@
         {
             "id": "AL",
             "name": "Alabama",
+            "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Flag_of_Alabama.svg/1920px-Flag_of_Alabama.svg.png",
             "capital": {
                 "name": "Montgomery",
                 "population": 385480
@@ -20,6 +21,7 @@
             "population": 5108468,
             "area": 135767,
             "gdp": 300152,
+            "hdi": 0.881,
             "comment": "Population and GDP Data are estimates from the census bureau 2023",
             "counties": [
                 {
@@ -362,6 +364,7 @@
         {
             "id": "AK",
             "name": "Alaska",
+            "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Flag_of_Alaska.svg/1920px-Flag_of_Alaska.svg.png",
             "capital": {
                 "name": "Juneau",
                 "population": 32255
@@ -373,6 +376,7 @@
             "population": 733406,
             "area": 1723337,
             "gdp": 67337,
+            "hdi": 0.930,
             "counties": [
                 
             ]
@@ -380,6 +384,7 @@
         {
             "id": "AZ",
             "name": "Arizona",
+            "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Flag_of_Arizona.svg/1920px-Flag_of_Arizona.svg.png",
             "capital": {
                 "name": "Phoenix",
                 "population": 5070110
@@ -391,6 +396,7 @@
             "population": 7431344,
             "area": 295234,
             "gdp": 508344,
+            "hdi": 0.908,
             "counties": [
                 
             ]
@@ -398,6 +404,7 @@
         {
             "id": "AR",
             "name": "Arkansas",
+            "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Flag_of_Arkansas.svg/1920px-Flag_of_Arkansas.svg.png",
             "capital": {
                 "name": "Little Rock",
                 "population": 764045
@@ -409,6 +416,7 @@
             "population": 3067732,
             "area": 137732,
             "gdp": 176240,
+            "hdi": 0.881,
             "counties": [
                 
             ]
@@ -416,6 +424,7 @@
         {
             "id": "CA",
             "name": "California",
+            "flag": "averylongurltochange",
             "capital": {
                 "name": "Sacramento",
                 "population": 2420608
@@ -427,6 +436,7 @@
             "population": 38965193,
             "area": 423967,
             "gdp": 3862171,
+            "hdi": 0.931,
             "counties": [
                 
             ]
@@ -434,6 +444,7 @@
         {
             "id": "CO",
             "name": "Colorado",
+            "flag": "averylongurltochange",
             "capital": {
                 "name": "Denver",
                 "population": 3005131	
@@ -445,6 +456,7 @@
             "population": 5877610,
             "area": 269601,
             "gdp": 520389,
+            "hdi": 0.942,
             "counties": [
                 
             ]
@@ -452,6 +464,7 @@
         {
             "id": "CT",
             "name": "Connecticut",
+            "flag": "averylongurltochange",
             "capital": {
                 "name": "Hartford",
                 "population": 1151543	
@@ -463,6 +476,7 @@
             "population": 3617176,
             "area": 14357,
             "gdp": 340181,
+            "hdi": 0.948,
             "counties": [
                 
             ]
@@ -470,6 +484,7 @@
         {
             "id": "DC",
             "name": "Washington D.C.",
+            "flag": "averylongurltochange",
             "capital": {
                 "name": "Washington D.C.",
                 "population": 6304975	
@@ -481,6 +496,7 @@
             "population": 678972,
             "area": 177,
             "gdp": 174796,
+            "hdi": 0.940,
             "counties": [
                 
             ]
@@ -488,6 +504,7 @@
         {
             "id": "DE",
             "name": "Delaware",
+            "flag": "averylongurltochange",
             "capital": {
                 "name": "Dover",
                 "population": 189789	
@@ -499,6 +516,7 @@
             "population": 1031890,
             "area": 6446,
             "gdp": 93595,
+            "hdi": 0.929,
             "counties": [
                 
             ]
@@ -506,6 +524,7 @@
         {
             "id": "FL",
             "name": "Florida",
+            "flag": "averylongurltochange",
             "capital": {
                 "name": "Tallahassee",
                 "population": 392645	
@@ -517,6 +536,7 @@
             "population": 22610726,
             "area": 170312,
             "gdp": 1579503,
+            "hdi": 0.911,
             "counties": [
                 
             ]
@@ -524,6 +544,7 @@
         {
             "id": "GA",
             "name": "Georgia",
+            "flag": "averylongurltochange",
             "capital": {
                 "name": "Atlanta",
                 "population": 6307261	
@@ -535,6 +556,7 @@
             "population": 11029227,
             "area": 153910,
             "gdp": 805397,
+            "hdi": 0.904,
             "counties": [
                 
             ]
@@ -542,6 +564,7 @@
         {
             "id": "HI",
             "name": "Hawaii",
+            "flag": "averylongurltochange",
             "capital": {
                 "name": "Honolulu",
                 "population": 989408	
@@ -553,6 +576,7 @@
             "population": 1435138,
             "area": 28313,
             "gdp": 108023,
+            "hdi": 0.940,
             "counties": [
                 
             ]
@@ -560,6 +584,7 @@
         {
             "id": "ID",
             "name": "Idaho",
+            "flag": "averylongurltochange",
             "capital": {
                 "name": "Boise",
                 "population": 824657	
@@ -571,6 +596,7 @@
             "population": 1964726,
             "area": 216443,
             "gdp": 118791,
+            "hdi": 0.907,
             "counties": [
                 
             ]
@@ -578,6 +604,7 @@
         {
             "id": "IL",
             "name": "Illinois",
+            "flag": "averylongurltochange",
             "capital": {
                 "name": "Springfield",
                 "population": 205445	
@@ -589,6 +616,7 @@
             "population": 12549689,
             "area": 149995,
             "gdp": 1082968,
+            "hdi": 0.929,
             "counties": [
                 
             ]
@@ -596,6 +624,7 @@
         {
             "id": "IN",
             "name": "Indiana",
+            "flag": "averylongurltochange",
             "capital": {
                 "name": "Indianapolis",
                 "population": 2138468	
@@ -607,6 +636,7 @@
             "population": 6862199,
             "area": 94326,
             "gdp": 497036,
+            "hdi": 0.907,
             "counties": [
                 
             ]
@@ -614,6 +644,7 @@
         {
             "id": "IA",
             "name": "Iowa",
+            "flag": "averylongurltochange",
             "capital": {
                 "name": "Des Moines",
                 "population": 737164	
@@ -625,6 +656,7 @@
             "population": 3207004,
             "area": 145746,
             "gdp": 248923,
+            "hdi": 0.930,
             "counties": [
                 
             ]
@@ -632,6 +664,7 @@
         {
             "id": "KS",
             "name": "Kansas",
+            "flag": "averylongurltochange",
             "capital": {
                 "name": "Topeka",
                 "population": 232322	
@@ -643,6 +676,7 @@
             "population": 2940546,
             "area": 213100,
             "gdp": 226012,
+            "hdi": 0.922,
             "counties": [
                 
             ]	
@@ -650,6 +684,7 @@
         {
             "id": "KY",
             "name": "Kentucky",
+            "flag": "averylongurltochange",
             "capital": {
                 "name": "Frankfort",
                 "population": 28602	
@@ -661,6 +696,7 @@
             "population": 4526154,
             "area": 104656,
             "gdp": 277747,
+            "hdi": 0.884,
             "counties": [
                 
             ]
@@ -668,6 +704,7 @@
         {
             "id": "LA",
             "name": "Louisiana",
+            "flag": "averylongurltochange",
             "capital": {
                 "name": "Baton Rouge",
                 "population": 873661	
@@ -679,6 +716,7 @@
             "population": 4573749,
             "area": 135659,
             "gdp": 309601,
+            "hdi": 0.888,
             "counties": [
                 
             ]
@@ -686,6 +724,7 @@
         {
             "id": "ME",
             "name": "Maine",
+            "flag": "averylongurltochange",
             "capital": {
                 "name": "Augusta",
                 "population": 18899	
@@ -697,6 +736,7 @@
             "population": 1395722,
             "area": 91633,
             "gdp": 91081,
+            "hdi": 0.917,
             "counties": [
                 
             ]
@@ -704,6 +744,7 @@
         {
             "id": "MD",
             "name": "Maryland",
+            "flag": "averylongurltochange",
             "capital": {
                 "name": "Annapolis",
                 "population": 40812
@@ -715,6 +756,7 @@
             "population": 6180253,
             "area": 32131,
             "gdp": 512280,
+            "hdi": 0.936,
             "counties": [
                 
             ]
@@ -722,6 +764,7 @@
         {
             "id": "MA",
             "name": "Massachusetts",
+            "flag": "averylongurltochange",
             "capital": {
                 "name": "Boston",
                 "population": 4919179
@@ -733,6 +776,7 @@
             "population": 7001399,
             "area": 27336,
             "gdp": 733860,
+            "hdi": 0.949,
             "counties": [
                 
             ]
@@ -740,6 +784,7 @@
         {
             "id": "MI",
             "name": "Michigan",
+            "flag": "averylongurltochange",
             "capital": {
                 "name": "Lansing",
                 "population": 473177
@@ -751,6 +796,7 @@
             "population": 10037261,
             "area": 250487,
             "gdp": 658992,
+            "hdi": 0.913,
             "counties": [
                 
             ]
@@ -758,6 +804,7 @@
         {
             "id": "MN",
             "name": "Minnesota",
+            "flag": "averylongurltochange",
             "capital": {
                 "name": "Saint Paul",
                 "population": 3712020
@@ -769,6 +816,7 @@
             "population": 5737915,
             "area": 225163,
             "gdp": 471820,
+            "hdi": 0.947,
             "counties": [
                 
             ]
@@ -776,6 +824,7 @@
         {
             "id": "MS",
             "name": "Mississippi",
+            "flag": "averylongurltochange",
             "capital": {
                 "name": "Jackson",
                 "population": 610257
@@ -787,6 +836,7 @@
             "population": 2939690,
             "area": 125438,
             "gdp": 146401,
+            "hdi": 0.866,
             "counties": [
                 
             ]
@@ -794,6 +844,7 @@
         {
             "id": "MO",
             "name": "Missouri",
+            "flag": "averylongurltochange",
             "capital": {
                 "name": "Jefferson City",
                 "population": 150733
@@ -805,6 +856,7 @@
             "population": 6196156,
             "area": 180540,
             "gdp": 422306,
+            "hdi": 0.907,
             "counties": [
                 
             ]
@@ -812,6 +864,7 @@
         {
             "id": "MT",
             "name": "Montana",
+            "flag": "averylongurltochange",
             "capital": {
                 "name": "Helena",
                 "population": 96091
@@ -823,6 +876,7 @@
             "population": 1132812,
             "area": 380831,
             "gdp": 70560,
+            "hdi": 0.916,
             "counties": [
                 
             ]
@@ -830,6 +884,7 @@
         {
             "id": "NE",
             "name": "Nebraska",
+            "flag": "averylongurltochange",
             "capital": {
                 "name": "Lincoln",
                 "population": 610257
@@ -841,6 +896,7 @@
             "population": 1978379,
             "area": 200330,
             "gdp": 178421,
+            "hdi": 0.933,
             "counties": [
                 
             ]
@@ -848,6 +904,7 @@
         {
             "id": "NV",
             "name": "Nevada",
+            "flag": "averylongurltochange",
             "capital": {
                 "name": "Carson City",
                 "population": 58036
@@ -859,6 +916,7 @@
             "population": 3194176,
             "area": 286380,
             "gdp": 239398,
+            "hdi": 0.904,
             "counties": [
                 
             ]	
@@ -866,6 +924,7 @@
         {
             "id": "NH",
             "name": "New Hampshire",
+            "flag": "averylongurltochange",
             "capital": {
                 "name": "Concord",
                 "population": 43976
@@ -877,6 +936,7 @@
             "population": 1402054,
             "area": 24214,
             "gdp": 111102,
+            "hdi": 0.943,
             "counties": [
                 
             ]
@@ -884,6 +944,7 @@
         {
             "id": "NJ",
             "name": "New Jersey",
+            "flag": "averylongurltochange",
             "capital": {
                 "name": "Trenton",
                 "population": 381671
@@ -895,6 +956,7 @@
             "population": 9290841,
             "area": 22591,
             "gdp": 799305,
+            "hdi": 0.943,
             "counties": [
                 
             ]
@@ -902,6 +964,7 @@
         {
             "id": "NM",
             "name": "New Mexico",
+            "flag": "averylongurltochange",
             "capital": {
                 "name": "Santa Fe",
                 "population": 155956
@@ -913,6 +976,7 @@
             "population": 2114371,
             "area": 314917,
             "gdp": 130202,
+            "hdi": 0.901,
             "counties": [
                 
             ]
@@ -920,6 +984,7 @@
         {
             "id": "NY",
             "name": "New York",
+            "flag": "averylongurltochange",
             "capital": {
                 "name": "Albany",
                 "population": 904682
@@ -931,6 +996,7 @@
             "population": 19571216,
             "area": 141297,
             "gdp": 2152262,
+            "hdi": 0.938,
             "counties": [
                 
             ]
@@ -938,6 +1004,7 @@
         {
             "id": "NC",
             "name": "North Carolina",
+            "flag": "averylongurltochange",
             "capital": {
                 "name": "Raleigh",
                 "population": 1509231
@@ -949,6 +1016,7 @@
             "population": 10835491,
             "area": 139391,
             "gdp": 766919,
+            "hdi": 0.907,
             "counties": [
                 
             ]
@@ -956,6 +1024,7 @@
         {
             "id": "ND",
             "name": "North Dakota",
+            "flag": "averylongurltochange",
             "capital": {
                 "name": "Bismarck",
                 "population": 135786
@@ -967,6 +1036,7 @@
             "population": 783926,
             "area": 183108,
             "gdp": 74113,
+            "hdi": 0.940,
             "counties": [
                 
             ]
@@ -974,6 +1044,7 @@
         {
             "id": "OH",
             "name": "Ohio",
+            "flag": "averylongurltochange",
             "capital": {
                 "name": "Columbus",
                 "population": 2180271
@@ -985,6 +1056,7 @@
             "population": 11785935,
             "area": 116098,
             "gdp": 872748,
+            "hdi": 0.914,
             "counties": [
                 
             ]
@@ -992,6 +1064,7 @@
         {
             "id": "OK",
             "name": "Oklahoma",
+            "flag": "averylongurltochange",
             "capital": {
                 "name": "Oklahoma City",
                 "population": 1477926
@@ -1003,6 +1076,7 @@
             "population": 4053824,
             "area": 181037,
             "gdp": 254134,
+            "hdi": 0.896,
             "counties": [
                 
             ]
@@ -1010,6 +1084,7 @@
         {
             "id": "OR",
             "name": "Oregon",
+            "flag": "averylongurltochange",
             "capital": {
                 "name": "Salem",
                 "population": 436546
@@ -1021,6 +1096,7 @@
             "population": 4233358,
             "area": 254799,
             "gdp": 316461,
+            "hdi": 0.930,
             "counties": [
                 
             ]
@@ -1028,6 +1104,7 @@
         {
             "id": "PA",
             "name": "Pennsylvania",
+            "flag": "averylongurltochange",
             "capital": {
                 "name": "Harrisburg",
                 "population": 606055
@@ -1039,6 +1116,7 @@
             "population": 12961683,
             "area": 119280,
             "gdp": 965067,
+            "hdi": 0.923,
             "counties": [
                 
             ]
@@ -1046,6 +1124,7 @@
         {
             "id": "RI",
             "name": "Rhode Island",
+            "flag": "averylongurltochange",
             "capital": {
                 "name": "Providence",
                 "population": 1677803
@@ -1057,6 +1136,7 @@
             "population": 1095962,
             "area": 4001,
             "gdp": 77322,
+            "hdi": 0.925,
             "counties": [
                 
             ]
@@ -1064,6 +1144,7 @@
         {
             "id": "SC",
             "name": "South Carolina",
+            "flag": "averylongurltochange",
             "capital": {
                 "name": "Columbia",
                 "population": 858302
@@ -1075,6 +1156,7 @@
             "population": 5118425,
             "area": 82933,
             "gdp": 322259,
+            "hdi": 0.893,
             "counties": [
                 
             ]
@@ -1082,6 +1164,7 @@
         {
             "id": "SD",
             "name": "South Dakota",
+            "flag": "averylongurltochange",
             "capital": {
                 "name": "Pierre",
                 "population": 14091
@@ -1093,6 +1176,7 @@
             "population": 919318,
             "area": 199729,
             "gdp": 72421,
+            "hdi": 0.927,
             "counties": [
                 
             ]
@@ -1100,6 +1184,7 @@
         {
             "id": "TN",
             "name": "Tennessee",
+            "flag": "averylongurltochange",
             "capital": {
                 "name": "Nashville",
                 "population": 2102573
@@ -1111,6 +1196,7 @@
             "population": 7126489,
             "area": 109153,
             "gdp": 523240,
+            "hdi": 0.895,
             "counties": [
                 
             ]
@@ -1118,6 +1204,7 @@
         {
             "id": "TX",
             "name": "Texas",
+            "flag": "averylongurltochange",
             "capital": {
                 "name": "Austin",
                 "population": 2473275
@@ -1129,6 +1216,7 @@
             "population": 30503301,
             "area": 695662,
             "gdp": 2563508,
+            "hdi": 0.911,
             "counties": [
                 
             ]
@@ -1136,6 +1224,7 @@
         {
             "id": "UT",
             "name": "Utah",
+            "flag": "averylongurltochange",
             "capital": {
                 "name": "Salt Lake City",
                 "population": 1267864
@@ -1147,6 +1236,7 @@
             "population": 3417734,
             "area": 219882,
             "gdp": 272586,
+            "hdi": 0.930,
             "counties": [
                 
             ]
@@ -1154,6 +1244,7 @@
         {
             "id": "VT",
             "name": "Vermont",
+            "flag": "averylongurltochange",
             "capital": {
                 "name": "Montpelier",
                 "population": 8074
@@ -1165,6 +1256,7 @@
             "population": 647464,
             "area": 24906,
             "gdp": 43130,
+            "hdi": 0.935,
             "counties": [
                 
             ]
@@ -1172,6 +1264,7 @@
         {
             "id": "VA",
             "name": "Virginia",
+            "flag": "averylongurltochange",
             "capital": {
                 "name": "Richmond",
                 "population": 1349732
@@ -1183,6 +1276,7 @@
             "population": 8715698,
             "area": 110787,
             "gdp": 707085,
+            "hdi": 0.930,
             "counties": [
                 
             ]
@@ -1190,6 +1284,7 @@
         {
             "id": "WA",
             "name": "Washington",
+            "flag": "averylongurltochange",
             "capital": {
                 "name": "Olympia",
                 "population": 299003
@@ -1201,6 +1296,7 @@
             "population": 7812880,
             "area": 184661,
             "gdp": 801515,
+            "hdi": 0.940,
             "counties": [
                 
             ]
@@ -1208,6 +1304,7 @@
         {
             "id": "WV",
             "name": "West Virginia",
+            "flag": "averylongurltochange",
             "capital": {
                 "name": "Charleston",
                 "population": 203164
@@ -1219,6 +1316,7 @@
             "population": 1770071,
             "area": 62756,
             "gdp": 99511,
+            "hdi": 0.877,
             "counties": [
                 
             ]
@@ -1226,6 +1324,7 @@
         {
             "id": "WI",
             "name": "Wisconsin",
+            "flag": "averylongurltochange",
             "capital": {
                 "name": "Madison",
                 "population": 694345
@@ -1237,6 +1336,7 @@
             "population": 5910955,
             "area": 169635,
             "gdp": 413967,
+            "hdi": 0.929,
             "counties": [
                 
             ]
@@ -1244,6 +1344,7 @@
         {
             "id": "WY",
             "name": "Wyoming",
+            "flag": "averylongurltochange",
             "capital": {
                 "name": "Cheyenne",
                 "population": 100984
@@ -1255,6 +1356,7 @@
             "population": 584057,
             "area": 253335,
             "gdp": 50172,
+            "hdi": 0.932,
             "counties": [
                 
             ]
