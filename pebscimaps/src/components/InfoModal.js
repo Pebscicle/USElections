@@ -41,6 +41,12 @@ function InfoModal( {infoType, selectedYear, isVisible, closeModal, entity, imag
     position={null}
     grid={[25, 25]}
     scale={1}
+    bounds={{
+      left: -1000, // Minimum X position
+      top: -60, // Minimum Y position
+      right: 50, // Maximum X position
+      bottom: 150, // Maximum Y position
+    }}
     onStart={(event, data) => {
       // Add your custom logic here
     }}
@@ -70,7 +76,7 @@ function InfoModal( {infoType, selectedYear, isVisible, closeModal, entity, imag
             <span style={{cursor: 'pointer', backgroundColor: colors.close, borderRadius: '0px 5px 0px 0px', padding: '0px 8px', display: 'flex', alignItems: 'center'}}onClick={closeModal}>X</span>
         </div>
         <img src={imageLink} style={{ backgroundColor: 'gray', height: '200px', width: '100%', opacity: isLoading? 0.5 : 1 }} alt="placeholder image" height="200px" />
-        <div style={{paddingLeft: '4px', paddingTop: '8px'}}>
+        <div style={{padding: '8px 4px 0px 4px'}}>
           <p><span style={{fontWeight: 'bold', color: '#333939'}}>Population</span>: {commaifyNumber(entity.population)}</p>
           <p><span style={{fontWeight: 'bold', color: '#333939'}}>Capital</span>: {entity.capital.name} <span style={{fontSize: 'small', cursor: 'pointer', borderBottom: 'dotted 1px black'}} title={`${Math.round(entity.capital.population/entity.population*100)}% of state's population`}>({commaifyNumber(entity.capital.population)})</span></p>
           <p><span style={{fontWeight: 'bold', color: '#333939'}}>Largest City</span>: {entity.largestCity.name} <span style={{fontSize: 'small', cursor: 'pointer', borderBottom: 'dotted 1px black'}} title={`${Math.round(entity.largestCity.population/entity.population*100)}% of state's population`}>({commaifyNumber(entity.largestCity.population)})</span></p>
@@ -123,18 +129,26 @@ function InfoModal( {infoType, selectedYear, isVisible, closeModal, entity, imag
       // Add your custom logic here
     }}>
       <div style={{position: 'fixed', right: '50px', bottom: '25vh', width: '350px', height: '450px', borderRadius: '5px', color: 'black', backgroundColor: colors.white, boxShadow: "0px 2px 5px 2px gray"}}> 
-        <div style={{display: 'grid', gridTemplateColumns: 'auto 50px 1fr auto', gridTemplateRows: '25px'}}>
+        <div style={{display: 'grid', gridTemplateColumns: 'auto 50px 1fr 60px 1fr auto', gridTemplateRows: '25px'}}>
             <Link href={`/usa/${entity.name.toLowerCase()}`}>
               <span style={{padding: '2px', cursor: 'pointer'}}>{entity.name}</span>    
             </Link>
             <div style={{paddingLeft: '4px', display: 'flex', alignItems: 'center'}}>
               <img src={entity.flag} style={{height: '20px'}} alt='Flag'/>
             </div>
-            <span className="handle" style={{borderBottom: 'solid 1px black', cursor: 'pointer'}}></span>
+            <span></span>
+            <span className="handle"
+            style={{
+              cursor: "move",
+              backgroundImage: "radial-gradient(circle at 2px 2px, gray 1px, transparent 1px)",
+              backgroundSize: "5px 5px",
+            }}
+            ></span>
+            <span></span>
             <span style={{cursor: 'pointer', backgroundColor: colors.close, borderRadius: '0px 5px 0px 0px', padding: '0px 8px', display: 'flex', alignItems: 'center'}}onClick={closeModal}>X</span>
         </div>
         <img src={imageLink} style={{ backgroundColor: 'gray', height: '200px', width: '100%', opacity: isLoading? 0.5 : 1 }} alt="placeholder image" height="200px" />
-        <div style={{paddingLeft: '4px', paddingTop: '8px'}}>
+        <div style={{padding: '8px 4px 0px 4px'}}>
           <p>Election Year: {entity.electionResults[findIndexOfYear(selectedYear)].year}</p>
           <VotingBar 
           leftVotes={entity.electionResults[findIndexOfYear(selectedYear)].democrat}

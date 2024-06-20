@@ -22,33 +22,28 @@ function USAMap( {infoType, selectedYear, callbackData, suppliedList} ) {
     const [stateImage, setStateImage] = useState('2020.png');
 
     const closeModal = () => {
-        setIsModalVisible(false);
+      setIsModalVisible(false);
     }
 
+
     const getImageLink = (id) => {
-      console.log("get image link");
       const link = getImageLinkFromID(id);
-      console.log(link);
     }
 
     const logClickedInfo = (e) => {
       let foundState = null;
       if(infoType==="general"){
         foundState = getStateFromID(e.target.id);
+        //Send selected state back to parent.
+        callbackData(foundState);
       }else if(infoType==="elections"){
         foundState = getStateElectionDataFromID(e.target.id);
-
-        console.log("foundstate!!!!")
-        console.log(foundState);
       }else if(infoType==="creator"){
         foundState = getStateFromID(e.target.id);
         callbackData(foundState);
       }
       setSelectedState(foundState);
 
-      console.log(stateImage);
-      console.log(foundState.id)
-      console.log(getImageLinkFromID(foundState.id))
       setStateImage(getImageLinkFromID(foundState.id));
       setIsModalVisible(true);
     }
@@ -61,8 +56,12 @@ function USAMap( {infoType, selectedYear, callbackData, suppliedList} ) {
         const repVotes = foundState.electionResults[findIndexOfYear(selectedYear)].republican;
         return determineDominantColor(demVotes, repVotes);
       }
-      if(infoType==="creator"){
+      if(infoType==="creator" || infoType==="general"){
+        console.log(suppliedList);
         for(let i = 0; i < suppliedList.length; i++){
+          console.log('id: ' +id);
+          console.log('suppliedList[i].id: ' + suppliedList[i].id);
+          console.log(id === suppliedList[i].id);
           if(id === suppliedList[i].id){
             return colors.primary;
           }
