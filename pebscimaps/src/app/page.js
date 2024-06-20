@@ -1,11 +1,14 @@
 import Image from "next/image";
 
+import Dashboard from '../components/Dashboard';
+import WorldMap from '../app/WorldMap';
+
 export default function Home() {
   return (
     <main className="" style={{color: 'black'}}>
-      <div>
-        DASHBOARD IN PROGRESS... (MAP OF WORLD, ETC.)
-      </div>
+      <Dashboard>
+        <WorldMap />
+      </Dashboard>
     </main>
   );
 }
