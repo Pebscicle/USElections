@@ -1,9 +1,10 @@
 'use client'
 
-import {useState} from 'react'
 import InfoModal from '../../components/InfoModal';
 import {getStateFromID, getStateElectionDataFromID, determineDominantColor, getImageLinkFromID} from '../services/dbFetcherService';
-import {findIndexOfYear} from "../services/dbFetcherService"
+import {findIndexOfYear} from "../services/dbFetcherService";
+
+import {useEffect, useState} from 'react';
 
 import colors from '../../resources/colors.json';
 
@@ -68,9 +69,26 @@ function USAMap( {infoType, selectedYear, callbackData, suppliedList} ) {
       }
       return determineDominantColor(0, 0);
     }
-    
 
-    return (
+    const [keyPressed, setKeyPressed] = useState(null);
+
+    useEffect(() => {
+      const handleKeyDown = (event) => {
+        console.log(event.key);
+        setKeyPressed(event.key);
+      };
+
+      // Add the event listener
+      document.addEventListener('keydown', handleKeyDown);
+
+      // Cleanup function (remove listener on unmount)
+      return () => {
+        document.removeEventListener('keydown', handleKeyDown);
+      };
+    }, []); // Empty dependency array ensures the effect runs only once on mount
+
+  
+return (
 
 <div>
   {infoType != 'creator' &&
