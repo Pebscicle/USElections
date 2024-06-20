@@ -1,5 +1,6 @@
 
 import commaifyNumber from "../app/helpers/NumberBeautifier";
+import {convertKM2toMI2} from '../app/helpers/Converter';
 import {findIndexOfYear, determineDominantColor} from "../app/services/dbFetcherService"
 import VotingBar from "./elections/VotingBar";
 
@@ -10,6 +11,7 @@ import {useEffect, useState} from 'react'
 function InfoModal( {infoType, selectedYear, isVisible, closeModal, entity, imageLink} ) {
 
   const [isLoading, setIsLoading] = useState(true);
+  const [isInKM, setIsInKM] = useState(true);
 
   useEffect(() => {
     setIsLoading(true); // Set loading to true when imageLink changes
@@ -35,7 +37,16 @@ function InfoModal( {infoType, selectedYear, isVisible, closeModal, entity, imag
         <img src={imageLink} style={{ backgroundColor: 'gray', height: '200px', width: '100%', opacity: isLoading? 0.5 : 1 }} alt="placeholder image" height="200px" />
         <div style={{paddingLeft: '4px', paddingTop: '8px'}}>
           <p>Population: {commaifyNumber(entity.population)}</p>
-          <p>Capital: {entity.capital.name} <span style={{fontSize: 'small'}}>({commaifyNumber(entity.capital.population)} or {Math.round(entity.capital.population/entity.population*100)}% of state)</span></p>
+          <p>Capital: {entity.capital.name} <span style={{fontSize: 'small', cursor: 'pointer', borderBottom: 'dotted 1px black'}} title={`${Math.round(entity.capital.population/entity.population*100)}% of state's population`}>({commaifyNumber(entity.capital.population)})</span></p>
+          <p>Largest City: {entity.largestCity.name} <span style={{fontSize: 'small', cursor: 'pointer', borderBottom: 'dotted 1px black'}} title={`${Math.round(entity.largestCity.population/entity.population*100)}% of state's population`}>({commaifyNumber(entity.largestCity.population)})</span></p>
+          <p>Area: {isInKM && commaifyNumber(entity.area)}{!isInKM && commaifyNumber(Math.round(convertKM2toMI2(entity.area) ))} {isInKM && <span>km<sup style={{fontSize: 'small'}}>2</sup></span>}{!isInKM && <span>sq mi</span>}
+            <span onClick={() => setIsInKM(!isInKM)} style={{color: 'blue', fontSize: 'small', cursor: 'pointer'}}> Swap Unit</span>
+          </p>
+          <p>Population Density: {isInKM && Math.round(entity.population/entity.area*100)/100}{!isInKM && Math.round(entity.population/convertKM2toMI2(entity.area)*100)/100}
+            {isInKM && <span>/km<sup style={{fontSize: 'small'}}>2</sup></span>}
+            {!isInKM && <span>/sq mi</span>}
+            <span onClick={() => setIsInKM(!isInKM)} style={{color: 'blue', fontSize: 'small', cursor: 'pointer'}}> Swap Unit</span>
+          </p>
           <p>Nominal GDP in billions: ${commaifyNumber(entity.gdp)}</p>
           <p>GDP per capita: ${commaifyNumber( parseInt(entity.gdp/entity.population*1000000) )}</p>
         </div>
