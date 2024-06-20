@@ -1,6 +1,7 @@
 'use client'
 
 import InfoModal from '../../components/InfoModal';
+
 import {getStateFromID, getStateElectionDataFromID, determineDominantColor, getImageLinkFromID} from '../services/dbFetcherService';
 import {findIndexOfYear} from "../services/dbFetcherService";
 
@@ -70,22 +71,23 @@ function USAMap( {infoType, selectedYear, callbackData, suppliedList} ) {
       return determineDominantColor(0, 0);
     }
 
-    const [keyPressed, setKeyPressed] = useState(null);
 
+    //CLOSE MODAL UPON ESC PRESS
     useEffect(() => {
-      const handleKeyDown = (event) => {
-        console.log(event.key);
-        setKeyPressed(event.key);
+      const handleEscape = (event) => {
+        if (event.keyCode === 27) {
+          closeModal();
+        }
       };
+  
+      document.addEventListener("keydown", handleEscape);
+  
+      return () => document.removeEventListener("keydown", handleEscape);
+    }, [closeModal]); // Dependency array ensures effect runs only once on mount and when closeModal changes
 
-      // Add the event listener
-      document.addEventListener('keydown', handleKeyDown);
 
-      // Cleanup function (remove listener on unmount)
-      return () => {
-        document.removeEventListener('keydown', handleKeyDown);
-      };
-    }, []); // Empty dependency array ensures the effect runs only once on mount
+    
+  
 
   
 return (
