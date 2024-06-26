@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <main className="" style={{color: 'black'}}>
       <Dashboard>
-        <WorldMap />
+        <WorldMap infoType='general' />
       </Dashboard>
     </main>
   );

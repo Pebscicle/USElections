@@ -1,17 +1,3423 @@
 {
+    "AF": {
+        "id": "AF",
+        "name": "Afghanistan, Islamic Emirate of",
+        "link": "/afghanistan",
+        "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Flag_of_the_Taliban.svg/2560px-Flag_of_the_Taliban.svg.png",
+        "capital": {
+            "name": "Kabul",
+            "population": 4589495
+        },
+        "largestCity": {
+            "name": "Kabul",
+            "population": 4589495
+        },
+        "population": 34262840,
+        "area": 652864,
+        "gdp": 14467,
+        "hdi": 0.462
+    },
+    "AL": {
+        "id": "AL",
+        "name": "Republic of Albania",
+        "link": "/albania",
+        "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Flag_of_Albania.svg/1920px-Flag_of_Albania.svg.png",
+        "capital": {
+            "name": "Tirana",
+            "population": 512421
+        },
+        "largestCity": {
+            "name": "Tirana",
+            "population": 512421
+        },
+        "population": 2761785,
+        "area": 28748,
+        "gdp": 25431,
+        "hdi": 0.789
+    },
+    "DZ": {
+        "id": "DZ",
+        "name": "Algeria, People's Democratic Republic of",
+        "link": "/algeria",
+        "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Flag_of_Algeria.svg/1920px-Flag_of_Algeria.svg.png",
+        "capital": {
+            "name": "Algiers",
+            "population": 2854012
+        },
+        "largestCity": {
+            "name": "Algiers",
+            "population": 2854012
+        },
+        "population": 45400530,
+        "area": 2381741,
+        "gdp": 266780,
+        "hdi": 0.745
+    },
+    "AD": {
+        "id": "AD",
+        "name": "Principality of Andorra",
+        "link": "/andorra",
+        "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Flag_of_Andorra.svg/1920px-Flag_of_Andorra.svg.png",
+        "capital": {
+            "name": "Andorra la Vella",
+            "population": 41042
+        },
+        "largestCity": {
+            "name": "Andorra la Vella",
+            "population": 41042
+        },
+        "population": 85101,
+        "area": 468,
+        "gdp": 3897,
+        "hdi": 0.884
+    },
+    "AO": {
+        "id": "AO",
+        "name": "Republic of Angola",
+        "link": "/angola",
+        "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Flag_of_Angola.svg/1920px-Flag_of_Angola.svg.png",
+        "capital": {
+            "name": "Luanda",
+            "population": 2831280
+        },
+        "largestCity": {
+            "name": "Luanda",
+            "population": 2831280
+        },
+        "population": 34094077,
+        "area": 1246700,
+        "gdp": 92123,
+        "hdi": 0.591
+    },
+    "AI": {
+        "id": "AI",
+        "name": "Anguilla (British Overseas Territory)",
+        "link": "/anguilla",
+        "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Flag_of_Anguilla.svg/2560px-Flag_of_Anguilla.svg.png",
+        "capital": {
+            "name": "The Valley",
+            "population": 3269
+        },
+        "largestCity": {
+            "name": "The Valley",
+            "population": 3269
+        },
+        "population": 15701,
+        "area": 91,
+        "gdp": 452,
+        "hdi": 0.865
+    },
+    "AG": {
+        "id": "AG",
+        "name": "Antigua and Barbuda",
+        "link": "/antigua_and_barbuda",
+        "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Flag_of_Antigua_and_Barbuda.svg/1920px-Flag_of_Antigua_and_Barbuda.svg.png",
+        "capital": {
+            "name": "St. John's",
+            "population": 3269
+        },
+        "largestCity": {
+            "name": "St. John's",
+            "population": 22219
+        },
+        "population": 100772,
+        "area": 442,
+        "gdp": 2127,
+        "hdi": 0.826
+    },
+    "AR": {
+        "id": "AR",
+        "name": "Argentine Republic",
+        "link": "/argentina",
+        "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Flag_of_Argentina.svg/2560px-Flag_of_Argentina.svg.png",
+        "capital": {
+            "name": "Buenos Aires",
+            "population": 15490371
+        },
+        "largestCity": {
+            "name": "Buenos Aires",
+            "population": 15490371
+        },
+        "population": 46654581,
+        "area": 2780400,
+        "gdp": 604260,
+        "hdi": 0.849
+    },
+    "AM": {
+        "id": "AM",
+        "name": "Republic of Armenia",
+        "link": "/armenia",
+        "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Flag_of_Armenia.svg/2560px-Flag_of_Armenia.svg.png",
+        "capital": {
+            "name": "Yerevan",
+            "population": 1098000
+        },
+        "largestCity": {
+            "name": "Yerevan",
+            "population": 1098000
+        },
+        "population": 3039700,
+        "area": 29743,
+        "gdp": 25408,
+        "hdi": 0.786
+    },
+    "AW": {
+        "id": "AW",
+        "name": "Aruba (NL)",
+        "link": "/aruba",
+        "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Flag_of_Aruba.svg/1920px-Flag_of_Aruba.svg.png",
+        "capital": {
+            "name": "Oranjestad",
+            "population": 28658
+        },
+        "largestCity": {
+            "name": "Oranjestad",
+            "population": 28658
+        },
+        "population": 107151,
+        "area": 180,
+        "gdp": 4069,
+        "hdi": 0.908
+    },
+    "AU": {
+        "id": "AU",
+        "name": "Commonwealth of Australia",
+        "link": "/australia",
+        "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Flag_of_Australia_%28converted%29.svg/2560px-Flag_of_Australia_%28converted%29.svg.png",
+        "capital": {
+            "name": "Canberra",
+            "population": 464995
+        },
+        "largestCity": {
+            "name": "Sydney",
+            "population": 5367206
+        },
+        "population": 27282542,
+        "area": 7741220,
+        "gdp": 1790348,
+        "hdi": 0.946
+    },
+    "AT": {
+        "id": "AT",
+        "name": "Republic of Austria",
+        "link": "/austria",
+        "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Flag_of_Austria.svg/1920px-Flag_of_Austria.svg.png",
+        "capital": {
+            "name": "Vienna",
+            "population": 2890577
+        },
+        "largestCity": {
+            "name": "Vienna",
+            "population": 2890577
+        },
+        "population": 9170647,
+        "area": 83878,
+        "gdp": 540887,
+        "hdi": 0.926
+    },
+    "AZ": {
+        "id": "AZ",
+        "name": "Republic of Azerbaijan",
+        "link": "/azerbaijan",
+        "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Flag_of_Azerbaijan.svg/2560px-Flag_of_Azerbaijan.svg.png",
+        "capital": {
+            "name": "Baku",
+            "population": 2464000
+        },
+        "largestCity": {
+            "name": "Baku",
+            "population": 2464000
+        },
+        "population": 10151517,
+        "area": 86600,
+        "gdp": 78749,
+        "hdi": 0.760
+    },
+    "BS": {
+        "id": "BS",
+        "name": "The Bahamas, Commonwealth of",
+        "link": "/bahamas",
+        "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Flag_of_the_Bahamas.svg/2560px-Flag_of_the_Bahamas.svg.png",
+        "capital": {
+            "name": "Nassau",
+            "population": 248948
+        },
+        "largestCity": {
+            "name": "Nassau",
+            "population": 248948
+        },
+        "population": 397360,
+        "area": 13880,
+        "gdp": 14390,
+        "hdi": 0.820
+    },
+    "BH": {
+        "id": "BH",
+        "name": "Kingdom of Bahrain",
+        "link": "/bahrain",
+        "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Flag_of_Bahrain.svg/2560px-Flag_of_Bahrain.svg.png",
+        "capital": {
+            "name": "Manama",
+            "population": 709000
+        },
+        "largestCity": {
+            "name": "Manama",
+            "population": 709000
+        },
+        "population": 1577059,
+        "area": 778,
+        "gdp": 46790,
+        "hdi": 0.888
+    },
+    "BD": {
+        "id": "BD",
+        "name": "Bangladesh, People's Republic of",
+        "link": "/bangladesh",
+        "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Flag_of_Bangladesh.svg/2560px-Flag_of_Bangladesh.svg.png",
+        "capital": {
+            "name": "Dhaka",
+            "population": 23936000
+        },
+        "largestCity": {
+            "name": "Dhaka",
+            "population": 23936000
+        },
+        "population": 169828911,
+        "area": 148460,
+        "gdp": 455162,
+        "hdi": 0.670
+    },
+    "BB": {
+        "id": "BB",
+        "name": "Barbados",
+        "link": "/barbados",
+        "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Flag_of_Barbados.svg/1920px-Flag_of_Barbados.svg.png",
+        "capital": {
+            "name": "Bridgetown",
+            "population": 110421
+        },
+        "largestCity": {
+            "name": "Bridgetown",
+            "population": 110421
+        },
+        "population": 267800,
+        "area": 431,
+        "gdp": 6863,
+        "hdi": 0.809
+    },
+    "BY": {
+        "id": "BY",
+        "name": "Republic of Belarus",
+        "link": "/belarus",
+        "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Flag_of_Belarus.svg/2560px-Flag_of_Belarus.svg.png",
+        "capital": {
+            "name": "Minsk",
+            "population": 2256263
+        },
+        "largestCity": {
+            "name": "Minsk",
+            "population": 2256263
+        },
+        "population": 9155978,
+        "area": 207600,
+        "gdp": 69048,
+        "hdi": 0.801
+    },
     "BE": {
+        "id": "BE",
         "name": "Kingdom of Belgium",
         "link": "/belgium",
-        "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Flag_of_Belgium.svg/1920px-Flag_of_Belgium.svg.png"
+        "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Flag_of_Belgium.svg/1920px-Flag_of_Belgium.svg.png",
+        "capital": {
+            "name": "Brussels",
+            "population": 2784966
+        },
+        "largestCity": {
+            "name": "Brussels",
+            "population": 2784966
+        },
+        "population": 11828948,
+        "area": 30528,
+        "gdp": 655192,
+        "hdi": 0.942
+    },
+    "BZ": {
+        "id": "BZ",
+        "name": "Belize",
+        "link": "/belize",
+        "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Flag_of_Belize.svg/2560px-Flag_of_Belize.svg.png",
+        "capital": {
+            "name": "Belmopan",
+            "population": 13381
+        },
+        "largestCity": {
+            "name": "Belize City",
+            "population": 61461
+        },
+        "population": 397483,
+        "area": 22965,
+        "gdp": 3296,
+        "hdi": 0.700
+    },
+    "BJ": {
+        "id": "BJ",
+        "name": "Republic of Benin",
+        "link": "/benin",
+        "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Flag_of_Benin.svg/1920px-Flag_of_Benin.svg.png",
+        "capital": {
+            "name": "Porto-Novo",
+            "population": 264320
+        },
+        "largestCity": {
+            "name": "Cotonou",
+            "population": 738030
+        },
+        "population": 12606998,
+        "area": 114763,
+        "gdp": 21371,
+        "hdi": 0.504
+    },
+    "BM": {
+        "id": "BM",
+        "name": "Bermuda (British Overseas Territory)",
+        "link": "/bermuda",
+        "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Flag_of_Bermuda.svg/2560px-Flag_of_Bermuda.svg.png",
+        "capital": {
+            "name": "Hamilton",
+            "population": 854
+        },
+        "largestCity": {
+            "name": "Hamilton",
+            "population": 854
+        },
+        "population": 64055,
+        "area": 54,
+        "gdp": 7546,
+        "hdi": 0.981
+    },
+    "BT": {
+        "id": "BT",
+        "name": "Kingdom of Bhutan",
+        "link": "/bhutan",
+        "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Flag_of_Bhutan.svg/1920px-Flag_of_Bhutan.svg.png",
+        "capital": {
+            "name": "Thimphu",
+            "population": 114551
+        },
+        "largestCity": {
+            "name": "Thimphu",
+            "population": 114551
+        },
+        "population": 777224,
+        "area": 38394,
+        "gdp": 3110,
+        "hdi": 0.681
+    },
+    "BO": {
+        "id": "BO",
+        "name": "Bolivia, Plurinational State of",
+        "link": "/bolivia",
+        "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Flag_of_Bolivia.svg/1920px-Flag_of_Bolivia.svg.png",
+        "capital": {
+            "name": "Sucre",
+            "population": 360544
+        },
+        "largestCity": {
+            "name": "Santa Cruz de la Sierra",
+            "population": 2405672
+        },
+        "population": 12006031,
+        "area": 1098581,
+        "gdp": 49334,
+        "hdi": 0.698
+    },
+    "BQ": {
+        "id": "BQ",
+        "name": "Bonaire, Sint Eustatius and Saba (NL)",
+        "link": "/bonaire",
+        "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Flag_of_Bonaire.svg/1920px-Flag_of_Bonaire.svg.png",
+        "capital": {
+            "name": "Kralendijk",
+            "population": 19011
+        },
+        "largestCity": {
+            "name": "Kralendijk",
+            "population": 19011
+        },
+        "population": 20104,
+        "area": 288,
+        "gdp": 583,
+        "hdi": 0.833
+    },
+    "BA": {
+        "id": "BA",
+        "name": "Bosnia and Herzegovina",
+        "link": "/bosnia_and_herzegovina",
+        "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Flag_of_Bosnia_and_Herzegovina.svg/2560px-Flag_of_Bosnia_and_Herzegovina.svg.png",
+        "capital": {
+            "name": "Sarajevo",
+            "population": 555210
+        },
+        "largestCity": {
+            "name": "Sarajevo",
+            "population": 555210
+        },
+        "population": 3264873,
+        "area": 51209,
+        "gdp": 29078,
+        "hdi": 0.779
+    },
+    "BW": {
+        "id": "BW",
+        "name": "Republic of Botswana",
+        "link": "/botswana",
+        "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Flag_of_Botswana.svg/1920px-Flag_of_Botswana.svg.png",
+        "capital": {
+            "name": "Gaborone",
+            "population": 421907
+        },
+        "largestCity": {
+            "name": "Gaborone",
+            "population": 421907
+        },
+        "population": 2410338,
+        "area": 582000,
+        "gdp": 21418,
+        "hdi": 0.708
+    },
+    "BR": {
+        "id": "BR",
+        "name": "Brazil, Federative Republic of",
+        "link": "/brazil",
+        "flag": "https://upload.wikimedia.org/wikipedia/en/thumb/0/05/Flag_of_Brazil.svg/1920px-Flag_of_Brazil.svg.png",
+        "capital": {
+            "name": "Brasilia",
+            "population": 4627771
+        },
+        "largestCity": {
+            "name": "Sao Paulo",
+            "population": 21734682
+        },
+        "population": 203080756,
+        "area": 8510346,
+        "gdp": 2331391,
+        "hdi": 0.760
+    },
+    "BN": {
+        "id": "BN",
+        "name": "Brunei Darussalam",
+        "link": "/brunei",
+        "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Flag_of_Brunei.svg/2560px-Flag_of_Brunei.svg.png",
+        "capital": {
+            "name": "Bandar Seri Begawan",
+            "population": 100700
+        },
+        "largestCity": {
+            "name": "Bandar Seri Begawan",
+            "population": 100700
+        },
+        "population": 445400,
+        "area": 5765,
+        "gdp": 15510,
+        "hdi": 0.823
+    },
+    "BG": {
+        "id": "BG",
+        "name": "Republic of Bulgaria",
+        "link": "/bulgaria",
+        "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Flag_of_Bulgaria.svg/2560px-Flag_of_Bulgaria.svg.png",
+        "capital": {
+            "name": "Sofia",
+            "population": 1662082
+        },
+        "largestCity": {
+            "name": "Sofia",
+            "population": 1662082
+        },
+        "population": 6445481,
+        "area": 110879,
+        "gdp": 107933,
+        "hdi": 0.799
+    },
+    "BF": {
+        "id": "BF",
+        "name": "Burkina Faso",
+        "link": "/burkina_faso",
+        "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Flag_of_Burkina_Faso.svg/1920px-Flag_of_Burkina_Faso.svg.png",
+        "capital": {
+            "name": "Ouagadougou",
+            "population": 3056042
+        },
+        "largestCity": {
+            "name": "Ouagadougou",
+            "population": 3056042
+        },
+        "population": 22752315,
+        "area": 274200,
+        "gdp": 21902,
+        "hdi": 0.438
+    },
+    "BI": {
+        "id": "BI",
+        "name": "Republic of Burundi",
+        "link": "/burundi",
+        "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Flag_of_Burundi.svg/2560px-Flag_of_Burundi.svg.png",
+        "capital": {
+            "name": "Gitega",
+            "population": 135467
+        },
+        "largestCity": {
+            "name": "Bujumbura",
+            "population": 1143202
+        },
+        "population": 12837740,
+        "area": 27834,
+        "gdp": 3075,
+        "hdi": 0.420
+    },
+    "CV": {
+        "id": "CV",
+        "name": "Cabo Verde, Republic of",
+        "link": "/cabo_verde",
+        "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Flag_of_Cape_Verde.svg/2560px-Flag_of_Cape_Verde.svg.png",
+        "capital": {
+            "name": "Praia",
+            "population": 159050
+        },
+        "largestCity": {
+            "name": "Praia",
+            "population": 159050
+        },
+        "population": 491233,
+        "area": 4033,
+        "gdp": 2718,
+        "hdi": 0.661
+    },
+    "KH": {
+        "id": "KH",
+        "name": "Kingdom of Cambodia",
+        "link": "/cambodia",
+        "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Flag_of_Cambodia.svg/2560px-Flag_of_Cambodia.svg.png",
+        "capital": {
+            "name": "Phnom Penh",
+            "population": 2353201
+        },
+        "largestCity": {
+            "name": "Phnom Penh",
+            "population": 2353201
+        },
+        "population": 17091464,
+        "area": 181035,
+        "gdp": 45150,
+        "hdi": 0.600
+    },
+    "CM": {
+        "id": "CM",
+        "name": "Republic of Cameroon",
+        "link": "/cameroon",
+        "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Flag_of_Cameroon.svg/1920px-Flag_of_Cameroon.svg.png",
+        "capital": {
+            "name": "Yaoundé",
+            "population": 2852096
+        },
+        "largestCity": {
+            "name": "Douala",
+            "population": 5066854
+        },
+        "population": 28088845,
+        "area": 475650,
+        "gdp": 53205,
+        "hdi": 0.587
+    },
+    "CA": {
+        "id": "CA",
+        "name": "Canada",
+        "link": "/canada",
+        "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Flag_of_Canada_%28Pantone%29.svg/1600px-Flag_of_Canada_%28Pantone%29.svg.png",
+        "capital": {
+            "name": "Ottawa",
+            "population": 1488307
+        },
+        "largestCity": {
+            "name": "Toronto",
+            "population": 6202225
+        },
+        "population": 41012563,
+        "area": 9984670,
+        "gdp": 2242182,
+        "hdi": 0.935
+    },
+    "KY": {
+        "id": "KY",
+        "name": "Cayman Islands (British Overseas Territory)",
+        "link": "/cayman_islands",
+        "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Flag_of_the_Cayman_Islands.svg/2560px-Flag_of_the_Cayman_Islands.svg.png",
+        "capital": {
+            "name": "George Town",
+            "population": 40957
+        },
+        "largestCity": {
+            "name": "George Town",
+            "population": 40957
+        },
+        "population": 71105,
+        "area": 264,
+        "gdp": 6844,
+        "hdi": 0.877
+    },
+    "CF": {
+        "id": "CF",
+        "name": "Central African Republic",
+        "link": "/central_african_republic",
+        "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Flag_of_the_Central_African_Republic.svg/1920px-Flag_of_the_Central_African_Republic.svg.png",
+        "capital": {
+            "name": "Bangui",
+            "population": 812407
+        },
+        "largestCity": {
+            "name": "Bangui",
+            "population": 812407
+        },
+        "population": 5633412,
+        "area": 622984,
+        "gdp": 2810,
+        "hdi": 0.387
+    },
+    "TD": {
+        "id": "TD",
+        "name": "Republic of Chad",
+        "link": "/chad",
+        "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Flag_of_Chad.svg/1920px-Flag_of_Chad.svg.png",
+        "capital": {
+            "name": "N'Djamena",
+            "population": 1605696
+        },
+        "largestCity": {
+            "name": "N'Djamena",
+            "population": 1605696
+        },
+        "population": 17414717,
+        "area": 1284000,
+        "gdp": 18697,
+        "hdi": 0.394
+    },
+    "CL": {
+        "id": "CL",
+        "name": "Republic of Chile",
+        "link": "/chile",
+        "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Flag_of_Chile.svg/1920px-Flag_of_Chile.svg.png",
+        "capital": {
+            "name": "Santiago",
+            "population": 6903479
+        },
+        "largestCity": {
+            "name": "Santiago",
+            "population": 6903479
+        },
+        "population": 19960889,
+        "area": 756102,
+        "gdp": 333760,
+        "hdi": 0.860
+    },
+    "CN": {
+        "id": "CN",
+        "name": "People's Republic of China",
+        "link": "/china",
+        "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Flag_of_the_People%27s_Republic_of_China.svg/1920px-Flag_of_the_People%27s_Republic_of_China.svg.png",
+        "capital": {
+            "name": "Beijing",
+            "population": 19202055
+        },
+        "largestCity": {
+            "name": "Shanghai",
+            "population": 28215780
+        },
+        "population": 1409670000,
+        "area": 9596960,
+        "gdp": 18532633,
+        "hdi": 0.788
+    },
+    "CX": {
+        "id": "CX",
+        "name": "Christmas Island (External Territory of Australia)",
+        "link": "/christmas_island",
+        "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Flag_of_Christmas_Island.svg/2560px-Flag_of_Christmas_Island.svg.png",
+        "capital": {
+            "name": "Flying Fish Cove",
+            "population": 1599
+        },
+        "largestCity": {
+            "name": "Flying Fish Cove",
+            "population": 1599
+        },
+        "population": 1692,
+        "area": 135,
+        "gdp": 52,
+        "hdi": 0.870
+    },
+    "CC": {
+        "id": "CC",
+        "name": "Cocos (Keeling) Islands (External Territory of Australia)",
+        "link": "/cocos_islands",
+        "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Flag_of_the_Cocos_%28Keeling%29_Islands.svg/2560px-Flag_of_the_Cocos_%28Keeling%29_Islands.svg.png",
+        "capital": {
+            "name": "West Island",
+            "population": 120
+        },
+        "largestCity": {
+            "name": "Bantam",
+            "population": 448
+        },
+        "population": 593,
+        "area": 14,
+        "gdp": 11,
+        "hdi": 0.870
+    },
+    "CO": {
+        "id": "CO",
+        "name": "Republic of Colombia",
+        "link": "/Colombia",
+        "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Flag_of_Colombia.svg/1920px-Flag_of_Colombia.svg.png",
+        "capital": {
+            "name": "Bogota",
+            "population": 10034325
+        },
+        "largestCity": {
+            "name": "Bogota",
+            "population": 10034325
+        },
+        "population": 52695952,
+        "area": 1138910,
+        "gdp": 386076,
+        "hdi": 0.758
+    },
+    "KM": {
+        "id": "KM",
+        "name": "Union of the Comoros",
+        "link": "/comoros",
+        "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Flag_of_the_Comoros.svg/2560px-Flag_of_the_Comoros.svg.png",
+        "capital": {
+            "name": "Moroni",
+            "population": 111326
+        },
+        "largestCity": {
+            "name": "Moroni",
+            "population": 111326
+        },
+        "population": 758316,
+        "area": 1861,
+        "gdp": 1422,
+        "hdi": 0.586
+    },
+    "CD": {
+        "id": "CD",
+        "name": "Congo, Democratic Republic of the",
+        "link": "/drc",
+        "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Flag_of_the_Democratic_Republic_of_the_Congo.svg/1920px-Flag_of_the_Democratic_Republic_of_the_Congo.svg.png",
+        "capital": {
+            "name": "Kinshasa",
+            "population": 17071000
+        },
+        "largestCity": {
+            "name": "Kinshasa",
+            "population": 17071000
+        },
+        "population": 98370000,
+        "area": 2344858,
+        "gdp": 73761,
+        "hdi": 0.481
+    },
+    "CG": {
+        "id": "CG",
+        "name": "Republic of the Congo",
+        "link": "/congo",
+        "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Flag_of_the_Republic_of_the_Congo.svg/1920px-Flag_of_the_Republic_of_the_Congo.svg.png",
+        "capital": {
+            "name": "Brazzaville",
+            "population": 2145783
+        },
+        "largestCity": {
+            "name": "Brazzaville",
+            "population": 2145783
+        },
+        "population": 6142180,
+        "area": 342000,
+        "gdp": 15501,
+        "hdi": 0.593
+    },
+    "CK": {
+        "id": "CK",
+        "name": "Cook Islands",
+        "link": "/cook_islands",
+        "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Flag_of_the_Cook_Islands.svg/250px-Flag_of_the_Cook_Islands.svg.png",
+        "capital": {
+            "name": "Avarua",
+            "population": 4906
+        },
+        "largestCity": {
+            "name": "Avarua",
+            "population": 4906
+        },
+        "population": 15040,
+        "area": 236,
+        "gdp": 289,
+        "hdi": 0.829
+    },
+    "CR": {
+        "id": "CR",
+        "name": "Republic of Costa Rica",
+        "link": "/costa_rica",
+        "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Flag_of_Costa_Rica.svg/2560px-Flag_of_Costa_Rica.svg.png",
+        "capital": {
+            "name": "San José",
+            "population": 2158898
+        },
+        "largestCity": {
+            "name": "San José",
+            "population": 2158898
+        },
+        "population": 5262225,
+        "area": 51100,
+        "gdp": 96058,
+        "hdi": 0.806
+    },
+    "HR": {
+        "id": "HR",
+        "name": "Republic of Croatia",
+        "link": "/croatia",
+        "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Flag_of_Croatia.svg/2560px-Flag_of_Croatia.svg.png",
+        "capital": {
+            "name": "Zagreb",
+            "population": 1219858
+        },
+        "largestCity": {
+            "name": "Zagreb",
+            "population": 1219858
+        },
+        "population": 3855641,
+        "area": 56594,
+        "gdp": 88076,
+        "hdi": 0.878
+    },
+    "CU": {
+        "id": "CU",
+        "name": "Republic of Cuba",
+        "link": "/cuba",
+        "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Flag_of_Cuba.svg/2560px-Flag_of_Cuba.svg.png",
+        "capital": {
+            "name": "Havana",
+            "population": 2149000
+        },
+        "largestCity": {
+            "name": "Havana",
+            "population": 2149000
+        },
+        "population": 11089511,
+        "area": 109884,
+        "gdp": 147193,
+        "hdi": 0.764
+    },
+    "CW": {
+        "id": "CW",
+        "name": "Curaçao (NL)",
+        "link": "/curacao",
+        "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Flag_of_Cura%C3%A7ao.svg/1920px-Flag_of_Cura%C3%A7ao.svg.png",
+        "capital": {
+            "name": "Willemstad",
+            "population": 101711
+        },
+        "largestCity": {
+            "name": "Willemstad",
+            "population": 101711
+        },
+        "population": 148925,
+        "area": 444,
+        "gdp": 3075,
+        "hdi": 0.811
+    },
+    "CY": {
+        "id": "CY",
+        "name": "Republic of Cyrpus",
+        "link": "/cyprus",
+        "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Flag_of_Cyprus.svg/1920px-Flag_of_Cyprus.svg.png",
+        "capital": {
+            "name": "Nicosia",
+            "population": 327004
+        },
+        "largestCity": {
+            "name": "Nicosia",
+            "population": 327004
+        },
+        "population": 918100,
+        "area": 9251,
+        "gdp": 34221,
+        "hdi": 0.907
+    },
+    "CZ": {
+        "id": "CZ",
+        "name": "Czech Republic",
+        "link": "/czechia",
+        "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Flag_of_the_Czech_Republic.svg/1920px-Flag_of_the_Czech_Republic.svg.png",
+        "capital": {
+            "name": "Prague",
+            "population": 2264690
+        },
+        "largestCity": {
+            "name": "Prague",
+            "population": 2264690
+        },
+        "population": 10900555,
+        "area": 78871,
+        "gdp": 325880,
+        "hdi": 0.895
+    },
+    "CI": {
+        "id": "CI",
+        "name": "Republic of Ivory Coast",
+        "link": "/ivory_coast",
+        "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Flag_of_C%C3%B4te_d%27Ivoire.svg/1920px-Flag_of_C%C3%B4te_d%27Ivoire.svg.png",
+        "capital": {
+            "name": "Yamoussoukro",
+            "population": 422072
+        },
+        "largestCity": {
+            "name": "Abidjan",
+            "population": 6341567
+        },
+        "population": 29389150,
+        "area": 322462,
+        "gdp": 86911,
+        "hdi": 0.534
+    },
+    "DK": {
+        "id": "DK",
+        "name": "Kingdom of Denmark",
+        "link": "/denmark",
+        "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Flag_of_Denmark.svg/1920px-Flag_of_Denmark.svg.png",
+        "capital": {
+            "name": "Copenhagen",
+            "population": 2400000
+        },
+        "largestCity": {
+            "name": "Copenhagen",
+            "population": 2400000
+        },
+        "population": 5967824,
+        "area": 42947,
+        "gdp": 409989,
+        "hdi": 0.952
+    },
+    "DJ": {
+        "id": "DJ",
+        "name": "Republic of Djibouti",
+        "link": "/djibouti",
+        "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Flag_of_Djibouti.svg/1920px-Flag_of_Djibouti.svg.png",
+        "capital": {
+            "name": "Djibouti",
+            "population": 600000
+        },
+        "largestCity": {
+            "name": "Djibouti",
+            "population": 600000
+        },
+        "population": 1001454,
+        "area": 23200,
+        "gdp": 4364,
+        "hdi": 0.515
+    },
+    "DM": {
+        "id": "DM",
+        "name": "Commonwealth of Dominica",
+        "link": "/dominica",
+        "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Flag_of_Dominica.svg/250px-Flag_of_Dominica.svg.png",
+        "capital": {
+            "name": "Roseau",
+            "population": 14725
+        },
+        "largestCity": {
+            "name": "Roseau",
+            "population": 14725
+        },
+        "population": 67408,
+        "area": 750,
+        "gdp": 708,
+        "hdi": 0.740
+    },
+    "DO": {
+        "id": "DO",
+        "name": "Dominican Republic",
+        "link": "/dominican_republic",
+        "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Flag_of_the_Dominican_Republic.svg/1920px-Flag_of_the_Dominican_Republic.svg.png",
+        "capital": {
+            "name": "Santo Domingo",
+            "population": 3587000
+        },
+        "largestCity": {
+            "name": "Santo Domingo",
+            "population": 3587000
+        },
+        "population": 10760028,
+        "area": 48670,
+        "gdp": 127356,
+        "hdi": 0.766
+    },
+    "EC": {
+        "id": "EC",
+        "name": "Republic of Ecuador",
+        "link": "/ecuador",
+        "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Flag_of_Ecuador.svg/1920px-Flag_of_Ecuador.svg.png",
+        "capital": {
+            "name": "Quito",
+            "population": 2782074
+        },
+        "largestCity": {
+            "name": "Guayaquil",
+            "population": 3043000
+        },
+        "population": 16938986,
+        "area": 283561,
+        "gdp": 121592,
+        "hdi": 0.765
+    },
+    "EG": {
+        "id": "EG",
+        "name": "Arab Republic of Egypt",
+        "link": "/egypt",
+        "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Flag_of_Egypt.svg/1920px-Flag_of_Egypt.svg.png",
+        "capital": {
+            "name": "Cairo",
+            "population": 22183000
+        },
+        "largestCity": {
+            "name": "Cairo",
+            "population": 22183000
+        },
+        "population": 105914499,
+        "area": 1001450,
+        "gdp": 347594,
+        "hdi": 0.728
+    },
+    "SV": {
+        "id": "SV",
+        "name": "Republic of El Salvador",
+        "link": "/el_salvador",
+        "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Flag_of_El_Salvador.svg/2560px-Flag_of_El_Salvador.svg.png",
+        "capital": {
+            "name": "San Salvador",
+            "population": 2404097
+        },
+        "largestCity": {
+            "name": "San Salvador",
+            "population": 2404097
+        },
+        "population": 6884888,
+        "area": 21041,
+        "gdp": 35333,
+        "hdi": 0.674
+    },
+    "GQ": {
+        "id": "GQ",
+        "name": "Republic of Equatorial Guinea",
+        "link": "/equatorial_guinea",
+        "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Flag_of_Equatorial_Guinea.svg/1920px-Flag_of_Equatorial_Guinea.svg.png",
+        "capital": {
+            "name": "Malabo",
+            "population": 297000
+        },
+        "largestCity": {
+            "name": "Bata",
+            "population": 455000
+        },
+        "population": 1558160,
+        "area": 28051,
+        "gdp": 10708,
+        "hdi": 0.650
+    },
+    "ER": {
+        "id": "ER",
+        "name": "State of Eritrea",
+        "link": "/eritrea",
+        "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Flag_of_Eritrea.svg/2560px-Flag_of_Eritrea.svg.png",
+        "capital": {
+            "name": "Asmara",
+            "population": 1035000
+        },
+        "largestCity": {
+            "name": "Asmara",
+            "population": 1035000
+        },
+        "population": 3748902,
+        "area": 117600,
+        "gdp": 2383,
+        "hdi": 0.493
+    },
+    "EE": {
+        "id": "EE",
+        "name": "Republic of Estonia",
+        "link": "/estonia",
+        "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Flag_of_Estonia.svg/2560px-Flag_of_Estonia.svg.png",
+        "capital": {
+            "name": "Tallinn",
+            "population": 614561
+        },
+        "largestCity": {
+            "name": "Tallinn",
+            "population": 614561
+        },
+        "population": 1374687,
+        "area": 45339,
+        "gdp": 43486,
+        "hdi": 0.899
+    },
+    "SZ": {
+        "id": "SZ",
+        "name": "Kingdom of Eswatini",
+        "link": "/eswatini",
+        "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Flag_of_Eswatini.svg/1920px-Flag_of_Eswatini.svg.png",
+        "capital": {
+            "name": "Mbabane + Lobamba",
+            "population": 9900
+        },
+        "largestCity": {
+            "name": "Mbabane",
+            "population": 94874
+        },
+        "population": 1223362,
+        "area": 17363,
+        "gdp": 5085,
+        "hdi": 0.610
+    },
+    "ET": {
+        "id": "ET",
+        "name": "Ethiopia, Federal Democratic Republic of",
+        "link": "/ethiopia",
+        "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Flag_of_Ethiopia.svg/2560px-Flag_of_Ethiopia.svg.png",
+        "capital": {
+            "name": "Addis Ababa",
+            "population": 5704000
+        },
+        "largestCity": {
+            "name": "Addis Ababa",
+            "population": 5704000
+        },
+        "population": 107334000,
+        "area": 1104300,
+        "gdp": 205130,
+        "hdi": 0.492
+    },
+    "FK": {
+        "id": "FK",
+        "name": "Falkland Islands (British Overseas Territory)",
+        "link": "/falkland_islands",
+        "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Flag_of_the_Falkland_Islands.svg/2560px-Flag_of_the_Falkland_Islands.svg.png",
+        "capital": {
+            "name": "Stanley",
+            "population": 2460
+        },
+        "largestCity": {
+            "name": "Stanley",
+            "population": 2460
+        },
+        "population": 3662,
+        "area": 12173,
+        "gdp": 229,
+        "hdi": 0.874
+    },
+    "FO": {
+        "id": "FO",
+        "name": "Faroe Islands (DK)",
+        "link": "/faroe_islands",
+        "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Flag_of_the_Faroe_Islands.svg/1920px-Flag_of_the_Faroe_Islands.svg.png",
+        "capital": {
+            "name": "Tórshavn",
+            "population": 23194
+        },
+        "largestCity": {
+            "name": "Tórshavn",
+            "population": 23194
+        },
+        "population": 54683,
+        "area": 1393,
+        "gdp": 3126,
+        "hdi": 0.950
+    },
+    "FJ": {
+        "id": "FJ",
+        "name": "Republic of Fiji",
+        "link": "/fiji",
+        "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Flag_of_Fiji.svg/2560px-Flag_of_Fiji.svg.png",
+        "capital": {
+            "name": "Tuva",
+            "population": 185913
+        },
+        "largestCity": {
+            "name": "Tuva",
+            "population": 185913
+        },
+        "population": 893468,
+        "area": 18272,
+        "gdp": 5801,
+        "hdi": 0.729
+    },
+    "FI": {
+        "id": "FI",
+        "name": "Republic of Finland",
+        "link": "/finland",
+        "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Flag_of_Finland.svg/2560px-Flag_of_Finland.svg.png",
+        "capital": {
+            "name": "Helsinki",
+            "population": 1520653
+        },
+        "largestCity": {
+            "name": "Helsinki",
+            "population": 1520653
+        },
+        "population": 5583385,
+        "area": 338145,
+        "gdp": 308055,
+        "hdi": 0.942
     },
     "FR": {
+        "id": "FR",
         "name": "Republic of France",
         "link": "/france",
-        "flag": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c3/Flag_of_France.svg/1920px-Flag_of_France.svg.png"
+        "flag": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c3/Flag_of_France.svg/1920px-Flag_of_France.svg.png",
+        "capital": {
+            "name": "Paris",
+            "population": 12244807	
+        },
+        "largestCity": {
+            "name": "Paris",
+            "population": 12244807
+        },
+        "population": 68428643,
+        "area": 643801,
+        "gdp": 3130014,
+        "hdi": 0.910
+    },
+    "GF": {
+        "id": "GF",
+        "name": "French Guiana (French Department)",
+        "link": "/france",
+        "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Coat_of_arms_of_French_Guiana%2C_according_to_the_original_displayed_at_the_Museum_Franconie%2C_at_Cayenne.svg/1280px-Coat_of_arms_of_French_Guiana%2C_according_to_the_original_displayed_at_the_Museum_Franconie%2C_at_Cayenne.svg.png",
+        "capital": {
+            "name": "Cayenne",
+            "population": 151887	
+        },
+        "largestCity": {
+            "name": "Cayenne",
+            "population": 151887
+        },
+        "population": 295385,
+        "area": 84000,
+        "gdp": 4580,
+        "hdi": 0.790
+    },
+    "PF": {
+        "id": "PF",
+        "name": "French Polynesia (French Territory)",
+        "link": "/france",
+        "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Flag_of_French_Polynesia.svg/1920px-Flag_of_French_Polynesia.svg.png",
+        "capital": {
+            "name": "Papeete",
+            "population": 124274	
+        },
+        "largestCity": {
+            "name": "Papeete",
+            "population": 124274
+        },
+        "population": 278786,
+        "area": 4167,
+        "gdp": 6010,
+        "hdi": 0.750
+    },
+    "TF": {
+        "id": "TF",
+        "name": "French Southern and Antarctic Lands (French)",
+        "link": "/france",
+        "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Flag_of_the_French_Southern_and_Antarctic_Lands.svg/1920px-Flag_of_the_French_Southern_and_Antarctic_Lands.svg.png",
+        "capital": {
+            "name": "Saint Pierre, in Réunion",
+            "population": 0	
+        },
+        "largestCity": {
+            "name": "Port-aux-Français (120 Summer, 45 Winter)",
+            "population": 120
+        },
+        "population": 400,
+        "area": 439666,
+        "gdp": 0,
+        "hdi": 1
+    },
+    "GA": {
+        "id": "GA",
+        "name": "Gabonese Republic",
+        "link": "/gabon",
+        "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Flag_of_Gabon.svg/1920px-Flag_of_Gabon.svg.png",
+        "capital": {
+            "name": "Libreville",
+            "population": 703904
+        },
+        "largestCity": {
+            "name": "Libreville",
+            "population": 703904
+        },
+        "population": 2233272,
+        "area": 267668,
+        "gdp": 21013,
+        "hdi": 0.693
+    },
+    "GE": {
+        "id": "GE",
+        "name": "Georgia",
+        "link": "/georgia",
+        "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Flag_of_Georgia.svg/1920px-Flag_of_Georgia.svg.png",
+        "capital": {
+            "name": "Tbilisi",
+            "population": 1079000
+        },
+        "largestCity": {
+            "name": "Tbilisi",
+            "population": 1079000
+        },
+        "population": 3694600,
+        "area": 69700,
+        "gdp": 32865,
+        "hdi": 0.814
+    },
+    "DE": {
+        "id": "DE",
+        "name": "Federal Republic of Germany",
+        "link": "/germany",
+        "flag": "https://upload.wikimedia.org/wikipedia/en/thumb/b/ba/Flag_of_Germany.svg/2560px-Flag_of_Germany.svg.png",
+        "capital": {
+            "name": "Berlin",
+            "population": 5950543
+        },
+        "largestCity": {
+            "name": "Rhine-Ruhr",
+            "population": 11478436
+        },
+        "population": 84669326,
+        "area": 357581,
+        "gdp": 4591100,
+        "hdi": 0.950
+    },
+    "GH": {
+        "id": "GH",
+        "name": "Republic of Ghana",
+        "link": "/ghana",
+        "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Flag_of_Ghana.svg/1920px-Flag_of_Ghana.svg.png",
+        "capital": {
+            "name": "Accra",
+            "population": 2605000
+        },
+        "largestCity": {
+            "name": "Accra",
+            "population": 2605000
+        },
+        "population": 30832019,
+        "area": 238537,
+        "gdp": 75244,
+        "hdi": 0.602
+    },
+    "GI": {
+        "id": "GI",
+        "name": "Gibraltar (British Overseas Territory)",
+        "link": "/gibraltar",
+        "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Flag_of_Gibraltar.svg/2560px-Flag_of_Gibraltar.svg.png",
+        "capital": {
+            "name": "Gibraltar",
+            "population": 34003
+        },
+        "largestCity": {
+            "name": "Gibraltar",
+            "population": 34003
+        },
+        "population": 34003,
+        "area": 6.8,
+        "gdp": 2441,
+        "hdi": 0.961
+    },
+    "GR": {
+        "id": "GR",
+        "name": "Greece (Hellenic Republic)",
+        "link": "/greece",
+        "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Flag_of_Greece.svg/1920px-Flag_of_Greece.svg.png",
+        "capital": {
+            "name": "Athens",
+            "population": 3638281
+        },
+        "largestCity": {
+            "name": "Athens",
+            "population": 3638281
+        },
+        "population": 10413982,
+        "area": 131957,
+        "gdp": 250276,
+        "hdi": 0.893
+    },
+    "GL": {
+        "id": "GL",
+        "name": "Greenland (DK)",
+        "link": "/greenland",
+        "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Flag_of_Greenland.svg/1920px-Flag_of_Greenland.svg.png",
+        "capital": {
+            "name": "Nuuk",
+            "population": 19872
+        },
+        "largestCity": {
+            "name": "Nuuk",
+            "population": 19872
+        },
+        "population": 56865,
+        "area": 2166086,
+        "gdp": 3235,
+        "hdi": 0.786
+    },
+    "GD": {
+        "id": "GD",
+        "name": "Grenada",
+        "link": "/grenada",
+        "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Flag_of_Grenada.svg/2560px-Flag_of_Grenada.svg.png",
+        "capital": {
+            "name": "St. George's",
+            "population": 33734
+        },
+        "largestCity": {
+            "name": "St. George's",
+            "population": 33734
+        },
+        "population": 112579,
+        "area": 345,
+        "gdp": 1406,
+        "hdi": 0.793
+    },
+    "GP": {
+        "id": "GP",
+        "name": "Guadeloupe (French Department)",
+        "link": "/france",
+        "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Unofficial_flag_of_Guadeloupe_%28local%29.svg/1920px-Unofficial_flag_of_Guadeloupe_%28local%29.svg.png",
+        "capital": {
+            "name": "Basse-Terre",
+            "population": 9779
+        },
+        "largestCity": {
+            "name": "Les Abymes",
+            "population": 52118
+        },
+        "population": 378561,
+        "area": 1628,
+        "gdp": 10152,
+        "hdi": 0.855
+    },
+    "GU": {
+        "id": "GU",
+        "name": "Guam (U.S. Territory)",
+        "link": "/usa",
+        "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Flag_of_Guam.svg/2560px-Flag_of_Guam.svg.png",
+        "capital": {
+            "name": "Hagåtña",
+            "population": 943
+        },
+        "largestCity": {
+            "name": "Dededo",
+            "population": 139825
+        },
+        "population": 168801,
+        "area": 540,
+        "gdp": 6300,
+        "hdi": 0.901
+    },
+    "GT": {
+        "id": "GT",
+        "name": "Republic of Guatemala",
+        "link": "/guatemala",
+        "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Flag_of_Guatemala.svg/2560px-Flag_of_Guatemala.svg.png",
+        "capital": {
+            "name": "Guatemala City",
+            "population": 2749161
+        },
+        "largestCity": {
+            "name": "Guatemala City",
+            "population": 2749161
+        },
+        "population": 17602431,
+        "area": 108889,
+        "gdp": 110035,
+        "hdi": 0.629
+    },
+    "GG": {
+        "id": "GG",
+        "name": "Guernsey (Britsih Crown Dependency)",
+        "link": "/guernsey",
+        "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Flag_of_Guernsey.svg/1920px-Flag_of_Guernsey.svg.png",
+        "capital": {
+            "name": "St. Peter Port",
+            "population": 18958
+        },
+        "largestCity": {
+            "name": "St. Peter Port",
+            "population": 18958
+        },
+        "population": 67334,
+        "area": 78,
+        "gdp": 4514,
+        "hdi": 0.975
+    },
+    "GN": {
+        "id": "GN",
+        "name": "Republic of Guinea",
+        "link": "/guinea",
+        "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Flag_of_Guinea.svg/1920px-Flag_of_Guinea.svg.png",
+        "capital": {
+            "name": "Conakry",
+            "population": 1660973
+        },
+        "largestCity": {
+            "name": "Conakry",
+            "population": 1660973
+        },
+        "population": 13261638,
+        "area": 245857,
+        "gdp": 25447,
+        "hdi": 0.471
+    },
+    "GW": {
+        "id": "GW",
+        "name": "Republic of Guinea-Bissau",
+        "link": "/guinea-bissau",
+        "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Flag_of_Guinea-Bissau.svg/2560px-Flag_of_Guinea-Bissau.svg.png",
+        "capital": {
+            "name": "Bissau",
+            "population": 492004
+        },
+        "largestCity": {
+            "name": "Bissau",
+            "population": 492004
+        },
+        "population": 1781308,
+        "area": 36125,
+        "gdp": 2151,
+        "hdi": 0.483
+    },
+    "GY": {
+        "id": "GY",
+        "name": "Guyana, Co-operative Republic of",
+        "link": "/guyana",
+        "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Flag_of_Guyana.svg/2560px-Flag_of_Guyana.svg.png",
+        "capital": {
+            "name": "Georgetown",
+            "population": 118363
+        },
+        "largestCity": {
+            "name": "Georgetown",
+            "population": 118363
+        },
+        "population": 772975,
+        "area": 214969,
+        "gdp": 21178,
+        "hdi": 0.742
+    },
+    "HT": {
+        "id": "HT",
+        "name": "Republic of Haiti",
+        "link": "/haiti",
+        "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Flag_of_Haiti.svg/2560px-Flag_of_Haiti.svg.png",
+        "capital": {
+            "name": "Port-au-Prince",
+            "population": 2618894
+        },
+        "largestCity": {
+            "name": "Port-au-Prince",
+            "population": 2618894
+        },
+        "population": 11743017,
+        "area": 27750,
+        "gdp": 24046,
+        "hdi": 0.552
+    },
+    "HM": {
+        "id": "HM",
+        "name": "Heard Island and McDonald Islands (AU Territory)",
+        "link": "/australia",
+        "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Flag_of_Australia_%28converted%29.svg/2560px-Flag_of_Australia_%28converted%29.svg.png",
+        "capital": {
+            "name": "None",
+            "population": 0
+        },
+        "largestCity": {
+            "name": "None",
+            "population": 0
+        },
+        "population": 0,
+        "area": 368,
+        "gdp": 0,
+        "hdi": 0
+    },
+    "VA": {
+        "id": "VA",
+        "name": "Holy See | Vatican City",
+        "link": "/vatican",
+        "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Flag_of_the_Vatican_City_%282023%E2%80%93present%29.svg/1280px-Flag_of_the_Vatican_City_%282023%E2%80%93present%29.svg.png",
+        "capital": {
+            "name": "Vatican City",
+            "population": 764
+
+        },
+        "largestCity": {
+            "name": "Vatican City",
+            "population": 764
+        },
+        "population": 764,
+        "area": 0.49,
+        "gdp": 16,
+        "hdi": 1
+    },
+    "HN": {
+        "id": "HN",
+        "name": "Republic of Honduras",
+        "link": "/honduras",
+        "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Flag_of_Honduras.svg/2560px-Flag_of_Honduras.svg.png",
+        "capital": {
+            "name": "Tegucigalpa",
+            "population": 1326460
+        },
+        "largestCity": {
+            "name": "Tegucigalpa",
+            "population": 1326460
+        },
+        "population": 9745149,
+        "area": 112492,
+        "gdp": 37355,
+        "hdi": 0.624
+    },
+    "HK": {
+        "id": "HK",
+        "name": "Hong Kong (Special Administrative Region)",
+        "link": "/china",
+        "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Flag_of_Hong_Kong.svg/1920px-Flag_of_Hong_Kong.svg.png",
+        "capital": {
+            "name": "Hong Kong",
+            "population": 7498100
+        },
+        "largestCity": {
+            "name": "Hong Kong",
+            "population": 7498100
+        },
+        "population": 7498100,
+        "area": 1114,
+        "gdp": 406775,
+        "hdi": 0.956
+    },
+    "HU": {
+        "id": "HU",
+        "name": "Hungary",
+        "link": "/hungary",
+        "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Flag_of_Hungary.svg/2560px-Flag_of_Hungary.svg.png",
+        "capital": {
+            "name": "Budapest",
+            "population": 3303786
+        },
+        "largestCity": {
+            "name": "Budapest",
+            "population": 3303786
+        },
+        "population": 9584000,
+        "area": 93025,
+        "gdp": 223413,
+        "hdi": 0.851
+    },
+    "IS": {
+        "id": "IS",
+        "name": "Iceland",
+        "link": "/iceland",
+        "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Flag_of_Iceland.svg/1920px-Flag_of_Iceland.svg.png",
+        "capital": {
+            "name": "Reykjavík",
+            "population": 247590
+        },
+        "largestCity": {
+            "name": "Reykjavík",
+            "population": 247590
+        },
+        "population": 383726,
+        "area": 103000,
+        "gdp": 33338,
+        "hdi": 0.959
+    },
+    "IN": {
+        "id": "IN",
+        "name": "Republic of India",
+        "link": "/india",
+        "flag": "https://upload.wikimedia.org/wikipedia/en/thumb/4/41/Flag_of_India.svg/1920px-Flag_of_India.svg.png",
+        "capital": {
+            "name": "New Delhi",
+            "population": 58150000
+        },
+        "largestCity": {
+            "name": "New Delhi",
+            "population": 58150000
+        },
+        "population": 1400744000,
+        "area": 3287263,
+        "gdp": 3937011,
+        "hdi": 0.644
+    },
+    "ID": {
+        "id": "ID",
+        "name": "Republic of Indonesia",
+        "link": "/indonesia",
+        "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Flag_of_Indonesia.svg/250px-Flag_of_Indonesia.svg.png",
+        "capital": {
+            "name": "Jakarta",
+            "population": 33900000
+        },
+        "largestCity": {
+            "name": "Jakarta",
+            "population": 33900000
+        },
+        "population": 279118866,
+        "area": 1904569,
+        "gdp": 1475690,
+        "hdi": 0.713
+    },
+    "IR": {
+        "id": "IR",
+        "name": "Islamic Republic of Iran",
+        "link": "/iran",
+        "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Flag_of_Iran_%28official%29.svg/250px-Flag_of_Iran_%28official%29.svg.png",
+        "capital": {
+            "name": "Tehran",
+            "population": 15800000
+        },
+        "largestCity": {
+            "name": "Tehran",
+            "population": 15800000
+        },
+        "population": 85040432,
+        "area": 1648195,
+        "gdp": 464181,
+        "hdi": 0.780
+    },
+    "IQ": {
+        "id": "IQ",
+        "name": "Republic of Iraq",
+        "link": "/iraq",
+        "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Flag_of_Iraq.svg/1920px-Flag_of_Iraq.svg.png",
+        "capital": {
+            "name": "Baghdad",
+            "population": 7921000
+        },
+        "largestCity": {
+            "name": "Baghdad",
+            "population": 7921000
+        },
+        "population": 43324000,
+        "area": 438317,
+        "gdp": 265894,
+        "hdi": 0.673
+    },
+    "IE": {
+        "id": "IE",
+        "name": "Republic of Ireland",
+        "link": "/ireland",
+        "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Flag_of_Ireland.svg/2560px-Flag_of_Ireland.svg.png",
+        "capital": {
+            "name": "Dublin",
+            "population": 2106545
+        },
+        "largestCity": {
+            "name": "Dublin",
+            "population": 2106545
+        },
+        "population": 5281600,
+        "area": 70273,
+        "gdp": 564020,
+        "hdi": 0.950
+    },
+    "IM": {
+        "id": "IM",
+        "name": "Isle of Man (Britsih Crown Dependency)",
+        "link": "/isle_of_man",
+        "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Flag_of_the_Isle_of_Man.svg/2560px-Flag_of_the_Isle_of_Man.svg.png",
+        "capital": {
+            "name": "Douglas",
+            "population": 26677
+        },
+        "largestCity": {
+            "name": "Douglas",
+            "population": 26677
+        },
+        "population": 84069,
+        "area": 574,
+        "gdp": 7490,
+        "hdi": 0.849
+    },
+    "IL": {
+        "id": "IL",
+        "name": "State of Israel",
+        "link": "/israel",
+        "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Flag_of_Israel.svg/1920px-Flag_of_Israel.svg.png",
+        "capital": {
+            "name": "Jerusalem",
+            "population": 1253900
+        },
+        "largestCity": {
+            "name": "Tel Aviv-Yafo",
+            "population": 4156900
+        },
+        "population": 9892000,
+        "area": 21937,
+        "gdp": 530664,
+        "hdi": 0.915
+    },
+    "IT": {
+        "id": "IT",
+        "name": "Italian Republic",
+        "link": "/italy",
+        "flag": "https://upload.wikimedia.org/wikipedia/en/thumb/0/03/Flag_of_Italy.svg/1920px-Flag_of_Italy.svg.png",
+        "capital": {
+            "name": "Rome",
+            "population": 4008095
+        },
+        "largestCity": {
+            "name": "Milan",
+            "population": 4060624
+        },
+        "population": 58966453,
+        "area": 302068,
+        "gdp": 2328028,
+        "hdi": 0.906
+    },
+    "JM": {
+        "id": "JM",
+        "name": "Jamaica",
+        "link": "/jamaica",
+        "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Flag_of_Jamaica.svg/250px-Flag_of_Jamaica.svg.png",
+        "capital": {
+            "name": "Kingston",
+            "population": 662435
+        },
+        "largestCity": {
+            "name": "Kingston",
+            "population": 662435
+        },
+        "population": 2825544,
+        "area": 10991,
+        "gdp": 20098,
+        "hdi": 0.706
+    },
+    "JP": {
+        "id": "JP",
+        "name": "Japan",
+        "link": "/japan",
+        "flag": "https://upload.wikimedia.org/wikipedia/en/thumb/9/9e/Flag_of_Japan.svg/1920px-Flag_of_Japan.svg.png",
+        "capital": {
+            "name": "Tokyo",
+            "population": 40800000
+        },
+        "largestCity": {
+            "name": "Tokyo",
+            "population": 40800000
+        },
+        "population": 123890000,
+        "area": 377915,
+        "gdp": 4110452,
+        "hdi": 0.920
+    },
+    "JE": {
+        "id": "JE",
+        "name": "Jersey (British Crown Dependency)",
+        "link": "/jersey",
+        "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Flag_of_Jersey.svg/2560px-Flag_of_Jersey.svg.png",
+        "capital": {
+            "name": "St. Helier",
+            "population": 35822
+        },
+        "largestCity": {
+            "name": "St. Helier",
+            "population": 35822
+        },
+        "population": 103267,
+        "area": 120,
+        "gdp": 6200,
+        "hdi": 0.985
+    },
+    "JO": {
+        "id": "JO",
+        "name": "Jordan, Hashemite Kingdom of",
+        "link": "/jordan",
+        "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Flag_of_Jordan.svg/2560px-Flag_of_Jordan.svg.png",
+        "capital": {
+            "name": "Amman",
+            "population": 4061150
+        },
+        "largestCity": {
+            "name": "Amman",
+            "population": 4061150
+        },
+        "population": 11516000,
+        "area": 89318,
+        "gdp": 53570,
+        "hdi": 0.736
+    },
+    "KZ": {
+        "id": "KZ",
+        "name": "Republic of Kazakhstan",
+        "link": "/kazakhstan",
+        "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Flag_of_Kazakhstan_%28President_of_Kazakhstan_website%29.svg/2560px-Flag_of_Kazakhstan_%28President_of_Kazakhstan_website%29.svg.png",
+        "capital": {
+            "name": "Astana",
+            "population": 1550000
+        },
+        "largestCity": {
+            "name": "Almaty",
+            "population": 2249500
+        },
+        "population": 20118478,
+        "area": 2724910,
+        "gdp": 296740,
+        "hdi": 0.802
+    },
+    "KE": {
+        "id": "KE",
+        "name": "Republic of Kenya",
+        "link": "/kenya",
+        "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Flag_of_Kenya.svg/1920px-Flag_of_Kenya.svg.png",
+        "capital": {
+            "name": "Nairobi",
+            "population": 4828000
+        },
+        "largestCity": {
+            "name": "Nairobi",
+            "population": 4828000
+        },
+        "population": 52428290,
+        "area": 580367,
+        "gdp": 104001,
+        "hdi": 0.601
+    },
+    "KI": {
+        "id": "KI",
+        "name": "Republic of Kiribati",
+        "link": "/kiribati",
+        "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Flag_of_Kiribati.svg/2560px-Flag_of_Kiribati.svg.png",
+        "capital": {
+            "name": "Tarawa",
+            "population": 70480
+        },
+        "largestCity": {
+            "name": "Tarawa",
+            "population": 70480
+        },
+        "population": 120740,
+        "area": 811,
+        "gdp": 311,
+        "hdi": 0.628
+    },
+    "KP": {
+        "id": "KP",
+        "name": "Korea, Democratic People's Republic of",
+        "link": "/north_korea",
+        "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Flag_of_North_Korea.svg/2560px-Flag_of_North_Korea.svg.png",
+        "capital": {
+            "name": "Pyongyang",
+            "population": 3157538
+        },
+        "largestCity": {
+            "name": "Pyongyang",
+            "population": 3157538
+        },
+        "population": 25660000,
+        "area": 120538,
+        "gdp": 15176,
+        "hdi": 0.766
+    },
+    "KR": {
+        "id": "KR",
+        "name": "Republic of Korea",
+        "link": "/south_korea",
+        "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Flag_of_South_Korea.svg/1920px-Flag_of_South_Korea.svg.png",
+        "capital": {
+            "name": "Seoul",
+            "population": 26037000
+        },
+        "largestCity": {
+            "name": "Seoul",
+            "population": 26037000
+        },
+        "population": 51285153,
+        "area": 100432,
+        "gdp": 1760947,
+        "hdi": 0.929
+    },
+    "KW": {
+        "id": "KW",
+        "name": "State of Kuwait",
+        "link": "/kuwait",
+        "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Flag_of_Kuwait.svg/2560px-Flag_of_Kuwait.svg.png",
+        "capital": {
+            "name": "Kuwait City",
+            "population": 3067345
+        },
+        "largestCity": {
+            "name": "Kuwait City",
+            "population": 3067345
+        },
+        "population": 4913271,
+        "area": 17818,
+        "gdp": 160397,
+        "hdi": 0.847
+    },
+    "KG": {
+        "id": "KG",
+        "name": "Kyrgyz Republic",
+        "link": "/kyrgyzstan",
+        "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Flag_of_Kyrgyzstan.svg/2560px-Flag_of_Kyrgyzstan.svg.png",
+        "capital": {
+            "name": "Bishkek",
+            "population": 1145044
+        },
+        "largestCity": {
+            "name": "Bishkek",
+            "population": 1145044
+        },
+        "population": 7100000,
+        "area": 199949,
+        "gdp": 13599,
+        "hdi": 0.701
+    },
+    "LA": {
+        "id": "LA",
+        "name": "Lao People's Democratic Republic",
+        "link": "/laos",
+        "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Flag_of_Laos.svg/1920px-Flag_of_Laos.svg.png",
+        "capital": {
+            "name": "Vientiane",
+            "population": 1003004
+        },
+        "largestCity": {
+            "name": "Vientiane",
+            "population": 1003004
+        },
+        "population": 7443000,
+        "area": 236800,
+        "gdp": 15190,
+        "hdi": 0.620
+    },
+    "LV": {
+        "id": "LV",
+        "name": "Republic of Latvia",
+        "link": "/latvia",
+        "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Flag_of_Latvia.svg/2560px-Flag_of_Latvia.svg.png",
+        "capital": {
+            "name": "Riga",
+            "population": 920643
+        },
+        "largestCity": {
+            "name": "Riga",
+            "population": 920643
+        },
+        "population": 1862700,
+        "area": 64594,
+        "gdp": 45466,
+        "hdi": 0.879
+    },
+    "LB": {
+        "id": "LB",
+        "name": "Republic of Lebanon",
+        "link": "/lebanon",
+        "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Flag_of_Lebanon.svg/1920px-Flag_of_Lebanon.svg.png",
+        "capital": {
+            "name": "Beirut",
+            "population": 2145527
+        },
+        "largestCity": {
+            "name": "Beirut",
+            "population": 2145527
+        },
+        "population": 5490000,
+        "area": 10452,
+        "gdp": 21780,
+        "hdi": 0.723
+    },
+    "LS": {
+        "id": "LS",
+        "name": "Kingdom of Lesotho",
+        "link": "/lesotho",
+        "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Flag_of_Lesotho.svg/1920px-Flag_of_Lesotho.svg.png",
+        "capital": {
+            "name": "Maseru",
+            "population": 330760
+        },
+        "largestCity": {
+            "name": "Maseru",
+            "population": 330760
+        },
+        "population": 2306000,
+        "area": 30355,
+        "gdp": 2395,
+        "hdi": 0.521
+    },
+    "LR": {
+        "id": "LR",
+        "name": "Republic of Liberia",
+        "link": "/liberia",
+        "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Flag_of_Liberia.svg/2560px-Flag_of_Liberia.svg.png",
+        "capital": {
+            "name": "Monrovia",
+            "population": 2225911
+        },
+        "largestCity": {
+            "name": "Monrovia",
+            "population": 2225911
+        },
+        "population": 5248621,
+        "area": 111369,
+        "gdp": 4754,
+        "hdi": 0.487
+    },
+    "LY": {
+        "id": "LY",
+        "name": "State of Libya",
+        "link": "/libya",
+        "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Flag_of_Libya.svg/2560px-Flag_of_Libya.svg.png",
+        "capital": {
+            "name": "Tripoli",
+            "population": 1183000
+        },
+        "largestCity": {
+            "name": "Tripoli",
+            "population": 1183000
+        },
+        "population": 6931061,
+        "area": 1759540,
+        "gdp": 48221,
+        "hdi": 0.746
+    },
+    "LI": {
+        "id": "LI",
+        "name": "Principality of Liechtenstein",
+        "link": "/liechtenstein",
+        "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Flag_of_Liechtenstein.svg/2560px-Flag_of_Liechtenstein.svg.png",
+        "capital": {
+            "name": "Vaduz",
+            "population": 5696
+        },
+        "largestCity": {
+            "name": "Schaan",
+            "population": 6039
+        },
+        "population": 40023,
+        "area": 160,
+        "gdp": 7710,
+        "hdi": 0.942
+    },
+    "LT": {
+        "id": "LT",
+        "name": "Republic of Lithuania",
+        "link": "/lithuania",
+        "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Flag_of_Lithuania.svg/2560px-Flag_of_Lithuania.svg.png",
+        "capital": {
+            "name": "Vilnius",
+            "population": 853656
+        },
+        "largestCity": {
+            "name": "Vilnius",
+            "population": 853656
+        },
+        "population": 2891215,
+        "area": 65286,
+        "gdp": 81170,
+        "hdi": 0.879
+    },
+    "LU": {
+        "id": "LU",
+        "name": "Grand Duchy of Luxembourg",
+        "link": "/luxembourg",
+        "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Flag_of_Luxembourg.svg/2560px-Flag_of_Luxembourg.svg.png",
+        "capital": {
+            "name": "Luxembourg",
+            "population": 134697
+        },
+        "largestCity": {
+            "name": "Luxembourg",
+            "population": 134697
+        },
+        "population": 672020,
+        "area": 2586,
+        "gdp": 88556,
+        "hdi": 0.927
+    },
+    "MO": {
+        "id": "MO",
+        "name": "Macao (Special Administrative Zone)",
+        "link": "/macao",
+        "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Flag_of_Macau.svg/1920px-Flag_of_Macau.svg.png",
+        "capital": {
+            "name": "Macao",
+            "population": 712651
+        },
+        "largestCity": {
+            "name": "Macao",
+            "population": 712651
+        },
+        "population": 712651,
+        "area": 33,
+        "gdp": 54677,
+        "hdi": 0.925
+    },
+    "MG": {
+        "id": "MG",
+        "name": "Republic of Madagascar",
+        "link": "/madagascar",
+        "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Flag_of_Madagascar.svg/1920px-Flag_of_Madagascar.svg.png",
+        "capital": {
+            "name": "Antananarivo",
+            "population": 2300000
+        },
+        "largestCity": {
+            "name": "Antananarivo",
+            "population": 2300000
+        },
+        "population": 28290875,
+        "area": 587041,
+        "gdp": 16465,
+        "hdi": 0.487
+    },
+    "MW": {
+        "id": "MW",
+        "name": "Republic of Malawi",
+        "link": "/malawi",
+        "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Flag_of_Malawi.svg/1920px-Flag_of_Malawi.svg.png",
+        "capital": {
+            "name": "Lilongwe",
+            "population": 989318
+        },
+        "largestCity": {
+            "name": "Lilongwe",
+            "population": 989318
+        },
+        "population": 22245431,
+        "area": 118484,
+        "gdp": 11241,
+        "hdi": 0.508
+    },
+    "MY": {
+        "id": "MY",
+        "name": "Malaysia",
+        "link": "/malaysia",
+        "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Flag_of_Malaysia.svg/2560px-Flag_of_Malaysia.svg.png",
+        "capital": {
+            "name": "Kuala Lumpur",
+            "population": 7564000
+        },
+        "largestCity": {
+            "name": "Kuala Lumpur",
+            "population": 7564000
+        },
+        "population": 33980600,
+        "area": 329847,
+        "gdp": 445519,
+        "hdi": 0.807
+    },
+    "MV": {
+        "id": "MV",
+        "name": "Republic of Maldives",
+        "link": "/maldives",
+        "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Flag_of_Maldives.svg/1920px-Flag_of_Maldives.svg.png",
+        "capital": {
+            "name": "Malé",
+            "population": 211908
+        },
+        "largestCity": {
+            "name": "Malé",
+            "population": 211908
+        },
+        "population": 515132,
+        "area": 300,
+        "gdp": 7199,
+        "hdi": 0.762
+    },
+    "ML": {
+        "id": "ML",
+        "name": "Republic of Mali",
+        "link": "/mali",
+        "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Flag_of_Mali.svg/1920px-Flag_of_Mali.svg.png",
+        "capital": {
+            "name": "Bamako",
+            "population": 211908
+        },
+        "largestCity": {
+            "name": "Bamako",
+            "population": 211908
+        },
+        "population": 22395489,
+        "area": 1240192,
+        "gdp": 21662,
+        "hdi": 0.410
+    },
+    "MT": {
+        "id": "MT",
+        "name": "Republic of Malta",
+        "link": "/malta",
+        "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Flag_of_Malta.svg/1920px-Flag_of_Malta.svg.png",
+        "capital": {
+            "name": "Valletta",
+            "population": 480134
+        },
+        "largestCity": {
+            "name": "Valletta",
+            "population": 480134
+        },
+        "population": 542051,
+        "area": 315,
+        "gdp": 22737,
+        "hdi": 0.915
+    },
+    "MH": {
+        "id": "MH",
+        "name": "Republic of the Marshall Islands",
+        "link": "/marshall_islands",
+        "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Flag_of_the_Marshall_Islands.svg/2560px-Flag_of_the_Marshall_Islands.svg.png",
+        "capital": {
+            "name": "Majuro",
+            "population": 23156
+        },
+        "largestCity": {
+            "name": "Majuro",
+            "population": 23156
+        },
+        "population": 42418,
+        "area": 181,
+        "gdp": 305,
+        "hdi": 0.731
+    },
+    "MQ": {
+        "id": "MQ",
+        "name": "Martinique (French Department)",
+        "link": "/france",
+        "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Flag-of-Martinique.svg/1920px-Flag-of-Martinique.svg.png",
+        "capital": {
+            "name": "Fort-de-France",
+            "population": 82502
+        },
+        "largestCity": {
+            "name": "Fort-de-France",
+            "population": 82502
+        },
+        "population": 349925,
+        "area": 1128,
+        "gdp": 9700,
+        "hdi": 0.848
+    },
+    "MR": {
+        "id": "MR",
+        "name": "Mauritania, Islamic Republic of",
+        "link": "/mauritania",
+        "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Flag_of_Mauritania.svg/1920px-Flag_of_Mauritania.svg.png",
+        "capital": {
+            "name": "Nouakchott",
+            "population": 1195600
+        },
+        "largestCity": {
+            "name": "Nouakchott",
+            "population": 1195600
+        },
+        "population": 4475683,
+        "area": 1030700,
+        "gdp": 10628,
+        "hdi": 0.540
+    },
+    "MU": {
+        "id": "MU",
+        "name": "Republic of Mauritius",
+        "link": "/mauritius",
+        "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Flag_of_Mauritius.svg/1920px-Flag_of_Mauritius.svg.png",
+        "capital": {
+            "name": "Port Louis",
+            "population": 147066
+        },
+        "largestCity": {
+            "name": "Port Louis",
+            "population": 147066
+        },
+        "population": 1260379,
+        "area": 2040,
+        "gdp": 16359,
+        "hdi": 0.796
+    },
+    "YT": {
+        "id": "YT",
+        "name": "Mayotte (French Department)",
+        "link": "/france",
+        "flag": "https://upload.wikimedia.org/wikipedia/commons/2/2b/Coat_of_Arms_of_Mayotte.PNG",
+        "capital": {
+            "name": "Mamoudzou",
+            "population": 71437
+        },
+        "largestCity": {
+            "name": "Mamoudzou",
+            "population": 71437
+        },
+        "population": 320901,
+        "area": 374,
+        "gdp": 3130,
+        "hdi": 0.781
+    },
+    "MX": {
+        "id": "MX",
+        "name": "United Mexican States",
+        "link": "/mexico",
+        "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Flag_of_Mexico.svg/2560px-Flag_of_Mexico.svg.png",
+        "capital": {
+            "name": "Mexico City",
+            "population": 21804515
+        },
+        "largestCity": {
+            "name": "Mexico City",
+            "population": 21804515
+        },
+        "population": 129713690,
+        "area": 1964375,
+        "gdp": 2017025,
+        "hdi": 0.781
+    },
+    "FM": {
+        "id": "FM",
+        "name": "TODO",
+        "link": "/micronesia",
+        "flag": "TODO",
+        "capital": {
+            "name": "TODO",
+            "population": 1000000000000
+        },
+        "largestCity": {
+            "name": "TODO",
+            "population": 1000000000000
+        },
+        "population": 105754,
+        "area": 702,
+        "gdp": 484,
+        "hdi": 0.634
+    },
+    "MD": {
+        "id": "MD",
+        "name": "TODO",
+        "link": "/moldova",
+        "flag": "TODO",
+        "capital": {
+            "name": "TODO",
+            "population": 1000000000000
+        },
+        "largestCity": {
+            "name": "TODO",
+            "population": 1000000000000
+        },
+        "population": 2423300,
+        "area": 33847,
+        "gdp": 18356,
+        "hdi": 0.763
+    },
+    "MC": {
+        "id": "MC",
+        "name": "TODO",
+        "link": "/monaco",
+        "flag": "TODO",
+        "capital": {
+            "name": "TODO",
+            "population": 1000000000000
+        },
+        "largestCity": {
+            "name": "TODO",
+            "population": 1000000000000
+        },
+        "population": 38367,
+        "area": 2,
+        "gdp": 8784,
+        "hdi": "TODO"
+    },
+    "MN": {
+        "id": "MN",
+        "name": "TODO",
+        "link": "/mongolia",
+        "flag": "TODO",
+        "capital": {
+            "name": "TODO",
+            "population": 1000000000000
+        },
+        "largestCity": {
+            "name": "TODO",
+            "population": 1000000000000
+        },
+        "population": 3504741,
+        "area": 1564116,
+        "gdp": 21943,
+        "hdi": 0.741
+    },
+    "ME": {
+        "id": "ME",
+        "name": "TODO",
+        "link": "/montenegro",
+        "flag": "TODO",
+        "capital": {
+            "name": "TODO",
+            "population": 1000000000000
+        },
+        "largestCity": {
+            "name": "TODO",
+            "population": 1000000000000
+        },
+        "population": 616695,
+        "area": 13812,
+        "gdp": 8010,
+        "hdi": 0.844
+    },
+    "MS": {
+        "id": "MS",
+        "name": "TODO",
+        "link": "/montserrat",
+        "flag": "TODO",
+        "capital": {
+            "name": "TODO",
+            "population": 1000000000000
+        },
+        "largestCity": {
+            "name": "TODO",
+            "population": 1000000000000
+        },
+        "population": 4433,
+        "area": 103,
+        "gdp": 72,
+        "hdi": "TODO"
+    },
+    "MA": {
+        "id": "MA",
+        "name": "TODO",
+        "link": "/morocco",
+        "flag": "TODO",
+        "capital": {
+            "name": "TODO",
+            "population": 1000000000000
+        },
+        "largestCity": {
+            "name": "TODO",
+            "population": 1000000000000
+        },
+        "population": 37022000,
+        "area": 446550,
+        "gdp": 152377,
+        "hdi": 0.698
+    },
+    "MZ": {
+        "id": "MZ",
+        "name": "TODO",
+        "link": "/mozambique",
+        "flag": "TODO",
+        "capital": {
+            "name": "TODO",
+            "population": 1000000000000
+        },
+        "largestCity": {
+            "name": "TODO",
+            "population": 1000000000000
+        },
+        "population": 32419747,
+        "area": 799380,
+        "gdp": 22975,
+        "hdi": 0.461
+    },
+    "MM": {
+        "id": "MM",
+        "name": "TODO",
+        "link": "/myanmar",
+        "flag": "TODO",
+        "capital": {
+            "name": "TODO",
+            "population": 1000000000000
+        },
+        "largestCity": {
+            "name": "TODO",
+            "population": 1000000000000
+        },
+        "population": 56242997,
+        "area": 676578,
+        "gdp": 68006,
+        "hdi": 0.608
+    },
+    "NA": {
+        "id": "NA",
+        "name": "TODO",
+        "link": "/namibia",
+        "flag": "TODO",
+        "capital": {
+            "name": "TODO",
+            "population": 1000000000000
+        },
+        "largestCity": {
+            "name": "TODO",
+            "population": 1000000000000
+        },
+        "population": 3022401,
+        "area": 824292,
+        "gdp": 12765,
+        "hdi": 0.610
+    },
+    "NR": {
+        "id": "NR",
+        "name": "TODO",
+        "link": "/nauru",
+        "flag": "TODO",
+        "capital": {
+            "name": "TODO",
+            "population": 1000000000000
+        },
+        "largestCity": {
+            "name": "TODO",
+            "population": 1000000000000
+        },
+        "population": 11680,
+        "area": 21,
+        "gdp": 161,
+        "hdi": 0.696
+    },
+    "NP": {
+        "id": "NP",
+        "name": "TODO",
+        "link": "/nepal",
+        "flag": "TODO",
+        "capital": {
+            "name": "TODO",
+            "population": 1000000000000
+        },
+        "largestCity": {
+            "name": "TODO",
+            "population": 1000000000000
+        },
+        "population": 29164578,
+        "area": 147181,
+        "gdp": 44179,
+        "hdi": 0.601
+    },
+    "NL": {
+        "id": "NL",
+        "name": "TODO",
+        "link": "/netherlands",
+        "flag": "TODO",
+        "capital": {
+            "name": "TODO",
+            "population": 1000000000000
+        },
+        "largestCity": {
+            "name": "TODO",
+            "population": 1000000000000
+        },
+        "population": 17974786,
+        "area": 41865,
+        "gdp": 1142513,
+        "hdi": 0.946
+    },
+    "NC": {
+        "id": "NC",
+        "name": "New Caledonia (French Territory)",
+        "link": "/new_caledonia",
+        "flag": "TODO",
+        "capital": {
+            "name": "TODO",
+            "population": 1000000000000
+        },
+        "largestCity": {
+            "name": "TODO",
+            "population": 1000000000000
+        },
+        "population": "TODO",
+        "area": "TODO",
+        "gdp": "TODO",
+        "hdi": "TODO"
+    },
+    "NZ": {
+        "id": "NZ",
+        "name": "TODO",
+        "link": "/new_zealand",
+        "flag": "TODO",
+        "capital": {
+            "name": "TODO",
+            "population": 1000000000000
+        },
+        "largestCity": {
+            "name": "TODO",
+            "population": 1000000000000
+        },
+        "population": 5338900,
+        "area": 268838,
+        "gdp": 257625,
+        "hdi": 0.939
+    },
+    "NI": {
+        "id": "NI",
+        "name": "TODO",
+        "link": "/nicaragua",
+        "flag": "TODO",
+        "capital": {
+            "name": "TODO",
+            "population": 1000000000000
+        },
+        "largestCity": {
+            "name": "TODO",
+            "population": 1000000000000
+        },
+        "population": 6803886,
+        "area": 130373,
+        "gdp": 18829,
+        "hdi": 0.669
+    },
+    "NE": {
+        "id": "NE",
+        "name": "TODO",
+        "link": "/niger",
+        "flag": "TODO",
+        "capital": {
+            "name": "TODO",
+            "population": 1000000000000
+        },
+        "largestCity": {
+            "name": "TODO",
+            "population": 1000000000000
+        },
+        "population": 25369415,
+        "area": 1267000,
+        "gdp": 18816,
+        "hdi": 0.394
+    },
+    "NG": {
+        "id": "NG",
+        "name": "TODO",
+        "link": "/nigeria",
+        "flag": "TODO",
+        "capital": {
+            "name": "TODO",
+            "population": 1000000000000
+        },
+        "largestCity": {
+            "name": "TODO",
+            "population": 1000000000000
+        },
+        "population": 223800000,
+        "area": 923768,
+        "gdp": 252738,
+        "hdi": 0.548
+    },
+    "NU": {
+        "id": "NU",
+        "name": "TODO",
+        "link": "/niue",
+        "flag": "TODO",
+        "capital": {
+            "name": "TODO",
+            "population": 1000000000000
+        },
+        "largestCity": {
+            "name": "TODO",
+            "population": 1000000000000
+        },
+        "population": 1689,
+        "area": 260,
+        "gdp": "TODO",
+        "hdi": "TODO"
+    },
+    "NF": {
+        "id": "NF",
+        "name": "TODO",
+        "link": "/norfolk_island",
+        "flag": "TODO",
+        "capital": {
+            "name": "TODO",
+            "population": 1000000000000
+        },
+        "largestCity": {
+            "name": "TODO",
+            "population": 1000000000000
+        },
+        "population": 2188,
+        "area": 36,
+        "gdp": "TODO",
+        "hdi": "TODO"
+    },
+    "MP": {
+        "id": "MP",
+        "name": "TODO",
+        "link": "/usa",
+        "flag": "TODO",
+        "capital": {
+            "name": "TODO",
+            "population": 1000000000000
+        },
+        "largestCity": {
+            "name": "TODO",
+            "population": 1000000000000
+        },
+        "population": 47329,
+        "area": 457,
+        "gdp": "TODO",
+        "hdi": "TODO"
+    },
+    "NO": {
+        "id": "NO",
+        "name": "TODO",
+        "link": "/norway",
+        "flag": "TODO",
+        "capital": {
+            "name": "TODO",
+            "population": 1000000000000
+        },
+        "largestCity": {
+            "name": "TODO",
+            "population": 1000000000000
+        },
+        "population": 5562363,
+        "area": 323802,
+        "gdp": 526951,
+        "hdi": 0.966
+    },
+    "OM": {
+        "id": "OM",
+        "name": "TODO",
+        "link": "/oman",
+        "flag": "TODO",
+        "capital": {
+            "name": "TODO",
+            "population": 1000000000000
+        },
+        "largestCity": {
+            "name": "TODO",
+            "population": 1000000000000
+        },
+        "population": 5190332,
+        "area": 309500,
+        "gdp": 108927,
+        "hdi": 0.819
+    },
+    "PK": {
+        "id": "PK",
+        "name": "TODO",
+        "link": "/pakistan",
+        "flag": "TODO",
+        "capital": {
+            "name": "TODO",
+            "population": 1000000000000
+        },
+        "largestCity": {
+            "name": "TODO",
+            "population": 1000000000000
+        },
+        "population": 241499431,
+        "area": 882363,
+        "gdp": 338237,
+        "hdi": 0.540
+    },
+    "PW": {
+        "id": "PW",
+        "name": "TODO",
+        "link": "/palau",
+        "flag": "TODO",
+        "capital": {
+            "name": "TODO",
+            "population": 1000000000000
+        },
+        "largestCity": {
+            "name": "TODO",
+            "population": 1000000000000
+        },
+        "population": 16733,
+        "area": 459,
+        "gdp": 308,
+        "hdi": 0.797
+    },
+    "PS": {
+        "id": "PS",
+        "name": "TODO",
+        "link": "/palestine",
+        "flag": "TODO",
+        "capital": {
+            "name": "TODO",
+            "population": 1000000000000
+        },
+        "largestCity": {
+            "name": "TODO",
+            "population": 1000000000000
+        },
+        "population": 5483450,
+        "area": 6020,
+        "gdp": 18602,
+        "hdi": 0.716
+    },
+    "PA": {
+        "id": "PA",
+        "name": "TODO",
+        "link": "/panama",
+        "flag": "TODO",
+        "capital": {
+            "name": "TODO",
+            "population": 1000000000000
+        },
+        "largestCity": {
+            "name": "TODO",
+            "population": 1000000000000
+        },
+        "population": 4064780,
+        "area": 75320,
+        "gdp": 87347,
+        "hdi": 0.820
+    },
+    "PG": {
+        "id": "PG",
+        "name": "TODO",
+        "link": "/papua_new_guinea",
+        "flag": "TODO",
+        "capital": {
+            "name": "TODO",
+            "population": 1000000000000
+        },
+        "largestCity": {
+            "name": "TODO",
+            "population": 1000000000000
+        },
+        "population": 11781559,
+        "area": 462840,
+        "gdp": 31716,
+        "hdi": 0.568
+    },
+    "PY": {
+        "id": "PY",
+        "name": "TODO",
+        "link": "/paraguay",
+        "flag": "TODO",
+        "capital": {
+            "name": "TODO",
+            "population": 1000000000000
+        },
+        "largestCity": {
+            "name": "TODO",
+            "population": 1000000000000
+        },
+        "population": 6109644,
+        "area": 406752,
+        "gdp": 45817,
+        "hdi": 0.731
+    },
+    "PE": {
+        "id": "PE",
+        "name": "TODO",
+        "link": "/peru",
+        "flag": "TODO",
+        "capital": {
+            "name": "TODO",
+            "population": 1000000000000
+        },
+        "largestCity": {
+            "name": "TODO",
+            "population": 1000000000000
+        },
+        "population": 33725844,
+        "area": 1285216,
+        "gdp": 282458,
+        "hdi": 0.762
+    },
+    "PH": {
+        "id": "PH",
+        "name": "TODO",
+        "link": "/philippines",
+        "flag": "TODO",
+        "capital": {
+            "name": "TODO",
+            "population": 1000000000000
+        },
+        "largestCity": {
+            "name": "TODO",
+            "population": 1000000000000
+        },
+        "population": 112892781,
+        "area": 300000,
+        "gdp": 471516,
+        "hdi": 0.710
+    },
+    "PN": {
+        "id": "PN",
+        "name": "TODO",
+        "link": "/pitcairn_islands",
+        "flag": "TODO",
+        "capital": {
+            "name": "TODO",
+            "population": 1000000000000
+        },
+        "largestCity": {
+            "name": "TODO",
+            "population": 1000000000000
+        },
+        "population": 47,
+        "area": 47,
+        "gdp": "TODO",
+        "hdi": "TODO"
+    },
+    "PL": {
+        "id": "PL",
+        "name": "TODO",
+        "link": "/poland",
+        "flag": "TODO",
+        "capital": {
+            "name": "TODO",
+            "population": 1000000000000
+        },
+        "largestCity": {
+            "name": "TODO",
+            "population": 1000000000000
+        },
+        "population": 37595000,
+        "area": 312685,
+        "gdp": 844623,
+        "hdi": 0.881
+    },
+    "PT": {
+        "id": "PT",
+        "name": "TODO",
+        "link": "/portugal",
+        "flag": "TODO",
+        "capital": {
+            "name": "TODO",
+            "population": 1000000000000
+        },
+        "largestCity": {
+            "name": "TODO",
+            "population": 1000000000000
+        },
+        "population": 10639726,
+        "area": 92225,
+        "gdp": 298949,
+        "hdi": 0.874
+    },
+    "PR": {
+        "id": "PR",
+        "name": "TODO",
+        "link": "/puerto_rico",
+        "flag": "TODO",
+        "capital": {
+            "name": "TODO",
+            "population": 1000000000000
+        },
+        "largestCity": {
+            "name": "TODO",
+            "population": 1000000000000
+        },
+        "population": 3205691,
+        "area": 9100,
+        "gdp": 117763,
+        "hdi": "TODO"
+    },
+    "QA": {
+        "id": "QA",
+        "name": "TODO",
+        "link": "/qatar",
+        "flag": "TODO",
+        "capital": {
+            "name": "TODO",
+            "population": 1000000000000
+        },
+        "largestCity": {
+            "name": "TODO",
+            "population": 1000000000000
+        },
+        "population": 2965952,
+        "area": 11586,
+        "gdp": 244686,
+        "hdi": 0.875
+    },
+    "MK": {
+        "id": "MK",
+        "name": "TODO",
+        "link": "/north_macedonia",
+        "flag": "TODO",
+        "capital": {
+            "name": "TODO",
+            "population": 1000000000000
+        },
+        "largestCity": {
+            "name": "TODO",
+            "population": 1000000000000
+        },
+        "population": 1829954,
+        "area": 25713,
+        "gdp": 15873,
+        "hdi": 0.765
+    },
+    "RO": {
+        "id": "RO",
+        "name": "TODO",
+        "link": "/romania",
+        "flag": "TODO",
+        "capital": {
+            "name": "TODO",
+            "population": 1000000000000
+        },
+        "largestCity": {
+            "name": "TODO",
+            "population": 1000000000000
+        },
+        "population": 19051562,
+        "area": 238398,
+        "gdp": 369971,
+        "hdi": 0.827
+    },
+    "RU": {
+        "id": "RU",
+        "name": "TODO",
+        "link": "/russia",
+        "flag": "TODO",
+        "capital": {
+            "name": "TODO",
+            "population": 1000000000000
+        },
+        "largestCity": {
+            "name": "TODO",
+            "population": 1000000000000
+        },
+        "population": 146150789,
+        "area": 17098246,
+        "gdp": 2056844,
+        "hdi": 0.821
+    },
+    "RW": {
+        "id": "RW",
+        "name": "TODO",
+        "link": "/rwanda",
+        "flag": "TODO",
+        "capital": {
+            "name": "TODO",
+            "population": 1000000000000
+        },
+        "largestCity": {
+            "name": "TODO",
+            "population": 1000000000000
+        },
+        "population": 13246394,
+        "area": 26338,
+        "gdp": 13701,
+        "hdi": 0.548
+    },
+    "RE": {
+        "id": "RE",
+        "name": "Réunion (French Department)",
+        "link": "/france",
+        "flag": "TODO",
+        "capital": {
+            "name": "TODO",
+            "population": 1000000000000
+        },
+        "largestCity": {
+            "name": "TODO",
+            "population": 1000000000000
+        },
+        "population": "TODO",
+        "area": "TODO",
+        "gdp": "TODO",
+        "hdi": "TODO"
+    },
+    "BL": {
+        "id": "BL",
+        "name": "TODO",
+        "link": "/saint_barthelemy",
+        "flag": "TODO",
+        "capital": {
+            "name": "TODO",
+            "population": 1000000000000
+        },
+        "largestCity": {
+            "name": "TODO",
+            "population": 1000000000000
+        },
+        "population": "TODO",
+        "area": "TODO",
+        "gdp": "TODO",
+        "hdi": "TODO"
+    },
+    "SH": {
+        "id": "SH",
+        "name": "TODO",
+        "link": "/saint_helena",
+        "flag": "TODO",
+        "capital": {
+            "name": "TODO",
+            "population": 1000000000000
+        },
+        "largestCity": {
+            "name": "TODO",
+            "population": 1000000000000
+        },
+        "population": "TODO",
+        "area": "TODO",
+        "gdp": "TODO",
+        "hdi": "TODO"
+    },
+    "KN": {
+        "id": "KN",
+        "name": "TODO",
+        "link": "/saint_kitts_and_nevis",
+        "flag": "TODO",
+        "capital": {
+            "name": "TODO",
+            "population": 1000000000000
+        },
+        "largestCity": {
+            "name": "TODO",
+            "population": 1000000000000
+        },
+        "population": 47195,
+        "area": 261,
+        "gdp": 1134,
+        "hdi": 0.838
+    },
+    "LC": {
+        "id": "LC",
+        "name": "TODO",
+        "link": "/saint_lucia",
+        "flag": "TODO",
+        "capital": {
+            "name": "TODO",
+            "population": 1000000000000
+        },
+        "largestCity": {
+            "name": "TODO",
+            "population": 1000000000000
+        },
+        "population": 184100,
+        "area": 616,
+        "gdp": 2582,
+        "hdi": 0.725
+    },
+    "MF": {
+        "id": "MF",
+        "name": "TODO",
+        "link": "/saint_martin",
+        "flag": "TODO",
+        "capital": {
+            "name": "TODO",
+            "population": 1000000000000
+        },
+        "largestCity": {
+            "name": "TODO",
+            "population": 1000000000000
+        },
+        "population": "TODO",
+        "area": "TODO",
+        "gdp": "TODO",
+        "hdi": "TODO"
+    },
+    "PM": {
+        "id": "MF",
+        "name": "TODO",
+        "link": "/saint_pierre_et_miquelon",
+        "flag": "TODO",
+        "capital": {
+            "name": "TODO",
+            "population": 1000000000000
+        },
+        "largestCity": {
+            "name": "TODO",
+            "population": 1000000000000
+        },
+        "population": "TODO",
+        "area": "TODO",
+        "gdp": "TODO",
+        "hdi": "TODO"
+    },
+    "VC": {
+        "id": "VC",
+        "name": "TODO",
+        "link": "/saint_vincent_and_the_grenadines",
+        "flag": "TODO",
+        "capital": {
+            "name": "TODO",
+            "population": 1000000000000
+        },
+        "largestCity": {
+            "name": "TODO",
+            "population": 1000000000000
+        },
+        "population": 110872,
+        "area": 389,
+        "gdp": 1128,
+        "hdi": 0.772
+    },
+    "WS": {
+        "id": "WS",
+        "name": "TODO",
+        "link": "/samoa",
+        "flag": "TODO",
+        "capital": {
+            "name": "TODO",
+            "population": 1000000000000
+        },
+        "largestCity": {
+            "name": "TODO",
+            "population": 1000000000000
+        },
+        "population": 205557,
+        "area": 2842,
+        "gdp": 1024,
+        "hdi": 0.702
+    },
+    "SM": {
+        "id": "SM",
+        "name": "TODO",
+        "link": "/san_marino",
+        "flag": "TODO",
+        "capital": {
+            "name": "TODO",
+            "population": 1000000000000
+        },
+        "largestCity": {
+            "name": "TODO",
+            "population": 1000000000000
+        },
+        "population": 33932,
+        "area": 61,
+        "gdp": 2033,
+        "hdi": 0.867
+    },
+    "ST": {
+        "id": "ST",
+        "name": "TODO",
+        "link": "/sao_tome_and_principe",
+        "flag": "TODO",
+        "capital": {
+            "name": "TODO",
+            "population": 1000000000000
+        },
+        "largestCity": {
+            "name": "TODO",
+            "population": 1000000000000
+        },
+        "population": 228319,
+        "area": 964,
+        "gdp": 751,
+        "hdi": 0.613
     },
     "US": {
+        "id": "US",
         "name": "United States of America",
         "link": "/usa",
-        "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Flag_of_the_United_States_%28DoS_ECA_Color_Standard%29.svg/2560px-Flag_of_the_United_States_%28DoS_ECA_Color_Standard%29.svg.png"
+        "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Flag_of_the_United_States_%28DoS_ECA_Color_Standard%29.svg/2560px-Flag_of_the_United_States_%28DoS_ECA_Color_Standard%29.svg.png",
+        "capital": {
+            "name": "Washington D.C.",
+            "population": 6304975
+        },
+        "largestCity": {
+            "name": "New York City",
+            "population": 19498249
+        },
+        "population": 335893238,
+        "area": 9525067,
+        "gdp": 28781083,
+        "hdi": 0.927
     }
 }

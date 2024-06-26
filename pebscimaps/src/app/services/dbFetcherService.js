@@ -1,6 +1,7 @@
 import usa from '../../data/usa.json';
 import usaElections from '../../data/usaElections.json';
 import usaImages from '../../data/usaImages.json';
+import countryImages from '../../data/countryImages.json'
 import countries from '../../data/countries.json';
 
 const getStateInfo = () => {
@@ -53,8 +54,12 @@ function findIndexOfYear(selectedYear) {
     return index; // Return -1 if no match was found
 }
 
-function getImageLinkFromID(id) {
+function getStateImageLinkFromID(id) {
     return usaImages.imageLinks[id];
+}
+
+function getCountryImageLinkFromID(id) {
+    return countryImages.imageLinks[id];
 }
 
 function getCountryFromID(id) {
@@ -67,7 +72,7 @@ module.exports = {
     getStateFromID,
     getStateElectionDataFromID, determineDominantColor,
     findIndexOfYear,
-    getImageLinkFromID, getCountryFromID
+    getStateImageLinkFromID, getCountryImageLinkFromID, getCountryFromID
 };
 
 //export default {getStateFromID, getStateElectionDataFromID};

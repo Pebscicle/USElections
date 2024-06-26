@@ -31,6 +31,13 @@ function InfoModal( {infoType, selectedYear, isVisible, closeModal, entity, imag
     return determineDominantColor(entity.electionResults[findIndexOfYear(selectedYear)].democrat, entity.electionResults[findIndexOfYear(selectedYear)].republican);
   }
 
+  //STYLE CALC
+  let nameWidth = 'auto'; // Default to 'auto'
+  if (entity && entity.name) {
+    // Check if entity.name is not null or undefined and has a length greater than 30
+    nameWidth = entity.name.length >= 27 ? '200px' : 'auto';
+  }
+
     return (
     <>
     {isVisible && infoType === "general" &&
@@ -57,10 +64,12 @@ function InfoModal( {infoType, selectedYear, isVisible, closeModal, entity, imag
       // Add your custom logic here
     }}>
       <div style={{position: 'fixed', right: '50px', bottom: '25vh', width: '350px', height: '450px', borderRadius: '5px', color: 'black', backgroundColor: colors.white, boxShadow: "0px 2px 5px 2px gray"}}> 
-        <div style={{display: 'grid', gridTemplateColumns: 'auto 50px 1fr 60px 1fr auto', gridTemplateRows: '25px'}}>
-            <Link href={`/usa/${entity.name.toLowerCase()}`}>
-              <span style={{color: colors.clickable, fontWeight: 900, padding: '2px', cursor: 'pointer'}}>{entity.name}</span>    
-            </Link>
+        <div style={{display: 'grid', gridTemplateColumns: nameWidth+' 50px 1fr 60px 1fr auto', gridTemplateRows: '25px'}}>
+          <Link href={`${entity.link}`}>
+            <span style={{color: colors.clickable, fontWeight: 900, padding: '2px', cursor: 'pointer', fontSize: '14px', whiteSpace: 'nowrap', textOverflow: 'ellipsis'}}> {/* Adjusted fontSize and added whiteSpace and textOverflow */}
+              {entity.name}
+            </span>    
+          </Link>
             <div style={{paddingLeft: '4px', display: 'flex', alignItems: 'center'}}>
               <img src={entity.flag} style={{height: '20px'}} alt='Flag'/>
             </div>
@@ -88,7 +97,7 @@ function InfoModal( {infoType, selectedYear, isVisible, closeModal, entity, imag
             {!isInKM && <span>/sq mi</span>}
             <span onClick={() => setIsInKM(!isInKM)} style={{color: 'blue', fontSize: 'small', cursor: 'pointer'}}> Swap Unit</span>
           </p>
-          <p><span style={{fontWeight: 'bold', color: '#333939'}}>Nominal GDP in billions</span>: ${commaifyNumber(entity.gdp)}</p>
+          <p><span style={{fontWeight: 'bold', color: '#333939'}}>Nominal GDP in millions</span>: ${commaifyNumber(entity.gdp)}</p>
           <p><span style={{fontWeight: 'bold', color: '#333939'}}>GDP per capita</span>: ${commaifyNumber( parseInt(entity.gdp/entity.population*1000000) )}</p>
           <p><span style={{fontWeight: 'bold', color: '#333939'}}>HDI</span>: <span>
             {entity.hdi} <span
@@ -129,10 +138,12 @@ function InfoModal( {infoType, selectedYear, isVisible, closeModal, entity, imag
       // Add your custom logic here
     }}>
       <div style={{position: 'fixed', right: '50px', bottom: '25vh', width: '350px', height: '450px', borderRadius: '5px', color: 'black', backgroundColor: colors.white, boxShadow: "0px 2px 5px 2px gray"}}> 
-        <div style={{display: 'grid', gridTemplateColumns: 'auto 50px 1fr 60px 1fr auto', gridTemplateRows: '25px'}}>
-            <Link href={`/usa/${entity.name.toLowerCase()}`}>
-              <span style={{padding: '2px', cursor: 'pointer'}}>{entity.name}</span>    
-            </Link>
+        <div style={{display: 'grid', gridTemplateColumns: nameWidth+' 50px 1fr 60px 1fr auto', gridTemplateRows: '25px'}}>
+          <Link href={`${entity.link}`}>
+            <span style={{color: colors.clickable, fontWeight: 900, padding: '2px', cursor: 'pointer', fontSize: '14px', whiteSpace: 'nowrap', textOverflow: 'ellipsis'}}> {/* Adjusted fontSize and added whiteSpace and textOverflow */}
+              {entity.name}
+            </span>    
+          </Link>
             <div style={{paddingLeft: '4px', display: 'flex', alignItems: 'center'}}>
               <img src={entity.flag} style={{height: '20px'}} alt='Flag'/>
             </div>
@@ -146,7 +157,7 @@ function InfoModal( {infoType, selectedYear, isVisible, closeModal, entity, imag
             ></span>
             <span></span>
             <span style={{cursor: 'pointer', backgroundColor: colors.close, borderRadius: '0px 5px 0px 0px', padding: '0px 8px', display: 'flex', alignItems: 'center'}}onClick={closeModal}>X</span>
-        </div>
+          </div>
         <img src={imageLink} style={{ backgroundColor: 'gray', height: '200px', width: '100%', opacity: isLoading? 0.5 : 1 }} alt="placeholder image" height="200px" />
         <div style={{padding: '8px 4px 0px 4px'}}>
           <p>Election Year: {entity.electionResults[findIndexOfYear(selectedYear)].year}</p>
