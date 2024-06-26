@@ -2,7 +2,7 @@
 
 import InfoModal from '../../components/InfoModal';
 
-import {getStateFromID, getStateElectionDataFromID, determineDominantColor, getImageLinkFromID} from '../services/dbFetcherService';
+import {getStateFromID, getStateElectionDataFromID, determineDominantColor, getStateImageLinkFromID} from '../services/dbFetcherService';
 import {findIndexOfYear} from "../services/dbFetcherService";
 
 import {useEffect, useState} from 'react';
@@ -27,7 +27,7 @@ function USAMap( {infoType, selectedYear, callbackData, suppliedList} ) {
 
 
     const getImageLink = (id) => {
-      const link = getImageLinkFromID(id);
+      const link = getStateImageLinkFromID(id);
     }
 
     const logClickedInfo = (e) => {
@@ -44,7 +44,7 @@ function USAMap( {infoType, selectedYear, callbackData, suppliedList} ) {
       }
       setSelectedState(foundState);
 
-      setStateImage(getImageLinkFromID(foundState.id));
+      setStateImage(getStateImageLinkFromID(foundState.id));
       setIsModalVisible(true);
     }
 
