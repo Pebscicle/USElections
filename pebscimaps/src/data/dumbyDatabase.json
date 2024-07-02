@@ -1,0 +1,88 @@
+{
+    "users": [
+        {
+            "id": "paul.davis438@gmail.com",
+            "username": "Pebsy",
+            "explorationStats": {
+                "visitedCountries": [
+                    
+                ],
+                "livedCountries": [
+                    {
+                        "id": "US",
+                        "subdivisions": [
+                            {
+                                "id": "IL",
+                                "subdivisions": [
+                                    {
+                                        "id": "Cook County",
+                                        "subdivisions": null
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "MD",
+                                "subdivisions": [
+                                    {
+                                        "id": "Montgomery County",
+                                        "subdivisions": null
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "MI",
+                                "subdivisions": [
+                                    {
+                                        "id": "Oakland County",
+                                        "subdivisions": null
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "id": "FR",
+                        "subdivisions": [
+                            {
+                                "id": "Ile de France",
+                                "subdivisions": [
+                                    {
+                                        "id": "Essonne",
+                                        "subdivisions": null
+                                    },
+                                    {
+                                        "id": "Yvelines",
+                                        "subdivisions": null
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "Brittany",
+                                "subdivisions": [
+                                    {
+                                        "id": "Ille-et-Villaine",
+                                        "subdivisions": null
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "id": "UK",
+                        "subdivisions": [
+                            {
+                                "id": "Scotland",
+                                "subdivisions": [
+                                    {
+                                        "id": "Stirlingshire",
+                                        "subdivisions": null
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    ]
+}
