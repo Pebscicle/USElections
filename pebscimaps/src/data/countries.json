@@ -2486,16 +2486,16 @@
     },
     "FM": {
         "id": "FM",
-        "name": "TODO",
+        "name": "Micronesia, Federated States of",
         "link": "/micronesia",
-        "flag": "TODO",
+        "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Flag_of_the_Federated_States_of_Micronesia.svg/2560px-Flag_of_the_Federated_States_of_Micronesia.svg.png",
         "capital": {
-            "name": "TODO",
-            "population": 1000000000000
+            "name": "Palikir",
+            "population": 6647
         },
         "largestCity": {
-            "name": "TODO",
-            "population": 1000000000000
+            "name": "Weno",
+            "population": 13856
         },
         "population": 105754,
         "area": 702,
@@ -2504,16 +2504,16 @@
     },
     "MD": {
         "id": "MD",
-        "name": "TODO",
+        "name": "Republic of Moldova",
         "link": "/moldova",
-        "flag": "TODO",
+        "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Flag_of_Moldova.svg/250px-Flag_of_Moldova.svg.png",
         "capital": {
-            "name": "TODO",
-            "population": 1000000000000
+            "name": "Chișinău",
+            "population": 779300
         },
         "largestCity": {
-            "name": "TODO",
-            "population": 1000000000000
+            "name": "Chișinău",
+            "population": 779300
         },
         "population": 2423300,
         "area": 33847,
@@ -2522,34 +2522,34 @@
     },
     "MC": {
         "id": "MC",
-        "name": "TODO",
+        "name": "Principality of Monaco",
         "link": "/monaco",
-        "flag": "TODO",
+        "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Flag_of_Monaco.svg/1920px-Flag_of_Monaco.svg.png",
         "capital": {
-            "name": "TODO",
-            "population": 1000000000000
+            "name": "Monaco City",
+            "population": 975
         },
         "largestCity": {
-            "name": "TODO",
-            "population": 1000000000000
+            "name": "Monte Carlo",
+            "population": 15200
         },
         "population": 38367,
         "area": 2,
         "gdp": 8784,
-        "hdi": "TODO"
+        "hdi": 0.956
     },
     "MN": {
         "id": "MN",
-        "name": "TODO",
+        "name": "Mongolia",
         "link": "/mongolia",
-        "flag": "TODO",
+        "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Flag_of_Mongolia.svg/2560px-Flag_of_Mongolia.svg.png",
         "capital": {
-            "name": "TODO",
-            "population": 1000000000000
+            "name": "Ulaanbaatar",
+            "population": 1672627
         },
         "largestCity": {
-            "name": "TODO",
-            "population": 1000000000000
+            "name": "Ulaanbaatar",
+            "population": 1672627
         },
         "population": 3504741,
         "area": 1564116,
@@ -2558,16 +2558,16 @@
     },
     "ME": {
         "id": "ME",
-        "name": "TODO",
+        "name": "Montenegro",
         "link": "/montenegro",
-        "flag": "TODO",
+        "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Flag_of_Montenegro.svg/250px-Flag_of_Montenegro.svg.png",
         "capital": {
-            "name": "TODO",
-            "population": 1000000000000
+            "name": "Podgorica",
+            "population": 186827
         },
         "largestCity": {
-            "name": "TODO",
-            "population": 1000000000000
+            "name": "Podgorica",
+            "population": 186827
         },
         "population": 616695,
         "area": 13812,
@@ -2576,34 +2576,34 @@
     },
     "MS": {
         "id": "MS",
-        "name": "TODO",
+        "name": "Montserrat (British Overseas Territory)",
         "link": "/montserrat",
-        "flag": "TODO",
+        "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Flag_of_Montserrat.svg/260px-Flag_of_Montserrat.svg.png",
         "capital": {
-            "name": "TODO",
-            "population": 1000000000000
+            "name": "Plymouth",
+            "population": 0
         },
         "largestCity": {
-            "name": "TODO",
-            "population": 1000000000000
+            "name": "Brades",
+            "population": 1000
         },
         "population": 4433,
         "area": 103,
         "gdp": 72,
-        "hdi": "TODO"
+        "hdi": 0.821
     },
     "MA": {
         "id": "MA",
-        "name": "TODO",
+        "name": "Kingdom of Morocco",
         "link": "/morocco",
-        "flag": "TODO",
+        "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Flag_of_Morocco.svg/250px-Flag_of_Morocco.svg.png",
         "capital": {
-            "name": "TODO",
-            "population": 1000000000000
+            "name": "Rabat",
+            "population": 2120192
         },
         "largestCity": {
-            "name": "TODO",
-            "population": 1000000000000
+            "name": "Casablanca",
+            "population": 4270750
         },
         "population": 37022000,
         "area": 446550,
@@ -2612,16 +2612,16 @@
     },
     "MZ": {
         "id": "MZ",
-        "name": "TODO",
+        "name": "Republic of Mozambique",
         "link": "/mozambique",
-        "flag": "TODO",
+        "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Flag_of_Mozambique.svg/1920px-Flag_of_Mozambique.svg.png",
         "capital": {
-            "name": "TODO",
-            "population": 1000000000000
+            "name": "Maputo",
+            "population": 1766823
         },
         "largestCity": {
-            "name": "TODO",
-            "population": 1000000000000
+            "name": "Maputo",
+            "population": 1766823
         },
         "population": 32419747,
         "area": 799380,
@@ -2630,16 +2630,16 @@
     },
     "MM": {
         "id": "MM",
-        "name": "TODO",
+        "name": "Myanmar, Republic of the Union of",
         "link": "/myanmar",
-        "flag": "TODO",
+        "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Flag_of_Myanmar.svg/1920px-Flag_of_Myanmar.svg.png",
         "capital": {
-            "name": "TODO",
-            "population": 1000000000000
+            "name": "Naypyidaw",
+            "population": 924608
         },
         "largestCity": {
-            "name": "TODO",
-            "population": 1000000000000
+            "name": "Yangon",
+            "population": 7360703
         },
         "population": 56242997,
         "area": 676578,
@@ -2648,16 +2648,16 @@
     },
     "NA": {
         "id": "NA",
-        "name": "TODO",
+        "name": "Republic of Namibia",
         "link": "/namibia",
-        "flag": "TODO",
+        "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Flag_of_Namibia.svg/1920px-Flag_of_Namibia.svg.png",
         "capital": {
-            "name": "TODO",
-            "population": 1000000000000
+            "name": "Windhoek",
+            "population": 486169
         },
         "largestCity": {
-            "name": "TODO",
-            "population": 1000000000000
+            "name": "Windhoek",
+            "population": 486169
         },
         "population": 3022401,
         "area": 824292,
@@ -2666,16 +2666,16 @@
     },
     "NR": {
         "id": "NR",
-        "name": "TODO",
+        "name": "Republic of Nauru",
         "link": "/nauru",
-        "flag": "TODO",
+        "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Flag_of_Nauru.svg/2560px-Flag_of_Nauru.svg.png",
         "capital": {
-            "name": "TODO",
-            "population": 1000000000000
+            "name": "Yaren",
+            "population": 803
         },
         "largestCity": {
-            "name": "TODO",
-            "population": 1000000000000
+            "name": "Denigomodu",
+            "population": 1874
         },
         "population": 11680,
         "area": 21,
@@ -2684,16 +2684,16 @@
     },
     "NP": {
         "id": "NP",
-        "name": "TODO",
+        "name": "Nepal, Federal Democratic Republic of",
         "link": "/nepal",
-        "flag": "TODO",
+        "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Flag_of_Nepal.svg/1280px-Flag_of_Nepal.svg.png",
         "capital": {
-            "name": "TODO",
-            "population": 1000000000000
+            "name": "Kathmandu",
+            "population": 4056000
         },
         "largestCity": {
-            "name": "TODO",
-            "population": 1000000000000
+            "name": "Kathmandu",
+            "population": 4056000
         },
         "population": 29164578,
         "area": 147181,
@@ -2702,16 +2702,16 @@
     },
     "NL": {
         "id": "NL",
-        "name": "TODO",
+        "name": "Kingdom of the Netherlands",
         "link": "/netherlands",
-        "flag": "TODO",
+        "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Flag_of_the_Netherlands.svg/1920px-Flag_of_the_Netherlands.svg.png",
         "capital": {
-            "name": "TODO",
-            "population": 1000000000000
+            "name": "Amsterdam",
+            "population": 2480394
         },
         "largestCity": {
-            "name": "TODO",
-            "population": 1000000000000
+            "name": "Amsterdam",
+            "population": 2480394
         },
         "population": 17974786,
         "area": 41865,
@@ -2722,32 +2722,32 @@
         "id": "NC",
         "name": "New Caledonia (French Territory)",
         "link": "/new_caledonia",
-        "flag": "TODO",
+        "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Flags_of_New_Caledonia-edit.svg/2880px-Flags_of_New_Caledonia-edit.svg.png",
         "capital": {
-            "name": "TODO",
-            "population": 1000000000000
+            "name": "Nouméa",
+            "population": 182341
         },
         "largestCity": {
-            "name": "TODO",
-            "population": 1000000000000
+            "name": "Nouméa",
+            "population": 182341
         },
-        "population": "TODO",
-        "area": "TODO",
-        "gdp": "TODO",
-        "hdi": "TODO"
+        "population": 271407,
+        "area": 18575,
+        "gdp": 9440,
+        "hdi": 0.813
     },
     "NZ": {
         "id": "NZ",
-        "name": "TODO",
+        "name": "New Zealand",
         "link": "/new_zealand",
-        "flag": "TODO",
+        "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Flag_of_New_Zealand.svg/2560px-Flag_of_New_Zealand.svg.png",
         "capital": {
-            "name": "TODO",
-            "population": 1000000000000
+            "name": "Wellington",
+            "population": 440900
         },
         "largestCity": {
-            "name": "TODO",
-            "population": 1000000000000
+            "name": "Auckland",
+            "population": 1739300
         },
         "population": 5338900,
         "area": 268838,
@@ -2756,16 +2756,16 @@
     },
     "NI": {
         "id": "NI",
-        "name": "TODO",
+        "name": "Republic of Nicaragua",
         "link": "/nicaragua",
-        "flag": "TODO",
+        "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Flag_of_Nicaragua.svg/2560px-Flag_of_Nicaragua.svg.png",
         "capital": {
-            "name": "TODO",
-            "population": 1000000000000
+            "name": "Managua",
+            "population": 1401687
         },
         "largestCity": {
-            "name": "TODO",
-            "population": 1000000000000
+            "name": "Managua",
+            "population": 1401687
         },
         "population": 6803886,
         "area": 130373,
@@ -2774,16 +2774,16 @@
     },
     "NE": {
         "id": "NE",
-        "name": "TODO",
+        "name": "Republic of the Niger",
         "link": "/niger",
-        "flag": "TODO",
+        "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Flag_of_Niger.svg/1920px-Flag_of_Niger.svg.png",
         "capital": {
-            "name": "TODO",
-            "population": 1000000000000
+            "name": "Niamey",
+            "population": 1334984
         },
         "largestCity": {
-            "name": "TODO",
-            "population": 1000000000000
+            "name": "Niamey",
+            "population": 1334984
         },
         "population": 25369415,
         "area": 1267000,
@@ -2792,16 +2792,16 @@
     },
     "NG": {
         "id": "NG",
-        "name": "TODO",
+        "name": "Federal Republic of Nigeria",
         "link": "/nigeria",
-        "flag": "TODO",
+        "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Flag_of_Nigeria.svg/2560px-Flag_of_Nigeria.svg.png",
         "capital": {
-            "name": "TODO",
-            "population": 1000000000000
+            "name": "Abuja",
+            "population": 6000000
         },
         "largestCity": {
-            "name": "TODO",
-            "population": 1000000000000
+            "name": "Lagos",
+            "population": 21000000
         },
         "population": 223800000,
         "area": 923768,
@@ -2810,43 +2810,43 @@
     },
     "NU": {
         "id": "NU",
-        "name": "TODO",
+        "name": "Niue",
         "link": "/niue",
-        "flag": "TODO",
+        "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Flag_of_Niue.svg/2560px-Flag_of_Niue.svg.png",
         "capital": {
-            "name": "TODO",
-            "population": 1000000000000
+            "name": "Alofi",
+            "population": 610
         },
         "largestCity": {
-            "name": "TODO",
-            "population": 1000000000000
+            "name": "Alofi",
+            "population": 610
         },
         "population": 1689,
         "area": 260,
-        "gdp": "TODO",
-        "hdi": "TODO"
+        "gdp": 38,
+        "hdi": 0.794
     },
     "NF": {
         "id": "NF",
-        "name": "TODO",
+        "name": "Norfolk Island (External Territory of Australia)",
         "link": "/norfolk_island",
-        "flag": "TODO",
+        "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Flag_of_Norfolk_Island.svg/2560px-Flag_of_Norfolk_Island.svg.png",
         "capital": {
-            "name": "TODO",
-            "population": 1000000000000
+            "name": "Kingston",
+            "population": 341
         },
         "largestCity": {
-            "name": "TODO",
-            "population": 1000000000000
+            "name": "Kingston",
+            "population": 341
         },
         "population": 2188,
         "area": 36,
-        "gdp": "TODO",
-        "hdi": "TODO"
+        "gdp": 60,
+        "hdi": 0.958
     },
     "MP": {
         "id": "MP",
-        "name": "TODO",
+        "name": "Northern Mariana Islands (U.S. Territory)",
         "link": "/usa",
         "flag": "TODO",
         "capital": {
@@ -3402,6 +3402,744 @@
         "gdp": 751,
         "hdi": 0.613
     },
+    "SA": {
+        "id": "SA",
+        "name": "TODO",
+        "link": "/saudi_arabia",
+        "flag": "TODO",
+        "capital": {
+            "name": "TODO",
+            "population": 1000000000000
+        },
+        "largestCity": {
+            "name": "TODO",
+            "population": 1000000000000
+        },
+        "population": 32175224,
+        "area": 2149690,
+        "gdp": 1106015,
+        "hdi": 0.875
+    },
+    "SN": {
+        "id": "SN",
+        "name": "TODO",
+        "link": "/senegal",
+        "flag": "TODO",
+        "capital": {
+            "name": "TODO",
+            "population": 1000000000000
+        },
+        "largestCity": {
+            "name": "TODO",
+            "population": 1000000000000
+        },
+        "population": 18275743,
+        "area": 196712,
+        "gdp": 35450,
+        "hdi": 0.517
+    },
+    "RS": {
+        "id": "RS",
+        "name": "TODO",
+        "link": "/serbia",
+        "flag": "TODO",
+        "capital": {
+            "name": "TODO",
+            "population": 1000000000000
+        },
+        "largestCity": {
+            "name": "TODO",
+            "population": 1000000000000
+        },
+        "population": 6641197,
+        "area": 88499,
+        "gdp": 81873,
+        "hdi": 0.805
+    },
+    "SC": {
+        "id": "SC",
+        "name": "TODO",
+        "link": "/seychelles",
+        "flag": "TODO",
+        "capital": {
+            "name": "TODO",
+            "population": 1000000000000
+        },
+        "largestCity": {
+            "name": "TODO",
+            "population": 1000000000000
+        },
+        "population": 120581,
+        "area": 457,
+        "gdp": 2203,
+        "hdi": 0.802
+    },
+    "SL": {
+        "id": "SL",
+        "name": "TODO",
+        "link": "/sierra_leone",
+        "flag": "TODO",
+        "capital": {
+            "name": "TODO",
+            "population": 1000000000000
+        },
+        "largestCity": {
+            "name": "TODO",
+            "population": 1000000000000
+        },
+        "population": 8494260,
+        "area": 72300,
+        "gdp": 4558,
+        "hdi": 0.458
+    },
+    "SG": {
+        "id": "SG",
+        "name": "TODO",
+        "link": "/singapore",
+        "flag": "TODO",
+        "capital": {
+            "name": "TODO",
+            "population": 1000000000000
+        },
+        "largestCity": {
+            "name": "TODO",
+            "population": 1000000000000
+        },
+        "population": 5917600,
+        "area": 736,
+        "gdp": 525228,
+        "hdi": 0.949
+    },
+    "SX": {
+        "id": "SX",
+        "name": "TODO",
+        "link": "/sint_maarten",
+        "flag": "TODO",
+        "capital": {
+            "name": "TODO",
+            "population": 1000000000000
+        },
+        "largestCity": {
+            "name": "TODO",
+            "population": 1000000000000
+        },
+        "population": "TODO",
+        "area": "TODO",
+        "gdp": "TODO",
+        "hdi": "TODO"
+    },
+    "SK": {
+        "id": "SK",
+        "name": "TODO",
+        "link": "/slovakia",
+        "flag": "TODO",
+        "capital": {
+            "name": "TODO",
+            "population": 1000000000000
+        },
+        "largestCity": {
+            "name": "TODO",
+            "population": 1000000000000
+        },
+        "population": 5422620,
+        "area": 49035,
+        "gdp": 140808,
+        "hdi": 0.855
+    },
+    "SI": {
+        "id": "SI",
+        "name": "TODO",
+        "link": "/slovenia",
+        "flag": "TODO",
+        "capital": {
+            "name": "TODO",
+            "population": 1000000000000
+        },
+        "largestCity": {
+            "name": "TODO",
+            "population": 1000000000000
+        },
+        "population": 2123949,
+        "area": 20273,
+        "gdp": 72101,
+        "hdi": 0.926
+    },
+    "SB": {
+        "id": "SB",
+        "name": "TODO",
+        "link": "/solomon_islands",
+        "flag": "TODO",
+        "capital": {
+            "name": "TODO",
+            "population": 1000000000000
+        },
+        "largestCity": {
+            "name": "TODO",
+            "population": 1000000000000
+        },
+        "population": 734887,
+        "area": 28896,
+        "gdp": 1707,
+        "hdi": 0.562
+    },
+    "SO": {
+        "id": "SO",
+        "name": "TODO",
+        "link": "/somalia",
+        "flag": "TODO",
+        "capital": {
+            "name": "TODO",
+            "population": 1000000000000
+        },
+        "largestCity": {
+            "name": "TODO",
+            "population": 1000000000000
+        },
+        "population": 18143379,
+        "area": 637657,
+        "gdp": 12804,
+        "hdi": 0.380
+    },
+    "ZA": {
+        "id": "ZA",
+        "name": "TODO",
+        "link": "/south_africa",
+        "flag": "TODO",
+        "capital": {
+            "name": "TODO",
+            "population": 1000000000000
+        },
+        "largestCity": {
+            "name": "TODO",
+            "population": 1000000000000
+        },
+        "population": 62027503,
+        "area": 1219090,
+        "gdp": 373233,
+        "hdi": 0.717
+    },
+    "GS": {
+        "id": "GS",
+        "name": "TODO",
+        "link": "/south_georgia_and_the_south_sandwich_islands",
+        "flag": "TODO",
+        "capital": {
+            "name": "TODO",
+            "population": 1000000000000
+        },
+        "largestCity": {
+            "name": "TODO",
+            "population": 1000000000000
+        },
+        "population": "TODO",
+        "area": "TODO",
+        "gdp": "TODO",
+        "hdi": "TODO"
+    },
+    "SS": {
+        "id": "SS",
+        "name": "TODO",
+        "link": "/south_sudan",
+        "flag": "TODO",
+        "capital": {
+            "name": "TODO",
+            "population": 1000000000000
+        },
+        "largestCity": {
+            "name": "TODO",
+            "population": 1000000000000
+        },
+        "population": 14746494,
+        "area": 644329,
+        "gdp": 6517,
+        "hdi": 0.381
+    },
+    "ES": {
+        "id": "ES",
+        "name": "TODO",
+        "link": "/spain",
+        "flag": "TODO",
+        "capital": {
+            "name": "TODO",
+            "population": 1000000000000
+        },
+        "largestCity": {
+            "name": "TODO",
+            "population": 1000000000000
+        },
+        "population": 48692804,
+        "area": 505370,
+        "gdp": 1647114,
+        "hdi": 0.911
+    },
+    "LK": {
+        "id": "LK",
+        "name": "TODO",
+        "link": "/sri_lanka",
+        "flag": "TODO",
+        "capital": {
+            "name": "TODO",
+            "population": 1000000000000
+        },
+        "largestCity": {
+            "name": "TODO",
+            "population": 1000000000000
+        },
+        "population": 22037000,
+        "area": 65610,
+        "gdp": 74846,
+        "hdi": 0.780
+    },
+    "SD": {
+        "id": "SD",
+        "name": "TODO",
+        "link": "/sudan",
+        "flag": "TODO",
+        "capital": {
+            "name": "TODO",
+            "population": 1000000000000
+        },
+        "largestCity": {
+            "name": "TODO",
+            "population": 1000000000000
+        },
+        "population": 41984500,
+        "area": 1861484,
+        "gdp": 26865,
+        "hdi": 0.516
+    },
+    "SR": {
+        "id": "SR",
+        "name": "TODO",
+        "link": "/suriname",
+        "flag": "TODO",
+        "capital": {
+            "name": "TODO",
+            "population": 1000000000000
+        },
+        "largestCity": {
+            "name": "TODO",
+            "population": 1000000000000
+        },
+        "population": 616500,
+        "area": 163820,
+        "gdp": 4337,
+        "hdi": 0.690
+    },
+    "SJ": {
+        "id": "SJ",
+        "name": "TODO",
+        "link": "/svalbard_and_jan_mayen",
+        "flag": "TODO",
+        "capital": {
+            "name": "TODO",
+            "population": 1000000000000
+        },
+        "largestCity": {
+            "name": "TODO",
+            "population": 1000000000000
+        },
+        "population": "TODO",
+        "area": "TODO",
+        "gdp": "TODO",
+        "hdi": "TODO"
+    },
+    "SE": {
+        "id": "SE",
+        "name": "TODO",
+        "link": "/sweden",
+        "flag": "TODO",
+        "capital": {
+            "name": "TODO",
+            "population": 1000000000000
+        },
+        "largestCity": {
+            "name": "TODO",
+            "population": 1000000000000
+        },
+        "population": 10548261,
+        "area": 450295,
+        "gdp": 623048,
+        "hdi": 0.952
+    },
+    "CH": {
+        "id": "CH",
+        "name": "TODO",
+        "link": "/switzerland",
+        "flag": "TODO",
+        "capital": {
+            "name": "TODO",
+            "population": 1000000000000
+        },
+        "largestCity": {
+            "name": "TODO",
+            "population": 1000000000000
+        },
+        "population": 8981565,
+        "area": 41291,
+        "gdp": 938458,
+        "hdi": 0.967
+    },
+    "SY": {
+        "id": "SY",
+        "name": "TODO",
+        "link": "/syria",
+        "flag": "TODO",
+        "capital": {
+            "name": "TODO",
+            "population": 1000000000000
+        },
+        "largestCity": {
+            "name": "TODO",
+            "population": 1000000000000
+        },
+        "population": 22923000,
+        "area": 185180,
+        "gdp": 18595,
+        "hdi": 0.557
+    },
+    "TW": {
+        "id": "TW",
+        "name": "TODO",
+        "link": "/taiwan",
+        "flag": "TODO",
+        "capital": {
+            "name": "TODO",
+            "population": 1000000000000
+        },
+        "largestCity": {
+            "name": "TODO",
+            "population": 1000000000000
+        },
+        "population": 23413608,
+        "area": 35980,
+        "gdp": 802958,
+        "hdi": 0.916
+    },
+    "TJ": {
+        "id": "TJ",
+        "name": "TODO",
+        "link": "/tajikistan",
+        "flag": "TODO",
+        "capital": {
+            "name": "TODO",
+            "population": 1000000000000
+        },
+        "largestCity": {
+            "name": "TODO",
+            "population": 1000000000000
+        },
+        "population": 10077600,
+        "area": 144100,
+        "gdp": 12953,
+        "hdi": 0.679
+    },
+    "TZ": {
+        "id": "TZ",
+        "name": "TODO",
+        "link": "/tanzania",
+        "flag": "TODO",
+        "capital": {
+            "name": "TODO",
+            "population": 1000000000000
+        },
+        "largestCity": {
+            "name": "TODO",
+            "population": 1000000000000
+        },
+        "population": 61741120,
+        "area": 947303,
+        "gdp": 79605,
+        "hdi": 0.532
+    },
+    "TH": {
+        "id": "TH",
+        "name": "TODO",
+        "link": "/thailand",
+        "flag": "TODO",
+        "capital": {
+            "name": "TODO",
+            "population": 1000000000000
+        },
+        "largestCity": {
+            "name": "TODO",
+            "population": 1000000000000
+        },
+        "population": 65990480,
+        "area": 513120,
+        "gdp": 548890,
+        "hdi": 0.803
+    },
+    "TL": {
+        "id": "TL",
+        "name": "TODO",
+        "link": "/timor_leste",
+        "flag": "TODO",
+        "capital": {
+            "name": "TODO",
+            "population": 1000000000000
+        },
+        "largestCity": {
+            "name": "TODO",
+            "population": 1000000000000
+        },
+        "population": 1354662,
+        "area": 14874,
+        "gdp": 1992,
+        "hdi": 0.566
+    },
+    "TG": {
+        "id": "TG",
+        "name": "TODO",
+        "link": "/togo",
+        "flag": "TODO",
+        "capital": {
+            "name": "TODO",
+            "population": 1000000000000
+        },
+        "largestCity": {
+            "name": "TODO",
+            "population": 1000000000000
+        },
+        "population": 8095498,
+        "area": 56785,
+        "gdp": 9832,
+        "hdi": 0.547
+    },
+    "TK": {
+        "id": "TK",
+        "name": "TODO",
+        "link": "/tokelau",
+        "flag": "TODO",
+        "capital": {
+            "name": "TODO",
+            "population": 1000000000000
+        },
+        "largestCity": {
+            "name": "TODO",
+            "population": 1000000000000
+        },
+        "population": 1647,
+        "area": 12,
+        "gdp": 9406,
+        "hdi": 0.750
+    },
+    "TO": {
+        "id": "TO",
+        "name": "TODO",
+        "link": "/tonga",
+        "flag": "TODO",
+        "capital": {
+            "name": "TODO",
+            "population": 1000000000000
+        },
+        "largestCity": {
+            "name": "TODO",
+            "population": 1000000000000
+        },
+        "population": 100179,
+        "area": 747,
+        "gdp": 581,
+        "hdi": 0.739
+    },
+    "TT": {
+        "id": "TT",
+        "name": "TODO",
+        "link": "/trinidad_and_tobago",
+        "flag": "TODO",
+        "capital": {
+            "name": "TODO",
+            "population": 1000000000000
+        },
+        "largestCity": {
+            "name": "TODO",
+            "population": 1000000000000
+        },
+        "population": 1367510,
+        "area": 5127,
+        "gdp": 28365,
+        "hdi": 0.814
+    },
+    "TN": {
+        "id": "TN",
+        "name": "TODO",
+        "link": "/tunisia",
+        "flag": "TODO",
+        "capital": {
+            "name": "TODO",
+            "population": 1000000000000
+        },
+        "largestCity": {
+            "name": "TODO",
+            "population": 1000000000000
+        },
+        "population": 11850232,
+        "area": 163610,
+        "gdp": 54708,
+        "hdi": 0.732
+    },
+    "TR": {
+        "id": "TR",
+        "name": "TODO",
+        "link": "/turkey",
+        "flag": "TODO",
+        "capital": {
+            "name": "TODO",
+            "population": 1000000000000
+        },
+        "largestCity": {
+            "name": "TODO",
+            "population": 1000000000000
+        },
+        "population": 85372377,
+        "area": 783562,
+        "gdp": 1113561,
+        "hdi": 0.855
+    },
+    "TM": {
+        "id": "TM",
+        "name": "TODO",
+        "link": "/turkmenistan",
+        "flag": "TODO",
+        "capital": {
+            "name": "TODO",
+            "population": 1000000000000
+        },
+        "largestCity": {
+            "name": "TODO",
+            "population": 1000000000000
+        },
+        "population": 7057841,
+        "area": 488100,
+        "gdp": 81896,
+        "hdi": 0.744
+    },
+    "TC": {
+        "id": "TC",
+        "name": "TODO",
+        "link": "/turks_and_caicos_islands",
+        "flag": "TODO",
+        "capital": {
+            "name": "TODO",
+            "population": 1000000000000
+        },
+        "largestCity": {
+            "name": "TODO",
+            "population": 1000000000000
+        },
+        "population": 46131,
+        "area": 948,
+        "gdp": 1138,
+        "hdi": 0.873
+    },
+    "TV": {
+        "id": "TV",
+        "name": "TODO",
+        "link": "/tuvalu",
+        "flag": "TODO",
+        "capital": {
+            "name": "TODO",
+            "population": 1000000000000
+        },
+        "largestCity": {
+            "name": "TODO",
+            "population": 1000000000000
+        },
+        "population": 10679,
+        "area": 26,
+        "gdp": 66,
+        "hdi": 0.653
+    },
+    "UG": {
+        "id": "UG",
+        "name": "TODO",
+        "link": "/uganda",
+        "flag": "TODO",
+        "capital": {
+            "name": "TODO",
+            "population": 1000000000000
+        },
+        "largestCity": {
+            "name": "TODO",
+            "population": 1000000000000
+        },
+        "population": 45562000,
+        "area": 241550,
+        "gdp": 56310,
+        "hdi": 0.550
+    },
+    "UA": {
+        "id": "UA",
+        "name": "TODO",
+        "link": "/ukraine",
+        "flag": "TODO",
+        "capital": {
+            "name": "TODO",
+            "population": 1000000000000
+        },
+        "largestCity": {
+            "name": "TODO",
+            "population": 1000000000000
+        },
+        "population": 36700000,
+        "area": 603550,
+        "gdp": 188943,
+        "hdi": 0.734
+    },
+    "AE": {
+        "id": "AE",
+        "name": "TODO",
+        "link": "/united_arab_emirates",
+        "flag": "TODO",
+        "capital": {
+            "name": "TODO",
+            "population": 1000000000000
+        },
+        "largestCity": {
+            "name": "TODO",
+            "population": 1000000000000
+        },
+        "population": 9282410,
+        "area": 83600,
+        "gdp": 527796,
+        "hdi": 0.937
+    },
+    "GB": {
+        "id": "GB",
+        "name": "TODO",
+        "link": "/uk",
+        "flag": "TODO",
+        "capital": {
+            "name": "TODO",
+            "population": 1000000000000
+        },
+        "largestCity": {
+            "name": "TODO",
+            "population": 1000000000000
+        },
+        "population": 67596281,
+        "area": 244376,
+        "gdp": 3495261,
+        "hdi": 0.940
+    },
+    "UM": {
+        "id": "UM",
+        "name": "TODO",
+        "link": "/usa",
+        "flag": "TODO",
+        "capital": {
+            "name": "TODO",
+            "population": 1000000000000
+        },
+        "largestCity": {
+            "name": "TODO",
+            "population": 1000000000000
+        },
+        "population": "TODO",
+        "area": "TODO",
+        "gdp": "TODO",
+        "hdi": "TODO"
+    },
     "US": {
         "id": "US",
         "name": "United States of America",
@@ -3419,5 +4157,239 @@
         "area": 9525067,
         "gdp": 28781083,
         "hdi": 0.927
+    },
+    "UY": {
+        "id": "UY",
+        "name": "TODO",
+        "link": "/uruguay",
+        "flag": "TODO",
+        "capital": {
+            "name": "TODO",
+            "population": 1000000000000
+        },
+        "largestCity": {
+            "name": "TODO",
+            "population": 1000000000000
+        },
+        "population": 3444263,
+        "area": 176215,
+        "gdp": 82605,
+        "hdi": 0.830
+    },
+    "UZ": {
+        "id": "UZ",
+        "name": "TODO",
+        "link": "/uzbekistan",
+        "flag": "TODO",
+        "capital": {
+            "name": "TODO",
+            "population": 1000000000000
+        },
+        "largestCity": {
+            "name": "TODO",
+            "population": 1000000000000
+        },
+        "population": 36963262,
+        "area": 447400,
+        "gdp": 97956,
+        "hdi": 0.727
+    },
+    "VU": {
+        "id": "VU",
+        "name": "TODO",
+        "link": "/vanuatu",
+        "flag": "TODO",
+        "capital": {
+            "name": "TODO",
+            "population": 1000000000000
+        },
+        "largestCity": {
+            "name": "TODO",
+            "population": 1000000000000
+        },
+        "population": 301295,
+        "area": 12189,
+        "gdp": 1289,
+        "hdi": 0.614
+    },
+    "VE": {
+        "id": "VE",
+        "name": "TODO",
+        "link": "/venezuela",
+        "flag": "TODO",
+        "capital": {
+            "name": "TODO",
+            "population": 1000000000000
+        },
+        "largestCity": {
+            "name": "TODO",
+            "population": 1000000000000
+        },
+        "population": 28302000,
+        "area": 912050,
+        "gdp": 102328,
+        "hdi": 0.699
+    },
+    "VN": {
+        "id": "VN",
+        "name": "TODO",
+        "link": "/vietnam",
+        "flag": "TODO",
+        "capital": {
+            "name": "TODO",
+            "population": 1000000000000
+        },
+        "largestCity": {
+            "name": "TODO",
+            "population": 1000000000000
+        },
+        "population": 100300000,
+        "area": 331340,
+        "gdp": 465814,
+        "hdi": 0.726
+    },
+    "VG": {
+        "id": "VG",
+        "name": "TODO",
+        "link": "/virgin_islands",
+        "flag": "TODO",
+        "capital": {
+            "name": "TODO",
+            "population": 1000000000000
+        },
+        "largestCity": {
+            "name": "TODO",
+            "population": 1000000000000
+        },
+        "population": 31538,
+        "area": 151,
+        "gdp": 1471,
+        "hdi": 0.945
+    },
+    "VI": {
+        "id": "VI",
+        "name": "TODO",
+        "link": "/usa",
+        "flag": "TODO",
+        "capital": {
+            "name": "TODO",
+            "population": 1000000000000
+        },
+        "largestCity": {
+            "name": "TODO",
+            "population": 1000000000000
+        },
+        "population": 87146,
+        "area": 347,
+        "gdp": 4068,
+        "hdi": 0.892
+    },
+    "WF": {
+        "id": "WF",
+        "name": "TODO",
+        "link": "/france",
+        "flag": "TODO",
+        "capital": {
+            "name": "TODO",
+            "population": 1000000000000
+        },
+        "largestCity": {
+            "name": "TODO",
+            "population": 1000000000000
+        },
+        "population": "TODO",
+        "area": "TODO",
+        "gdp": "TODO",
+        "hdi": "TODO"
+    },
+    "EH": {
+        "id": "EH",
+        "name": "TODO",
+        "link": "/western_sahara",
+        "flag": "TODO",
+        "capital": {
+            "name": "TODO",
+            "population": 1000000000000
+        },
+        "largestCity": {
+            "name": "TODO",
+            "population": 1000000000000
+        },
+        "population": 587259,
+        "area": 266000,
+        "gdp": 906,
+        "hdi": "TODO"
+    },
+    "YE": {
+        "id": "YE",
+        "name": "TODO",
+        "link": "/yemen",
+        "flag": "TODO",
+        "capital": {
+            "name": "TODO",
+            "population": 1000000000000
+        },
+        "largestCity": {
+            "name": "TODO",
+            "population": 1000000000000
+        },
+        "population": 31888698,
+        "area": 527968,
+        "gdp": 16940,
+        "hdi": 0.424
+    },
+    "ZM": {
+        "id": "ZM",
+        "name": "TODO",
+        "link": "/zambia",
+        "flag": "TODO",
+        "capital": {
+            "name": "TODO",
+            "population": 1000000000000
+        },
+        "largestCity": {
+            "name": "TODO",
+            "population": 1000000000000
+        },
+        "population": 19610769,
+        "area": 752612,
+        "gdp": 29872,
+        "hdi": 0.569
+    },
+    "ZW": {
+        "id": "ZW",
+        "name": "TODO",
+        "link": "/zimbabwe",
+        "flag": "TODO",
+        "capital": {
+            "name": "TODO",
+            "population": 1000000000000
+        },
+        "largestCity": {
+            "name": "TODO",
+            "population": 1000000000000
+        },
+        "population": 15178979,
+        "area": 390757,
+        "gdp": 34405,
+        "hdi": 0.550
+    },
+    "AX": {
+        "id": "AX",
+        "name": "TODOÅland Islands",
+        "link": "/aland_islands",
+        "flag": "TODO",
+        "capital": {
+            "name": "TODO",
+            "population": 1000000000000
+        },
+        "largestCity": {
+            "name": "TODO",
+            "population": 1000000000000
+        },
+        "population": "TODO",
+        "area": "TODO",
+        "gdp": "TODO",
+        "hdi": "TODO"
     }
 }
