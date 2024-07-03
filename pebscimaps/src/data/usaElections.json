@@ -51,7 +51,10 @@
                     "independent": 0,
                     "libertarian": 25176,
                     "green": 0,
-                    "other": 7312
+                    "other": 7312,
+                    "rightEVs": 9,
+                    "leftEVs": 0,
+                    "otherEVs": 0
                 },
                 {
                     "year": 2016,
@@ -60,7 +63,10 @@
                     "independent": 0,
                     "libertarian": 44467,
                     "green": 9391,
-                    "other": 21712
+                    "other": 21712,
+                    "rightEVs": 9,
+                    "leftEVs": 0,
+                    "otherEVs": 0
                 },
                 {
                     "year": 2012,
@@ -93,7 +99,10 @@
                     "independent": 0,
                     "libertarian": 8897,
                     "green": 0,
-                    "other": 6904 
+                    "other": 6904,
+                    "rightEVs": 3,
+                    "leftEVs": 0,
+                    "otherEVs": 0
                 },
                 {
                     "year": 2016,
@@ -102,7 +111,10 @@
                     "independent": 0,
                     "libertarian": 18725,
                     "green": 5735,
-                    "other": 14307
+                    "other": 14307,
+                    "rightEVs": 3,
+                    "leftEVs": 0,
+                    "otherEVs": 0
                 },
                 {
                     "year": 2012,
@@ -135,7 +147,10 @@
                     "independent": 0,
                     "libertarian": 51465,
                     "green": 1557,
-                    "other": 475
+                    "other": 475,
+                    "rightEVs": 0,
+                    "leftEVs": 11,
+                    "otherEVs": 0
                 },
                 {
                     "year": 2016,
@@ -144,7 +159,10 @@
                     "independent": 17449,
                     "libertarian": 106327,
                     "green": 34345,
-                    "other": 32968
+                    "other": 32968,
+                    "rightEVs": 11,
+                    "leftEVs": 0,
+                    "otherEVs": 0
                 },
                 {
                     "year": 2012,
@@ -177,7 +195,10 @@
                     "independent": 0,
                     "libertarian": 13133,
                     "green": 2980,
-                    "other": 18377
+                    "other": 18377,
+                    "rightEVs": 6,
+                    "leftEVs": 0,
+                    "otherEVs": 0
                 },
                 {
                     "year": 2016,
@@ -186,7 +207,10 @@
                     "independent": 13176,
                     "libertarian": 29949,
                     "green": 9473,
-                    "other": 12712
+                    "other": 12712,
+                    "rightEVs": 6,
+                    "leftEVs": 0,
+                    "otherEVs": 0
                 },
                 {
                     "year": 2012,
@@ -219,7 +243,10 @@
                     "independent": 0,
                     "libertarian": 187910,
                     "green": 81032,
-                    "other": 115281
+                    "other": 115281,
+                    "rightEVs": 0,
+                    "leftEVs": 55,
+                    "otherEVs": 0
                 },
                 {
                     "year": 2016,
@@ -228,7 +255,10 @@
                     "independent": 39596,
                     "libertarian": 478500,
                     "green": 278657,
-                    "other": 147244
+                    "other": 147244,
+                    "rightEVs": 0,
+                    "leftEVs": 55,
+                    "otherEVs": 0
                 },
                 {
                     "year": 2012,
@@ -261,7 +291,10 @@
                     "independent": 0,
                     "libertarian": 52460,
                     "green": 8986,
-                    "other": 26575
+                    "other": 26575,
+                    "rightEVs": 0,
+                    "leftEVs": 9,
+                    "otherEVs": 0
                 },
                 {
                     "year": 2016,
@@ -270,7 +303,10 @@
                     "independent": 28917,
                     "libertarian": 144121,
                     "green": 38437,
-                    "other": 27418
+                    "other": 27418,
+                    "rightEVs": 0,
+                    "leftEVs": 9,
+                    "otherEVs": 0
                 },
                 {
                     "year": 2012,
@@ -303,7 +339,10 @@
                     "independent": 0,
                     "libertarian": 20230,
                     "green": 7538,
-                    "other": 541
+                    "other": 541,
+                    "rightEVs": 0,
+                    "leftEVs": 7,
+                    "otherEVs": 0
                 },
                 {
                     "year": 2016,
@@ -312,7 +351,10 @@
                     "independent": 2108,
                     "libertarian": 48676,
                     "green": 22841,
-                    "other": 508
+                    "other": 508,
+                    "rightEVs": 0,
+                    "leftEVs": 7,
+                    "otherEVs": 0
                 },
                 {
                     "year": 2012,
@@ -345,7 +387,10 @@
                     "independent": 0,
                     "libertarian": 5000,
                     "green": 2139,
-                    "other": 336
+                    "other": 336,
+                    "rightEVs": 0,
+                    "leftEVs": 3,
+                    "otherEVs": 0
                 },
                 {
                     "year": 2016,
@@ -354,7 +399,10 @@
                     "independent": 706,
                     "libertarian": 14757,
                     "green": 6103,
-                    "other": 1518
+                    "other": 1518,
+                    "rightEVs": 0,
+                    "leftEVs": 3,
+                    "otherEVs": 0
                 },
                 {
                     "year": 2012,
@@ -387,7 +435,10 @@
                     "independent": 0,
                     "libertarian": 2036,
                     "green": 1726,
-                    "other": 4685
+                    "other": 4685,
+                    "rightEVs": 0,
+                    "leftEVs": 3,
+                    "otherEVs": 0
                 },
                 {
                     "year": 2016,
@@ -396,7 +447,10 @@
                     "independent": 0,
                     "libertarian": 4906,
                     "green": 4258,
-                    "other": 6551
+                    "other": 6551,
+                    "rightEVs": 0,
+                    "leftEVs": 3,
+                    "otherEVs": 0
                 },
                 {
                     "year": 2012,
@@ -429,7 +483,10 @@
                     "independent": 0,
                     "libertarian": 70324,
                     "green": 14721,
-                    "other": 16635
+                    "other": 16635,
+                    "rightEVs": 29,
+                    "leftEVs": 0,
+                    "otherEVs": 0
                 },
                 {
                     "year": 2016,
@@ -438,7 +495,10 @@
                     "independent": 0,
                     "libertarian": 207043,
                     "green": 64399,
-                    "other": 25736
+                    "other": 25736,
+                    "rightEVs": 29,
+                    "leftEVs": 0,
+                    "otherEVs": 0
                 },
                 {
                     "year": 2012,
@@ -471,7 +531,10 @@
                     "independent": 0,
                     "libertarian": 62229,
                     "green": 1013,
-                    "other": 1231
+                    "other": 1231,
+                    "rightEVs": 0,
+                    "leftEVs": 16,
+                    "otherEVs": 0
                 },
                 {
                     "year": 2016,
@@ -480,7 +543,10 @@
                     "independent": 13017,
                     "libertarian": 125306,
                     "green": 7674,
-                    "other": 1668
+                    "other": 1668,
+                    "rightEVs": 16,
+                    "leftEVs": 0,
+                    "otherEVs": 0
                 },
                 {
                     "year": 2012,
@@ -513,7 +579,10 @@
                     "independent": 0,
                     "libertarian": 5539,
                     "green": 3822,
-                    "other": 2114	
+                    "other": 2114,
+                    "rightEVs": 0,
+                    "leftEVs": 4,
+                    "otherEVs": 0
                 },
                 {
                     "year": 2016,
@@ -522,7 +591,10 @@
                     "independent": 0,
                     "libertarian": 15954,
                     "green": 12737,
-                    "other": 4508
+                    "other": 4508,
+                    "rightEVs": 0,
+                    "leftEVs": 3,
+                    "otherEVs": 1
                 },
                 {
                     "year": 2012,
@@ -555,7 +627,10 @@
                     "independent": 0,
                     "libertarian": 16404,
                     "green": 407,
-                    "other": 9983
+                    "other": 9983,
+                    "rightEVs": 4,
+                    "leftEVs": 0,
+                    "otherEVs": 0
                 },
                 {
                     "year": 2016,
@@ -564,7 +639,10 @@
                     "independent": 46476,
                     "libertarian": 28331,
                     "green": 8496,
-                    "other": 8132
+                    "other": 8132,
+                    "rightEVs": 4,
+                    "leftEVs": 0,
+                    "otherEVs": 0
                 },
                 {
                     "year": 2012,
@@ -597,7 +675,10 @@
                     "independent": 0,
                     "libertarian": 66544,
                     "green": 30494,
-                    "other": 17900
+                    "other": 17900,
+                    "rightEVs": 0,
+                    "leftEVs": 20,
+                    "otherEVs": 0
                 },
                 {
                     "year": 2016,
@@ -606,7 +687,10 @@
                     "independent": 11655,
                     "libertarian": 209596,
                     "green": 76802,
-                    "other": 1627
+                    "other": 1627,
+                    "rightEVs": 0,
+                    "leftEVs": 20,
+                    "otherEVs": 0
                 },
                 {
                     "year": 2012,
@@ -639,7 +723,10 @@
                     "independent": 0,
                     "libertarian": 58901,
                     "green": 989,
-                    "other": 965
+                    "other": 965,
+                    "rightEVs": 11,
+                    "leftEVs": 0,
+                    "otherEVs": 0
                 },
                 {
                     "year": 2016,
@@ -648,7 +735,10 @@
                     "independent": 0,
                     "libertarian": 133993,
                     "green": 7841,
-                    "other": 2712
+                    "other": 2712,
+                    "rightEVs": 11,
+                    "leftEVs": 0,
+                    "otherEVs": 0
                 },
                 {
                     "year": 2012,
@@ -681,7 +771,10 @@
                     "independent": 0,
                     "libertarian": 19637,
                     "green": 3075,
-                    "other": 11426
+                    "other": 11426,
+                    "rightEVs": 6,
+                    "leftEVs": 0,
+                    "otherEVs": 0
                 },
                 {
                     "year": 2016,
@@ -690,7 +783,10 @@
                     "independent": 12366,
                     "libertarian": 59186,
                     "green": 11479,
-                    "other": 28348
+                    "other": 28348,
+                    "rightEVs": 6,
+                    "leftEVs": 0,
+                    "otherEVs": 0
                 },
                 {
                     "year": 2012,
@@ -723,7 +819,10 @@
                     "independent": 0,
                     "libertarian": 30574,
                     "green": 669,
-                    "other": 1014
+                    "other": 1014,
+                    "rightEVs": 6,
+                    "leftEVs": 0,
+                    "otherEVs": 0
                 },
                 {
                     "year": 2016,
@@ -732,7 +831,10 @@
                     "independent": 6520,
                     "libertarian": 55406,
                     "green": 23506,
-                    "other": 947
+                    "other": 947,
+                    "rightEVs": 6,
+                    "leftEVs": 0,
+                    "otherEVs": 0
                 },
                 {
                     "year": 2012,
@@ -765,7 +867,10 @@
                     "independent": 0,
                     "libertarian": 26234,
                     "green": 716,
-                    "other": 10698
+                    "other": 10698,
+                    "rightEVs": 8,
+                    "leftEVs": 0,
+                    "otherEVs": 0
                 },
                 {
                     "year": 2016,
@@ -774,7 +879,10 @@
                     "independent": 22780,
                     "libertarian": 53752,
                     "green": 13913,
-                    "other": 1879
+                    "other": 1879,
+                    "rightEVs": 8,
+                    "leftEVs": 0,
+                    "otherEVs": 0
                 },
                 {
                     "year": 2012,
@@ -807,7 +915,10 @@
                     "independent": 0,
                     "libertarian": 21645,
                     "green": 0,
-                    "other": 14607
+                    "other": 14607,
+                    "rightEVs": 8,
+                    "leftEVs": 0,
+                    "otherEVs": 0
                 },
                 {
                     "year": 2016,
@@ -816,7 +927,10 @@
                     "independent": 8547,
                     "libertarian": 37978,
                     "green": 14031,
-                    "other": 9684
+                    "other": 9684,
+                    "rightEVs": 8,
+                    "leftEVs": 0,
+                    "otherEVs": 0
                 },
                 {
                     "year": 2012,
@@ -849,7 +963,10 @@
                     "independent": 0,
                     "libertarian": 14152,
                     "green": 8230,
-                    "other": 1270
+                    "other": 1270,
+                    "rightEVs": 0,
+                    "leftEVs": 2,
+                    "otherEVs": 0
                 },
                 {
                     "year": 2016,
@@ -858,7 +975,10 @@
                     "independent": 1887,
                     "libertarian": 38105,
                     "green": 14251,
-                    "other": 356
+                    "other": 356,
+                    "rightEVs": 0,
+                    "leftEVs": 2,
+                    "otherEVs": 0
                 },
                 {
                     "year": 2012,
@@ -891,7 +1011,10 @@
                         "independent": 0,
                         "libertarian": 7343,
                         "green": 4654,
-                        "other": 694
+                        "other": 694,
+                        "rightEVs": 0,
+                        "leftEVs": 1,
+                        "otherEVs": 0
                     },
                     {
                         "year": 2016,
@@ -900,7 +1023,10 @@
                         "independent": 807,
                         "libertarian": 18592,
                         "green": 7563,
-                        "other": 209
+                        "other": 209,
+                        "rightEVs": 0,
+                        "leftEVs": 1,
+                        "otherEVs": 0
                     },
                     {
                         "year": 2012,
@@ -933,7 +1059,10 @@
                         "independent": 0,
                         "libertarian": 6809,
                         "green": 3576,
-                        "other": 576
+                        "other": 576,
+                        "rightEVs": 1,
+                        "leftEVs": 0,
+                        "otherEVs": 0
                     },
                     {
                         "year": 2016,
@@ -942,7 +1071,10 @@
                         "independent": 1080,
                         "libertarian": 19510,
                         "green": 6685,
-                        "other": 147
+                        "other": 147,
+                        "rightEVs": 1,
+                        "leftEVs": 0,
+                        "otherEVs": 0
                     },
                     {
                         "year": 2012,
@@ -975,7 +1107,10 @@
                     "independent": 0,
                     "libertarian": 33488,
                     "green": 15799,
-                    "other": 26306
+                    "other": 26306,
+                    "rightEVs": 0,
+                    "leftEVs": 10,
+                    "otherEVs": 0
                 },
                 {
                     "year": 2016,
@@ -984,7 +1119,10 @@
                     "independent": 9630,
                     "libertarian": 79605,
                     "green": 35945,
-                    "other": 35169
+                    "other": 35169,
+                    "rightEVs": 0,
+                    "leftEVs": 10,
+                    "otherEVs": 0
                 },
                 {
                     "year": 2012,
@@ -1017,7 +1155,10 @@
                     "independent": 0,
                     "libertarian": 47013,
                     "green": 18658,
-                    "other": 16327
+                    "other": 16327,
+                    "rightEVs": 0,
+                    "leftEVs": 11,
+                    "otherEVs": 0
                 },
                 {
                     "year": 2016,
@@ -1026,7 +1167,10 @@
                     "independent": 2719,
                     "libertarian": 138018,
                     "green": 47661,
-                    "other": 50559
+                    "other": 50559,
+                    "rightEVs": 0,
+                    "leftEVs": 11,
+                    "otherEVs": 0
                 },
                 {
                     "year": 2012,
@@ -1059,7 +1203,10 @@
                     "independent": 0,
                     "libertarian": 60381,
                     "green": 13718,
-                    "other": 11311
+                    "other": 11311,
+                    "rightEVs": 0,
+                    "leftEVs": 16,
+                    "otherEVs": 0
                 },
                 {
                     "year": 2016,
@@ -1068,7 +1215,10 @@
                     "independent": 8177,
                     "libertarian": 172136,
                     "green": 51463,
-                    "other": 19126
+                    "other": 19126,
+                    "rightEVs": 16,
+                    "leftEVs": 0,
+                    "otherEVs": 0
                 },
                 {
                     "year": 2012,
@@ -1101,7 +1251,10 @@
                     "independent": 0,
                     "libertarian": 34976,
                     "green": 10033,
-                    "other": 31020
+                    "other": 31020,
+                    "rightEVs": 0,
+                    "leftEVs": 10,
+                    "otherEVs": 0
                 },
                 {
                     "year": 2016,
@@ -1110,11 +1263,14 @@
                     "independent": 53076,
                     "libertarian": 112972,
                     "green": 36985,
-                    "other": 51113
+                    "other": 51113,
+                    "rightEVs": 0,
+                    "leftEVs": 10,
+                    "otherEVs": 0
                 },
                 {
                     "year": 2012,
-                    "republican": 1320225	,
+                    "republican": 1320225,
                     "democrat": 1546167,
                     "independent": 0,
                     "libertarian": 35098,
@@ -1143,7 +1299,10 @@
                     "independent": 0,
                     "libertarian": 8026,
                     "green": 1498,
-                    "other": 8073
+                    "other": 8073,
+                    "rightEVs": 6,
+                    "leftEVs": 0,
+                    "otherEVs": 0
                 },
                 {
                     "year": 2016,
@@ -1152,7 +1311,10 @@
                     "independent": 0,
                     "libertarian": 14435,
                     "green": 3731,
-                    "other": 5346
+                    "other": 5346,
+                    "rightEVs": 6,
+                    "leftEVs": 0,
+                    "otherEVs": 0
                 },
                 {
                     "year": 2012,
@@ -1185,7 +1347,10 @@
                     "independent": 0,
                     "libertarian": 41205,
                     "green": 8283,
-                    "other": 4724
+                    "other": 4724,
+                    "rightEVs": 10,
+                    "leftEVs": 0,
+                    "otherEVs": 0
                 },
                 {
                     "year": 2016,
@@ -1194,7 +1359,10 @@
                     "independent": 7071,
                     "libertarian": 97359,
                     "green": 25419,
-                    "other": 13177
+                    "other": 13177,
+                    "rightEVs": 10,
+                    "leftEVs": 0,
+                    "otherEVs": 0
                 },
                 {
                     "year": 2012,
@@ -1227,7 +1395,10 @@
                     "independent": 0,
                     "libertarian": 15252,
                     "green": 0,
-                    "other": 34
+                    "other": 34,
+                    "rightEVs": 3,
+                    "leftEVs": 0,
+                    "otherEVs": 0
                 },
                 {
                     "year": 2016,
@@ -1236,7 +1407,10 @@
                     "independent": 2297,
                     "libertarian": 28037,
                     "green": 7970,
-                    "other": 1894
+                    "other": 1894,
+                    "rightEVs": 3,
+                    "leftEVs": 0,
+                    "otherEVs": 0
                 },
                 {
                     "year": 2012,
@@ -1269,7 +1443,10 @@
                     "independent": 0,
                     "libertarian": 20283,
                     "green": 0,
-                    "other": 4671
+                    "other": 4671,
+                    "rightEVs": 2,
+                    "leftEVs": 0,
+                    "otherEVs": 0
                 },
                 {
                     "year": 2016,
@@ -1278,7 +1455,10 @@
                     "independent": 0,
                     "libertarian": 38946,
                     "green": 8775,
-                    "other": 16051
+                    "other": 16051,
+                    "rightEVs": 2,
+                    "leftEVs": 0,
+                    "otherEVs": 0
                 },
                 {
                     "year": 2012,
@@ -1311,7 +1491,10 @@
                         "independent": 0,
                         "libertarian": 7495,
                         "green": 0,
-                        "other": 1840
+                        "other": 1840,
+                        "rightEVs": 1,
+                        "leftEVs": 0,
+                        "otherEVs": 0
                     },
                     {
                         "year": 2016,
@@ -1320,7 +1503,10 @@
                         "independent": 0,
                         "libertarian": 14033,
                         "green": 3374,
-                        "other": 6181
+                        "other": 6181,
+                        "rightEVs": 1,
+                        "leftEVs": 0,
+                        "otherEVs": 0
                     },
                     {
                         "year": 2012,
@@ -1353,7 +1539,10 @@
                         "independent": 0,
                         "libertarian": 6909,
                         "green": 0,
-                        "other": 1912
+                        "other": 1912,
+                        "rightEVs": 0,
+                        "leftEVs": 1,
+                        "otherEVs": 0
                     },
                     {
                         "year": 2016,
@@ -1362,7 +1551,10 @@
                         "independent": 0,
                         "libertarian": 13245,
                         "green": 3347,
-                        "other": 6494
+                        "other": 6494,
+                        "rightEVs": 1,
+                        "leftEVs": 0,
+                        "otherEVs": 0
                     },
                     {
                         "year": 2012,
@@ -1395,7 +1587,10 @@
                         "independent": 0,
                         "libertarian": 5879,
                         "green": 0,
-                        "other": 919
+                        "other": 919,
+                        "rightEVs": 1,
+                        "leftEVs": 0,
+                        "otherEVs": 0
                     },
                     {
                         "year": 2016,
@@ -1404,7 +1599,10 @@
                         "independent": 0,
                         "libertarian": 11668,
                         "green": 2054,
-                        "other": 3451
+                        "other": 3451,
+                        "rightEVs": 1,
+                        "leftEVs": 0,
+                        "otherEVs": 0
                     },
                     {
                         "year": 2012,
@@ -1437,7 +1635,10 @@
                     "independent": 0,
                     "libertarian": 14783,
                     "green": 0,
-                    "other": 17217
+                    "other": 17217,
+                    "rightEVs": 0,
+                    "leftEVs": 6,
+                    "otherEVs": 0
                 },
                 {
                     "year": 2016,
@@ -1446,7 +1647,10 @@
                     "independent": 0,
                     "libertarian": 37384,
                     "green": 0,
-                    "other": 36683
+                    "other": 36683,
+                    "rightEVs": 0,
+                    "leftEVs": 6,
+                    "otherEVs": 0
                 },
                 {
                     "year": 2012,
@@ -1479,7 +1683,10 @@
                     "independent": 0,
                     "libertarian": 13236,
                     "green": 217,
-                    "other": 2155
+                    "other": 2155,
+                    "rightEVs": 0,
+                    "leftEVs": 4,
+                    "otherEVs": 0
                 },
                 {
                     "year": 2016,
@@ -1488,7 +1695,10 @@
                     "independent": 1064,
                     "libertarian": 30777,
                     "green": 6496,
-                    "other": 11643
+                    "other": 11643,
+                    "rightEVs": 0,
+                    "leftEVs": 4,
+                    "otherEVs": 0
                 },
                 {
                     "year": 2012,
@@ -1521,7 +1731,10 @@
                     "independent": 0,
                     "libertarian": 31677,
                     "green": 14202,
-                    "other": 11865
+                    "other": 11865,
+                    "rightEVs": 0,
+                    "leftEVs": 14,
+                    "otherEVs": 0
                 },
                 {
                     "year": 2016,
@@ -1530,7 +1743,10 @@
                     "independent": 0,
                     "libertarian": 72477,
                     "green": 37772,
-                    "other": 13586
+                    "other": 13586,
+                    "rightEVs": 0,
+                    "leftEVs": 14,
+                    "otherEVs": 0
                 },
                 {
                     "year": 2012,
@@ -1563,7 +1779,10 @@
                     "independent": 0,
                     "libertarian": 12585,
                     "green": 4426,
-                    "other": 3446
+                    "other": 3446,
+                    "rightEVs": 0,
+                    "leftEVs": 5,
+                    "otherEVs": 0
                 },
                 {
                     "year": 2016,
@@ -1572,7 +1791,10 @@
                     "independent": 5825,
                     "libertarian": 74541,
                     "green": 9879,
-                    "other": 3173
+                    "other": 3173,
+                    "rightEVs": 0,
+                    "leftEVs": 5,
+                    "otherEVs": 0
                 },
                 {
                     "year": 2012,
@@ -1605,7 +1827,10 @@
                     "independent": 0,
                     "libertarian": 60383,
                     "green": 32832,
-                    "other": 26763
+                    "other": 26763,
+                    "rightEVs": 0,
+                    "leftEVs": 29,
+                    "otherEVs": 0
                 },
                 {
                     "year": 2016,
@@ -1614,7 +1839,10 @@
                     "independent": 10373,
                     "libertarian": 176598,
                     "green": 107934,
-                    "other": 50890
+                    "other": 50890,
+                    "rightEVs": 0,
+                    "leftEVs": 29,
+                    "otherEVs": 0
                 },
                 {
                     "year": 2012,
@@ -1647,7 +1875,10 @@
                     "independent": 0,
                     "libertarian": 48678,
                     "green": 12195,
-                    "other": 20864
+                    "other": 20864,
+                    "rightEVs": 15,
+                    "leftEVs": 0,
+                    "otherEVs": 0
                 },
                 {
                     "year": 2016,
@@ -1656,7 +1887,10 @@
                     "independent": 0,
                     "libertarian": 130126,
                     "green": 12105,
-                    "other": 47386
+                    "other": 47386,
+                    "rightEVs": 15,
+                    "leftEVs": 0,
+                    "otherEVs": 0
                 },
                 {
                     "year": 2012,
@@ -1689,7 +1923,10 @@
                     "independent": 0,
                     "libertarian": 9371,
                     "green": 0,
-                    "other": 1860
+                    "other": 1860,
+                    "rightEVs": 3,
+                    "leftEVs": 0,
+                    "otherEVs": 0
                 },
                 {
                     "year": 2016,
@@ -1698,7 +1935,10 @@
                     "independent": 0,
                     "libertarian": 21434,
                     "green": 3780,
-                    "other": 8594
+                    "other": 8594,
+                    "rightEVs": 3,
+                    "leftEVs": 0,
+                    "otherEVs": 0
                 },
                 {
                     "year": 2012,
@@ -1731,7 +1971,10 @@
                     "independent": 0,
                     "libertarian": 67569,
                     "green": 18812,
-                    "other": 1822
+                    "other": 1822,
+                    "rightEVs": 18,
+                    "leftEVs": 0,
+                    "otherEVs": 0
                 },
                 {
                     "year": 2016,
@@ -1740,7 +1983,10 @@
                     "independent": 12574,
                     "libertarian": 174498,
                     "green": 46271,
-                    "other": 27975
+                    "other": 27975,
+                    "rightEVs": 18,
+                    "leftEVs": 0,
+                    "otherEVs": 0
                 },
                 {
                     "year": 2012,
@@ -1773,7 +2019,10 @@
                     "independent": 0,
                     "libertarian": 24731,
                     "green": 0,
-                    "other": 11798
+                    "other": 11798,
+                    "rightEVs": 7,
+                    "leftEVs": 0,
+                    "otherEVs": 0
                 },
                 {
                     "year": 2016,
@@ -1782,7 +2031,10 @@
                     "independent": 0,
                     "libertarian": 83481,
                     "green": 0,
-                    "other": 0
+                    "other": 0,
+                    "rightEVs": 7,
+                    "leftEVs": 0,
+                    "otherEVs": 0
                 },
                 {
                     "year": 2012,
@@ -1815,7 +2067,10 @@
                     "independent": 0,
                     "libertarian": 41582,
                     "green": 11831,
-                    "other": 22077
+                    "other": 22077,
+                    "rightEVs": 0,
+                    "leftEVs": 7,
+                    "otherEVs": 0
                 },
                 {
                     "year": 2016,
@@ -1824,7 +2079,10 @@
                     "independent": 0,
                     "libertarian": 94231,
                     "green": 50002,
-                    "other": 72594
+                    "other": 72594,
+                    "rightEVs": 0,
+                    "leftEVs": 7,
+                    "otherEVs": 0
                 },
                 {
                     "year": 2012,
@@ -1857,7 +2115,10 @@
                     "independent": 0,
                     "libertarian": 79380,
                     "green": 1282,
-                    "other": 20411
+                    "other": 20411,
+                    "rightEVs": 0,
+                    "leftEVs": 20,
+                    "otherEVs": 0
                 },
                 {
                     "year": 2016,
@@ -1866,7 +2127,10 @@
                     "independent": 6472,
                     "libertarian": 146715,
                     "green": 49941,
-                    "other": 65176
+                    "other": 65176,
+                    "rightEVs": 20,
+                    "leftEVs": 0,
+                    "otherEVs": 0
                 },
                 {
                     "year": 2012,
@@ -1899,7 +2163,10 @@
                     "independent": 0,
                     "libertarian": 5053,
                     "green": 0,
-                    "other": 5296
+                    "other": 5296,
+                    "rightEVs": 0,
+                    "leftEVs": 4,
+                    "otherEVs": 0
                 },
                 {
                     "year": 2016,
@@ -1908,7 +2175,10 @@
                     "independent": 516,
                     "libertarian": 14746,
                     "green": 6220,
-                    "other": 9594
+                    "other": 9594,
+                    "rightEVs": 0,
+                    "leftEVs": 4,
+                    "otherEVs": 0
                 },
                 {
                     "year": 2012,
@@ -1941,7 +2211,10 @@
                     "independent": 0,
                     "libertarian": 27916,
                     "green": 6907,
-                    "other": 1862
+                    "other": 1862,
+                    "rightEVs": 9,
+                    "leftEVs": 0,
+                    "otherEVs": 0
                 },
                 {
                     "year": 2016,
@@ -1950,7 +2223,10 @@
                     "independent": 21016,
                     "libertarian": 49204,
                     "green": 13034,
-                    "other": 9011
+                    "other": 9011,
+                    "rightEVs": 9,
+                    "leftEVs": 0,
+                    "otherEVs": 0
                 },
                 {
                     "year": 2012,
@@ -1983,7 +2259,10 @@
                     "independent": 0,
                     "libertarian": 11095,
                     "green": 0,
-                    "other": 0
+                    "other": 0,
+                    "rightEVs": 3,
+                    "leftEVs": 0,
+                    "otherEVs": 0
                 },
                 {
                     "year": 2016,
@@ -1992,7 +2271,10 @@
                     "independent": 0,
                     "libertarian": 20850,
                     "green": 0,
-                    "other": 4064
+                    "other": 4064,
+                    "rightEVs": 3,
+                    "leftEVs": 0,
+                    "otherEVs": 0
                 },
                 {
                     "year": 2012,
@@ -2025,7 +2307,10 @@
                     "independent": 0,
                     "libertarian": 29877,
                     "green": 4545,
-                    "other": 23243
+                    "other": 23243,
+                    "rightEVs": 11,
+                    "leftEVs": 0,
+                    "otherEVs": 0
                 },
                 {
                     "year": 2016,
@@ -2034,7 +2319,10 @@
                     "independent": 11991,
                     "libertarian": 70397,
                     "green": 15993,
-                    "other": 16026
+                    "other": 16026,
+                    "rightEVs": 11,
+                    "leftEVs": 0,
+                    "otherEVs": 0
                 },
                 {
                     "year": 2012,
@@ -2067,7 +2355,10 @@
                     "independent": 0,
                     "libertarian": 126243,
                     "green": 33396,
-                    "other": 5944
+                    "other": 5944,
+                    "rightEVs": 38,
+                    "leftEVs": 0,
+                    "otherEVs": 0
                 },
                 {
                     "year": 2016,
@@ -2076,7 +2367,10 @@
                     "independent": 42366,
                     "libertarian": 283492,
                     "green": 71558,
-                    "other": 8895
+                    "other": 8895,
+                    "rightEVs": 36,
+                    "leftEVs": 0,
+                    "otherEVs": 2
                 },
                 {
                     "year": 2012,
@@ -2109,7 +2403,10 @@
                     "independent": 0,
                     "libertarian": 38447,
                     "green": 5053,
-                    "other": 19367
+                    "other": 19367,
+                    "rightEVs": 6,
+                    "leftEVs": 0,
+                    "otherEVs": 0
                 },
                 {
                     "year": 2016,
@@ -2118,7 +2415,10 @@
                     "independent": 243690,
                     "libertarian": 39608,
                     "green": 9438,
-                    "other": 12787
+                    "other": 12787,
+                    "rightEVs": 6,
+                    "leftEVs": 0,
+                    "otherEVs": 0
                 },
                 {
                     "year": 2012,
@@ -2151,7 +2451,10 @@
                     "independent": 0,
                     "libertarian": 3608,
                     "green": 1310,
-                    "other": 6986
+                    "other": 6986,
+                    "rightEVs": 0,
+                    "leftEVs": 3,
+                    "otherEVs": 0
                 },
                 {
                     "year": 2016,
@@ -2160,7 +2463,10 @@
                     "independent": 639,
                     "libertarian": 10078,
                     "green": 6758,
-                    "other": 23650
+                    "other": 23650,
+                    "rightEVs": 0,
+                    "leftEVs": 3,
+                    "otherEVs": 0
                 },
                 {
                     "year": 2012,
@@ -2193,7 +2499,10 @@
                     "independent": 0,
                     "libertarian": 64761,
                     "green": 0,
-                    "other": 19765
+                    "other": 19765,
+                    "rightEVs": 0,
+                    "leftEVs": 13,
+                    "otherEVs": 0
                 },
                 {
                     "year": 2016,
@@ -2202,7 +2511,10 @@
                     "independent": 54054,
                     "libertarian": 118274,
                     "green": 27638,
-                    "other": 33749
+                    "other": 33749,
+                    "rightEVs": 0,
+                    "leftEVs": 13,
+                    "otherEVs": 0
                 },
                 {
                     "year": 2012,
@@ -2235,7 +2547,10 @@
                     "independent": 0,
                     "libertarian": 80500,
                     "green": 18289,
-                    "other": 34579
+                    "other": 34579,
+                    "rightEVs": 0,
+                    "leftEVs": 12,
+                    "otherEVs": 0
                 },
                 {
                     "year": 2016,
@@ -2244,7 +2559,10 @@
                     "independent": 0,
                     "libertarian": 160879,
                     "green": 58417,
-                    "other": 133258
+                    "other": 133258,
+                    "rightEVs": 0,
+                    "leftEVs": 8,
+                    "otherEVs": 4
                 },
                 {
                     "year": 2012,
@@ -2277,7 +2595,10 @@
                     "independent": 0,
                     "libertarian": 10687,
                     "green": 2599,
-                    "other": 79
+                    "other": 79,
+                    "rightEVs": 5,
+                    "leftEVs": 0,
+                    "otherEVs": 0
                 },
                 {
                     "year": 2016,
@@ -2286,7 +2607,10 @@
                     "independent": 1104,
                     "libertarian": 23004,
                     "green": 8075,
-                    "other": 4075
+                    "other": 4075,
+                    "rightEVs": 5,
+                    "leftEVs": 0,
+                    "otherEVs": 0
                 },
                 {
                     "year": 2012,
@@ -2319,7 +2643,10 @@
                     "independent": 0,
                     "libertarian": 38491,
                     "green": 1089,
-                    "other": 17411
+                    "other": 17411,
+                    "rightEVs": 0,
+                    "leftEVs": 10,
+                    "otherEVs": 0
                 },
                 {
                     "year": 2016,
@@ -2328,7 +2655,10 @@
                     "independent": 11855,
                     "libertarian": 106674,
                     "green": 31072,
-                    "other": 38729
+                    "other": 38729,
+                    "rightEVs": 10,
+                    "leftEVs": 0,
+                    "otherEVs": 0
                 },
                 {
                     "year": 2012,
@@ -2361,7 +2691,10 @@
                     "independent": 0,
                     "libertarian": 5768,
                     "green": 0,
-                    "other": 3947
+                    "other": 3947,
+                    "rightEVs": 3,
+                    "leftEVs": 0,
+                    "otherEVs": 0
                 },
                 {
                     "year": 2016,
@@ -2370,7 +2703,10 @@
                     "independent": 0,
                     "libertarian": 13287,
                     "green": 2515,
-                    "other": 9655
+                    "other": 9655,
+                    "rightEVs": 3,
+                    "leftEVs": 0,
+                    "otherEVs": 0
                 },
                 {
                     "year": 2012,

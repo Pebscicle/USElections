@@ -1,6 +1,8 @@
 import DashboardTopBar from '../components/DashboardTopBar';
 import LoginModal from '../components/LoginModal';
 
+import ToggleSwitch from '../components/ToggleSwitch';
+
 import Link from 'next/link';
 
 import {useState} from 'react';
@@ -8,6 +10,13 @@ import {useState} from 'react';
 function Dashboard({children, user}) {
     
     const [showLogin, setShowLogin] = useState(false);
+
+    const [mode, setMode] = useState('general');
+
+
+    const changeMode = (modeToSwitchTo) => {
+        //setMode(modeToSwitchTo);
+    }
 
 //START LOGIN / SIGN UP
     const openLogin = () => {
@@ -26,7 +35,7 @@ function Dashboard({children, user}) {
         <LoginModal isVisible={showLogin} closeModal={closeLogin}/>
         <div style={{width: '100%', height: '100vh', backgroundColor: 'green', display: 'grid', gridTemplateRows: '50px 1fr'}}>
             <DashboardTopBar>
-                <button>Button #1</button>
+                <button onClick={changeMode('exploration')}>Exploration</button> <ToggleSwitch />
                 <button>Button #2</button>
                 <button>Button #3</button>
                 {!user && 

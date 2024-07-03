@@ -54,6 +54,47 @@ function findIndexOfYear(selectedYear) {
     return index; // Return -1 if no match was found
 }
 
+function getLeftEVs(selectedYear) {
+    let sumEVs = 0;
+    for (let i = 0; i < usaElections.states.length; i++) {
+        const state = usaElections.states[i];
+        for (let j = 0; j < state.electionResults.length; j++) {
+            const result = state.electionResults[j];
+            
+            if (result.year === selectedYear) {
+                sumEVs = sumEVs + result.leftEVs;
+            }
+        }
+    }
+    return sumEVs;
+}
+function getRightEVs(selectedYear) {
+    let sumEVs = 0;
+    for (let i = 0; i < usaElections.states.length; i++) {
+        const state = usaElections.states[i];
+        for (let j = 0; j < state.electionResults.length; j++) {
+            const result = state.electionResults[j];
+            if (result.year === selectedYear) {
+                sumEVs += result.rightEVs;
+            }
+        }
+    }
+    return sumEVs;
+}
+function getOtherEVs(selectedYear) {
+    let sumEVs = 0;
+    for (let i = 0; i < usaElections.states.length; i++) {
+        const state = usaElections.states[i];
+        for (let j = 0; j < state.electionResults.length; j++) {
+            const result = state.electionResults[j];
+            if (result.year === selectedYear) {
+                sumEVs += result.otherEVs;
+            }
+        }
+    }
+    return sumEVs;
+}
+
 function getStateImageLinkFromID(id) {
     return usaImages.imageLinks[id];
 }
@@ -70,7 +111,7 @@ function getCountryFromID(id) {
 
 module.exports = {
     getStateFromID,
-    getStateElectionDataFromID, determineDominantColor,
+    getStateElectionDataFromID, getLeftEVs, getRightEVs, getOtherEVs, determineDominantColor,
     findIndexOfYear,
     getStateImageLinkFromID, getCountryImageLinkFromID, getCountryFromID
 };
