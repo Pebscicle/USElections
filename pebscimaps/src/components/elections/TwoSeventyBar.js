@@ -35,6 +35,10 @@ function TwoSeventyBar( {leftEVs, rightEVs, otherEVs} ) {
     }
 
   const returnFormattedStyle = () => {
+    //if no evs counted yet.
+    if(leftEVs == 0 && rightEVs == 0){
+      return '0px 0px 1fr 0px';
+    }
     return `${getLeftPercent()}fr ${getOtherPercent()}px ${getRemainingPercent()}fr ${getRightPercent()}fr`;
   }
 

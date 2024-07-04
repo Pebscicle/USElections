@@ -95,6 +95,11 @@ function getOtherEVs(selectedYear) {
     return sumEVs;
 }
 
+function getEVsForYear(selectedYear){
+    //Determine the EVs
+    return usaElections.electoralVotesByCensus?.[String.toString(selectedYear)] || usaElections.electoralVotesByCensus[2020];
+}
+
 function getStateImageLinkFromID(id) {
     return usaImages.imageLinks[id];
 }
@@ -111,7 +116,7 @@ function getCountryFromID(id) {
 
 module.exports = {
     getStateFromID,
-    getStateElectionDataFromID, getLeftEVs, getRightEVs, getOtherEVs, determineDominantColor,
+    getStateElectionDataFromID, getLeftEVs, getRightEVs, getOtherEVs, getEVsForYear, determineDominantColor,
     findIndexOfYear,
     getStateImageLinkFromID, getCountryImageLinkFromID, getCountryFromID
 };

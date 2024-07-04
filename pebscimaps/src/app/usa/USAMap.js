@@ -3,6 +3,7 @@
 import InfoModal from '../../components/InfoModal';
 
 import City from '../../components/mapping/City';
+import MapLabel from '../../components/mapping/MapLabel';
 
 import {getStateFromID, getStateElectionDataFromID, determineDominantColor, getStateImageLinkFromID} from '../services/dbFetcherService';
 import {findIndexOfYear} from "../services/dbFetcherService";
@@ -15,9 +16,10 @@ import colors from '../../resources/colors.json';
  * 
  * @param {*} param0 
  * @param infoType Valid types: general, elections, creator
+ * @param specificInfoType Valid types: predictor
  * @returns 
  */
-function USAMap( {infoType, selectedYear, callbackData, suppliedList} ) {
+function USAMap( {infoType, specificInfoType, selectedYear, callbackData, suppliedList} ) {
 
     const [isModalVisible, setIsModalVisible] = useState(false);
     const [selectedState, setSelectedState] = useState('');
@@ -39,7 +41,13 @@ function USAMap( {infoType, selectedYear, callbackData, suppliedList} ) {
         //Send selected state back to parent.
         callbackData(foundState);
       }else if(infoType==="elections"){
-        foundState = getStateElectionDataFromID(e.target.id);
+        if(specificInfoType==="predictor"){
+          foundState = getStateElectionDataFromID(e.target.id);
+          callbackData(foundState);
+          //TODO
+        }else{
+          foundState = getStateElectionDataFromID(e.target.id);
+        }
       }else if(infoType==="creator"){
         foundState = getStateFromID(e.target.id);
         callbackData(foundState);
@@ -57,10 +65,17 @@ function USAMap( {infoType, selectedYear, callbackData, suppliedList} ) {
     const determineStatesColor = (id) => {
       //Use state's ID to determine color
       if(infoType==="elections"){
-        const foundState = getStateElectionDataFromID(id);
-        const demVotes = foundState.electionResults[findIndexOfYear(selectedYear)].democrat;
-        const repVotes = foundState.electionResults[findIndexOfYear(selectedYear)].republican;
-        return determineDominantColor(demVotes, repVotes);
+        if(specificInfoType==="predictor"){
+          //TODO
+          return 'gray';
+        }
+        else{
+          const foundState = getStateElectionDataFromID(id);
+          const demVotes = foundState.electionResults[findIndexOfYear(selectedYear)].democrat;
+          const repVotes = foundState.electionResults[findIndexOfYear(selectedYear)].republican;
+          return determineDominantColor(demVotes, repVotes);
+        }
+        
       }
       if(infoType==="creator" || infoType==="general"){
         console.log(suppliedList);
@@ -158,6 +173,69 @@ return (
     <path id="path58" fill="#D3D3D3" d="M975.8,353.8l-1.1-1.6l-1-0.8l1.1-1.6l2.2,1.5L975.8,353.8z"/>
     <circle id="DC" data-info="<div>Washington DC</div>" fill={determineStatesColor('DC')} stroke="#FFFFFF" strokeWidth="1.5" cx="975.3" cy="351.8" r="5"/>
   </g>
+
+  {infoType==="elections" &&
+    <g>
+      <MapLabel title={'HI'} xLoc={438} yLoc={665} fontSize={'10px'} />
+      <MapLabel title={'AK'} xLoc={285} yLoc={595} fontSize={'10px'} />
+      <MapLabel title={'WA'} xLoc={274} yLoc={150} fontSize={'10px'} />
+      <MapLabel title={'OR'} xLoc={258} yLoc={225} fontSize={'10px'} />
+      <MapLabel title={'CA'} xLoc={233} yLoc={386} fontSize={'10px'} />
+      <MapLabel title={'NV'} xLoc={298} yLoc={325} fontSize={'10px'} />
+      <MapLabel title={'ID'} xLoc={358} yLoc={255} fontSize={'10px'} />
+      <MapLabel title={'MT'} xLoc={438} yLoc={190} fontSize={'10px'} />
+      <MapLabel title={'WY'} xLoc={458} yLoc={285} fontSize={'10px'} />
+      <MapLabel title={'UT'} xLoc={388} yLoc={355} fontSize={'10px'} />
+      <MapLabel title={'CO'} xLoc={478} yLoc={375} fontSize={'10px'} />
+      <MapLabel title={'AZ'} xLoc={361} yLoc={465} fontSize={'10px'} />
+      <MapLabel title={'NM'} xLoc={455} yLoc={475} fontSize={'10px'} />
+      <MapLabel title={'ND'} xLoc={578} yLoc={197} fontSize={'10px'} />
+      <MapLabel title={'SD'} xLoc={578} yLoc={260} fontSize={'10px'} />
+      <MapLabel title={'NE'} xLoc={590} yLoc={330} fontSize={'10px'} />
+      <MapLabel title={'KS'} xLoc={610} yLoc={395} fontSize={'10px'} />
+      <MapLabel title={'OK'} xLoc={625} yLoc={462} fontSize={'10px'} />
+      <MapLabel title={'TX'} xLoc={590} yLoc={555} fontSize={'10px'} />
+      <MapLabel title={'MN'} xLoc={668} yLoc={230} fontSize={'10px'} />
+      <MapLabel title={'IA'} xLoc={690} yLoc={317} fontSize={'10px'} />
+      <MapLabel title={'MO'} xLoc={705} yLoc={400} fontSize={'10px'} />
+      <MapLabel title={'AR'} xLoc={710} yLoc={477} fontSize={'10px'} />
+      <MapLabel title={'LA'} xLoc={710} yLoc={540} fontSize={'10px'} />
+      <MapLabel title={'MS'} xLoc={762} yLoc={510} fontSize={'10px'} />
+      <MapLabel title={'AL'} xLoc={817} yLoc={505} fontSize={'10px'} />
+      <MapLabel title={'GA'} xLoc={876} yLoc={505} fontSize={'10px'} />
+      <MapLabel title={'FL'} xLoc={930} yLoc={605} fontSize={'10px'} />
+      <MapLabel title={'SC'} xLoc={920} yLoc={475} fontSize={'10px'} />
+      <MapLabel title={'NC'} xLoc={947} yLoc={435} fontSize={'10px'} />
+      <MapLabel title={'TN'} xLoc={817} yLoc={445} fontSize={'10px'} />
+      <MapLabel title={'KY'} xLoc={837} yLoc={407} fontSize={'10px'} />
+      <MapLabel title={'VA'} xLoc={950} yLoc={385} fontSize={'10px'} />
+      <MapLabel title={'WV'} xLoc={900} yLoc={385} fontSize={'10px'} />
+      <MapLabel title={'WI'} xLoc={743} yLoc={260} fontSize={'10px'} />
+      <MapLabel title={'IL'} xLoc={767} yLoc={360} fontSize={'10px'} />
+      <MapLabel title={'IN'} xLoc={813} yLoc={355} fontSize={'10px'} />
+      <MapLabel title={'OH'} xLoc={865} yLoc={345} fontSize={'10px'} />
+      <MapLabel title={'MI'} xLoc={830} yLoc={280} fontSize={'10px'} />
+      <path d="M979.2 351.5 L1050 400" stroke="black" strokeWidth="0.5" fill="none" />
+      <MapLabel title={'DC'} xLoc={1053} yLoc={404} fontSize={'10px'} />
+      <path d="M1000 360 L1050 370" stroke="black" strokeWidth="0.5" fill="none" />
+      <MapLabel title={'MD'} xLoc={1053} yLoc={374} fontSize={'10px'} />
+      <path d="M1009 352 L1100 360" stroke="black" strokeWidth="0.5" fill="none" />
+      <MapLabel title={'DE'} xLoc={1103} yLoc={364} fontSize={'10px'} />
+      <MapLabel title={'PA'} xLoc={947} yLoc={315} fontSize={'10px'} />
+      <MapLabel title={'NJ'} xLoc={1020} yLoc={334} fontSize={'10px'} />
+      <MapLabel title={'NY'} xLoc={980} yLoc={260} fontSize={'10px'} />
+      <path d="M1044 281 L1060 310" stroke="black" strokeWidth="0.5" fill="none" />
+      <MapLabel title={'CT'} xLoc={1063} yLoc={314} fontSize={'10px'} />
+      <path d="M1054.5 275 L1100 320" stroke="black" strokeWidth="0.5" fill="none" />
+      <MapLabel title={'RI'} xLoc={1103} yLoc={324} fontSize={'10px'} />
+      <MapLabel title={'VT'} xLoc={1010} yLoc={198} fontSize={'10px'} />
+      <MapLabel title={'ME'} xLoc={1058} yLoc={180} fontSize={'10px'} />
+      <path d="M1055 252 L1110 260" stroke="black" strokeWidth="0.5" fill="none" />
+      <MapLabel title={'MA'} xLoc={1113} yLoc={264} fontSize={'10px'} />
+      <path d="M1055 240 L1110 220" stroke="black" strokeWidth="0.5" fill="none" />
+      <MapLabel title={'NH'} xLoc={1113} yLoc={224} fontSize={'10px'} />
+    </g>
+  }
 
   <City name='Lansing' xLoc={842} yLoc={285.5} adjustText={{'x': -1, 'y': -3}} isCapital={true} size={'medium'} show={determineShowCity('MI')}/>
   <City name='Grand Rapids' xLoc={820} yLoc={280} adjustText={{'x': -35, 'y': -8}} isCapital={false} size={'medium'} show={determineShowCity('MI')}/>

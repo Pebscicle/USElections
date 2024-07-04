@@ -1,6 +1,5 @@
 'use client'
 
-import usa from '../../../data/usa.json'
 import USAMap from '../USAMap';
 import {useState} from 'react'
 import { useRouter, usePathname, useSearchParams } from 'next/navigation';
@@ -58,6 +57,7 @@ function UsaElections() {
                 <option value={2012}>2012</option>
                 <option value={2008}>2008</option>
               </select>
+              <Link href='/usa/elections/predictor' style={{color: 'blue', paddingLeft: '8px'}}>Election Predictor</Link>
             </div>
 
             <TwoSeventyBar leftEVs={leftEVs} rightEVs={rightEVs} otherEVs={otherEVs}/>
@@ -81,8 +81,8 @@ function UsaElections() {
           </div>
 
           <article>
-            <h2>Election in the United States</h2>
-            <p>BLABLABLA</p>
+            <h2>Elections in the United States</h2>
+            <p>Info to come...</p>
           </article>
 
         </div>
