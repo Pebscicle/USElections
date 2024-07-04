@@ -2,6 +2,8 @@
 
 import InfoModal from '../../components/InfoModal';
 
+import City from '../../components/mapping/City';
+
 import {getStateFromID, getStateElectionDataFromID, determineDominantColor, getStateImageLinkFromID} from '../services/dbFetcherService';
 import {findIndexOfYear} from "../services/dbFetcherService";
 
@@ -46,6 +48,10 @@ function USAMap( {infoType, selectedYear, callbackData, suppliedList} ) {
 
       setStateImage(getStateImageLinkFromID(foundState.id));
       setIsModalVisible(true);
+    }
+
+    const determineShowCity = (id) => {
+      return id === selectedState.id;
     }
 
     const determineStatesColor = (id) => {
@@ -152,6 +158,12 @@ return (
     <path id="path58" fill="#D3D3D3" d="M975.8,353.8l-1.1-1.6l-1-0.8l1.1-1.6l2.2,1.5L975.8,353.8z"/>
     <circle id="DC" data-info="<div>Washington DC</div>" fill={determineStatesColor('DC')} stroke="#FFFFFF" strokeWidth="1.5" cx="975.3" cy="351.8" r="5"/>
   </g>
+
+  <City name='Lansing' xLoc={842} yLoc={285.5} adjustText={{'x': -1, 'y': -3}} isCapital={true} size={'medium'} show={determineShowCity('MI')}/>
+  <City name='Grand Rapids' xLoc={820} yLoc={280} adjustText={{'x': -35, 'y': -8}} isCapital={false} size={'medium'} show={determineShowCity('MI')}/>
+  <City name='Detroit' xLoc={865} yLoc={295} isCapital={false} size={'big'} adjustText={{'x': 0, 'y': 1.7}} show={determineShowCity('MI')}/>
+  <City name='Marquette' xLoc={784.5} yLoc={208} isCapital={false} size={'small'} show={determineShowCity('MI')}/>
+  <City name='Traverse City' xLoc={819} yLoc={244} isCapital={false} size={'small'} show={determineShowCity('MI')}/>
   
   
   

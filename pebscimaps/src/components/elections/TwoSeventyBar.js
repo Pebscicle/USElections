@@ -42,11 +42,11 @@ function TwoSeventyBar( {leftEVs, rightEVs, otherEVs} ) {
   return (
     <div>
     <div style={{display: 'grid', gridTemplateColumns: returnFormattedStyle(), height: '100%', backgroundColor: colors.white}}>
-      <div style={{color: 'white', backgroundColor: 'blue', borderRadius: '5px 0px 0px 5px', display: 'flex', alignItems: 'center', paddingLeft: '5px'}}>Democrat {leftEVs} {(leftEVs > rightEVs) && <img src='https://www.flaticon.com/free-icon/check_1828644?term=green+check&page=1&position=6&origin=tag&related_id=1828644' style={{width: '25px', height: '25px', paddingLeft: '8px'}}/> }</div>
+      <div style={{color: 'white', backgroundColor: 'blue', borderRadius: '5px 0px 0px 5px', display: 'flex', alignItems: 'center', paddingLeft: '5px'}}>Democrat {leftEVs} {(leftEVs > rightEVs) && <img src='https://img.icons8.com/?size=100&id=63262&format=png&color=000000' style={{width: '25px', height: '25px'}}/> }</div>
       <div style={{color: 'white', backgroundColor: 'yellow'}}></div>
       <div style={{color: 'white', backgroundColor: colors.white}}></div>
       
-      <div style={{color: 'white', backgroundColor: 'red', borderRadius: '0px 5px 5px 0px', display: 'flex', alignItems: 'center', paddingLeft: '5px'}}>Republican {rightEVs} {(rightEVs > leftEVs) && <img src='https://www.flaticon.com/free-icon/check_1828644?term=green+check&page=1&position=6&origin=tag&related_id=1828644' style={{width: '25px', height: '25px', paddingLeft: '8px'}}/> }</div>
+      <div style={{color: 'white', backgroundColor: 'red', borderRadius: '0px 5px 5px 0px', display: 'flex', alignItems: 'center', paddingLeft: '5px'}}>Republican {rightEVs} {(rightEVs > leftEVs) && <img src='https://img.icons8.com/?size=100&id=63262&format=png&color=000000' style={{width: '25px', height: '25px'}}/> }</div>
     </div>
     </div>
   );

@@ -34,7 +34,6 @@ function UsaElections() {
       }
 
       //Get Electoral Votes Data
-      console.log(getLeftEVs(year));
       setLeftEVs(getLeftEVs(year));
       setRightEVs(getRightEVs(year));
       setOtherEVs(getOtherEVs(year));
@@ -80,6 +79,12 @@ function UsaElections() {
                   <p>Combine states and see how they would have voted if they were apart of the same state.</p>
             </div>*/}
           </div>
+
+          <article>
+            <h2>Election in the United States</h2>
+            <p>BLABLABLA</p>
+          </article>
+
         </div>
       );
   }
