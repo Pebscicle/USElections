@@ -95,9 +95,49 @@ function getOtherEVs(selectedYear) {
     return sumEVs;
 }
 
-function getEVsForYear(selectedYear){
+function getEVsForYear(selectedYear, refersToCensusYear){
     //Determine the EVs
-    return usaElections.electoralVotesByCensus?.[String.toString(selectedYear)] || usaElections.electoralVotesByCensus[2020];
+    console.log('sdguysduyigvsutygvsdyut')
+    console.log(selectedYear);
+    if(refersToCensusYear){
+        //console.log('sgy8hsguyshgouys')
+        //console.log(usaElections.electoralVotesByCensus?.[String.toString(selectedYear)] || usaElections.electoralVotesByCensus[2020]);
+        if(selectedYear >= 2020){
+            return usaElections.electoralVotesByCensus[2020];
+        }else if(selectedYear >= 2010){
+            return usaElections.electoralVotesByCensus[2010];
+        }else{
+            return usaElections.electoralVotesByCensus[2000];
+        }
+    }
+    if(selectedYear > 2020){
+        return usaElections.electoralVotesByCensus[2020];
+    }else if(selectedYear > 2010){
+        return usaElections.electoralVotesByCensus[2010];
+    }else{
+        return usaElections.electoralVotesByCensus[2000];
+    }
+    
+}
+
+function getEVByYearAndID(selectedYear, id, refersToCensusYear){
+    if(refersToCensusYear){
+        if(selectedYear >= 2020){
+            return getEVsForYear(2020)[id];
+        }else if(selectedYear >= 2010){
+            return getEVsForYear(2010)[id];
+        }else{
+            return getEVsForYear(2000)[id];
+        }
+    }else{
+        if(selectedYear > 2020){
+            return getEVsForYear(2020)[id];
+        }else if(selectedYear > 2010){
+            return getEVsForYear(2010)[id];
+        }else{
+            return getEVsForYear(2000)[id];
+        }
+    }
 }
 
 function getStateImageLinkFromID(id) {
@@ -116,7 +156,7 @@ function getCountryFromID(id) {
 
 module.exports = {
     getStateFromID,
-    getStateElectionDataFromID, getLeftEVs, getRightEVs, getOtherEVs, getEVsForYear, determineDominantColor,
+    getStateElectionDataFromID, getLeftEVs, getRightEVs, getOtherEVs, getEVsForYear, getEVByYearAndID, determineDominantColor,
     findIndexOfYear,
     getStateImageLinkFromID, getCountryImageLinkFromID, getCountryFromID
 };

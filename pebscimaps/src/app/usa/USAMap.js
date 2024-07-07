@@ -19,7 +19,7 @@ import colors from '../../resources/colors.json';
  * @param specificInfoType Valid types: predictor
  * @returns 
  */
-function USAMap( {infoType, specificInfoType, selectedYear, callbackData, suppliedList} ) {
+function USAMap( {infoType, specificInfoType, selectedYear, callbackData, suppliedList, suppliedStates} ) {
 
     const [isModalVisible, setIsModalVisible] = useState(false);
     const [selectedState, setSelectedState] = useState('');
@@ -28,7 +28,6 @@ function USAMap( {infoType, specificInfoType, selectedYear, callbackData, suppli
     const closeModal = () => {
       setIsModalVisible(false);
     }
-
 
     const getImageLink = (id) => {
       const link = getStateImageLinkFromID(id);
@@ -66,7 +65,10 @@ function USAMap( {infoType, specificInfoType, selectedYear, callbackData, suppli
       //Use state's ID to determine color
       if(infoType==="elections"){
         if(specificInfoType==="predictor"){
-          //TODO
+          const st = getState(id).ev == undefined ? suppliedStates[id] : getState(id);
+          if (st) {
+            return st.color;
+          }
           return 'gray';
         }
         else{
@@ -78,11 +80,7 @@ function USAMap( {infoType, specificInfoType, selectedYear, callbackData, suppli
         
       }
       if(infoType==="creator" || infoType==="general"){
-        console.log(suppliedList);
         for(let i = 0; i < suppliedList.length; i++){
-          console.log('id: ' +id);
-          console.log('suppliedList[i].id: ' + suppliedList[i].id);
-          console.log(id === suppliedList[i].id);
           if(id === suppliedList[i].id){
             return colors.primary;
           }
@@ -90,6 +88,23 @@ function USAMap( {infoType, specificInfoType, selectedYear, callbackData, suppli
       }
       return determineDominantColor(0, 0);
     }
+
+    const getState = (id) => {
+      let state;
+      if (typeof suppliedStates[id] !== 'undefined') {
+        // If 'id' exists directly under suppliedStates, use it
+        state = suppliedStates[id];
+      } else {
+        // If 'id' is not directly under suppliedStates, try finding it by ID
+        for(let i = 0; i < suppliedStates.length; i++){
+          if(suppliedStates[i].id === id){
+            state = suppliedStates[i];
+            break;
+          }
+        }
+      }
+      return state ? state : null;
+  };
 
 
     //CLOSE MODAL UPON ESC PRESS
@@ -106,6 +121,13 @@ function USAMap( {infoType, specificInfoType, selectedYear, callbackData, suppli
     }, [closeModal]); // Dependency array ensures effect runs only once on mount and when closeModal changes
 
 
+    useEffect(() => {
+      console.log('suppliedStates');
+      console.log(suppliedStates);
+    }, [suppliedStates]);
+    
+
+
     
   
 
@@ -113,7 +135,7 @@ function USAMap( {infoType, specificInfoType, selectedYear, callbackData, suppli
 return (
 
 <div>
-  {infoType != 'creator' &&
+  {infoType != 'creator' && specificInfoType != 'predictor' &&
 <InfoModal infoType={infoType} selectedYear={selectedYear} isVisible={isModalVisible} closeModal={closeModal} entity={selectedState} imageLink={stateImage} />
 }
 <div id="info-box"></div>
@@ -176,73 +198,76 @@ return (
 
   {infoType==="elections" &&
     <g>
-      <MapLabel title={'HI'} xLoc={438} yLoc={665} fontSize={'10px'} />
-      <MapLabel title={'AK'} xLoc={285} yLoc={595} fontSize={'10px'} />
-      <MapLabel title={'WA'} xLoc={274} yLoc={150} fontSize={'10px'} />
-      <MapLabel title={'OR'} xLoc={258} yLoc={225} fontSize={'10px'} />
-      <MapLabel title={'CA'} xLoc={233} yLoc={386} fontSize={'10px'} />
-      <MapLabel title={'NV'} xLoc={298} yLoc={325} fontSize={'10px'} />
-      <MapLabel title={'ID'} xLoc={358} yLoc={255} fontSize={'10px'} />
-      <MapLabel title={'MT'} xLoc={438} yLoc={190} fontSize={'10px'} />
-      <MapLabel title={'WY'} xLoc={458} yLoc={285} fontSize={'10px'} />
-      <MapLabel title={'UT'} xLoc={388} yLoc={355} fontSize={'10px'} />
-      <MapLabel title={'CO'} xLoc={478} yLoc={375} fontSize={'10px'} />
-      <MapLabel title={'AZ'} xLoc={361} yLoc={465} fontSize={'10px'} />
-      <MapLabel title={'NM'} xLoc={455} yLoc={475} fontSize={'10px'} />
-      <MapLabel title={'ND'} xLoc={578} yLoc={197} fontSize={'10px'} />
-      <MapLabel title={'SD'} xLoc={578} yLoc={260} fontSize={'10px'} />
-      <MapLabel title={'NE'} xLoc={590} yLoc={330} fontSize={'10px'} />
-      <MapLabel title={'KS'} xLoc={610} yLoc={395} fontSize={'10px'} />
-      <MapLabel title={'OK'} xLoc={625} yLoc={462} fontSize={'10px'} />
-      <MapLabel title={'TX'} xLoc={590} yLoc={555} fontSize={'10px'} />
-      <MapLabel title={'MN'} xLoc={668} yLoc={230} fontSize={'10px'} />
-      <MapLabel title={'IA'} xLoc={690} yLoc={317} fontSize={'10px'} />
-      <MapLabel title={'MO'} xLoc={705} yLoc={400} fontSize={'10px'} />
-      <MapLabel title={'AR'} xLoc={710} yLoc={477} fontSize={'10px'} />
-      <MapLabel title={'LA'} xLoc={710} yLoc={540} fontSize={'10px'} />
-      <MapLabel title={'MS'} xLoc={762} yLoc={510} fontSize={'10px'} />
-      <MapLabel title={'AL'} xLoc={817} yLoc={505} fontSize={'10px'} />
-      <MapLabel title={'GA'} xLoc={876} yLoc={505} fontSize={'10px'} />
-      <MapLabel title={'FL'} xLoc={930} yLoc={605} fontSize={'10px'} />
-      <MapLabel title={'SC'} xLoc={920} yLoc={475} fontSize={'10px'} />
-      <MapLabel title={'NC'} xLoc={947} yLoc={435} fontSize={'10px'} />
-      <MapLabel title={'TN'} xLoc={817} yLoc={445} fontSize={'10px'} />
-      <MapLabel title={'KY'} xLoc={837} yLoc={407} fontSize={'10px'} />
-      <MapLabel title={'VA'} xLoc={950} yLoc={385} fontSize={'10px'} />
-      <MapLabel title={'WV'} xLoc={900} yLoc={385} fontSize={'10px'} />
-      <MapLabel title={'WI'} xLoc={743} yLoc={260} fontSize={'10px'} />
-      <MapLabel title={'IL'} xLoc={767} yLoc={360} fontSize={'10px'} />
-      <MapLabel title={'IN'} xLoc={813} yLoc={355} fontSize={'10px'} />
-      <MapLabel title={'OH'} xLoc={865} yLoc={345} fontSize={'10px'} />
-      <MapLabel title={'MI'} xLoc={830} yLoc={280} fontSize={'10px'} />
+      <MapLabel title={'HI'} otherText={getState('HI').ev == undefined ? suppliedStates['HI'] : getState('HI').ev} xLoc={438} yLoc={665} fontSize={'10px'} />
+      <MapLabel title={'AK'} otherText={getState('AK').ev == undefined ? suppliedStates['AK'] : getState('AK').ev} xLoc={285} yLoc={595} fontSize={'10px'} />
+      <MapLabel title={'WA'} otherText={getState('WA').ev == undefined ? suppliedStates['WA'] : getState('WA').ev} xLoc={274} yLoc={150} fontSize={'10px'} />
+      <MapLabel title={'OR'} otherText={getState('OR').ev == undefined ? suppliedStates['OR'] : getState('OR').ev} xLoc={258} yLoc={225} fontSize={'10px'} />
+      <MapLabel title={'CA'} otherText={getState('CA').ev == undefined ? suppliedStates['CA'] : getState('CA').ev} xLoc={233} yLoc={386} fontSize={'10px'} />
+      <MapLabel title={'NV'} otherText={getState('NV').ev == undefined ? suppliedStates['NV'] : getState('NV').ev} xLoc={298} yLoc={325} fontSize={'10px'} />
+      <MapLabel title={'ID'} otherText={getState('ID').ev == undefined ? suppliedStates['ID'] : getState('ID').ev} xLoc={358} yLoc={255} fontSize={'10px'} />
+      <MapLabel title={'MT'} otherText={getState('MT').ev == undefined ? suppliedStates['MT'] : getState('MT').ev} xLoc={438} yLoc={190} fontSize={'10px'} />
+      <MapLabel title={'WY'} otherText={getState('WY').ev == undefined ? suppliedStates['WY'] : getState('WY').ev} xLoc={458} yLoc={285} fontSize={'10px'} />
+      <MapLabel title={'UT'} otherText={getState('UT').ev == undefined ? suppliedStates['UT'] : getState('UT').ev} xLoc={388} yLoc={355} fontSize={'10px'} />
+      <MapLabel title={'CO'} otherText={getState('CO').ev == undefined ? suppliedStates['CO'] : getState('CO').ev} xLoc={478} yLoc={375} fontSize={'10px'} />
+      <MapLabel title={'AZ'} otherText={getState('AZ').ev == undefined ? suppliedStates['AZ'] : getState('AZ').ev} xLoc={361} yLoc={465} fontSize={'10px'} />
+      <MapLabel title={'NM'} otherText={getState('NM').ev == undefined ? suppliedStates['NM'] : getState('NM').ev} xLoc={455} yLoc={475} fontSize={'10px'} />
+      <MapLabel title={'ND'} otherText={getState('ND').ev == undefined ? suppliedStates['ND'] : getState('ND').ev} xLoc={578} yLoc={197} fontSize={'10px'} />
+      <MapLabel title={'SD'} otherText={getState('SD').ev == undefined ? suppliedStates['SD'] : getState('SD').ev} xLoc={578} yLoc={260} fontSize={'10px'} />
+      <MapLabel title={'NE'} otherText={getState('NE').ev == undefined ? suppliedStates['NE'] : getState('NE').ev} xLoc={590} yLoc={330} fontSize={'10px'} />
+      <MapLabel title={'KS'} otherText={getState('KS').ev == undefined ? suppliedStates['KS'] : getState('KS').ev} xLoc={610} yLoc={395} fontSize={'10px'} />
+      <MapLabel title={'OK'} otherText={getState('OK').ev == undefined ? suppliedStates['OK'] : getState('OK').ev} xLoc={625} yLoc={462} fontSize={'10px'} />
+      <MapLabel title={'TX'} otherText={getState('TX').ev == undefined ? suppliedStates['TX'] : getState('TX').ev} xLoc={590} yLoc={555} fontSize={'10px'} />
+      <MapLabel title={'MN'} otherText={getState('MN').ev == undefined ? suppliedStates['MN'] : getState('MN').ev} xLoc={668} yLoc={230} fontSize={'10px'} />
+      <MapLabel title={'IA'} otherText={getState('IA').ev == undefined ? suppliedStates['IA'] : getState('IA').ev} xLoc={690} yLoc={317} fontSize={'10px'} />
+      <MapLabel title={'MO'} otherText={getState('MO').ev == undefined ? suppliedStates['MO'] : getState('MO').ev} xLoc={705} yLoc={400} fontSize={'10px'} />
+      <MapLabel title={'AR'} otherText={getState('AR').ev == undefined ? suppliedStates['AR'] : getState('AR').ev} xLoc={710} yLoc={477} fontSize={'10px'} />
+      <MapLabel title={'LA'} otherText={getState('LA').ev == undefined ? suppliedStates['LA'] : getState('LA').ev} xLoc={710} yLoc={540} fontSize={'10px'} />
+      <MapLabel title={'MS'} otherText={getState('MS').ev == undefined ? suppliedStates['MS'] : getState('MS').ev} xLoc={762} yLoc={510} fontSize={'10px'} />
+      <MapLabel title={'AL'} otherText={getState('AL').ev == undefined ? suppliedStates['AL'] : getState('AL').ev} xLoc={817} yLoc={505} fontSize={'10px'} />
+      <MapLabel title={'GA'} otherText={getState('GA').ev == undefined ? suppliedStates['GA'] : getState('GA').ev} xLoc={876} yLoc={505} fontSize={'10px'} />
+      <MapLabel title={'FL'} otherText={getState('FL').ev == undefined ? suppliedStates['FL'] : getState('FL').ev} xLoc={930} yLoc={605} fontSize={'10px'} />
+      <MapLabel title={'SC'} otherText={getState('SC').ev == undefined ? suppliedStates['SC'] : getState('SC').ev} xLoc={920} yLoc={475} fontSize={'10px'} />
+      <MapLabel title={'NC'} otherText={getState('NC').ev == undefined ? suppliedStates['NC'] : getState('NC').ev} xLoc={947} yLoc={435} fontSize={'10px'} />
+      <MapLabel title={'TN'} otherText={getState('TN').ev == undefined ? suppliedStates['TN'] : getState('TN').ev} xLoc={817} yLoc={445} fontSize={'10px'} />
+      <MapLabel title={'KY'} otherText={getState('KY').ev == undefined ? suppliedStates['KY'] : getState('KY').ev} xLoc={837} yLoc={407} fontSize={'10px'} />
+      <MapLabel title={'VA'} otherText={getState('VA').ev == undefined ? suppliedStates['VA'] : getState('VA').ev} xLoc={950} yLoc={385} fontSize={'10px'} />
+      <MapLabel title={'WV'} otherText={getState('WV').ev == undefined ? suppliedStates['WV'] : getState('WV').ev} xLoc={900} yLoc={385} fontSize={'10px'} />
+      <MapLabel title={'WI'} otherText={getState('WI').ev == undefined ? suppliedStates['WI'] : getState('WI').ev} xLoc={743} yLoc={260} fontSize={'10px'} />
+      <MapLabel title={'IL'} otherText={getState('IL').ev == undefined ? suppliedStates['IL'] : getState('IL').ev} xLoc={767} yLoc={360} fontSize={'10px'} />
+      <MapLabel title={'IN'} otherText={getState('IN').ev == undefined ? suppliedStates['IN'] : getState('IN').ev} xLoc={813} yLoc={355} fontSize={'10px'} />
+      <MapLabel title={'OH'} otherText={getState('OH').ev == undefined ? suppliedStates['OH'] : getState('OH').ev} xLoc={865} yLoc={345} fontSize={'10px'} />
+      <MapLabel title={'MI'} otherText={getState('MI').ev == undefined ? suppliedStates['MI'] : getState('MI').ev} xLoc={830} yLoc={280} fontSize={'10px'} />
       <path d="M979.2 351.5 L1050 400" stroke="black" strokeWidth="0.5" fill="none" />
-      <MapLabel title={'DC'} xLoc={1053} yLoc={404} fontSize={'10px'} />
+      <MapLabel title={'DC'} otherText={getState('DC').ev == undefined ? suppliedStates['DC'] : getState('DC').ev} xLoc={1053} yLoc={404} fontSize={'10px'} />
       <path d="M1000 360 L1050 370" stroke="black" strokeWidth="0.5" fill="none" />
-      <MapLabel title={'MD'} xLoc={1053} yLoc={374} fontSize={'10px'} />
+      <MapLabel title={'MD'} otherText={getState('MD').ev == undefined ? suppliedStates['MD'] : getState('MD').ev} xLoc={1053} yLoc={374} fontSize={'10px'} />
       <path d="M1009 352 L1100 360" stroke="black" strokeWidth="0.5" fill="none" />
-      <MapLabel title={'DE'} xLoc={1103} yLoc={364} fontSize={'10px'} />
-      <MapLabel title={'PA'} xLoc={947} yLoc={315} fontSize={'10px'} />
-      <MapLabel title={'NJ'} xLoc={1020} yLoc={334} fontSize={'10px'} />
-      <MapLabel title={'NY'} xLoc={980} yLoc={260} fontSize={'10px'} />
+      <MapLabel title={'DE'} otherText={getState('DE').ev == undefined ? suppliedStates['DE'] : getState('DE').ev} xLoc={1103} yLoc={364} fontSize={'10px'} />
+      <MapLabel title={'PA'} otherText={getState('PA').ev == undefined ? suppliedStates['PA'] : getState('PA').ev} xLoc={947} yLoc={315} fontSize={'10px'} />
+      <MapLabel title={'NJ'} otherText={getState('NJ').ev == undefined ? suppliedStates['NJ'] : getState('NJ').ev} xLoc={1020} yLoc={334} fontSize={'10px'} />
+      <MapLabel title={'NY'} otherText={getState('NY').ev == undefined ? suppliedStates['NY'] : getState('NY').ev} xLoc={980} yLoc={260} fontSize={'10px'} />
       <path d="M1044 281 L1060 310" stroke="black" strokeWidth="0.5" fill="none" />
-      <MapLabel title={'CT'} xLoc={1063} yLoc={314} fontSize={'10px'} />
+      <MapLabel title={'CT'} otherText={getState('CT').ev == undefined ? suppliedStates['CT'] : getState('CT').ev} xLoc={1063} yLoc={314} fontSize={'10px'} />
       <path d="M1054.5 275 L1100 320" stroke="black" strokeWidth="0.5" fill="none" />
-      <MapLabel title={'RI'} xLoc={1103} yLoc={324} fontSize={'10px'} />
-      <MapLabel title={'VT'} xLoc={1010} yLoc={198} fontSize={'10px'} />
-      <MapLabel title={'ME'} xLoc={1058} yLoc={180} fontSize={'10px'} />
+      <MapLabel title={'RI'} otherText={getState('RI').ev == undefined ? suppliedStates['RI'] : getState('RI').ev} xLoc={1103} yLoc={324} fontSize={'10px'} />
+      <MapLabel title={'VT'} otherText={getState('VT').ev == undefined ? suppliedStates['VT'] : getState('VT').ev} xLoc={1010} yLoc={190} fontSize={'10px'} />
+      <MapLabel title={'ME'} otherText={getState('ME').ev == undefined ? suppliedStates['ME'] : getState('ME').ev} xLoc={1058} yLoc={180} fontSize={'10px'} />
       <path d="M1055 252 L1110 260" stroke="black" strokeWidth="0.5" fill="none" />
-      <MapLabel title={'MA'} xLoc={1113} yLoc={264} fontSize={'10px'} />
+      <MapLabel title={'MA'} otherText={getState('MA').ev == undefined ? suppliedStates['MA'] : getState('MA').ev} xLoc={1113} yLoc={264} fontSize={'10px'} />
       <path d="M1055 240 L1110 220" stroke="black" strokeWidth="0.5" fill="none" />
-      <MapLabel title={'NH'} xLoc={1113} yLoc={224} fontSize={'10px'} />
-    </g>
+      <MapLabel title={'NH'} otherText={getState('NH').ev == undefined ? suppliedStates['NH'] : getState('NH').ev} xLoc={1113} yLoc={224} fontSize={'10px'} />
+  </g>
+
   }
 
-  <City name='Lansing' xLoc={842} yLoc={285.5} adjustText={{'x': -1, 'y': -3}} isCapital={true} size={'medium'} show={determineShowCity('MI')}/>
-  <City name='Grand Rapids' xLoc={820} yLoc={280} adjustText={{'x': -35, 'y': -8}} isCapital={false} size={'medium'} show={determineShowCity('MI')}/>
-  <City name='Detroit' xLoc={865} yLoc={295} isCapital={false} size={'big'} adjustText={{'x': 0, 'y': 1.7}} show={determineShowCity('MI')}/>
-  <City name='Marquette' xLoc={784.5} yLoc={208} isCapital={false} size={'small'} show={determineShowCity('MI')}/>
-  <City name='Traverse City' xLoc={819} yLoc={244} isCapital={false} size={'small'} show={determineShowCity('MI')}/>
-  
+  {infoType != 'elections' && <g>
+    <City name='Lansing' xLoc={842} yLoc={285.5} adjustText={{'x': -1, 'y': -3}} isCapital={true} size={'medium'} show={determineShowCity('MI')}/>
+    <City name='Grand Rapids' xLoc={820} yLoc={280} adjustText={{'x': -35, 'y': -8}} isCapital={false} size={'medium'} show={determineShowCity('MI')}/>
+    <City name='Detroit' xLoc={865} yLoc={295} isCapital={false} size={'big'} adjustText={{'x': 0, 'y': 1.7}} show={determineShowCity('MI')}/>
+    <City name='Marquette' xLoc={784.5} yLoc={208} isCapital={false} size={'small'} show={determineShowCity('MI')}/>
+    <City name='Traverse City' xLoc={819} yLoc={244} isCapital={false} size={'small'} show={determineShowCity('MI')}/>
+  </g>
+  }
   
   
   

@@ -1,12 +1,12 @@
 'use client'
 
 import USAMap from '../USAMap';
-import {useState} from 'react'
+import {useState, useEffect} from 'react'
 import { useRouter, usePathname, useSearchParams } from 'next/navigation';
 
 import TwoSeventyBar from '../../../components/elections/TwoSeventyBar';
 
-import {getLeftEVs, getRightEVs, getOtherEVs} from '../../../app/services/dbFetcherService';
+import {getLeftEVs, getRightEVs, getOtherEVs, getEVsForYear} from '../../../app/services/dbFetcherService';
 import colors from '../../../resources/colors.json';
 
 import Link from 'next/link'
@@ -17,15 +17,16 @@ function UsaElections() {
     const pathname = usePathname(); 
     //const searchParams = useSearchParams();
 
-    console.log(router.query);
-    console.log(pathname);
-
     const [selectedYear, setSelectedYear] = useState(2020);
 
     const [leftEVs, setLeftEVs] = useState(306);
     const [rightEVs, setRightEVs] = useState(232);
     const [otherEVs, setOtherEVs] = useState(0);
-    
+
+    const [EVsByState, setEVsByState] = useState(null);
+
+    const [loading, setLoading] = useState(true);
+
     // Function to handle year selection
     const handleYearClick = (year) => {
       if(typeof(year) === typeof('string')){
@@ -37,10 +38,17 @@ function UsaElections() {
       setRightEVs(getRightEVs(year));
       setOtherEVs(getOtherEVs(year));
 
+      setEVsByState(getEVsForYear(year, false));
+
       setSelectedYear(year);
       // Navigate programmatically using the new router
       router.push(`${window.location.origin}/${pathname}?year=${year}`);
     };
+
+    useEffect(() => {
+      setEVsByState(getEVsForYear(selectedYear, false));
+      setLoading(false);
+  }, []);
 
     
     
@@ -50,7 +58,7 @@ function UsaElections() {
 
             <div style={{backgroundColor: colors.secondary, display: 'flex', alignItems: 'center', paddingLeft: '8px'}}>
               <span>Elections Tool Bar</span>
-              <label for='years' style={{padding: '0px 4px 0px 8px', color: 'blue'}}>Select Election Year</label>
+              <label htmlFor='years' style={{padding: '0px 4px 0px 8px', color: 'blue'}}>Select Election Year</label>
               <select id='years' onChange={(e) => handleYearClick(e.target.value)}>
                 <option value={2020}>2020</option>
                 <option value={2016}>2016</option>
@@ -63,7 +71,9 @@ function UsaElections() {
             <TwoSeventyBar leftEVs={leftEVs} rightEVs={rightEVs} otherEVs={otherEVs}/>
 
             <div style={{display: 'flex', justifyContent: 'center', height: '100vh'}}>
-              <USAMap infoType={"elections"} selectedYear={selectedYear}/>
+              {!loading &&
+                <USAMap infoType={"elections"} selectedYear={selectedYear} suppliedStates={EVsByState}/>
+              }
             </div>
             {/*<div style={{marginLeft: '16px'}}>
               <h1 style={{fontSize: '2rem'}}>Viewing Modes</h1>

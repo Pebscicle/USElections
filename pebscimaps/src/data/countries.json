@@ -2848,32 +2848,32 @@
         "id": "MP",
         "name": "Northern Mariana Islands (U.S. Territory)",
         "link": "/usa",
-        "flag": "TODO",
+        "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Flag_of_the_Northern_Mariana_Islands.svg/2560px-Flag_of_the_Northern_Mariana_Islands.svg.png",
         "capital": {
-            "name": "TODO",
-            "population": 1000000000000
+            "name": "Saipan",
+            "population": 43385
         },
         "largestCity": {
-            "name": "TODO",
-            "population": 1000000000000
+            "name": "Saipan",
+            "population": 43385
         },
         "population": 47329,
         "area": 457,
-        "gdp": "TODO",
-        "hdi": "TODO"
+        "gdp": 1180,
+        "hdi": 0.875
     },
     "NO": {
         "id": "NO",
-        "name": "TODO",
+        "name": "Kingdom of Norway",
         "link": "/norway",
-        "flag": "TODO",
+        "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Flag_of_Norway.svg/1920px-Flag_of_Norway.svg.png",
         "capital": {
-            "name": "TODO",
-            "population": 1000000000000
+            "name": "Oslo",
+            "population": 1588457
         },
         "largestCity": {
-            "name": "TODO",
-            "population": 1000000000000
+            "name": "Oslo",
+            "population": 1588457
         },
         "population": 5562363,
         "area": 323802,
@@ -2882,16 +2882,16 @@
     },
     "OM": {
         "id": "OM",
-        "name": "TODO",
+        "name": "Sultanate of Oman",
         "link": "/oman",
-        "flag": "TODO",
+        "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Flag_of_Oman.svg/2560px-Flag_of_Oman.svg.png",
         "capital": {
-            "name": "TODO",
-            "population": 1000000000000
+            "name": "Muscat",
+            "population": 1720000
         },
         "largestCity": {
-            "name": "TODO",
-            "population": 1000000000000
+            "name": "Muscat",
+            "population": 1720000
         },
         "population": 5190332,
         "area": 309500,
@@ -2900,16 +2900,16 @@
     },
     "PK": {
         "id": "PK",
-        "name": "TODO",
+        "name": "Islamic Republic of Pakistan",
         "link": "/pakistan",
-        "flag": "TODO",
+        "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Flag_of_Pakistan.svg/250px-Flag_of_Pakistan.svg.png",
         "capital": {
-            "name": "TODO",
-            "population": 1000000000000
+            "name": "Islamabad",
+            "population": 2363863
         },
         "largestCity": {
-            "name": "TODO",
-            "population": 1000000000000
+            "name": "Karachi",
+            "population": 20382881
         },
         "population": 241499431,
         "area": 882363,
@@ -2918,16 +2918,16 @@
     },
     "PW": {
         "id": "PW",
-        "name": "TODO",
+        "name": "Republic of Palau",
         "link": "/palau",
-        "flag": "TODO",
+        "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Flag_of_Palau.svg/2560px-Flag_of_Palau.svg.png",
         "capital": {
-            "name": "TODO",
-            "population": 1000000000000
+            "name": "Ngerulmud",
+            "population": 0
         },
         "largestCity": {
-            "name": "TODO",
-            "population": 1000000000000
+            "name": "Koror",
+            "population": 7000
         },
         "population": 16733,
         "area": 459,
@@ -2936,16 +2936,16 @@
     },
     "PS": {
         "id": "PS",
-        "name": "TODO",
+        "name": "State of Palestine",
         "link": "/palestine",
-        "flag": "TODO",
+        "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Flag_of_Palestine.svg/2560px-Flag_of_Palestine.svg.png",
         "capital": {
-            "name": "TODO",
-            "population": 1000000000000
+            "name": "Ramallah",
+            "population": 153237
         },
         "largestCity": {
-            "name": "TODO",
-            "population": 1000000000000
+            "name": "Gaza",
+            "population": 590481
         },
         "population": 5483450,
         "area": 6020,
@@ -2954,16 +2954,16 @@
     },
     "PA": {
         "id": "PA",
-        "name": "TODO",
+        "name": "Republic of Panama",
         "link": "/panama",
-        "flag": "TODO",
+        "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Flag_of_Panama.svg/1920px-Flag_of_Panama.svg.png",
         "capital": {
-            "name": "TODO",
-            "population": 1000000000000
+            "name": "Panama City",
+            "population": 1086990
         },
         "largestCity": {
-            "name": "TODO",
-            "population": 1000000000000
+            "name": "Panama City",
+            "population": 1086990
         },
         "population": 4064780,
         "area": 75320,
@@ -2972,16 +2972,16 @@
     },
     "PG": {
         "id": "PG",
-        "name": "TODO",
+        "name": "Papua New Guinea, Independent State of",
         "link": "/papua_new_guinea",
-        "flag": "TODO",
+        "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Flag_of_Papua_New_Guinea.svg/1920px-Flag_of_Papua_New_Guinea.svg.png",
         "capital": {
-            "name": "TODO",
-            "population": 1000000000000
+            "name": "Port Moresby",
+            "population": 700000
         },
         "largestCity": {
-            "name": "TODO",
-            "population": 1000000000000
+            "name": "Port Moresby",
+            "population": 700000
         },
         "population": 11781559,
         "area": 462840,
@@ -2990,16 +2990,16 @@
     },
     "PY": {
         "id": "PY",
-        "name": "TODO",
+        "name": "Republic of Paraguay",
         "link": "/paraguay",
-        "flag": "TODO",
+        "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Flag_of_Paraguay.svg/2560px-Flag_of_Paraguay.svg.png",
         "capital": {
-            "name": "TODO",
-            "population": 1000000000000
+            "name": "Asunción",
+            "population": 2343908
         },
         "largestCity": {
-            "name": "TODO",
-            "population": 1000000000000
+            "name": "Asunción",
+            "population": 2343908
         },
         "population": 6109644,
         "area": 406752,
@@ -3008,16 +3008,16 @@
     },
     "PE": {
         "id": "PE",
-        "name": "TODO",
+        "name": "Republic of Peru",
         "link": "/peru",
-        "flag": "TODO",
+        "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Flag_of_Peru.svg/1920px-Flag_of_Peru.svg.png",
         "capital": {
-            "name": "TODO",
-            "population": 1000000000000
+            "name": "Lima",
+            "population": 11283787
         },
         "largestCity": {
-            "name": "TODO",
-            "population": 1000000000000
+            "name": "Lima",
+            "population": 11283787
         },
         "population": 33725844,
         "area": 1285216,
@@ -3026,16 +3026,16 @@
     },
     "PH": {
         "id": "PH",
-        "name": "TODO",
+        "name": "Republic of the Philippines",
         "link": "/philippines",
-        "flag": "TODO",
+        "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Flag_of_the_Philippines.svg/2560px-Flag_of_the_Philippines.svg.png",
         "capital": {
-            "name": "TODO",
-            "population": 1000000000000
+            "name": "Manila",
+            "population": 24922000
         },
         "largestCity": {
-            "name": "TODO",
-            "population": 1000000000000
+            "name": "Manila",
+            "population": 24922000
         },
         "population": 112892781,
         "area": 300000,
@@ -3044,34 +3044,34 @@
     },
     "PN": {
         "id": "PN",
-        "name": "TODO",
+        "name": "Pitcairn Islands (British Overseas Territory)",
         "link": "/pitcairn_islands",
-        "flag": "TODO",
+        "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Flag_of_the_Pitcairn_Islands.svg/2560px-Flag_of_the_Pitcairn_Islands.svg.png",
         "capital": {
-            "name": "TODO",
-            "population": 1000000000000
+            "name": "Adamstown",
+            "population": 47
         },
         "largestCity": {
-            "name": "TODO",
-            "population": 1000000000000
+            "name": "Adamstown",
+            "population": 47
         },
         "population": 47,
         "area": 47,
-        "gdp": "TODO",
-        "hdi": "TODO"
+        "gdp": 0.1,
+        "hdi": 1
     },
     "PL": {
         "id": "PL",
-        "name": "TODO",
+        "name": "Republic of Poland",
         "link": "/poland",
-        "flag": "TODO",
+        "flag": "https://upload.wikimedia.org/wikipedia/en/thumb/1/12/Flag_of_Poland.svg/2560px-Flag_of_Poland.svg.png",
         "capital": {
-            "name": "TODO",
-            "population": 1000000000000
+            "name": "Warsaw",
+            "population": 3269510
         },
         "largestCity": {
-            "name": "TODO",
-            "population": 1000000000000
+            "name": "Warsaw",
+            "population": 3269510
         },
         "population": 37595000,
         "area": 312685,
@@ -3080,16 +3080,16 @@
     },
     "PT": {
         "id": "PT",
-        "name": "TODO",
+        "name": "Portuguese Republic",
         "link": "/portugal",
-        "flag": "TODO",
+        "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Flag_of_Portugal.svg/1920px-Flag_of_Portugal.svg.png",
         "capital": {
-            "name": "TODO",
-            "population": 1000000000000
+            "name": "Lisbon",
+            "population": 2961177
         },
         "largestCity": {
-            "name": "TODO",
-            "population": 1000000000000
+            "name": "Lisbon",
+            "population": 2961177
         },
         "population": 10639726,
         "area": 92225,
@@ -3098,34 +3098,34 @@
     },
     "PR": {
         "id": "PR",
-        "name": "TODO",
+        "name": "Puerto Rico (U.S. Territory)",
         "link": "/puerto_rico",
-        "flag": "TODO",
+        "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Flag_of_Puerto_Rico.svg/1920px-Flag_of_Puerto_Rico.svg.png",
         "capital": {
-            "name": "TODO",
-            "population": 1000000000000
+            "name": "San Juan",
+            "population": 2350126
         },
         "largestCity": {
-            "name": "TODO",
-            "population": 1000000000000
+            "name": "San Juan",
+            "population": 2350126
         },
         "population": 3205691,
         "area": 9100,
         "gdp": 117763,
-        "hdi": "TODO"
+        "hdi": 0.845
     },
     "QA": {
         "id": "QA",
-        "name": "TODO",
+        "name": "State of Qatar",
         "link": "/qatar",
-        "flag": "TODO",
+        "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Flag_of_Qatar.svg/2880px-Flag_of_Qatar.svg.png",
         "capital": {
-            "name": "TODO",
-            "population": 1000000000000
+            "name": "Doha",
+            "population": 1186023
         },
         "largestCity": {
-            "name": "TODO",
-            "population": 1000000000000
+            "name": "Doha",
+            "population": 1186023
         },
         "population": 2965952,
         "area": 11586,
@@ -3134,16 +3134,16 @@
     },
     "MK": {
         "id": "MK",
-        "name": "TODO",
+        "name": "Republic of North Macedonia",
         "link": "/north_macedonia",
-        "flag": "TODO",
+        "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Flag_of_North_Macedonia.svg/2560px-Flag_of_North_Macedonia.svg.png",
         "capital": {
-            "name": "TODO",
-            "population": 1000000000000
+            "name": "Skopje",
+            "population": 526502
         },
         "largestCity": {
-            "name": "TODO",
-            "population": 1000000000000
+            "name": "Skopje",
+            "population": 526502
         },
         "population": 1829954,
         "area": 25713,
@@ -3152,34 +3152,52 @@
     },
     "RO": {
         "id": "RO",
-        "name": "TODO",
+        "name": "Romania",
         "link": "/romania",
-        "flag": "TODO",
+        "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Flag_of_Romania.svg/1920px-Flag_of_Romania.svg.png",
         "capital": {
-            "name": "TODO",
-            "population": 1000000000000
+            "name": "Bucharest",
+            "population": 1739297
         },
         "largestCity": {
-            "name": "TODO",
-            "population": 1000000000000
+            "name": "Bucharest",
+            "population": 1739297
         },
         "population": 19051562,
         "area": 238398,
         "gdp": 369971,
         "hdi": 0.827
     },
-    "RU": {
-        "id": "RU",
-        "name": "TODO",
+    "RU_europe": {
+        "id": "RU_europe",
+        "name": "Russian Federation",
         "link": "/russia",
-        "flag": "TODO",
+        "flag": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f3/Flag_of_Russia.svg/1920px-Flag_of_Russia.svg.png",
         "capital": {
-            "name": "TODO",
-            "population": 1000000000000
+            "name": "Moscow",
+            "population": 21534777
         },
         "largestCity": {
-            "name": "TODO",
-            "population": 1000000000000
+            "name": "Moscow",
+            "population": 21534777
+        },
+        "population": 146150789,
+        "area": 17098246,
+        "gdp": 2056844,
+        "hdi": 0.821
+    },
+    "RU_asia": {
+        "id": "RU_asia",
+        "name": "Russian Federation",
+        "link": "/russia",
+        "flag": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f3/Flag_of_Russia.svg/1920px-Flag_of_Russia.svg.png",
+        "capital": {
+            "name": "Moscow",
+            "population": 21534777
+        },
+        "largestCity": {
+            "name": "Moscow",
+            "population": 21534777
         },
         "population": 146150789,
         "area": 17098246,
@@ -3188,16 +3206,16 @@
     },
     "RW": {
         "id": "RW",
-        "name": "TODO",
+        "name": "Republic of Rwanda",
         "link": "/rwanda",
-        "flag": "TODO",
+        "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Flag_of_Rwanda.svg/1920px-Flag_of_Rwanda.svg.png",
         "capital": {
-            "name": "TODO",
-            "population": 1000000000000
+            "name": "Kigali",
+            "population": 1745555
         },
         "largestCity": {
-            "name": "TODO",
-            "population": 1000000000000
+            "name": "Kigali",
+            "population": 1745555
         },
         "population": 13246394,
         "area": 26338,
@@ -3208,68 +3226,68 @@
         "id": "RE",
         "name": "Réunion (French Department)",
         "link": "/france",
-        "flag": "TODO",
+        "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Armoiries_R%C3%A9union.svg/1920px-Armoiries_R%C3%A9union.svg.png",
         "capital": {
-            "name": "TODO",
-            "population": 1000000000000
+            "name": "Saint-Denis",
+            "population": 315080
         },
         "largestCity": {
-            "name": "TODO",
-            "population": 1000000000000
+            "name": "Saint-Denis",
+            "population": 315080
         },
-        "population": "TODO",
-        "area": "TODO",
-        "gdp": "TODO",
-        "hdi": "TODO"
+        "population": 885700,
+        "area": 2511,
+        "gdp": 22050,
+        "hdi": 0.844	
     },
     "BL": {
         "id": "BL",
-        "name": "TODO",
+        "name": "Saint Barthélemy (French)",
         "link": "/saint_barthelemy",
-        "flag": "TODO",
+        "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Flag_of_Saint_Barth%C3%A9lemy_%28local%29.svg/1920px-Flag_of_Saint_Barth%C3%A9lemy_%28local%29.svg.png",
         "capital": {
-            "name": "TODO",
-            "population": 1000000000000
+            "name": "Gustavia",
+            "population": 2300
         },
         "largestCity": {
-            "name": "TODO",
-            "population": 1000000000000
+            "name": "Gustavia",
+            "population": 2300
         },
-        "population": "TODO",
-        "area": "TODO",
-        "gdp": "TODO",
-        "hdi": "TODO"
+        "population": 10967,
+        "area": 25,
+        "gdp": 528,
+        "hdi": 1
     },
     "SH": {
         "id": "SH",
-        "name": "TODO",
+        "name": "Saint Helena, Ascension and Tristan da Cunha (UK Territory)",
         "link": "/saint_helena",
-        "flag": "TODO",
+        "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Flag_of_Saint_Helena.svg/2560px-Flag_of_Saint_Helena.svg.png",
         "capital": {
-            "name": "TODO",
-            "population": 1000000000000
+            "name": "Jamestown",
+            "population": 629
         },
         "largestCity": {
-            "name": "TODO",
-            "population": 1000000000000
+            "name": "Half Tree Hollow",
+            "population": 1034
         },
-        "population": "TODO",
-        "area": "TODO",
-        "gdp": "TODO",
-        "hdi": "TODO"
+        "population": 5633,
+        "area": 394,
+        "gdp": 43,
+        "hdi": 0.756
     },
     "KN": {
         "id": "KN",
-        "name": "TODO",
+        "name": "Federation of Saint Kitts and Nevis",
         "link": "/saint_kitts_and_nevis",
-        "flag": "TODO",
+        "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Flag_of_Saint_Kitts_and_Nevis.svg/1920px-Flag_of_Saint_Kitts_and_Nevis.svg.png",
         "capital": {
-            "name": "TODO",
-            "population": 1000000000000
+            "name": "Basseterre",
+            "population": 16696
         },
         "largestCity": {
-            "name": "TODO",
-            "population": 1000000000000
+            "name": "Basseterre",
+            "population": 16696
         },
         "population": 47195,
         "area": 261,
@@ -3278,16 +3296,16 @@
     },
     "LC": {
         "id": "LC",
-        "name": "TODO",
+        "name": "Saint Lucia",
         "link": "/saint_lucia",
-        "flag": "TODO",
+        "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Flag_of_Saint_Lucia.svg/2560px-Flag_of_Saint_Lucia.svg.png",
         "capital": {
-            "name": "TODO",
-            "population": 1000000000000
+            "name": "Castries",
+            "population": 20000
         },
         "largestCity": {
-            "name": "TODO",
-            "population": 1000000000000
+            "name": "Castries",
+            "population": 20000
         },
         "population": 184100,
         "area": 616,
@@ -3296,52 +3314,52 @@
     },
     "MF": {
         "id": "MF",
-        "name": "TODO",
+        "name": "Saint Martin (French)",
         "link": "/saint_martin",
-        "flag": "TODO",
+        "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Flag_of_France_%281794%E2%80%931815%2C_1830%E2%80%931974%29.svg/langfr-1920px-Flag_of_France_%281794%E2%80%931815%2C_1830%E2%80%931974%29.svg.png",
         "capital": {
-            "name": "TODO",
-            "population": 1000000000000
+            "name": "Marigot",
+            "population": 5700
         },
         "largestCity": {
-            "name": "TODO",
-            "population": 1000000000000
+            "name": "Marigot",
+            "population": 5700
         },
-        "population": "TODO",
-        "area": "TODO",
-        "gdp": "TODO",
-        "hdi": "TODO"
+        "population": 31477,
+        "area": 53,
+        "gdp": 771,
+        "hdi": 0.702
     },
     "PM": {
-        "id": "MF",
-        "name": "TODO",
+        "id": "PM",
+        "name": "Saint Pierre and Miquelon (French)",
         "link": "/saint_pierre_et_miquelon",
-        "flag": "TODO",
+        "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Armoiries_SaintPierreetMiquelon.svg/1024px-Armoiries_SaintPierreetMiquelon.svg.png",
         "capital": {
-            "name": "TODO",
-            "population": 1000000000000
+            "name": "Saint-Pierre",
+            "population": 5394
         },
         "largestCity": {
-            "name": "TODO",
-            "population": 1000000000000
+            "name": "Saint-Pierre",
+            "population": 5394
         },
-        "population": "TODO",
-        "area": "TODO",
-        "gdp": "TODO",
-        "hdi": "TODO"
+        "population": 6008,
+        "area": 242,
+        "gdp": 175,
+        "hdi": 0.788
     },
     "VC": {
         "id": "VC",
-        "name": "TODO",
+        "name": "Saint Vincent and the Grenadines",
         "link": "/saint_vincent_and_the_grenadines",
-        "flag": "TODO",
+        "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Flag_of_Saint_Vincent_and_the_Grenadines.svg/1920px-Flag_of_Saint_Vincent_and_the_Grenadines.svg.png",
         "capital": {
-            "name": "TODO",
-            "population": 1000000000000
+            "name": "Kingstown",
+            "population": 12909
         },
         "largestCity": {
-            "name": "TODO",
-            "population": 1000000000000
+            "name": "Kingstown",
+            "population": 12909
         },
         "population": 110872,
         "area": 389,
@@ -3350,16 +3368,16 @@
     },
     "WS": {
         "id": "WS",
-        "name": "TODO",
+        "name": "Independent State of Samoa",
         "link": "/samoa",
-        "flag": "TODO",
+        "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Flag_of_Samoa.svg/2560px-Flag_of_Samoa.svg.png",
         "capital": {
-            "name": "TODO",
-            "population": 1000000000000
+            "name": "Apia",
+            "population": 35974
         },
         "largestCity": {
-            "name": "TODO",
-            "population": 1000000000000
+            "name": "Apia",
+            "population": 35974
         },
         "population": 205557,
         "area": 2842,
@@ -3368,16 +3386,16 @@
     },
     "SM": {
         "id": "SM",
-        "name": "TODO",
+        "name": "Republic of San Marino",
         "link": "/san_marino",
-        "flag": "TODO",
+        "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Flag_of_San_Marino.svg/1920px-Flag_of_San_Marino.svg.png",
         "capital": {
-            "name": "TODO",
-            "population": 1000000000000
+            "name": "City of San Marino",
+            "population": 4061
         },
         "largestCity": {
-            "name": "TODO",
-            "population": 1000000000000
+            "name": "Dogana",
+            "population": 7000
         },
         "population": 33932,
         "area": 61,
@@ -3386,16 +3404,16 @@
     },
     "ST": {
         "id": "ST",
-        "name": "TODO",
+        "name": "São Tomé and Príncipe, Democratic Republic of",
         "link": "/sao_tome_and_principe",
-        "flag": "TODO",
+        "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Flag_of_S%C3%A3o_Tom%C3%A9_and_Pr%C3%ADncipe.svg/2560px-Flag_of_S%C3%A3o_Tom%C3%A9_and_Pr%C3%ADncipe.svg.png",
         "capital": {
-            "name": "TODO",
-            "population": 1000000000000
+            "name": "São Tomé",
+            "population": 71868
         },
         "largestCity": {
-            "name": "TODO",
-            "population": 1000000000000
+            "name": "São Tomé",
+            "population": 71868
         },
         "population": 228319,
         "area": 964,
@@ -3404,16 +3422,16 @@
     },
     "SA": {
         "id": "SA",
-        "name": "TODO",
+        "name": "Kingdom of Saudi Arabia",
         "link": "/saudi_arabia",
-        "flag": "TODO",
+        "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Flag_of_Saudi_Arabia.svg/1920px-Flag_of_Saudi_Arabia.svg.png",
         "capital": {
-            "name": "TODO",
-            "population": 1000000000000
+            "name": "Riyadh",
+            "population": 7820551
         },
         "largestCity": {
-            "name": "TODO",
-            "population": 1000000000000
+            "name": "Riyadh",
+            "population": 7820551
         },
         "population": 32175224,
         "area": 2149690,
@@ -3422,16 +3440,16 @@
     },
     "SN": {
         "id": "SN",
-        "name": "TODO",
+        "name": "Republic of Senegal",
         "link": "/senegal",
-        "flag": "TODO",
+        "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Flag_of_Senegal.svg/1920px-Flag_of_Senegal.svg.png",
         "capital": {
-            "name": "TODO",
-            "population": 1000000000000
+            "name": "Dakar",
+            "population": 3896564
         },
         "largestCity": {
-            "name": "TODO",
-            "population": 1000000000000
+            "name": "Dakar",
+            "population": 3896564
         },
         "population": 18275743,
         "area": 196712,
@@ -3440,16 +3458,16 @@
     },
     "RS": {
         "id": "RS",
-        "name": "TODO",
+        "name": "Republic of Serbia",
         "link": "/serbia",
-        "flag": "TODO",
+        "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Flag_of_Serbia.svg/1920px-Flag_of_Serbia.svg.png",
         "capital": {
-            "name": "TODO",
-            "population": 1000000000000
+            "name": "Belgrade",
+            "population": 1685563
         },
         "largestCity": {
-            "name": "TODO",
-            "population": 1000000000000
+            "name": "Belgrade",
+            "population": 1685563
         },
         "population": 6641197,
         "area": 88499,
@@ -3458,16 +3476,16 @@
     },
     "SC": {
         "id": "SC",
-        "name": "TODO",
+        "name": "Republic of Seychelles",
         "link": "/seychelles",
-        "flag": "TODO",
+        "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Flag_of_Seychelles.svg/2560px-Flag_of_Seychelles.svg.png",
         "capital": {
-            "name": "TODO",
-            "population": 1000000000000
+            "name": "Victoria",
+            "population": 26450
         },
         "largestCity": {
-            "name": "TODO",
-            "population": 1000000000000
+            "name": "Victoria",
+            "population": 26450
         },
         "population": 120581,
         "area": 457,
@@ -3476,16 +3494,16 @@
     },
     "SL": {
         "id": "SL",
-        "name": "TODO",
+        "name": "Republic of Sierra Leone",
         "link": "/sierra_leone",
-        "flag": "TODO",
+        "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Flag_of_Sierra_Leone.svg/1920px-Flag_of_Sierra_Leone.svg.png",
         "capital": {
-            "name": "TODO",
-            "population": 1000000000000
+            "name": "Freetown",
+            "population": 1500234
         },
         "largestCity": {
-            "name": "TODO",
-            "population": 1000000000000
+            "name": "Freetown",
+            "population": 1500234
         },
         "population": 8494260,
         "area": 72300,
@@ -3494,16 +3512,16 @@
     },
     "SG": {
         "id": "SG",
-        "name": "TODO",
+        "name": "Republic of Singapore",
         "link": "/singapore",
-        "flag": "TODO",
+        "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Flag_of_Singapore.svg/1920px-Flag_of_Singapore.svg.png",
         "capital": {
-            "name": "TODO",
-            "population": 1000000000000
+            "name": "Singapore",
+            "population": 5917600
         },
         "largestCity": {
-            "name": "TODO",
-            "population": 1000000000000
+            "name": "Singapore",
+            "population": 5917600
         },
         "population": 5917600,
         "area": 736,
@@ -3512,34 +3530,34 @@
     },
     "SX": {
         "id": "SX",
-        "name": "TODO",
+        "name": "Sint Maarten (NL)",
         "link": "/sint_maarten",
-        "flag": "TODO",
+        "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Flag_of_Sint_Maarten.svg/1920px-Flag_of_Sint_Maarten.svg.png",
         "capital": {
-            "name": "TODO",
-            "population": 1000000000000
+            "name": "Philipsburg",
+            "population": 1894
         },
         "largestCity": {
-            "name": "TODO",
-            "population": 1000000000000
+            "name": "Lower Prince’s Quarter",
+            "population": 8143
         },
-        "population": "TODO",
-        "area": "TODO",
-        "gdp": "TODO",
-        "hdi": "TODO"
+        "population": 42938,
+        "area": 34,
+        "gdp": 1185,
+        "hdi": 0.702
     },
     "SK": {
         "id": "SK",
-        "name": "TODO",
+        "name": "Slovak Republic",
         "link": "/slovakia",
-        "flag": "TODO",
+        "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Flag_of_Slovakia.svg/1920px-Flag_of_Slovakia.svg.png",
         "capital": {
-            "name": "TODO",
-            "population": 1000000000000
+            "name": "Bratislava",
+            "population": 728370
         },
         "largestCity": {
-            "name": "TODO",
-            "population": 1000000000000
+            "name": "Bratislava",
+            "population": 728370
         },
         "population": 5422620,
         "area": 49035,
@@ -3548,16 +3566,16 @@
     },
     "SI": {
         "id": "SI",
-        "name": "TODO",
+        "name": "Republic of Slovenia",
         "link": "/slovenia",
-        "flag": "TODO",
+        "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Flag_of_Slovenia.svg/2560px-Flag_of_Slovenia.svg.png",
         "capital": {
-            "name": "TODO",
-            "population": 1000000000000
+            "name": "Ljubljana",
+            "population": 537893
         },
         "largestCity": {
-            "name": "TODO",
-            "population": 1000000000000
+            "name": "Ljubljana",
+            "population": 537893
         },
         "population": 2123949,
         "area": 20273,
@@ -3566,16 +3584,16 @@
     },
     "SB": {
         "id": "SB",
-        "name": "TODO",
+        "name": "Solomon Islands",
         "link": "/solomon_islands",
-        "flag": "TODO",
+        "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Flag_of_the_Solomon_Islands.svg/2560px-Flag_of_the_Solomon_Islands.svg.png",
         "capital": {
-            "name": "TODO",
-            "population": 1000000000000
+            "name": "Honiara",
+            "population": 151538
         },
         "largestCity": {
-            "name": "TODO",
-            "population": 1000000000000
+            "name": "Honiara",
+            "population": 151538
         },
         "population": 734887,
         "area": 28896,
@@ -3584,16 +3602,16 @@
     },
     "SO": {
         "id": "SO",
-        "name": "TODO",
+        "name": "Federal Republic of Somalia",
         "link": "/somalia",
-        "flag": "TODO",
+        "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Flag_of_Somalia.svg/1920px-Flag_of_Somalia.svg.png",
         "capital": {
-            "name": "TODO",
-            "population": 1000000000000
+            "name": "Mogadishu",
+            "population": 2610483
         },
         "largestCity": {
-            "name": "TODO",
-            "population": 1000000000000
+            "name": "Mogadishu",
+            "population": 2610483
         },
         "population": 18143379,
         "area": 637657,
@@ -3602,16 +3620,16 @@
     },
     "ZA": {
         "id": "ZA",
-        "name": "TODO",
+        "name": "Republic of South Africa",
         "link": "/south_africa",
-        "flag": "TODO",
+        "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Flag_of_South_Africa.svg/1920px-Flag_of_South_Africa.svg.png",
         "capital": {
-            "name": "TODO",
-            "population": 1000000000000
+            "name": "Pretoria + Cape Town + Bloemfontein",
+            "population": 0
         },
         "largestCity": {
-            "name": "TODO",
-            "population": 1000000000000
+            "name": "Johannesburg",
+            "population": 7860781
         },
         "population": 62027503,
         "area": 1219090,
@@ -3620,34 +3638,34 @@
     },
     "GS": {
         "id": "GS",
-        "name": "TODO",
+        "name": "South Georgia and the South Sandwich Islands (British Overseas Territories)",
         "link": "/south_georgia_and_the_south_sandwich_islands",
-        "flag": "TODO",
+        "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Flag_of_South_Georgia_and_the_South_Sandwich_Islands.svg/2560px-Flag_of_South_Georgia_and_the_South_Sandwich_Islands.svg.png",
         "capital": {
-            "name": "TODO",
-            "population": 1000000000000
+            "name": "King Edward Point",
+            "population": 22
         },
         "largestCity": {
-            "name": "TODO",
-            "population": 1000000000000
+            "name": "King Edward Point",
+            "population": 22
         },
-        "population": "TODO",
-        "area": "TODO",
-        "gdp": "TODO",
-        "hdi": "TODO"
+        "population": 22,
+        "area": 3903,
+        "gdp": 0,
+        "hdi": 1
     },
     "SS": {
         "id": "SS",
-        "name": "TODO",
+        "name": "Republic of South Sudan",
         "link": "/south_sudan",
-        "flag": "TODO",
+        "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Flag_of_South_Sudan.svg/2560px-Flag_of_South_Sudan.svg.png",
         "capital": {
-            "name": "TODO",
-            "population": 1000000000000
+            "name": "Juba",
+            "population": 525953
         },
         "largestCity": {
-            "name": "TODO",
-            "population": 1000000000000
+            "name": "Juba",
+            "population": 525953
         },
         "population": 14746494,
         "area": 644329,
@@ -3656,16 +3674,16 @@
     },
     "ES": {
         "id": "ES",
-        "name": "TODO",
+        "name": "Kingdom of Spain",
         "link": "/spain",
-        "flag": "TODO",
+        "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Bandera_de_Espa%C3%B1a.svg/1920px-Bandera_de_Espa%C3%B1a.svg.png",
         "capital": {
-            "name": "TODO",
-            "population": 1000000000000
+            "name": "Madrid",
+            "population": 6791667
         },
         "largestCity": {
-            "name": "TODO",
-            "population": 1000000000000
+            "name": "Madrid",
+            "population": 6791667
         },
         "population": 48692804,
         "area": 505370,
@@ -3674,16 +3692,16 @@
     },
     "LK": {
         "id": "LK",
-        "name": "TODO",
+        "name": "Sri Lanka, Democratic Socialist Republic of",
         "link": "/sri_lanka",
-        "flag": "TODO",
+        "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Flag_of_Sri_Lanka.svg/2560px-Flag_of_Sri_Lanka.svg.png",
         "capital": {
-            "name": "TODO",
-            "population": 1000000000000
+            "name": "Sri Jayewardenepura Kotte + Colombo",
+            "population": 0
         },
         "largestCity": {
-            "name": "TODO",
-            "population": 1000000000000
+            "name": "Colombo",
+            "population": 5648000
         },
         "population": 22037000,
         "area": 65610,
@@ -3692,16 +3710,16 @@
     },
     "SD": {
         "id": "SD",
-        "name": "TODO",
+        "name": "Republic of the Sudan",
         "link": "/sudan",
-        "flag": "TODO",
+        "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Flag_of_Sudan.svg/2560px-Flag_of_Sudan.svg.png",
         "capital": {
-            "name": "TODO",
-            "population": 1000000000000
+            "name": "Khartoum",
+            "population": 6344348
         },
         "largestCity": {
-            "name": "TODO",
-            "population": 1000000000000
+            "name": "Khartoum",
+            "population": 6344348
         },
         "population": 41984500,
         "area": 1861484,
@@ -3710,16 +3728,16 @@
     },
     "SR": {
         "id": "SR",
-        "name": "TODO",
+        "name": "Republic of Suriname",
         "link": "/suriname",
-        "flag": "TODO",
+        "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Flag_of_Suriname.svg/1920px-Flag_of_Suriname.svg.png",
         "capital": {
-            "name": "TODO",
-            "population": 1000000000000
+            "name": "Paramaribo",
+            "population": 240924
         },
         "largestCity": {
-            "name": "TODO",
-            "population": 1000000000000
+            "name": "Paramaribo",
+            "population": 240924
         },
         "population": 616500,
         "area": 163820,
@@ -3728,34 +3746,34 @@
     },
     "SJ": {
         "id": "SJ",
-        "name": "TODO",
+        "name": "Svalbard",
         "link": "/svalbard_and_jan_mayen",
-        "flag": "TODO",
+        "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Flag_of_Norway.svg/1024px-Flag_of_Norway.svg.png",
         "capital": {
-            "name": "TODO",
-            "population": 1000000000000
+            "name": "Longyearbyen",
+            "population": 2400
         },
         "largestCity": {
-            "name": "TODO",
-            "population": 1000000000000
+            "name": "Longyearbyen",
+            "population": 2400
         },
-        "population": "TODO",
-        "area": "TODO",
-        "gdp": "TODO",
-        "hdi": "TODO"
+        "population": 2642,
+        "area": 61022,
+        "gdp": 0,
+        "hdi": 1
     },
     "SE": {
         "id": "SE",
-        "name": "TODO",
+        "name": "Kingdom of Sweden",
         "link": "/sweden",
-        "flag": "TODO",
+        "flag": "https://upload.wikimedia.org/wikipedia/en/thumb/4/4c/Flag_of_Sweden.svg/2560px-Flag_of_Sweden.svg.png",
         "capital": {
-            "name": "TODO",
-            "population": 1000000000000
+            "name": "Stockholm",
+            "population": 2415139
         },
         "largestCity": {
-            "name": "TODO",
-            "population": 1000000000000
+            "name": "Stockholm",
+            "population": 2415139
         },
         "population": 10548261,
         "area": 450295,
@@ -3764,16 +3782,16 @@
     },
     "CH": {
         "id": "CH",
-        "name": "TODO",
+        "name": "Swiss Confederation",
         "link": "/switzerland",
-        "flag": "TODO",
+        "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Flag_of_Switzerland_%28Pantone%29.svg/1280px-Flag_of_Switzerland_%28Pantone%29.svg.png",
         "capital": {
-            "name": "TODO",
-            "population": 1000000000000
+            "name": "Bern",
+            "population": 133883
         },
         "largestCity": {
-            "name": "TODO",
-            "population": 1000000000000
+            "name": "Zurich",
+            "population": 415367
         },
         "population": 8981565,
         "area": 41291,
@@ -3782,16 +3800,16 @@
     },
     "SY": {
         "id": "SY",
-        "name": "TODO",
+        "name": "Syrian Arab Republic",
         "link": "/syria",
-        "flag": "TODO",
+        "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Flag_of_Syria.svg/1920px-Flag_of_Syria.svg.png",
         "capital": {
-            "name": "TODO",
-            "population": 1000000000000
+            "name": "Damascus",
+            "population": 2503000
         },
         "largestCity": {
-            "name": "TODO",
-            "population": 1000000000000
+            "name": "Damascus",
+            "population": 2503000
         },
         "population": 22923000,
         "area": 185180,
@@ -3800,16 +3818,16 @@
     },
     "TW": {
         "id": "TW",
-        "name": "TODO",
+        "name": "Taiwan or the Republic of China",
         "link": "/taiwan",
-        "flag": "TODO",
+        "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Flag_of_the_Republic_of_China.svg/1920px-Flag_of_the_Republic_of_China.svg.png",
         "capital": {
-            "name": "TODO",
-            "population": 1000000000000
+            "name": "Taipei",
+            "population": 2494813
         },
         "largestCity": {
-            "name": "TODO",
-            "population": 1000000000000
+            "name": "New Taipei City",
+            "population": 8535000
         },
         "population": 23413608,
         "area": 35980,
@@ -3818,16 +3836,16 @@
     },
     "TJ": {
         "id": "TJ",
-        "name": "TODO",
+        "name": "Republic of Tajikistan",
         "link": "/tajikistan",
-        "flag": "TODO",
+        "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Flag_of_Tajikistan.svg/2560px-Flag_of_Tajikistan.svg.png",
         "capital": {
-            "name": "TODO",
-            "population": 1000000000000
+            "name": "Dushanbe",
+            "population": 3147000
         },
         "largestCity": {
-            "name": "TODO",
-            "population": 1000000000000
+            "name": "Dushanbe",
+            "population": 3147000
         },
         "population": 10077600,
         "area": 144100,
@@ -3836,16 +3854,16 @@
     },
     "TZ": {
         "id": "TZ",
-        "name": "TODO",
+        "name": "United Republic of Tanzania",
         "link": "/tanzania",
-        "flag": "TODO",
+        "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Flag_of_Tanzania.svg/1920px-Flag_of_Tanzania.svg.png",
         "capital": {
-            "name": "TODO",
-            "population": 1000000000000
+            "name": "Dodoma",
+            "population": 765179
         },
         "largestCity": {
-            "name": "TODO",
-            "population": 1000000000000
+            "name": "Dar es Salaam",
+            "population": 5383728
         },
         "population": 61741120,
         "area": 947303,
@@ -3854,16 +3872,16 @@
     },
     "TH": {
         "id": "TH",
-        "name": "TODO",
+        "name": "Kingdom of Thailand",
         "link": "/thailand",
-        "flag": "TODO",
+        "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Flag_of_Thailand.svg/1920px-Flag_of_Thailand.svg.png",
         "capital": {
-            "name": "TODO",
-            "population": 1000000000000
+            "name": "Bangkok",
+            "population": 17400000
         },
         "largestCity": {
-            "name": "TODO",
-            "population": 1000000000000
+            "name": "Bangkok",
+            "population": 17400000
         },
         "population": 65990480,
         "area": 513120,
@@ -3872,16 +3890,16 @@
     },
     "TL": {
         "id": "TL",
-        "name": "TODO",
+        "name": "Timor-Leste, Democratic Republic of",
         "link": "/timor_leste",
-        "flag": "TODO",
+        "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Flag_of_East_Timor.svg/2560px-Flag_of_East_Timor.svg.png",
         "capital": {
-            "name": "TODO",
-            "population": 1000000000000
+            "name": "Dili",
+            "population": 324296
         },
         "largestCity": {
-            "name": "TODO",
-            "population": 1000000000000
+            "name": "Dili",
+            "population": 324296
         },
         "population": 1354662,
         "area": 14874,
@@ -3890,16 +3908,16 @@
     },
     "TG": {
         "id": "TG",
-        "name": "TODO",
+        "name": "Togolese Republic",
         "link": "/togo",
-        "flag": "TODO",
+        "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Flag_of_Togo.svg/2560px-Flag_of_Togo.svg.png",
         "capital": {
-            "name": "TODO",
-            "population": 1000000000000
+            "name": "Lomé",
+            "population": 2200000
         },
         "largestCity": {
-            "name": "TODO",
-            "population": 1000000000000
+            "name": "Lomé",
+            "population": 2200000
         },
         "population": 8095498,
         "area": 56785,
@@ -3908,16 +3926,16 @@
     },
     "TK": {
         "id": "TK",
-        "name": "TODO",
+        "name": "Tokelau",
         "link": "/tokelau",
-        "flag": "TODO",
+        "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Flag_of_Tokelau.svg/2560px-Flag_of_Tokelau.svg.png",
         "capital": {
-            "name": "TODO",
-            "population": 1000000000000
+            "name": "None",
+            "population": 0
         },
         "largestCity": {
-            "name": "TODO",
-            "population": 1000000000000
+            "name": "Atafu",
+            "population": 541
         },
         "population": 1647,
         "area": 12,
@@ -3926,16 +3944,16 @@
     },
     "TO": {
         "id": "TO",
-        "name": "TODO",
+        "name": "Kingdom of Tonga",
         "link": "/tonga",
-        "flag": "TODO",
+        "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Flag_of_Tonga.svg/2560px-Flag_of_Tonga.svg.png",
         "capital": {
-            "name": "TODO",
-            "population": 1000000000000
+            "name": "Nukuʻalofa",
+            "population": 74454
         },
         "largestCity": {
-            "name": "TODO",
-            "population": 1000000000000
+            "name": "Nukuʻalofa",
+            "population": 74454
         },
         "population": 100179,
         "area": 747,
@@ -3944,16 +3962,16 @@
     },
     "TT": {
         "id": "TT",
-        "name": "TODO",
+        "name": "Republic of Trinidad and Tobago",
         "link": "/trinidad_and_tobago",
-        "flag": "TODO",
+        "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Flag_of_Trinidad_and_Tobago.svg/2560px-Flag_of_Trinidad_and_Tobago.svg.png",
         "capital": {
-            "name": "TODO",
-            "population": 1000000000000
+            "name": "Port of Spain",
+            "population": 81142
         },
         "largestCity": {
-            "name": "TODO",
-            "population": 1000000000000
+            "name": "Chaguanas",
+            "population": 101297
         },
         "population": 1367510,
         "area": 5127,
@@ -3962,16 +3980,16 @@
     },
     "TN": {
         "id": "TN",
-        "name": "TODO",
+        "name": "Republic of Tunisia",
         "link": "/tunisia",
-        "flag": "TODO",
+        "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Flag_of_Tunisia.svg/1920px-Flag_of_Tunisia.svg.png",
         "capital": {
-            "name": "TODO",
-            "population": 1000000000000
+            "name": "Tunis",
+            "population": 2671882
         },
         "largestCity": {
-            "name": "TODO",
-            "population": 1000000000000
+            "name": "Tunis",
+            "population": 2671882
         },
         "population": 11850232,
         "area": 163610,
@@ -3980,16 +3998,16 @@
     },
     "TR": {
         "id": "TR",
-        "name": "TODO",
+        "name": "Republic of Türkiye",
         "link": "/turkey",
-        "flag": "TODO",
+        "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Flag_of_Turkey.svg/1920px-Flag_of_Turkey.svg.png",
         "capital": {
-            "name": "TODO",
-            "population": 1000000000000
+            "name": "Ankara",
+            "population": 5803482
         },
         "largestCity": {
-            "name": "TODO",
-            "population": 1000000000000
+            "name": "Istanbul",
+            "population": 15655924
         },
         "population": 85372377,
         "area": 783562,
@@ -3998,16 +4016,16 @@
     },
     "TM": {
         "id": "TM",
-        "name": "TODO",
+        "name": "Turkmenistan",
         "link": "/turkmenistan",
-        "flag": "TODO",
+        "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Flag_of_Turkmenistan.svg/1920px-Flag_of_Turkmenistan.svg.png",
         "capital": {
-            "name": "TODO",
-            "population": 1000000000000
+            "name": "Ashgabat",
+            "population": 1030063
         },
         "largestCity": {
-            "name": "TODO",
-            "population": 1000000000000
+            "name": "Ashgabat",
+            "population": 1030063
         },
         "population": 7057841,
         "area": 488100,
@@ -4016,16 +4034,16 @@
     },
     "TC": {
         "id": "TC",
-        "name": "TODO",
+        "name": "Turks and Caicos Islands (British Overseas Territory)",
         "link": "/turks_and_caicos_islands",
-        "flag": "TODO",
+        "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Flag_of_the_Turks_and_Caicos_Islands.svg/2560px-Flag_of_the_Turks_and_Caicos_Islands.svg.png",
         "capital": {
-            "name": "TODO",
-            "population": 1000000000000
+            "name": "Cockburn Town",
+            "population": 3700
         },
         "largestCity": {
-            "name": "TODO",
-            "population": 1000000000000
+            "name": "Providenciales",
+            "population": 23769
         },
         "population": 46131,
         "area": 948,
@@ -4034,16 +4052,16 @@
     },
     "TV": {
         "id": "TV",
-        "name": "TODO",
+        "name": "Tuvalu",
         "link": "/tuvalu",
-        "flag": "TODO",
+        "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Flag_of_Tuvalu.svg/2560px-Flag_of_Tuvalu.svg.png",
         "capital": {
-            "name": "TODO",
-            "population": 1000000000000
+            "name": "Funafuti",
+            "population": 6320
         },
         "largestCity": {
-            "name": "TODO",
-            "population": 1000000000000
+            "name": "Funafuti",
+            "population": 6320
         },
         "population": 10679,
         "area": 26,
@@ -4052,16 +4070,16 @@
     },
     "UG": {
         "id": "UG",
-        "name": "TODO",
+        "name": "Republic of Uganda",
         "link": "/uganda",
-        "flag": "TODO",
+        "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Flag_of_Uganda.svg/1920px-Flag_of_Uganda.svg.png",
         "capital": {
-            "name": "TODO",
-            "population": 1000000000000
+            "name": "Kampala",
+            "population": 6709900
         },
         "largestCity": {
-            "name": "TODO",
-            "population": 1000000000000
+            "name": "Kampala",
+            "population": 6709900
         },
         "population": 45562000,
         "area": 241550,
@@ -4070,16 +4088,16 @@
     },
     "UA": {
         "id": "UA",
-        "name": "TODO",
+        "name": "Ukraine",
         "link": "/ukraine",
-        "flag": "TODO",
+        "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Flag_of_Ukraine.svg/1920px-Flag_of_Ukraine.svg.png",
         "capital": {
-            "name": "TODO",
-            "population": 1000000000000
+            "name": "Kyiv",
+            "population": 3475000
         },
         "largestCity": {
-            "name": "TODO",
-            "population": 1000000000000
+            "name": "Kyiv",
+            "population": 3475000
         },
         "population": 36700000,
         "area": 603550,
@@ -4088,16 +4106,16 @@
     },
     "AE": {
         "id": "AE",
-        "name": "TODO",
+        "name": "United Arab Emirates",
         "link": "/united_arab_emirates",
-        "flag": "TODO",
+        "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Flag_of_the_United_Arab_Emirates.svg/2560px-Flag_of_the_United_Arab_Emirates.svg.png",
         "capital": {
-            "name": "TODO",
-            "population": 1000000000000
+            "name": "Abu Dhabi",
+            "population": 3789860
         },
         "largestCity": {
-            "name": "TODO",
-            "population": 1000000000000
+            "name": "Dubai",
+            "population": 5894000
         },
         "population": 9282410,
         "area": 83600,
@@ -4106,16 +4124,16 @@
     },
     "GB": {
         "id": "GB",
-        "name": "TODO",
+        "name": "United Kingdom of Great Britain and Northern Ireland",
         "link": "/uk",
-        "flag": "TODO",
+        "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Flag_of_the_United_Kingdom_%281-2%29.svg/2560px-Flag_of_the_United_Kingdom_%281-2%29.svg.png",
         "capital": {
-            "name": "TODO",
-            "population": 1000000000000
+            "name": "London",
+            "population": 14900000
         },
         "largestCity": {
-            "name": "TODO",
-            "population": 1000000000000
+            "name": "London",
+            "population": 14900000
         },
         "population": 67596281,
         "area": 244376,
@@ -4124,21 +4142,21 @@
     },
     "UM": {
         "id": "UM",
-        "name": "TODO",
+        "name": "United States Minor Outlying Islands",
         "link": "/usa",
-        "flag": "TODO",
+        "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Flag_of_the_United_States_%28DoS_ECA_Color_Standard%29.svg/2560px-Flag_of_the_United_States_%28DoS_ECA_Color_Standard%29.svg.png",
         "capital": {
-            "name": "TODO",
-            "population": 1000000000000
+            "name": "None",
+            "population": 0
         },
         "largestCity": {
-            "name": "TODO",
-            "population": 1000000000000
+            "name": "None",
+            "population": 0
         },
-        "population": "TODO",
-        "area": "TODO",
-        "gdp": "TODO",
-        "hdi": "TODO"
+        "population": 0,
+        "area": 49,
+        "gdp": 0,
+        "hdi": 0
     },
     "US": {
         "id": "US",
@@ -4160,16 +4178,16 @@
     },
     "UY": {
         "id": "UY",
-        "name": "TODO",
+        "name": "Oriental Republic of Uruguay",
         "link": "/uruguay",
-        "flag": "TODO",
+        "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Flag_of_Uruguay.svg/1920px-Flag_of_Uruguay.svg.png",
         "capital": {
-            "name": "TODO",
-            "population": 1000000000000
+            "name": "Montevideo",
+            "population": 1947604
         },
         "largestCity": {
-            "name": "TODO",
-            "population": 1000000000000
+            "name": "Montevideo",
+            "population": 1947604
         },
         "population": 3444263,
         "area": 176215,
@@ -4178,16 +4196,16 @@
     },
     "UZ": {
         "id": "UZ",
-        "name": "TODO",
+        "name": "Republic of Uzbekistan",
         "link": "/uzbekistan",
-        "flag": "TODO",
+        "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Flag_of_Uzbekistan.svg/2560px-Flag_of_Uzbekistan.svg.png",
         "capital": {
-            "name": "TODO",
-            "population": 1000000000000
+            "name": "Tashkent",
+            "population": 7087201
         },
         "largestCity": {
-            "name": "TODO",
-            "population": 1000000000000
+            "name": "Tashkent",
+            "population": 7087201
         },
         "population": 36963262,
         "area": 447400,
@@ -4196,16 +4214,16 @@
     },
     "VU": {
         "id": "VU",
-        "name": "TODO",
+        "name": "Republic of Vanuatu",
         "link": "/vanuatu",
-        "flag": "TODO",
+        "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Flag_of_Vanuatu.svg/2560px-Flag_of_Vanuatu.svg.png",
         "capital": {
-            "name": "TODO",
-            "population": 1000000000000
+            "name": "Port Vila",
+            "population": 49034
         },
         "largestCity": {
-            "name": "TODO",
-            "population": 1000000000000
+            "name": "Port Vila",
+            "population": 49034
         },
         "population": 301295,
         "area": 12189,
@@ -4214,16 +4232,16 @@
     },
     "VE": {
         "id": "VE",
-        "name": "TODO",
+        "name": "Bolivarian Republic of Venezuela",
         "link": "/venezuela",
-        "flag": "TODO",
+        "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Flag_of_Venezuela.svg/1920px-Flag_of_Venezuela.svg.png",
         "capital": {
-            "name": "TODO",
-            "population": 1000000000000
+            "name": "Caracas",
+            "population": 8956813
         },
         "largestCity": {
-            "name": "TODO",
-            "population": 1000000000000
+            "name": "Caracas",
+            "population": 8956813
         },
         "population": 28302000,
         "area": 912050,
@@ -4232,16 +4250,16 @@
     },
     "VN": {
         "id": "VN",
-        "name": "TODO",
+        "name": "Socialist Republic of Vietnam",
         "link": "/vietnam",
-        "flag": "TODO",
+        "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Flag_of_Vietnam.svg/1920px-Flag_of_Vietnam.svg.png",
         "capital": {
-            "name": "TODO",
-            "population": 1000000000000
+            "name": "Hanoi",
+            "population": 20000000
         },
         "largestCity": {
-            "name": "TODO",
-            "population": 1000000000000
+            "name": "Ho Chi Minh City",
+            "population": 21281639
         },
         "population": 100300000,
         "area": 331340,
@@ -4250,16 +4268,16 @@
     },
     "VG": {
         "id": "VG",
-        "name": "TODO",
+        "name": "Virgin Islands (British Overseas Territory)",
         "link": "/virgin_islands",
-        "flag": "TODO",
+        "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Flag_of_the_British_Virgin_Islands.svg/260px-Flag_of_the_British_Virgin_Islands.svg.png",
         "capital": {
-            "name": "TODO",
-            "population": 1000000000000
+            "name": "Road Town",
+            "population": 12603
         },
         "largestCity": {
-            "name": "TODO",
-            "population": 1000000000000
+            "name": "Road Town",
+            "population": 12603
         },
         "population": 31538,
         "area": 151,
@@ -4268,16 +4286,16 @@
     },
     "VI": {
         "id": "VI",
-        "name": "TODO",
+        "name": "Virgin Islands (U.S. Territory)",
         "link": "/usa",
-        "flag": "TODO",
+        "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Flag_of_the_United_States_Virgin_Islands.svg/1920px-Flag_of_the_United_States_Virgin_Islands.svg.png",
         "capital": {
-            "name": "TODO",
-            "population": 1000000000000
+            "name": "Charlotte Amalie",
+            "population": 14477
         },
         "largestCity": {
-            "name": "TODO",
-            "population": 1000000000000
+            "name": "Charlotte Amalie",
+            "population": 14477
         },
         "population": 87146,
         "area": 347,
@@ -4286,52 +4304,52 @@
     },
     "WF": {
         "id": "WF",
-        "name": "TODO",
+        "name": "Wallis and Futuna (French)",
         "link": "/france",
-        "flag": "TODO",
+        "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Flag_of_Wallis_and_Futuna.svg/1920px-Flag_of_Wallis_and_Futuna.svg.png",
         "capital": {
-            "name": "TODO",
-            "population": 1000000000000
+            "name": "Mata Utu",
+            "population": 1029
         },
         "largestCity": {
-            "name": "TODO",
-            "population": 1000000000000
+            "name": "Mata Utu",
+            "population": 1029
         },
-        "population": "TODO",
-        "area": "TODO",
-        "gdp": "TODO",
-        "hdi": "TODO"
+        "population": 11151,
+        "area": 142,
+        "gdp": 188,
+        "hdi": 0.763
     },
     "EH": {
         "id": "EH",
-        "name": "TODO",
+        "name": "Western Sahara",
         "link": "/western_sahara",
-        "flag": "TODO",
+        "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Flag_of_the_Sahrawi_Arab_Democratic_Republic.svg/2560px-Flag_of_the_Sahrawi_Arab_Democratic_Republic.svg.png",
         "capital": {
-            "name": "TODO",
-            "population": 1000000000000
+            "name": "Laayoune",
+            "population": 271344
         },
         "largestCity": {
-            "name": "TODO",
-            "population": 1000000000000
+            "name": "Laayoune",
+            "population": 271344
         },
         "population": 587259,
         "area": 266000,
         "gdp": 906,
-        "hdi": "TODO"
+        "hdi": 0
     },
     "YE": {
         "id": "YE",
-        "name": "TODO",
+        "name": "Republic of Yemen",
         "link": "/yemen",
-        "flag": "TODO",
+        "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Flag_of_Yemen.svg/1920px-Flag_of_Yemen.svg.png",
         "capital": {
-            "name": "TODO",
-            "population": 1000000000000
+            "name": "Sanaa",
+            "population": 3292497
         },
         "largestCity": {
-            "name": "TODO",
-            "population": 1000000000000
+            "name": "Sanaa",
+            "population": 3292497
         },
         "population": 31888698,
         "area": 527968,
@@ -4340,16 +4358,16 @@
     },
     "ZM": {
         "id": "ZM",
-        "name": "TODO",
+        "name": "Republic of Zambia",
         "link": "/zambia",
-        "flag": "TODO",
+        "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Flag_of_Zambia.svg/1920px-Flag_of_Zambia.svg.png",
         "capital": {
-            "name": "TODO",
-            "population": 1000000000000
+            "name": "Lusaka",
+            "population": 2238569
         },
         "largestCity": {
-            "name": "TODO",
-            "population": 1000000000000
+            "name": "Lusaka",
+            "population": 2238569
         },
         "population": 19610769,
         "area": 752612,
@@ -4358,16 +4376,16 @@
     },
     "ZW": {
         "id": "ZW",
-        "name": "TODO",
+        "name": "Republic of Zimbabwe",
         "link": "/zimbabwe",
-        "flag": "TODO",
+        "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Flag_of_Zimbabwe.svg/2560px-Flag_of_Zimbabwe.svg.png",
         "capital": {
-            "name": "TODO",
-            "population": 1000000000000
+            "name": "Harare",
+            "population": 3120917
         },
         "largestCity": {
-            "name": "TODO",
-            "population": 1000000000000
+            "name": "Harare",
+            "population": 3120917
         },
         "population": 15178979,
         "area": 390757,
@@ -4376,20 +4394,20 @@
     },
     "AX": {
         "id": "AX",
-        "name": "TODOÅland Islands",
+        "name": "Åland",
         "link": "/aland_islands",
-        "flag": "TODO",
+        "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Flag_of_%C3%85land.svg/2560px-Flag_of_%C3%85land.svg.png",
         "capital": {
-            "name": "TODO",
-            "population": 1000000000000
+            "name": "Mariehamn",
+            "population": 11812
         },
         "largestCity": {
-            "name": "TODO",
-            "population": 1000000000000
+            "name": "Mariehamn",
+            "population": 11812
         },
-        "population": "TODO",
-        "area": "TODO",
-        "gdp": "TODO",
-        "hdi": "TODO"
+        "population": 30129,
+        "area": 1580,
+        "gdp": 1190,
+        "hdi": 0.900
     }
 }

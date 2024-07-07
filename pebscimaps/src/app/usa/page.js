@@ -32,18 +32,11 @@ function USA() {
 
   return (
     <div style={{color: 'black'}}>
-      <div style={{display: 'flex', justifyContent: 'center', height: '100vh'}}>
+      <div style={{display: 'flex', justifyContent: 'center', minHeight: '100vh', height: 'fitContent'}}>
         <CountryInfo country={usa}>
           <USAMap infoType={"general"} callbackData={modifyStateFromList} suppliedList={selectedState} />
         </CountryInfo>
       </div>
-      {usa.states.map((state) => (
-          <Link key={state.id} style={{display: 'flex', alignItems: 'center', justifyContent: 'start', overflowY: 'scroll'}} href={`/usa/alabama`}>
-              <h1 style={{marginLeft: '16px'}}>{state.name}</h1>
-              {/*children*/}
-          </Link>
-        ))
-      }
     </div>
   );
 }
