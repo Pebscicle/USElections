@@ -14,8 +14,8 @@ function CountryInfo( {children, country} ) {
           <p>Population: {commaifyNumber(country.population)}</p>
           <p>Nominal GDP in billions: ${commaifyNumber(country.gdp)}</p>
           <p>GDP per capita: ${commaifyNumber( parseInt(country.gdp/country.population*1000000) )}</p>
-          <p>Elections: <Link style={{color: 'blue'}} href={"/usa/elections"}>Learn More</Link></p>
-          <p>State Creator: <Link style={{color: 'red'}} href={"/usa/creator"}>NEW!</Link></p>
+          <p>Elections: <Link style={{color: 'blue'}} href={country.link+"/elections"}>Learn More</Link></p>
+          <p>State Creator: <Link style={{color: 'red'}} href={country.link+"/creator"}>NEW!</Link></p>
         </div>
         {/* Render other state information here */}
       </div>

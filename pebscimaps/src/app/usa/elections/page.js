@@ -22,6 +22,7 @@ function UsaElections() {
     const [leftEVs, setLeftEVs] = useState(306);
     const [rightEVs, setRightEVs] = useState(232);
     const [otherEVs, setOtherEVs] = useState(0);
+    const remainingEVs = 0;
 
     const [EVsByState, setEVsByState] = useState(null);
 
@@ -68,7 +69,7 @@ function UsaElections() {
               <Link href='/usa/elections/predictor' style={{color: 'blue', paddingLeft: '8px'}}>Election Predictor</Link>
             </div>
 
-            <TwoSeventyBar leftEVs={leftEVs} rightEVs={rightEVs} otherEVs={otherEVs}/>
+            <TwoSeventyBar leftEVs={leftEVs} rightEVs={rightEVs} otherEVs={otherEVs} remainingEVs={0}/>
 
             <div style={{display: 'flex', justifyContent: 'center', height: '100vh'}}>
               {!loading &&

@@ -1,6 +1,7 @@
 {
     "id": "belgium",
     "name": "Kingdom of Belgium",
+    "link": "/belgium",
     "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Flag_of_Belgium.svg/1920px-Flag_of_Belgium.svg.png",
     "population": 11823056,
     "gdp": 655192,
