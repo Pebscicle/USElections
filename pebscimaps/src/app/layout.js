@@ -36,16 +36,16 @@ export default function RootLayout({ children }) {
 
         </Head>
       <body className={inter.className}>
-        <div style={{display: 'grid', gridTemplateColumns: "200px 1fr", backgroundColor: "#f9f9f9", width: "100vw", height: '100vh'}}>
-          <div style={{width: '200px'}}></div>
+        <div style={{display: 'grid', gridTemplateColumns: " 1fr", backgroundColor: "#f9f9f9", width: "100vw", height: '100vh'}}>
           <Sidebar />
 
-          <div style={{height: '100%', width: '100%'}}>
+          <div style={{minHeight: '100%', width: '100%'}}>
             {children}
             <SpeedInsights />
+            <Footer />
           </div>
         </div>
-        <Footer />
+        
       </body>
     </html>
   );

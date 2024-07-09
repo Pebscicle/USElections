@@ -134,7 +134,7 @@ function USAMap( {infoType, specificInfoType, selectedYear, callbackData, suppli
   
 return (
 
-<div>
+<div style={{height: 'auto'}}>
   {infoType != 'creator' && specificInfoType != 'predictor' &&
 <InfoModal infoType={infoType} selectedYear={selectedYear} isVisible={isModalVisible} closeModal={closeModal} entity={selectedState} imageLink={stateImage} />
 }

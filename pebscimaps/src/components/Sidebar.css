@@ -1,3 +1,7 @@
 .sidebar > .sidebar-element{
     padding: 4px 0px 4px 4px;
 }
+
+.sidebar {
+  box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .2); 
+}

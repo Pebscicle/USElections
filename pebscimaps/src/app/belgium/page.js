@@ -7,7 +7,7 @@ function Belgium() {
     
     return (
       <>
-        <div style={{display: 'flex', justifyContent: 'center', height: '100vh'}}>
+        <div style={{display: 'flex', justifyContent: 'center', minHeight: '100vh', backgroundColor: 'white'}}>
           <CountryInfo country={belgium}>
 
           </CountryInfo>

@@ -54,7 +54,7 @@ function UsaElections() {
     
     
     return (
-        <div style={{color: 'black'}}>
+        <div style={{color: 'black', backgroundColor: 'white'}}>
           <div style={{display: 'grid', gridTemplateRows: '50px 60px 1fr'}}>
 
             <div style={{backgroundColor: colors.secondary, display: 'flex', alignItems: 'center', paddingLeft: '8px'}}>

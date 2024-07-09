@@ -31,8 +31,8 @@ function USA() {
 
 
   return (
-    <div style={{color: 'black'}}>
-      <div style={{display: 'flex', justifyContent: 'center', minHeight: '100vh', height: 'fitContent'}}>
+    <div style={{color: 'black', backgroundColor: 'white'}}>
+      <div style={{display: 'flex', justifyContent: 'center', minHeight: '120vh'}}>
         <CountryInfo country={usa}>
           <USAMap infoType={"general"} callbackData={modifyStateFromList} suppliedList={selectedState} />
         </CountryInfo>
