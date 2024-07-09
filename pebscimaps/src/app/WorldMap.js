@@ -1,6 +1,7 @@
 'use client'
 
-import InfoModal from '../components/InfoModal'
+import InfoModal from '../components/InfoModal';
+import MapControls from '../components/mapping/MapControls';
 import {useEffect, useState} from 'react';
 
 import {getCountryFromID, getCountryImageLinkFromID} from '../app/services/dbFetcherService';
@@ -22,7 +23,10 @@ import Link from 'next/link';
 function WorldMap( {infoType, selectedYear, callbackData, suppliedList} ) {
 
 const [width, setWidth] = useState(0);
-const [height, setHeight] = useState(0)
+const [height, setHeight] = useState(0);
+
+const [xMapAdjustment, setxMapAdjustment] = useState(0);
+const [yMapAdjustment, setyMapAdjustment] = useState(0);
 
 const [isModalVisible, setIsModalVisible] = useState(false);
 const [selectedCountry, setSelectedCountry] = useState('');
@@ -54,6 +58,16 @@ const logClickedInfo = (e) => {
   setIsModalVisible(true);
 }
 
+const resizeMap = (resizeInstructions) => {
+  console.log('resizeInstructions');
+  console.log(resizeInstructions);
+
+  const x = xMapAdjustment+resizeInstructions.x*20;
+  const y = yMapAdjustment+resizeInstructions.y*20;
+
+  setxMapAdjustment(x);
+  setyMapAdjustment(y);
+}
 
 useEffect(() => {
     const updateDimensions = () => {
@@ -86,11 +100,15 @@ useEffect(() => {
 return (
     <div className='world-map-container' style={{backgroundColor: water, width: '100%', height: 'auto', display: 'flex', justifyContent: 'center'}}>
 
+      <MapControls bottom={25} right={25} movementDetected={resizeMap}/>
+      
+
       {infoType != 'creator' &&
       <InfoModal infoType={infoType} selectedYear={selectedYear} isVisible={isModalVisible} closeModal={closeModal} entity={selectedCountry} imageLink={stateImage} />
       }
         
-        <svg xmlns="http://www.w3.org/2000/svg"  xmlnsXlink="http://www.w3.org/1999/xlink" version="1.1" preserveAspectRatio="xMinYMin meet" x="0px" y="0px" width={width-75} height={height+100} xmlSpace="preserve" style={{paddingLeft: '75px', paddingTop: '20px'}}>
+        <svg xmlns="http://www.w3.org/2000/svg"  xmlnsXlink="http://www.w3.org/1999/xlink" version="1.1" preserveAspectRatio="xMidYMin meet" x="0px" y="0px" width={`${width}`} height={`${height}`}
+        viewBox={`0 0 ${width-200+xMapAdjustment} ${height+yMapAdjustment}`} xmlSpace="preserve" style={{paddingTop: '20px'}}>
             <defs>
 
                 {/*<amcharts:ammap projection="mercator" leftLongitude="-169.110266" topLatitude="83.600842" rightLongitude="190.486279" bottomLatitude="-55.902263"></amcharts:ammap>*/}
