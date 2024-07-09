@@ -248,7 +248,7 @@ function UsaElectionsPredictor() {
     
     return (
         <div style={{color: 'black'}}>
-          <div style={{display: 'grid', gridTemplateRows: '50px 60px 1fr'}}>
+          <div style={{display: 'grid', gridTemplateRows: '50px 60px 40px 1fr'}}>
 
             <div style={{backgroundColor: colors.secondary, display: 'flex', alignItems: 'center', paddingLeft: '8px'}}>
               <span>Elections Tool Bar</span>

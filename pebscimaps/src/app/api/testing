@@ -1,0 +1,5 @@
+http://localhost:3000/api/add-news?title='Welcome to Atlaster'&content='Your personal atlas at your fingertips.'&author='Paul Davis'
+
+
+
+http://localhost:3000/api/get-news

@@ -35,9 +35,9 @@ function Dashboard({children, user}) {
         <LoginModal isVisible={showLogin} closeModal={closeLogin}/>
         <div style={{width: '100%', height: '100vh', backgroundColor: 'green', display: 'grid', gridTemplateRows: '50px 1fr'}}>
             <DashboardTopBar>
-                <button onClick={changeMode('exploration')}>Exploration</button> <ToggleSwitch />
-                <button>Button #2</button>
-                <button>Button #3</button>
+                <button onClick={changeMode('exploration')} style={{paddingLeft: '8px'}}>Exploration</button> <ToggleSwitch />
+                <Link href='/news'><button style={{paddingLeft: '8px'}}>Latest News</button></Link>
+                <button style={{paddingLeft: '8px'}}>Random</button>
                 {!user && 
                 <span onClick={openLogin} style={{display: 'flex', alignItems: 'center', paddingLeft: '8px', color: 'blue', cursor: 'pointer'}}>Log in / Sign Up
                 </span>}

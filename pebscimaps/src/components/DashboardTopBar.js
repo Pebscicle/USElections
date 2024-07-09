@@ -2,7 +2,7 @@
 function DashboardTopBar( {children} ) {
     
     return (
-        <div style={{backgroundColor: 'orange', display: 'flex'}}>
+        <div style={{backgroundColor: 'orange', display: 'flex', alignItems: 'center'}}>
             {children}
         </div>
     );
