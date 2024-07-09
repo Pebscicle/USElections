@@ -1,9 +1,9 @@
 import axios from 'axios';
 
+
 async function fetchNews() {
     try {
-        const response = await axios.get('http://localhost:3000/api/get-news');
-        console.log(response.data); // Log the data received from the response
+        const response = await axios.get(`/api/get-news`);
         return response.data; // Return the data
     } catch (error) {
         console.error('Error fetching news:', error);
