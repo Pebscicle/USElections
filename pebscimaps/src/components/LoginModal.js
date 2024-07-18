@@ -20,7 +20,7 @@ function LoginModal( {isVisible, closeModal} ) {
     });
 
     const blurStyle = {
-        backgroundColor: 'rgba(255, 255, 255, 0.5)', 
+        backgroundColor: 'rgba(255, 255, 255, 0.87)', 
         borderRadius: '5px',
         padding: '20px', 
         listStyleType: 'disc'
