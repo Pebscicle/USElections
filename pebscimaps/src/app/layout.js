@@ -42,7 +42,6 @@ export default function RootLayout({ children }) {
           <div style={{minHeight: '100%', width: '100%'}}>
             {children}
             <SpeedInsights />
-            <Footer />
           </div>
         </div>
         

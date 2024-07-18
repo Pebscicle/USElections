@@ -29,7 +29,7 @@ function PrivacyPolicy() {
 
   return (
     <>
-      <div style={{minHeight: '100vh', color: 'black', margin: '0px 16rem', paddingTop: '10vh'}}>
+      <div className="min-h-screen px-2 sm:px-20 md:px-20 lg:px-96" style={{color: 'black', paddingTop: '10vh', textAlign: 'justify'}}>
 
         <h1 style={{display: 'flex', width: '100%', justifyContent: 'center', padding: '32px 0px'}}>Atlaster News and Updates</h1>
 
@@ -39,7 +39,7 @@ function PrivacyPolicy() {
             <div stlye={{paddingBottom: '8px'}}>
               <div style={{display: 'flex', alignItems: 'flex-end'}}>
                 <h2>{item.title}</h2>
-                <span style={{paddingLeft : '8px'}}>By {item.author}</span>
+                <span style={{paddingLeft : '8px'}}>by {item.author}</span>
               </div>
               <small>Posted on {item.datetime}</small>
             </div>
