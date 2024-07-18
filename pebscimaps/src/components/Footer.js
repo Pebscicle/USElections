@@ -1,22 +1,24 @@
 import usaImages from '../data/usaImages.json'
 
+import Link from 'next/link';
+
 function Footer() {
-    
     return (
         <div style={{color: 'white'}}>
-            
-            Image Credits:
+            <h3>Image Credits:</h3>
             {Object.entries(usaImages.imageLinks).map(([abbr, url]) => (
-                <p key={abbr}>
-                    <abbr>{abbr}</abbr>: <a href={url} style={{ width: '200px', height: '30px', textOverflow: 'ellipsis'}}>{url}</a>
-                </p>
+                <div key={abbr} style={{maxWidth: 'auto'}}>
+                    <abbr>{abbr}</abbr>: 
+                    <Link href={url} style={{wordWrap: 'break-word', overflowWrap: 'break-word'}}>{url}</Link>
+                </div>
             ))}
 
-            Additional Attributions:
-            <a href="https://www.flaticon.com/free-icons/arrow" title="arrow icons">Arrow icons created by Kirill Kazachek - Flaticon</a>
+            <h3>Additional Attributions:</h3>
+            <a href="https://www.flaticon.com/free-icons/arrow" title="arrow icons" style={{wordWrap: 'break-word', overflowWrap: 'break-word'}}>Arrow icons created by Kirill Kazachek - Flaticon</a>
         </div>
     );
-  }
+}
+
 
 export default Footer;
 

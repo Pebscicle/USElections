@@ -35,17 +35,23 @@ export default function RootLayout({ children }) {
         <meta name="theme-color" content="#ffffff" />
 
         </Head>
-      <body className={inter.className}>
-        <div style={{display: 'grid', gridTemplateColumns: " 1fr", backgroundColor: "#f9f9f9", width: "100vw", height: '100vh'}}>
-          <Sidebar />
+        <body className={inter.className}>
+          <div style={{display: 'grid', gridTemplateColumns: "1fr", backgroundColor: "#f9f9f9", width: "100vw", height: '100vh'}}>
+            <Sidebar />
 
-          <div style={{minHeight: '100%', width: '100%'}}>
-            {children}
-            <SpeedInsights />
+            {/* Main Content and Footer Container */}
+            <div style={{display: 'flex', flexDirection: 'column', maxHeight: '100%', maxWidth: '100vw'}}>
+              {/* Content Area */}
+              <div style={{flexGrow: 1}}>
+                {children}
+                <SpeedInsights />
+              </div>
+
+              {/* Footer */}
+              <Footer />
+            </div>
           </div>
-        </div>
-        
-      </body>
+        </body>
     </html>
   );
 }
