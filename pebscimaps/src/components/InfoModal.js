@@ -31,12 +31,6 @@ function InfoModal( {infoType, selectedYear, isVisible, closeModal, entity, imag
     return determineDominantColor(entity.electionResults[findIndexOfYear(selectedYear)].democrat, entity.electionResults[findIndexOfYear(selectedYear)].republican);
   }
 
-  //STYLE CALC
-  let nameWidth = 'auto'; // Default to 'auto'
-  if (entity && entity.name) {
-    // Check if entity.name is not null or undefined and has a length greater than 30
-    nameWidth = entity.name.length >= 27 ? '200px' : 'auto';
-  }
 
     return (
     <>
@@ -64,15 +58,15 @@ function InfoModal( {infoType, selectedYear, isVisible, closeModal, entity, imag
       // Add your custom logic here
     }}>
       <div style={{position: 'fixed', right: '50px', bottom: '25vh', width: '350px', height: '450px', borderRadius: '5px', color: 'black', backgroundColor: colors.white, boxShadow: "0px 2px 5px 2px gray"}}> 
-        <div style={{display: 'grid', gridTemplateColumns: nameWidth+' 50px 1fr 60px 1fr auto', gridTemplateRows: '25px'}}>
-          <Link href={`${entity.link}`}>
-            <span style={{color: colors.clickable, fontWeight: 900, padding: '2px', cursor: 'pointer', fontSize: '14px', whiteSpace: 'nowrap', textOverflow: 'ellipsis'}}> {/* Adjusted fontSize and added whiteSpace and textOverflow */}
-              {entity.name}
-            </span>    
-          </Link>
+        <div style={{display: 'grid', gridTemplateColumns: '50px 210px 1fr 60px 1fr auto', gridTemplateRows: '25px'}}>
             <div style={{paddingLeft: '4px', display: 'flex', alignItems: 'center'}}>
               <img src={entity.flag} style={{height: '20px'}} alt='Flag'/>
             </div>
+            <Link href={`${entity.link}`}>
+              <p style={{color: colors.clickable, fontWeight: 900, padding: '2px', cursor: 'pointer', fontSize: '14px', whiteSpace: 'nowrap', textOverflow: 'ellipsis', overflow: 'hidden', width: '100%'}}>
+                {entity.name}
+              </p>    
+          </Link>
             <span></span>
             <span className="handle"
             style={{
