@@ -5,7 +5,7 @@ import {useState, useEffect} from 'react';
 import axios from 'axios';
 import {fetchNews} from '../services/newsService';
 
-function PrivacyPolicy() {
+function News() {
     
   const [news, setNews] = useState({});
 
@@ -52,4 +52,4 @@ function PrivacyPolicy() {
   );
 }
 
-export default PrivacyPolicy;
+export default News;

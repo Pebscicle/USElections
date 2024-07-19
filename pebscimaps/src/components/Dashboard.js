@@ -37,7 +37,7 @@ function Dashboard({children, user}) {
             <DashboardTopBar>
                 <button onClick={changeMode('exploration')} style={{paddingLeft: '8px'}}>Exploration</button> <ToggleSwitch />
                 <Link href='/news'><button style={{paddingLeft: '8px'}}>Latest News</button></Link>
-                <button style={{paddingLeft: '8px'}}>Random</button>
+                <Link href='/mapmaker'><button style={{paddingLeft: '8px'}}>Map Maker</button></Link>
                 {!user && 
                 <span onClick={openLogin} style={{display: 'flex', alignItems: 'center', paddingLeft: '8px', color: 'blue', cursor: 'pointer'}}>Log in / Sign Up
                 </span>}

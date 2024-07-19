@@ -10,6 +10,7 @@
         {
             "id": "AL",
             "name": "Alabama",
+            "link": "usa/AL",
             "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Flag_of_Alabama.svg/1920px-Flag_of_Alabama.svg.png",
             "capital": {
                 "name": "Montgomery",
@@ -365,6 +366,7 @@
         {
             "id": "AK",
             "name": "Alaska",
+            "link": "usa/AK",
             "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Flag_of_Alaska.svg/1920px-Flag_of_Alaska.svg.png",
             "capital": {
                 "name": "Juneau",
@@ -385,6 +387,7 @@
         {
             "id": "AZ",
             "name": "Arizona",
+            "link": "usa/AZ",
             "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Flag_of_Arizona.svg/1920px-Flag_of_Arizona.svg.png",
             "capital": {
                 "name": "Phoenix",
@@ -405,6 +408,7 @@
         {
             "id": "AR",
             "name": "Arkansas",
+            "link": "usa/AR",
             "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Flag_of_Arkansas.svg/1920px-Flag_of_Arkansas.svg.png",
             "capital": {
                 "name": "Little Rock",
@@ -425,6 +429,7 @@
         {
             "id": "CA",
             "name": "California",
+            "link": "usa/CA",
             "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Flag_of_California.svg/1920px-Flag_of_California.svg.png",
             "capital": {
                 "name": "Sacramento",
@@ -445,6 +450,7 @@
         {
             "id": "CO",
             "name": "Colorado",
+            "link": "usa/CO",
             "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Flag_of_Colorado.svg/1920px-Flag_of_Colorado.svg.png",
             "capital": {
                 "name": "Denver",
@@ -465,6 +471,7 @@
         {
             "id": "CT",
             "name": "Connecticut",
+            "link": "usa/CT",
             "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Flag_of_Connecticut.svg/1920px-Flag_of_Connecticut.svg.png",
             "capital": {
                 "name": "Hartford",
@@ -485,6 +492,7 @@
         {
             "id": "DC",
             "name": "Washington D.C.",
+            "link": "usa/DC",
             "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Flag_of_Washington%2C_D.C.svg/2560px-Flag_of_Washington%2C_D.C.svg.png",
             "capital": {
                 "name": "Washington D.C.",
@@ -505,6 +513,7 @@
         {
             "id": "DE",
             "name": "Delaware",
+            "link": "usa/DE",
             "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Flag_of_Delaware.svg/1920px-Flag_of_Delaware.svg.png",
             "capital": {
                 "name": "Dover",
@@ -525,6 +534,7 @@
         {
             "id": "FL",
             "name": "Florida",
+            "link": "usa/FL",
             "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Flag_of_Florida.svg/1920px-Flag_of_Florida.svg.png",
             "capital": {
                 "name": "Tallahassee",
@@ -545,6 +555,7 @@
         {
             "id": "GA",
             "name": "Georgia",
+            "link": "usa/GA",
             "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Flag_of_the_State_of_Georgia.svg/2560px-Flag_of_the_State_of_Georgia.svg.png",
             "capital": {
                 "name": "Atlanta",
@@ -565,6 +576,7 @@
         {
             "id": "HI",
             "name": "Hawaii",
+            "link": "usa/HI",
             "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Flag_of_Hawaii.svg/2560px-Flag_of_Hawaii.svg.png",
             "capital": {
                 "name": "Honolulu",
@@ -585,6 +597,7 @@
         {
             "id": "ID",
             "name": "Idaho",
+            "link": "usa/ID",
             "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Flag_of_Idaho.svg/1920px-Flag_of_Idaho.svg.png",
             "capital": {
                 "name": "Boise",
@@ -605,6 +618,7 @@
         {
             "id": "IL",
             "name": "Illinois",
+            "link": "usa/IL",
             "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Flag_of_Illinois.svg/2560px-Flag_of_Illinois.svg.png",
             "capital": {
                 "name": "Springfield",
@@ -625,6 +639,7 @@
         {
             "id": "IN",
             "name": "Indiana",
+            "link": "usa/IN",
             "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Flag_of_Indiana.svg/1920px-Flag_of_Indiana.svg.png",
             "capital": {
                 "name": "Indianapolis",
@@ -645,6 +660,7 @@
         {
             "id": "IA",
             "name": "Iowa",
+            "link": "usa/IA",
             "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Flag_of_Iowa.svg/1920px-Flag_of_Iowa.svg.png",
             "capital": {
                 "name": "Des Moines",
@@ -665,6 +681,7 @@
         {
             "id": "KS",
             "name": "Kansas",
+            "link": "usa/KS",
             "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Flag_of_Kansas.svg/2560px-Flag_of_Kansas.svg.png",
             "capital": {
                 "name": "Topeka",
@@ -685,6 +702,7 @@
         {
             "id": "KY",
             "name": "Kentucky",
+            "link": "usa/KY",
             "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Flag_of_Kentucky.svg/2560px-Flag_of_Kentucky.svg.png",
             "capital": {
                 "name": "Frankfort",
@@ -705,6 +723,7 @@
         {
             "id": "LA",
             "name": "Louisiana",
+            "link": "usa/LA",
             "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Flag_of_Louisiana.svg/1920px-Flag_of_Louisiana.svg.png",
             "capital": {
                 "name": "Baton Rouge",
@@ -725,6 +744,7 @@
         {
             "id": "ME",
             "name": "Maine",
+            "link": "usa/ME",
             "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Flag_of_the_State_of_Maine.svg/1920px-Flag_of_the_State_of_Maine.svg.png",
             "capital": {
                 "name": "Augusta",
@@ -745,6 +765,7 @@
         {
             "id": "MD",
             "name": "Maryland",
+            "link": "usa/MD",
             "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Flag_of_Maryland.svg/1920px-Flag_of_Maryland.svg.png",
             "capital": {
                 "name": "Annapolis",
@@ -765,6 +786,7 @@
         {
             "id": "MA",
             "name": "Massachusetts",
+            "link": "usa/MA",
             "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Flag_of_Massachusetts.svg/2560px-Flag_of_Massachusetts.svg.png",
             "capital": {
                 "name": "Boston",
@@ -785,6 +807,7 @@
         {
             "id": "MI",
             "name": "Michigan",
+            "link": "usa/MI",
             "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Flag_of_Michigan.svg/1920px-Flag_of_Michigan.svg.png",
             "capital": {
                 "name": "Lansing",
@@ -805,6 +828,7 @@
         {
             "id": "MN",
             "name": "Minnesota",
+            "link": "usa/MN",
             "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Flag_of_Minnesota.svg/2560px-Flag_of_Minnesota.svg.png",
             "capital": {
                 "name": "Saint Paul",
@@ -825,6 +849,7 @@
         {
             "id": "MS",
             "name": "Mississippi",
+            "link": "usa/MS",
             "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Flag_of_Mississippi.svg/2560px-Flag_of_Mississippi.svg.png",
             "capital": {
                 "name": "Jackson",
@@ -845,6 +870,7 @@
         {
             "id": "MO",
             "name": "Missouri",
+            "link": "usa/MO",
             "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Flag_of_Missouri.svg/2560px-Flag_of_Missouri.svg.png",
             "capital": {
                 "name": "Jefferson City",
@@ -865,6 +891,7 @@
         {
             "id": "MT",
             "name": "Montana",
+            "link": "usa/MT",
             "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Flag_of_Montana.svg/1920px-Flag_of_Montana.svg.png",
             "capital": {
                 "name": "Helena",
@@ -885,6 +912,7 @@
         {
             "id": "NE",
             "name": "Nebraska",
+            "link": "usa/NE",
             "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Flag_of_Nebraska.svg/2560px-Flag_of_Nebraska.svg.png",
             "capital": {
                 "name": "Lincoln",
@@ -905,6 +933,7 @@
         {
             "id": "NV",
             "name": "Nevada",
+            "link": "usa/NV",
             "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Flag_of_Nevada.svg/1920px-Flag_of_Nevada.svg.png",
             "capital": {
                 "name": "Carson City",
@@ -925,6 +954,7 @@
         {
             "id": "NH",
             "name": "New Hampshire",
+            "link": "usa/NH",
             "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Flag_of_New_Hampshire.svg/1920px-Flag_of_New_Hampshire.svg.png",
             "capital": {
                 "name": "Concord",
@@ -945,6 +975,7 @@
         {
             "id": "NJ",
             "name": "New Jersey",
+            "link": "usa/NJ",
             "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Flag_of_New_Jersey.svg/2560px-Flag_of_New_Jersey.svg.png",
             "capital": {
                 "name": "Trenton",
@@ -965,6 +996,7 @@
         {
             "id": "NM",
             "name": "New Mexico",
+            "link": "usa/NM",
             "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Flag_of_New_Mexico.svg/1920px-Flag_of_New_Mexico.svg.png",
             "capital": {
                 "name": "Santa Fe",
@@ -985,6 +1017,7 @@
         {
             "id": "NY",
             "name": "New York",
+            "link": "usa/NY",
             "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Flag_of_New_York.svg/2560px-Flag_of_New_York.svg.png",
             "capital": {
                 "name": "Albany",
@@ -1005,6 +1038,7 @@
         {
             "id": "NC",
             "name": "North Carolina",
+            "link": "usa/NC",
             "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Flag_of_North_Carolina.svg/1920px-Flag_of_North_Carolina.svg.png",
             "capital": {
                 "name": "Raleigh",
@@ -1025,6 +1059,7 @@
         {
             "id": "ND",
             "name": "North Dakota",
+            "link": "usa/ND",
             "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Flag_of_North_Dakota.svg/1920px-Flag_of_North_Dakota.svg.png",
             "capital": {
                 "name": "Bismarck",
@@ -1045,6 +1080,7 @@
         {
             "id": "OH",
             "name": "Ohio",
+            "link": "usa/OH",
             "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Flag_of_Ohio.svg/2560px-Flag_of_Ohio.svg.png",
             "capital": {
                 "name": "Columbus",
@@ -1065,6 +1101,7 @@
         {
             "id": "OK",
             "name": "Oklahoma",
+            "link": "usa/OK",
             "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Flag_of_Oklahoma.svg/1920px-Flag_of_Oklahoma.svg.png",
             "capital": {
                 "name": "Oklahoma City",
@@ -1085,6 +1122,7 @@
         {
             "id": "OR",
             "name": "Oregon",
+            "link": "usa/OR",
             "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Flag_of_Oregon_%28reverse%29.svg/1920px-Flag_of_Oregon_%28reverse%29.svg.png",
             "capital": {
                 "name": "Salem",
@@ -1105,6 +1143,7 @@
         {
             "id": "PA",
             "name": "Pennsylvania",
+            "link": "usa/PA",
             "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Flag_of_Pennsylvania.svg/1920px-Flag_of_Pennsylvania.svg.png",
             "capital": {
                 "name": "Harrisburg",
@@ -1125,6 +1164,7 @@
         {
             "id": "RI",
             "name": "Rhode Island",
+            "link": "usa/RI",
             "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Flag_of_Rhode_Island.svg/1920px-Flag_of_Rhode_Island.svg.png",
             "capital": {
                 "name": "Providence",
@@ -1145,6 +1185,7 @@
         {
             "id": "SC",
             "name": "South Carolina",
+            "link": "usa/SC",
             "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Flag_of_South_Carolina.svg/1920px-Flag_of_South_Carolina.svg.png",
             "capital": {
                 "name": "Columbia",
@@ -1165,6 +1206,7 @@
         {
             "id": "SD",
             "name": "South Dakota",
+            "link": "usa/SD",
             "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Flag_of_South_Dakota.svg/2560px-Flag_of_South_Dakota.svg.png",
             "capital": {
                 "name": "Pierre",
@@ -1185,6 +1227,7 @@
         {
             "id": "TN",
             "name": "Tennessee",
+            "link": "usa/TN",
             "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Flag_of_Tennessee.svg/2560px-Flag_of_Tennessee.svg.png",
             "capital": {
                 "name": "Nashville",
@@ -1205,6 +1248,7 @@
         {
             "id": "TX",
             "name": "Texas",
+            "link": "usa/TX",
             "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Flag_of_Texas.svg/1920px-Flag_of_Texas.svg.png",
             "capital": {
                 "name": "Austin",
@@ -1225,6 +1269,7 @@
         {
             "id": "UT",
             "name": "Utah",
+            "link": "usa/UT",
             "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Flag_of_Utah.svg/2560px-Flag_of_Utah.svg.png",
             "capital": {
                 "name": "Salt Lake City",
@@ -1245,6 +1290,7 @@
         {
             "id": "VT",
             "name": "Vermont",
+            "link": "usa/VT",
             "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Flag_of_Vermont.svg/2560px-Flag_of_Vermont.svg.png",
             "capital": {
                 "name": "Montpelier",
@@ -1265,6 +1311,7 @@
         {
             "id": "VA",
             "name": "Virginia",
+            "link": "usa/VA",
             "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Flag_of_Virginia.svg/1920px-Flag_of_Virginia.svg.png",
             "capital": {
                 "name": "Richmond",
@@ -1285,6 +1332,7 @@
         {
             "id": "WA",
             "name": "Washington",
+            "link": "usa/WA",
             "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Flag_of_Washington.svg/2560px-Flag_of_Washington.svg.png",
             "capital": {
                 "name": "Olympia",
@@ -1305,6 +1353,7 @@
         {
             "id": "WV",
             "name": "West Virginia",
+            "link": "usa/WV",
             "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Flag_of_West_Virginia.svg/510px-Flag_of_West_Virginia.svg.png",
             "capital": {
                 "name": "Charleston",
@@ -1325,6 +1374,7 @@
         {
             "id": "WI",
             "name": "Wisconsin",
+            "link": "usa/WI",
             "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Flag_of_Wisconsin.svg/1920px-Flag_of_Wisconsin.svg.png",
             "capital": {
                 "name": "Madison",
@@ -1345,6 +1395,7 @@
         {
             "id": "WY",
             "name": "Wyoming",
+            "link": "usa/WY",
             "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Flag_of_Wyoming.svg/1920px-Flag_of_Wyoming.svg.png",
             "capital": {
                 "name": "Cheyenne",
