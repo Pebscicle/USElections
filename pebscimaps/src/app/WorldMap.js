@@ -108,7 +108,7 @@ return (
       }
         
         <svg xmlns="http://www.w3.org/2000/svg"  xmlnsXlink="http://www.w3.org/1999/xlink" version="1.1" preserveAspectRatio="xMidYMin meet" x="0px" y="0px" width={`${width}`} height={`${height}`}
-        viewBox={`0 0 ${width-200-280+xMapAdjustment} ${height+yMapAdjustment}`} xmlSpace="preserve" style={{paddingTop: '20px'}}>
+        viewBox={`0 0 ${width-200-140+xMapAdjustment} ${height+yMapAdjustment}`} xmlSpace="preserve" style={{paddingTop: '20px'}}>
             <defs>
 
                 {/*<amcharts:ammap projection="mercator" leftLongitude="-169.110266" topLatitude="83.600842" rightLongitude="190.486279" bottomLatitude="-55.902263"></amcharts:ammap>*/}
