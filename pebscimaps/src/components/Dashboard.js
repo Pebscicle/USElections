@@ -7,6 +7,7 @@ import Link from 'next/link';
 
 import {useState} from 'react';
 
+
 function Dashboard({children, user}) {
     
     const [showLogin, setShowLogin] = useState(false);
@@ -33,8 +34,8 @@ function Dashboard({children, user}) {
     return (
         <div>
         <LoginModal isVisible={showLogin} closeModal={closeLogin}/>
-        <div style={{width: '100%', minHeight: '100vh', backgroundColor: 'green', display: 'grid', gridTemplateRows: '50px 1fr'}}>
-            <DashboardTopBar>
+        <div style={{width: '100%', minHeight: '100vh', backgroundColor: 'green', display: 'grid', gridTemplateRows: '1fr'}}>
+            {/*<DashboardTopBar>
                 <button onClick={changeMode('exploration')} style={{paddingLeft: '8px'}}>Exploration</button> <ToggleSwitch />
                 <Link href='/news'><button style={{paddingLeft: '8px'}}>Latest News</button></Link>
                 <Link href='/mapmaker'><button style={{paddingLeft: '8px'}}>Map Maker</button></Link>
@@ -44,7 +45,7 @@ function Dashboard({children, user}) {
                 {user && 
                 <span style={{display: 'flex', alignItems: 'center', paddingLeft: '8px'}}><Link href={`/profile?user=${user.id}`} style={{color: 'blue'}}>{user.username}</Link>, welcome.
                 </span>}
-            </DashboardTopBar>
+            </DashboardTopBar>*/}
             {children}     
         </div>
         </div>
