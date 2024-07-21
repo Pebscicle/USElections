@@ -19,6 +19,10 @@ function getStateFromID(id) {
     return stateFound;
 }
 
+function getStates(){
+    return usa.states;
+}
+
 function getStateElectionDataFromID(id) {
     let stateFound = '';
     for(let i = 0; i < usaElections.states.length; i++){
@@ -159,7 +163,7 @@ function getCountries(){
 }
 
 module.exports = {
-    getStateFromID,
+    getStateFromID, getStates,
     getStateElectionDataFromID, getLeftEVs, getRightEVs, getOtherEVs, getEVsForYear, getEVByYearAndID, determineDominantColor,
     findIndexOfYear,
     getStateImageLinkFromID, getCountryImageLinkFromID, getCountryFromID, getCountries
