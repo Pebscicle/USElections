@@ -154,11 +154,15 @@ function getCountryFromID(id) {
     return countries[id];
 }
 
+function getCountries(){
+    return countries;
+}
+
 module.exports = {
     getStateFromID,
     getStateElectionDataFromID, getLeftEVs, getRightEVs, getOtherEVs, getEVsForYear, getEVByYearAndID, determineDominantColor,
     findIndexOfYear,
-    getStateImageLinkFromID, getCountryImageLinkFromID, getCountryFromID
+    getStateImageLinkFromID, getCountryImageLinkFromID, getCountryFromID, getCountries
 };
 
 //export default {getStateFromID, getStateElectionDataFromID};

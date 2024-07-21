@@ -11,6 +11,8 @@ import { Fab, FormControl, InputLabel, Select, MenuItem } from '@mui/material';
 import MapIcon from '@mui/icons-material/Map';
 
 import {useState} from 'react';
+import { useSelector, useDispatch } from 'react-redux';
+import { setMode, setView } from '../actions/appActions';
 
 import colors from '../resources/colors.json';
 
@@ -18,17 +20,29 @@ function ControlBar({user}) {
     
     const [showLogin, setShowLogin] = useState(false);
 
-    const [mode, setMode] = useState('general');
-    const [view, setView] = useState('map');
+    /*const [mode, setMode] = useState('general');
+    const [view, setView] = useState('map');*/
+    const mode = useSelector((state) => state.app.mode);
+    const view = useSelector((state) => state.app.view);
+    const dispatch = useDispatch();
     const [subdivision, setSubdivision] = useState('world');
 
-    function handleModeChange(event) {
+    // Update handleModeChange and handleViewChange to dispatch actions
+    const handleModeChange = (event) => {
+        dispatch(setMode(event.target.value));
+    };
+
+    const handleViewChange = (event) => {
+        dispatch(setView(event.target.value));
+    };
+
+    /*function handleModeChange(event) {
         setMode(event.target.value);
     }
 
     function handleViewChange(event) {
         setView(event.target.value);
-    }
+    }*/
 
 //START LOGIN / SIGN UP
     const openLogin = () => {

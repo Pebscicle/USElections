@@ -7,6 +7,8 @@ import Link from 'next/link';
 
 import {useState} from 'react';
 
+import colors from '../resources/colors.json';
+
 
 function Dashboard({children, user}) {
     
@@ -34,7 +36,7 @@ function Dashboard({children, user}) {
     return (
         <div>
         <LoginModal isVisible={showLogin} closeModal={closeLogin}/>
-        <div style={{width: '100%', minHeight: '100vh', backgroundColor: 'green', display: 'grid', gridTemplateRows: '1fr'}}>
+        <div style={{width: '100%', minHeight: '100vh', backgroundColor: colors.white, display: 'grid', gridTemplateRows: '1fr'}}>
             {/*<DashboardTopBar>
                 <button onClick={changeMode('exploration')} style={{paddingLeft: '8px'}}>Exploration</button> <ToggleSwitch />
                 <Link href='/news'><button style={{paddingLeft: '8px'}}>Latest News</button></Link>

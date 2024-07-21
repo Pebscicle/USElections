@@ -1,6 +1,8 @@
 'use client';
 
 import { SpeedInsights } from "@vercel/speed-insights/next"
+import { Provider } from 'react-redux';
+import store from '../store';
 
 import { Inter } from "next/font/google";
 import "./globals.css";
@@ -62,6 +64,7 @@ export default function RootLayout({ children }) {
 
         </Head>
         <body className={inter.className}>
+        <Provider store={store}>
           <div style={{display: 'grid', gridTemplateColumns: "1fr", backgroundColor: "#f9f9f9", width: "100vw", height: '100vh'}}>
             {/*<Sidebar />*/}
 
@@ -99,6 +102,7 @@ export default function RootLayout({ children }) {
 
             </div>
           </div>
+        </Provider>
         </body>
     </html>
   );

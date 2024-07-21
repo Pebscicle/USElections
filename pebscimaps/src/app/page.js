@@ -4,15 +4,26 @@ import Image from "next/image";
 
 import Dashboard from '../components/Dashboard';
 import WorldMap from '../app/WorldMap';
+import SubdivisionTable from "../components/SubdivisionTable";
 
-import {getUserByID} from '../app/services/userService'
+import {getUserByID} from '../app/services/userService';
+import {getCountries} from '../app/services/dbFetcherService';
 
 import {useEffect, useState} from 'react';
+import {useSelector} from 'react-redux';
+
 
 
 export default function Home() {
 
   const [loggedInUser, setLoggedInUser] = useState(null);
+
+  // Access mode and view from Redux store
+  const mode = useSelector((state) => state.app.mode);
+  const view = useSelector((state) => state.app.view);
+
+  const [worldData, setWorldData] = useState(null);
+  
 
   useEffect(() => {
 
@@ -32,11 +43,35 @@ export default function Home() {
     }
   }, []); 
 
+  useEffect(() => {
+    console.log('mode has changed!');
+    console.log(mode);
+  }, [mode]);
+
+  useEffect(() => {
+    console.log('view has changed!');
+    if(view === 'table'){
+      let tableData = getCountries();
+      tableData = Object.values(tableData);
+      setWorldData(tableData);
+    }
+    //Fetch World Data is view has changed to table?
+  }, [view]);
+
 
   return (
     <main className="" style={{color: 'black'}}>
       <Dashboard user={loggedInUser}>
-        <WorldMap infoType='general' />
+        {view === 'map' &&
+          <WorldMap infoType={mode} />
+        }
+        {view === 'table' && 
+          <SubdivisionTable 
+            title={'The World'}
+            subdivisions={worldData}
+            ignoreColumns={['id', 'link']}
+          />
+        }
       </Dashboard>
     </main>
   );
