@@ -2,7 +2,7 @@
 
 import InfoModal from '../components/InfoModal';
 import MapControls from '../components/mapping/MapControls';
-import {useEffect, useState} from 'react';
+import {useEffect, useState, useRef} from 'react';
 
 import {getCountryFromID, getCountryImageLinkFromID} from '../app/services/dbFetcherService';
 
@@ -24,9 +24,6 @@ function WorldMap( {infoType, selectedYear, callbackData, suppliedList} ) {
 
 const [width, setWidth] = useState(0);
 const [height, setHeight] = useState(0);
-
-const [xMapAdjustment, setxMapAdjustment] = useState(0);
-const [yMapAdjustment, setyMapAdjustment] = useState(0);
 
 const [isModalVisible, setIsModalVisible] = useState(false);
 const [selectedCountry, setSelectedCountry] = useState('');
@@ -58,16 +55,6 @@ const logClickedInfo = (e) => {
   setIsModalVisible(true);
 }
 
-const resizeMap = (resizeInstructions) => {
-  console.log('resizeInstructions');
-  console.log(resizeInstructions);
-
-  const x = xMapAdjustment+resizeInstructions.x*20;
-  const y = yMapAdjustment+resizeInstructions.y*20;
-
-  setxMapAdjustment(x);
-  setyMapAdjustment(y);
-}
 
 
 //MAP ZOOM
@@ -98,8 +85,8 @@ const handleButtonClick = (theButton) => {
 const [viewBox, setViewBox] = useState({
   x: 0,
   y: 0,
-  width: width + xMapAdjustment,
-  height: height + yMapAdjustment
+  width: width,
+  height: height
 });
 
 
@@ -143,7 +130,6 @@ function panRight() {
   }));
 }
 
-
 function panUp() {  
   setViewBox(prevState => ({
     ...prevState,
@@ -157,31 +143,65 @@ function panDown() {
     y: prevState.y + 20
   }));
 }
+//MOUSE ZOOM
+const isDragging = useRef(false);
+const firstMousePosition = useRef({x: 0, y: 0});
+
+// Handler for when the mouse button is pressed down
+const handleMouseDown = (event) => {
+  isDragging.current = true;
+  firstMousePosition.current = {x: event.clientX, y: event.clientY};
+};
+
+// Handler for when the mouse is moved
+const handleMouseMove = (event) => {
+  if (!isDragging.current) return;
+
+
+  setViewBox((prevViewBox) => ({
+    ...prevViewBox,
+    x: prevViewBox.x + (firstMousePosition.current.x - event.clientX)/25,
+    y: prevViewBox.y + (firstMousePosition.current.y - event.clientY)/25,
+  }));
+
+};
+
+// Handler for when the mouse button is released
+const handleMouseUp = () => {
+  isDragging.current = false;
+};
+
+
 // END MAP ZOOM
 
 
 useEffect(() => {
-    const updateDimensions = () => {
-      const svgContainer = document.querySelector('.world-map-container');
-      if (svgContainer) {
-        setWidth(svgContainer.clientWidth);
-        setHeight(svgContainer.clientHeight);
-      }
-    };
+  const updateDimensions = () => {
+    const svgContainer = document.querySelector('.world-map-container');
+    if (svgContainer) {
+      setWidth(svgContainer.clientWidth);
+      setHeight(svgContainer.clientHeight);
+    }
+  };
 
-    updateDimensions();
-    window.addEventListener('resize', updateDimensions);
+  const svgElement = document.querySelector('svg');
+  svgElement.addEventListener('mousedown', handleMouseDown);
 
-    return () => window.removeEventListener('resize', updateDimensions);
-  }, []);
+  window.addEventListener('mousemove', handleMouseMove);
+  window.addEventListener('mouseup', handleMouseUp);
+
+  updateDimensions();
+  window.addEventListener('resize', updateDimensions);
+
+  return () => {
+    window.removeEventListener('resize', updateDimensions);
+    svgElement.removeEventListener('mousedown', handleMouseDown);
+    window.removeEventListener('mousemove', handleMouseMove);
+    window.removeEventListener('mouseup', handleMouseUp);
+  };
+}, []);
 
   useEffect(() => {
-    /*const [viewBox, setViewBox] = useState({
-      x: 0,
-      y: 0,
-      width: width + xMapAdjustment,
-      height: height + yMapAdjustment
-    });*/
     setViewBox({ ...viewBox, x: 0, y: 0, width: width, height: height});
   }, [height]);
 
@@ -201,7 +221,7 @@ useEffect(() => {
 return (
     <div className='world-map-container' style={{backgroundColor: water, width: '100%', height: 'auto', display: 'flex', justifyContent: 'center'}}>
 
-      <MapControls bottom={100} right={25} movementDetected={resizeMap} buttonClicked={handleButtonClick}/>
+      <MapControls bottom={100} right={25} buttonClicked={handleButtonClick}/>
       
 
       {infoType != 'creator' &&
@@ -211,7 +231,8 @@ return (
         <svg xmlns="http://www.w3.org/2000/svg"  xmlnsXlink="http://www.w3.org/1999/xlink" version="1.1" preserveAspectRatio="xMidYMin meet" x="-340px" y="0px" width={`${width}`} height={`${height}`}
         viewBox={`${viewBox.x} ${viewBox.y} ${viewBox.width} ${viewBox.height}`} xmlSpace="preserve" style={{
           paddingTop: '20px'
-        }}>
+        }} onMouseDown={handleMouseDown}
+        >
             <defs>
 
                 {/*<amcharts:ammap projection="mercator" leftLongitude="-169.110266" topLatitude="83.600842" rightLongitude="190.486279" bottomLatitude="-55.902263"></amcharts:ammap>*/}

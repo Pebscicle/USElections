@@ -1,5 +1,5 @@
 
-function MapControls( {right, bottom, left, top, movementDetected, buttonClicked} ) {
+function MapControls( {right, bottom, left, top, buttonClicked} ) {
 
     return (
         <div style={{position: 'fixed', right: right, bottom: bottom, left: left, top: top, backgroundColor: 'rgba(255, 255, 255, 0.5)', borderRadius: '10px'}}>
