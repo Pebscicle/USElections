@@ -69,9 +69,100 @@ const resizeMap = (resizeInstructions) => {
   setyMapAdjustment(y);
 }
 
+
+//MAP ZOOM
+const handleButtonClick = (theButton) => {
+  console.log(theButton)
+  switch(theButton){
+    case 'zoom-in':
+      zoomIn();
+      break;
+    case 'zoom-out':
+      zoomOut();
+      break;
+    case 'pan-up':
+      panUp();
+      break;
+    case 'pan-down':
+      panDown();
+      break;
+    case 'pan-left':
+      panLeft();
+      break;
+    case 'pan-right':
+      panRight();
+      break;
+  }
+}
+
+const [viewBox, setViewBox] = useState({
+  x: 0,
+  y: 0,
+  width: width + xMapAdjustment,
+  height: height + yMapAdjustment
+});
+
+
+function zoomIn() {
+  const centerX = viewBox.x + viewBox.width / 2;
+  const centerY = viewBox.y + viewBox.height / 2;
+
+  const newWidth = viewBox.width * 0.9;
+  const newHeight = viewBox.height * 0.9;
+
+  const newX = centerX - newWidth / 2;
+  const newY = centerY - newHeight / 2;
+
+  setViewBox({ ...viewBox, x: newX, y: newY, width: newWidth, height: newHeight });
+}
+
+function zoomOut() {
+  const centerX = viewBox.x + viewBox.width / 2;
+  const centerY = viewBox.y + viewBox.height / 2;
+
+  const newWidth = viewBox.width / 0.9;
+  const newHeight = viewBox.height / 0.9;
+
+  const newX = centerX - newWidth / 2;
+  const newY = centerY - newHeight / 2;
+
+  setViewBox({ ...viewBox, x: newX, y: newY, width: newWidth, height: newHeight });
+}
+
+function panLeft() {  
+  setViewBox(prevState => ({
+    ...prevState,
+    x: prevState.x - 20
+  }));
+}
+
+function panRight() {
+  setViewBox(prevState => ({
+    ...prevState,
+    x: prevState.x + 20
+  }));
+}
+
+
+function panUp() {  
+  setViewBox(prevState => ({
+    ...prevState,
+    y: prevState.y - 20
+  }));
+}
+
+function panDown() {
+  setViewBox(prevState => ({
+    ...prevState,
+    y: prevState.y + 20
+  }));
+}
+// END MAP ZOOM
+
+
 useEffect(() => {
     const updateDimensions = () => {
-      const svgContainer = document.querySelector('.world-map-container'); // Replace with your container's class name
+      const svgContainer = document.querySelector('.world-map-container');
       if (svgContainer) {
         setWidth(svgContainer.clientWidth);
         setHeight(svgContainer.clientHeight);
@@ -83,6 +174,16 @@ useEffect(() => {
 
     return () => window.removeEventListener('resize', updateDimensions);
   }, []);
+
+  useEffect(() => {
+    /*const [viewBox, setViewBox] = useState({
+      x: 0,
+      y: 0,
+      width: width + xMapAdjustment,
+      height: height + yMapAdjustment
+    });*/
+    setViewBox({ ...viewBox, x: 0, y: 0, width: width, height: height});
+  }, [height]);
 
   //CLOSE MODAL UPON ESC PRESS
   useEffect(() => {
@@ -100,15 +201,17 @@ useEffect(() => {
 return (
     <div className='world-map-container' style={{backgroundColor: water, width: '100%', height: 'auto', display: 'flex', justifyContent: 'center'}}>
 
-      <MapControls bottom={25} right={25} movementDetected={resizeMap}/>
+      <MapControls bottom={100} right={25} movementDetected={resizeMap} buttonClicked={handleButtonClick}/>
       
 
       {infoType != 'creator' &&
       <InfoModal infoType={infoType} selectedYear={selectedYear} isVisible={isModalVisible} closeModal={closeModal} entity={selectedCountry} imageLink={stateImage} />
       }
         
-        <svg xmlns="http://www.w3.org/2000/svg"  xmlnsXlink="http://www.w3.org/1999/xlink" version="1.1" preserveAspectRatio="xMidYMin meet" x="0px" y="0px" width={`${width}`} height={`${height}`}
-        viewBox={`0 0 ${width-200-140+xMapAdjustment} ${height+yMapAdjustment}`} xmlSpace="preserve" style={{paddingTop: '20px'}}>
+        <svg xmlns="http://www.w3.org/2000/svg"  xmlnsXlink="http://www.w3.org/1999/xlink" version="1.1" preserveAspectRatio="xMidYMin meet" x="-340px" y="0px" width={`${width}`} height={`${height}`}
+        viewBox={`${viewBox.x} ${viewBox.y} ${viewBox.width} ${viewBox.height}`} xmlSpace="preserve" style={{
+          paddingTop: '20px'
+        }}>
             <defs>
 
                 {/*<amcharts:ammap projection="mercator" leftLongitude="-169.110266" topLatitude="83.600842" rightLongitude="190.486279" bottomLatitude="-55.902263"></amcharts:ammap>*/}
