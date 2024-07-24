@@ -1,3 +1,5 @@
+'use client';
+
 import commaifyNumber from "../app/helpers/NumberBeautifier";
 import {convertKM2toMI2} from '../app/helpers/Converter';
 import Link from 'next/link'
@@ -57,11 +59,10 @@ function CountryInfo( {children, country} ) {
           <h3 className='py-2'  style={{fontWeight: 'semibold'}}>Government</h3>
             <p style={{textAlign: 'justify'}}>{country.article.government}</p>
 
-          <h3 className='py-2'  style={{fontWeight: 'semibold'}}>Other</h3>
 
           </article>
         </div>
-        {/* Render other state information here */}
+
       </div>
     );
   }
