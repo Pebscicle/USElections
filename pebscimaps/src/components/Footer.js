@@ -21,7 +21,7 @@ function Footer() {
                     </Link>
                         
                 </div>
-                <p>Placeholder</p>
+                <p>For more projects like this, visit my <a style={{color: 'lime'}} href='https://paulkdavis.vercel.app/' target='_blank' >portfolio website</a>.</p>
             </div>
             <h3>Image Credits:</h3>
             {/*Object.entries(usaImages.imageLinks).map(([abbr, url]) => (
