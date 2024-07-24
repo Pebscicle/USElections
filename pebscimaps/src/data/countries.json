@@ -1367,6 +1367,24 @@
         "gdp": 21013,
         "hdi": 0.693
     },
+    "GM": {
+        "id": "GM",
+        "name": "Republic of the Gambia",
+        "link": "/gambia",
+        "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Flag_of_The_Gambia.svg/2560px-Flag_of_The_Gambia.svg.png",
+        "capital": {
+            "name": "Banjul",
+            "population": 413397
+        },
+        "largestCity": {
+            "name": "Banjul",
+            "population": 413397
+        },
+        "population": 2417471,
+        "area": 11295,
+        "gdp": 2694,
+        "hdi": 0.495
+    },
     "GE": {
         "id": "GE",
         "name": "Georgia",

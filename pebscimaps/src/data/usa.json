@@ -5,7 +5,17 @@
     "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Flag_of_the_United_States_%28DoS_ECA_Color_Standard%29.svg/2560px-Flag_of_the_United_States_%28DoS_ECA_Color_Standard%29.svg.png",
     "population": 334914895,
     "gdp": 27360935,
-    "area": 0,
+    "area": 9525067,
+    "article": {
+        "summary": "The United States of America (USA) is a federal republic comprising 50 states, a federal district, five major unincorporated territories, and various possessions. It is one of the world's most influential and powerful nations, known for its diverse culture, robust economy, and significant global presence.",
+        "geography": "The USA spans over 3.8 million square miles, making it the third-largest country by total area. It features diverse landscapes, including mountains, plains, deserts, and coasts. The country is bordered by Canada to the north, Mexico to the south, the Atlantic Ocean to the east, and the Pacific Ocean to the west.",
+        "demographics": "The USA has a population of approximately 334,914,895 people. It is a melting pot of various ethnicities, cultures, and religions, with a significant proportion of immigrants and their descendants, contributing to its rich cultural diversity.",
+        "economy": "The USA boasts the largest economy in the world, with a nominal GDP of $27.36 trillion. It is a global leader in technology, finance, healthcare, and consumer goods, among other sectors. The country has a mixed economy with a combination of free-market and government regulation.",
+        "culture": "American culture is a blend of various influences, including Native American, European, African, and Asian traditions. It is known for its contributions to music, cinema, literature, and art. The USA is also a cultural trendsetter in fashion, technology, and entertainment.",
+        "education": "The USA has a comprehensive education system, including public and private institutions. It is home to many of the world's top universities and colleges, such as Harvard, MIT, and Stanford. Education is compulsory until the age of 16-18, varying by state.",
+        "infrastructure": "The USA has an extensive and advanced infrastructure network, including roads, railways, airports, and ports. It is known for its significant technological advancements and is continually investing in upgrading its infrastructure to support economic growth and mobility.",
+        "government": "The USA operates as a federal republic with a presidential system. It has three branches of government: executive, led by the President; legislative, comprising the Senate and the House of Representatives; and judicial, headed by the Supreme Court. The Constitution is the supreme law of the land."
+    },
     "states": [
         {
             "id": "AL",

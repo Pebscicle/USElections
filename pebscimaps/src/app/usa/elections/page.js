@@ -1,13 +1,16 @@
 'use client'
 
 import USAMap from '../USAMap';
+import USADetailedMap from '../USADetailedMap';
 import {useState, useEffect} from 'react'
 import { useRouter, usePathname, useSearchParams } from 'next/navigation';
 
 import TwoSeventyBar from '../../../components/elections/TwoSeventyBar';
+import Switch from '@mui/material/Switch';
 
 import {getLeftEVs, getRightEVs, getOtherEVs, getEVsForYear} from '../../../app/services/dbFetcherService';
 import colors from '../../../resources/colors.json';
+
 
 import Link from 'next/link'
 
@@ -28,6 +31,8 @@ function UsaElections() {
 
     const [loading, setLoading] = useState(true);
 
+    const [isDetailedMap, setIsDetailedMap] = useState(false);
+
     // Function to handle year selection
     const handleYearClick = (year) => {
       if(typeof(year) === typeof('string')){
@@ -46,6 +51,10 @@ function UsaElections() {
       router.push(`${window.location.origin}/${pathname}?year=${year}`);
     };
 
+    const handleToggleDetailedMap = (event) => {
+      setIsDetailedMap(event.target.checked);
+    }
+
     useEffect(() => {
       setEVsByState(getEVsForYear(selectedYear, false));
       setLoading(false);
@@ -57,8 +66,10 @@ function UsaElections() {
         <div style={{color: 'black', backgroundColor: 'white'}}>
           <div style={{display: 'grid', gridTemplateRows: '50px 60px 1fr'}}>
 
-            <div style={{backgroundColor: colors.secondary, display: 'flex', alignItems: 'center', paddingLeft: '8px'}}>
-              <span>Elections Tool Bar</span>
+            <div style={{backgroundColor: colors.white, display: 'flex', alignItems: 'center', paddingLeft: '8px'}}>
+              <Link href='/usa' style={{color: 'blue'}}>Back</Link>
+              
+              <span style={{paddingLeft: '8px'}}>Elections Tool Bar</span>
               <label htmlFor='years' style={{padding: '0px 4px 0px 8px', color: 'blue'}}>Select Election Year</label>
               <select id='years' onChange={(e) => handleYearClick(e.target.value)}>
                 <option value={2020}>2020</option>
@@ -66,14 +77,19 @@ function UsaElections() {
                 <option value={2012}>2012</option>
                 <option value={2008}>2008</option>
               </select>
+              <span style={{paddingLeft: '8px'}}>Display Counties?</span>
+              <Switch checked={isDetailedMap} onChange={handleToggleDetailedMap} />
               <Link href='/usa/elections/predictor' style={{color: 'blue', paddingLeft: '8px'}}>Election Predictor</Link>
             </div>
 
             <TwoSeventyBar leftEVs={leftEVs} rightEVs={rightEVs} otherEVs={otherEVs} remainingEVs={0}/>
 
             <div style={{display: 'flex', justifyContent: 'center', height: '100vh'}}>
-              {!loading &&
+              {!loading && !isDetailedMap &&
                 <USAMap infoType={"elections"} selectedYear={selectedYear} suppliedStates={EVsByState}/>
+              }
+              {!loading && isDetailedMap &&
+                <USADetailedMap />
               }
             </div>
             {/*<div style={{marginLeft: '16px'}}>

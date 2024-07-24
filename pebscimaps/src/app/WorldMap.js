@@ -22,8 +22,6 @@ import Link from 'next/link';
  */
 function WorldMap( {infoType, selectedYear, callbackData, suppliedList} ) {
 
-const [width, setWidth] = useState(0);
-const [height, setHeight] = useState(0);
 
 const [isModalVisible, setIsModalVisible] = useState(false);
 const [selectedCountry, setSelectedCountry] = useState('');
@@ -58,6 +56,9 @@ const logClickedInfo = (e) => {
 
 
 //MAP ZOOM
+const [width, setWidth] = useState(0);
+const [height, setHeight] = useState(0);
+
 const handleButtonClick = (theButton) => {
   console.log(theButton)
   switch(theButton){

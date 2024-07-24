@@ -250,7 +250,7 @@ function UsaElectionsPredictor() {
         <div style={{color: 'black', backgroundColor: 'white'}}>
           <div style={{display: 'grid', gridTemplateRows: '50px 60px 40px 1fr'}}>
 
-            <div style={{backgroundColor: colors.secondary, display: 'flex', alignItems: 'center', paddingLeft: '8px'}}>
+            <div style={{backgroundColor: colors.white, display: 'flex', alignItems: 'center', paddingLeft: '8px'}}>
               <span>Elections Tool Bar</span>
               <Link href='/usa/elections' style={{color: 'blue', paddingLeft: '8px'}}>Back</Link>
               <label htmlFor='years' style={{padding: '0px 4px 0px 8px', color: 'blue'}}>Select Census Year</label>
