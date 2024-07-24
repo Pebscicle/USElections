@@ -2,6 +2,7 @@
 
 import DashboardTopBar from '../components/DashboardTopBar';
 import LoginModal from '../components/LoginModal';
+import SubdivisionsModal from '../components/SubdivisionsModal';
 
 import ToggleSwitch from '../components/ToggleSwitch';
 
@@ -10,7 +11,9 @@ import Link from 'next/link';
 import { Fab, FormControl, InputLabel, Select, MenuItem } from '@mui/material';
 import MapIcon from '@mui/icons-material/Map';
 
-import {useState} from 'react';
+import {getCountryFromID} from '../app/services/dbFetcherService';
+
+import {useState, useEffect} from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import { setMode, setView } from '../actions/appActions';
 
@@ -19,9 +22,8 @@ import colors from '../resources/colors.json';
 function ControlBar({user}) {
     
     const [showLogin, setShowLogin] = useState(false);
+    const [showSubdivisionsModal, setShowSubdivisionsModal] = useState(false);
 
-    /*const [mode, setMode] = useState('general');
-    const [view, setView] = useState('map');*/
     const mode = useSelector((state) => state.app.mode);
     const view = useSelector((state) => state.app.view);
     const dispatch = useDispatch();
@@ -36,13 +38,21 @@ function ControlBar({user}) {
         dispatch(setView(event.target.value));
     };
 
-    /*function handleModeChange(event) {
-        setMode(event.target.value);
-    }
+    const openSubdivisionsModal = () => {
+        setShowSubdivisionsModal(true);
+    };
+    
+    const closeSubdivisionsModal = () => {
+        console.log('closing');
+        console.log(showSubdivisionsModal);
+        setShowSubdivisionsModal(false);
+    };
 
-    function handleViewChange(event) {
-        setView(event.target.value);
-    }*/
+    const [subdivisionsLinks, setSubdivisionLinks] = useState([
+        { text: 'Subdivision 1', href: '/subdivision1' },
+        { text: 'Subdivision 2', href: '/subdivision2' },
+        { text: 'Subdivision 3', href: '/subdivision3' }]);
+ 
 
 //START LOGIN / SIGN UP
     const openLogin = () => {
@@ -56,6 +66,22 @@ function ControlBar({user}) {
     }
 //END LOGIN / SIGN UP
 
+useEffect(() => {
+    const fetchSubdivisionLinks = async () => {
+      const idsToSearch = ['US', 'FR', 'BE'];
+      const links = await Promise.all(
+        idsToSearch.map(async (id) => {
+          const country = await getCountryFromID(id);
+          console.log(country);
+          return { text: country.name, flag: country.flag, href: `${country.link}` };
+        })
+      );
+      setSubdivisionLinks(links);
+    };
+
+    fetchSubdivisionLinks();
+  }, []);
+
     
 
     return (
@@ -63,6 +89,9 @@ function ControlBar({user}) {
             
             {/*START Popups*/}
             <LoginModal isVisible={showLogin} closeModal={closeLogin}/>
+            {showSubdivisionsModal &&
+                <SubdivisionsModal title={'Select a Subdivision'} open={openSubdivisionsModal} handleClose={closeSubdivisionsModal} links={subdivisionsLinks} />
+            }
             {/*END Popups*/}
             
             
@@ -86,7 +115,7 @@ function ControlBar({user}) {
                 </FormControl>
 
                 <div style={{display: 'flex', alignItems: 'center', justifyContent: 'center'}}>
-                    <Fab variant="extended">
+                    <Fab variant="extended" onClick={openSubdivisionsModal}>
                         <MapIcon sx={{ mr: 1 }} />
                         Select a Subdivision
                     </Fab>

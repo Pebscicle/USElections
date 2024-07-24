@@ -194,6 +194,7 @@ useEffect(() => {
   updateDimensions();
   window.addEventListener('resize', updateDimensions);
 
+
   return () => {
     window.removeEventListener('resize', updateDimensions);
     svgElement.removeEventListener('mousedown', handleMouseDown);
@@ -204,6 +205,10 @@ useEffect(() => {
 
   useEffect(() => {
     setViewBox({ ...viewBox, x: 0, y: 0, width: width, height: height});
+    //Pan left 10 times for desktop devices.
+    for(let i = 0; i < 10; i++){
+      panLeft();
+    }
   }, [height]);
 
   //CLOSE MODAL UPON ESC PRESS
@@ -229,9 +234,9 @@ return (
       <InfoModal infoType={infoType} selectedYear={selectedYear} isVisible={isModalVisible} closeModal={closeModal} entity={selectedCountry} imageLink={stateImage} />
       }
         
-        <svg xmlns="http://www.w3.org/2000/svg"  xmlnsXlink="http://www.w3.org/1999/xlink" version="1.1" preserveAspectRatio="xMidYMin meet" x="-340px" y="0px" width={`${width}`} height={`${height}`}
+        <svg xmlns="http://www.w3.org/2000/svg"  xmlnsXlink="http://www.w3.org/1999/xlink" version="1.1" preserveAspectRatio="xMidYMin meet" x="0px" y="0px" width={`${width}`} height={`${height}`}
         viewBox={`${viewBox.x} ${viewBox.y} ${viewBox.width} ${viewBox.height}`} xmlSpace="preserve" style={{
-          paddingTop: '20px'
+          border: 'solid black 1px'
         }} onMouseDown={handleMouseDown}
         >
             <defs>
