@@ -296,7 +296,7 @@ function UsaElectionsPredictor() {
           display: 'flex',
           justifyContent: 'center',
           alignItems: 'center',
-          paddingBottom: '20px',
+          paddingBottom: '80px',
         }}>
           {showAlert && <Alert severity="info" className="App-alert" sx={{ bgcolor: marginColor}} onClose={() => setShowAlert(false)}><span style={{color: 'black'}}>{alertMessage}</span></Alert>}
         </div>
