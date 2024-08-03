@@ -1,4 +1,6 @@
 import usa from '../../data/usa.json';
+import usaCounties from '../../data/usaCounties.json';
+import usaCountiesElections from '../../data/usaCountiesElections.json'
 import usaElections from '../../data/usaElections.json';
 import usaImages from '../../data/usaImages.json';
 import countryImages from '../../data/countryImages.json'
@@ -17,6 +19,14 @@ function getStateFromID(id) {
     }
     
     return stateFound;
+}
+
+function getUSACountyFromID(id){
+    return usaCounties[id];
+}
+
+function getUSACountyElectionDataFromID(id){
+    return usaCountiesElections[id];
 }
 
 function getStates(){
@@ -52,6 +62,21 @@ function findIndexOfYear(selectedYear) {
             const result = state.electionResults[j];
             if (result.year === selectedYear) {
                 return j; // Return the index of the matching year
+            }
+        }
+    }
+    //Search counties...
+    if(index == -1){
+        let counties = Object.entries(usaCountiesElections);
+        for (let i = 0; i < counties.length; i++) {
+            const county = counties[i][1];
+            if(county?.electionResults){
+                for (let j = 0; j < county.electionResults.length; j++) {
+                    const result = county.electionResults[j];
+                    if (result.year === selectedYear) {
+                        return j; // Return the index of the matching year
+                    }
+                }
             }
         }
     }
@@ -153,8 +178,6 @@ function getCountryImageLinkFromID(id) {
 }
 
 function getCountryFromID(id) {
-    console.log('id:'+id);
-    console.log('countries[id]: ' + countries[id]);
     return countries[id];
 }
 
@@ -163,7 +186,8 @@ function getCountries(){
 }
 
 module.exports = {
-    getStateFromID, getStates,
+    getStateFromID, getStates, 
+    getUSACountyFromID, getUSACountyElectionDataFromID,
     getStateElectionDataFromID, getLeftEVs, getRightEVs, getOtherEVs, getEVsForYear, getEVByYearAndID, determineDominantColor,
     findIndexOfYear,
     getStateImageLinkFromID, getCountryImageLinkFromID, getCountryFromID, getCountries

@@ -28,7 +28,7 @@ function InfoModal( {infoType, selectedYear, isVisible, closeModal, entity, imag
   }, [imageLink]); // Re-run effect if imageLink changes
 
   const determineBackgroundColor = () => {
-    return determineDominantColor(entity.electionResults[findIndexOfYear(selectedYear)].democrat, entity.electionResults[findIndexOfYear(selectedYear)].republican);
+    return determineDominantColor(entity?.electionResults[findIndexOfYear(selectedYear)]?.democrat, entity?.electionResults[findIndexOfYear(selectedYear)]?.republican);
   }
 
 
@@ -60,11 +60,11 @@ function InfoModal( {infoType, selectedYear, isVisible, closeModal, entity, imag
       <div style={{position: 'fixed', right: '50px', bottom: '25vh', width: '350px', height: '450px', borderRadius: '5px', color: 'black', backgroundColor: colors.white, boxShadow: "0px 2px 5px 2px gray"}}> 
         <div style={{display: 'grid', gridTemplateColumns: '50px 210px 1fr 60px 1fr auto', gridTemplateRows: '25px'}}>
             <div style={{paddingLeft: '4px', display: 'flex', alignItems: 'center'}}>
-              <img src={entity.flag} style={{height: '20px'}} alt='Flag'/>
+              <img src={entity?.flag} style={{height: '20px'}} alt='Flag'/>
             </div>
-            <Link href={`${entity.link}`}>
+            <Link href={`${entity?.link}`}>
               <p style={{color: colors.clickable, fontWeight: 900, padding: '2px', cursor: 'pointer', fontSize: '14px', whiteSpace: 'nowrap', textOverflow: 'ellipsis', overflow: 'hidden', width: '100%'}}>
-                {entity.name}
+                {entity?.name}
               </p>    
           </Link>
             <span></span>
@@ -80,33 +80,33 @@ function InfoModal( {infoType, selectedYear, isVisible, closeModal, entity, imag
         </div>
         <img src={imageLink} style={{ backgroundColor: 'gray', height: '200px', width: '100%', opacity: isLoading? 0.2 : 1 }} alt="placeholder image" height="200px" />
         <div style={{padding: '8px 4px 0px 4px'}}>
-          <p><span style={{fontWeight: 'bold', color: '#333939'}}>Population</span>: {commaifyNumber(entity.population)}</p>
-          <p><span style={{fontWeight: 'bold', color: '#333939'}}>Capital</span>: {entity.capital.name} <span style={{fontSize: 'small', cursor: 'pointer', borderBottom: 'dotted 1px black'}} title={`${Math.round(entity.capital.population/entity.population*100)}% of state's population`}>({commaifyNumber(entity.capital.population)})</span></p>
-          <p><span style={{fontWeight: 'bold', color: '#333939'}}>Largest City</span>: {entity.largestCity.name} <span style={{fontSize: 'small', cursor: 'pointer', borderBottom: 'dotted 1px black'}} title={`${Math.round(entity.largestCity.population/entity.population*100)}% of state's population`}>({commaifyNumber(entity.largestCity.population)})</span></p>
-          <p><span style={{fontWeight: 'bold', color: '#333939'}}>Area</span>: {isInKM && commaifyNumber(entity.area)}{!isInKM && commaifyNumber(Math.round(convertKM2toMI2(entity.area) ))} {isInKM && <span>km<sup style={{fontSize: 'small'}}>2</sup></span>}{!isInKM && <span>sq mi</span>}
+          <p><span style={{fontWeight: 'bold', color: '#333939'}}>Population</span>: {commaifyNumber(entity?.population)}</p>
+          <p><span style={{fontWeight: 'bold', color: '#333939'}}>Capital</span>: {entity?.capital?.name} <span style={{fontSize: 'small', cursor: 'pointer', borderBottom: 'dotted 1px black'}} title={`${Math.round(entity?.capital?.population/entity?.population*100)}% of state's population`}>({commaifyNumber(entity?.capital?.population)})</span></p>
+          <p><span style={{fontWeight: 'bold', color: '#333939'}}>Largest City</span>: {entity?.largestCity?.name} <span style={{fontSize: 'small', cursor: 'pointer', borderBottom: 'dotted 1px black'}} title={`${Math.round(entity?.largestCity?.population/entity?.population*100)}% of state's population`}>({commaifyNumber(entity?.largestCity?.population)})</span></p>
+          <p><span style={{fontWeight: 'bold', color: '#333939'}}>Area</span>: {isInKM && commaifyNumber(entity?.area)}{!isInKM && commaifyNumber(Math.round(convertKM2toMI2(entity?.area) ))} {isInKM && <span>km<sup style={{fontSize: 'small'}}>2</sup></span>}{!isInKM && <span>sq mi</span>}
             <span onClick={() => setIsInKM(!isInKM)} style={{color: 'blue', fontSize: 'small', cursor: 'pointer'}}> Swap Unit</span>
           </p>
-          <p><span style={{fontWeight: 'bold', color: '#333939'}}>Population Density</span>: {isInKM && Math.round(entity.population/entity.area*100)/100}{!isInKM && Math.round(entity.population/convertKM2toMI2(entity.area)*100)/100}
+          <p><span style={{fontWeight: 'bold', color: '#333939'}}>Population Density</span>: {isInKM && Math.round(entity?.population/entity?.area*100)/100}{!isInKM && Math.round(entity?.population/convertKM2toMI2(entity?.area)*100)/100}
             {isInKM && <span>/km<sup style={{fontSize: 'small'}}>2</sup></span>}
             {!isInKM && <span>/sq mi</span>}
             <span onClick={() => setIsInKM(!isInKM)} style={{color: 'blue', fontSize: 'small', cursor: 'pointer'}}> Swap Unit</span>
           </p>
-          <p><span style={{fontWeight: 'bold', color: '#333939'}}>Nominal GDP in millions</span>: ${commaifyNumber(entity.gdp)}</p>
-          <p><span style={{fontWeight: 'bold', color: '#333939'}}>GDP per capita</span>: ${commaifyNumber( parseInt(entity.gdp/entity.population*1000000) )}</p>
+          <p><span style={{fontWeight: 'bold', color: '#333939'}}>Nominal GDP in millions</span>: ${commaifyNumber(entity?.gdp)}</p>
+          <p><span style={{fontWeight: 'bold', color: '#333939'}}>GDP per capita</span>: ${commaifyNumber( parseInt(entity?.gdp/entity?.population*1000000) )}</p>
           <p><span style={{fontWeight: 'bold', color: '#333939'}}>HDI</span>: <span>
-            {entity.hdi} <span
+            {entity?.hdi} <span
             style={{
-              color: entity.hdi >= 0.8? '#00441B' : 
-              (entity.hdi > 0.699 ? '#66C2A4' : 
-                (entity.hdi > 0.549 ? '#b2b849' :
+              color: entity?.hdi >= 0.8? '#00441B' : 
+              (entity?.hdi > 0.699 ? '#66C2A4' : 
+                (entity?.hdi > 0.549 ? '#b2b849' :
                   '#6D0026'
                 )
               )
             }}>(
-              {entity.hdi >= 0.8 && <span>Very High</span>}
-              {(entity.hdi < 0.8 && entity.hdi > 0.699)  && <span>High</span>}
-              {(entity.hdi < 0.700 && entity.hdi > 0.549)  && <span>Medium</span>}
-              {entity.hdi < 0.550 && <span>Low</span>}
+              {entity?.hdi >= 0.8 && <span>Very High</span>}
+              {(entity?.hdi < 0.8 && entity?.hdi > 0.699)  && <span>High</span>}
+              {(entity?.hdi < 0.700 && entity?.hdi > 0.549)  && <span>Medium</span>}
+              {entity?.hdi < 0.550 && <span>Low</span>}
               )</span>
             </span>
           </p>
@@ -134,11 +134,11 @@ function InfoModal( {infoType, selectedYear, isVisible, closeModal, entity, imag
       <div style={{position: 'fixed', right: '50px', bottom: '25vh', width: '350px', height: '450px', borderRadius: '5px', color: 'black', backgroundColor: colors.white, boxShadow: "0px 2px 5px 2px gray"}}> 
         <div style={{display: 'grid', gridTemplateColumns: '50px 210px 1fr 60px 1fr auto', gridTemplateRows: '25px'}}>
             <div style={{paddingLeft: '4px', display: 'flex', alignItems: 'center'}}>
-              <img src={entity.flag} style={{height: '20px'}} alt='Flag'/>
+              <img src={entity?.flag} style={{height: '20px'}} alt='Flag'/>
             </div>
-            <Link href={`${entity.link}`}>
+            <Link href={`${entity?.link}`}>
               <p style={{color: colors.clickable, fontWeight: 900, padding: '2px', cursor: 'pointer', fontSize: '14px', whiteSpace: 'nowrap', textOverflow: 'ellipsis', overflow: 'hidden', width: '100%'}}>
-                {entity.name}
+                {entity?.name}
               </p>    
             </Link>
             <span></span>
@@ -154,22 +154,22 @@ function InfoModal( {infoType, selectedYear, isVisible, closeModal, entity, imag
           </div>
         <img src={imageLink} style={{ backgroundColor: 'gray', height: '200px', width: '100%', opacity: isLoading? 0.2 : 1 }} alt="placeholder image" height="200px" />
         <div style={{padding: '8px 4px 0px 4px'}}>
-          <p>Election Year: {entity.electionResults[findIndexOfYear(selectedYear)].year}</p>
+          <p>Election Year: {entity?.electionResults[findIndexOfYear(selectedYear)]?.year}</p>
           <VotingBar 
-          leftVotes={entity.electionResults[findIndexOfYear(selectedYear)].democrat}
-          rightVotes={entity.electionResults[findIndexOfYear(selectedYear)].republican}
-          indyVotes={entity.electionResults[findIndexOfYear(selectedYear)].independent}
-          libertarianVotes={entity.electionResults[findIndexOfYear(selectedYear)].libertarian}
-          greenVotes={entity.electionResults[findIndexOfYear(selectedYear)].green}
-          otherVotes={entity.electionResults[findIndexOfYear(selectedYear)].other}
+          leftVotes={entity?.electionResults[findIndexOfYear(selectedYear)]?.democrat}
+          rightVotes={entity?.electionResults[findIndexOfYear(selectedYear)]?.republican}
+          indyVotes={entity?.electionResults[findIndexOfYear(selectedYear)]?.independent}
+          libertarianVotes={entity?.electionResults[findIndexOfYear(selectedYear)]?.libertarian}
+          greenVotes={entity?.electionResults[findIndexOfYear(selectedYear)]?.green}
+          otherVotes={entity?.electionResults[findIndexOfYear(selectedYear)]?.other}
           />
           <div style={{display: 'flex', justifyContent: 'space-between'}}>
             <span>Democrat</span>
             <span>Republican</span>
           </div>
           <div style={{display: 'flex', justifyContent: 'space-between'}}>
-            <span>{commaifyNumber(entity.electionResults[findIndexOfYear(selectedYear)].democrat)}</span>
-            <span>{commaifyNumber(entity.electionResults[findIndexOfYear(selectedYear)].republican)}</span>
+            <span>{commaifyNumber(entity?.electionResults[findIndexOfYear(selectedYear)]?.democrat)}</span>
+            <span>{commaifyNumber(entity?.electionResults[findIndexOfYear(selectedYear)]?.republican)}</span>
           </div>
         </div>
       </div>

@@ -43,8 +43,6 @@ function ControlBar({user}) {
     };
     
     const closeSubdivisionsModal = () => {
-        console.log('closing');
-        console.log(showSubdivisionsModal);
         setShowSubdivisionsModal(false);
     };
 
@@ -72,7 +70,6 @@ useEffect(() => {
       const links = await Promise.all(
         idsToSearch.map(async (id) => {
           const country = await getCountryFromID(id);
-          console.log(country);
           return { text: country.name, flag: country.flag, href: `${country.link}` };
         })
       );
