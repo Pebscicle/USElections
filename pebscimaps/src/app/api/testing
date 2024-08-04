@@ -3,3 +3,11 @@ http://localhost:3000/api/add-news?title='Welcome to Atlaster'&content='Your per
 
 
 http://localhost:3000/api/get-news
+
+CREATE TABLE users (
+    id SERIAL PRIMARY KEY,
+    email VARCHAR(100) NOT NULL UNIQUE,
+    password VARCHAR(255) NOT NULL,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);

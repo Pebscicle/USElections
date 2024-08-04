@@ -28,7 +28,7 @@ export default function RootLayout({ children }) {
 
     //FOR TESTING
     const inputID = 'paul.davis438@gmail.com';
-    const fetchedUser = getUserByID(inputID); //null
+    const fetchedUser = /*getUserByID(inputID); //*/null;
     //FOR TESTING
 
     if(fetchedUser){

@@ -4,7 +4,7 @@ import Link from 'next/link';
 
 function Footer() {
     return (
-        <div style={{color: 'white'}}>
+        <div style={{color: 'white', backgroundColor: 'black'}}>
             <div className='text-sm px-16 py-8'>
                 <div className='py-8 flex justify-between'>
                     <Link key={"terms-of-use"}

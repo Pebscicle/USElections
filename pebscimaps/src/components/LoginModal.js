@@ -1,11 +1,22 @@
 
 import { useEffect, useState } from "react";
+import { useFormik } from 'formik';
+import * as Yup from 'yup';
 import colors from '../resources/colors.json';
 
 import Link from 'next/link';
 
+import TextField from '@mui/material/TextField';
+import Button from '@mui/material/Button';
+import FormControl from '@mui/material/FormControl';
+import FormLabel from '@mui/material/FormLabel';
+
 function LoginModal( {isVisible, closeModal} ) {
     
+
+    const [loginMode, setLoginMode] = useState('none');
+        const [emailLoginMode, setEmailLoginMode] = useState('login');
+
     const [modalStyle, setModalStyle] = useState({
         position: 'fixed',
         color: 'black',
@@ -40,6 +51,37 @@ function LoginModal( {isVisible, closeModal} ) {
         display: 'flex',
         alignItems: 'center'
     };
+
+
+    // Function to create validation schema dynamically based on mode
+    const getValidationSchema = () => {
+        return Yup.object().shape({
+        email: Yup.string().email('Invalid email address').required('Required'),
+        password: Yup.string()
+            .min(8, 'Password is too short - should be 8 chars minimum.')
+            .required('Required'),
+        ...(emailLoginMode === 'register' && {
+            password2: Yup.string()
+            .oneOf([Yup.ref('password'), null], 'Passwords must match')
+            .required('Required'),
+        }),
+        });
+    };
+
+    const formik = useFormik({
+        initialValues: {
+          email: '',
+          password: '',
+        },
+        validationSchema: getValidationSchema(),
+        onSubmit: values => {
+          console.log(values);
+          console.log('submitting');
+        },
+    });
+
+
+
 
     useEffect(() => {
         const handleResize = () => {
@@ -82,15 +124,99 @@ function LoginModal( {isVisible, closeModal} ) {
             </div>
 
             <div style={{display: 'grid', gridTemplateColumns: '1fr 1fr', height: '375px', width: '100%'}}>
+                
                 <div style={{padding: '32px 48px', display: 'flex', height: '100%', width: '100%', flexDirection: 'column', alignItems: 'stretch', justifyContent: 'space-between'}}>
+                    {loginMode == 'none' &&
                     <div>
                         <h3>Get Started with Atlaster</h3>
                         <button style={loginButton}> <img src='https://img.icons8.com/?size=100&id=17949&format=png&color=000000' width='25' height='25'/> <span style={{paddingLeft: '8px'}}>Continue with Google</span></button>
                         <button style={loginButton}> <img src='https://img.icons8.com/?size=100&id=uLWV5A9vXIPu&format=png&color=000000' width='25' height='25'/> <span style={{paddingLeft: '8px'}}>Continue with Facebook</span></button>
                         <button style={loginButton}> <img src='https://img.icons8.com/?size=100&id=30840&format=png&color=000000' width='25' height='25'/> <span style={{paddingLeft: '8px'}}>Continue with Apple</span></button>
                         <p style={{display: 'flex', justifyContent: 'center', fontSize: '12px'}}>----- or -----</p>
-                        <button style={loginButton}>Continue with Email</button>
+                        <button onClick={() => setLoginMode('email')} style={loginButton}>Continue with Email</button>
                     </div>
+                    }
+                    {loginMode == 'email' &&
+                    <div>
+                        <h5><span style={{color: 'blue', cursor: 'pointer'}} onClick={() => setLoginMode('none')}>&lt;Back</span> | <span style={{color: 'blue', cursor: 'pointer'}} onClick={() => setEmailLoginMode('login')}>Login</span> or <span style={{color: 'blue', cursor: 'pointer'}} onClick={() => setEmailLoginMode('register')}>Register</span> by Email</h5>
+                        {emailLoginMode == 'login' &&
+                        <div>
+                            <form onSubmit={formik.handleSubmit}>
+                            <FormControl fullWidth>
+                                <FormLabel>Email</FormLabel>
+                                <TextField
+                                id="email"
+                                name="email"
+                                label="Email"
+                                type="email"
+                                value={formik.values.email}
+                                onChange={formik.handleChange}
+                                error={formik.touched.email && Boolean(formik.errors.email)}
+                                helperText={formik.touched.email && formik.errors.email}
+                                />
+                                <FormLabel>Password</FormLabel>
+                                <TextField
+                                id="password"
+                                name="password"
+                                label="Password"
+                                type="password"
+                                value={formik.values.password}
+                                onChange={formik.handleChange}
+                                error={formik.touched.password && Boolean(formik.errors.password)}
+                                helperText={formik.touched.password && formik.errors.password}
+                                />
+                                <Button variant="contained" color="primary" type="submit" style={{marginTop: '8px'}}>Login</Button>
+                            </FormControl>
+                            </form>
+                        </div>
+                        }
+                        {emailLoginMode == 'register' &&
+                        <div>
+                            <form onSubmit={formik.handleSubmit}>
+                            <FormControl fullWidth>
+                                <FormLabel>Email</FormLabel>
+                                <TextField
+                                id="email"
+                                name="email"
+                                label="Email"
+                                type="email"
+                                size="small"
+                                value={formik.values.email}
+                                onChange={formik.handleChange}
+                                error={formik.touched.email && Boolean(formik.errors.email)}
+                                helperText={formik.touched.email && formik.errors.email}
+                                />
+                                <FormLabel>Password</FormLabel>
+                                <TextField
+                                id="password"
+                                name="password"
+                                label="Password"
+                                type="password"
+                                size="small"
+                                value={formik.values.password}
+                                onChange={formik.handleChange}
+                                error={formik.touched.password && Boolean(formik.errors.password)}
+                                helperText={formik.touched.password && formik.errors.password}
+                                />
+                                <FormLabel>Repeat Password</FormLabel>
+                                <TextField
+                                id="password2"
+                                name="password2"
+                                label="Password"
+                                type="password"
+                                size="small"
+                                value={formik.values.password2}
+                                onChange={formik.handleChange}
+                                error={formik.touched.password && Boolean(formik.errors.password)}
+                                helperText={formik.touched.password && formik.errors.password}
+                                />
+                                <Button variant="contained" color="primary" type="submit" style={{marginTop: '8px'}}>Register</Button>
+                            </FormControl>
+                            </form>
+                        </div>
+                        }
+                    </div>
+                    }
 
                     <p style={{fontSize: 'small'}}>By continuing, you agree to our <Link target='_blank' href='/terms_of_use' style={{color: 'blue', textDecoration: 'underline'}}>Terms of Use</Link> & <Link target='_blank' href='/privacy_policy' style={{color: 'blue', textDecoration: 'underline'}}>Privacy Policy</Link>.</p>
                 </div>
