@@ -124,6 +124,7 @@ function LoginModal( {isVisible, closeModal} ) {
                     setAlertSeverity('success');
                     setAlertMessage('Registered successfully.');
                     setShowAlert(true);
+                    setEmailLoginMode('login');
                 }
                 console.log(response);
             })
