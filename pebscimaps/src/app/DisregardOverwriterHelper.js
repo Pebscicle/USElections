@@ -1,10 +1,8 @@
 const fs = require('fs');
 const path = require('path');
 
-
-// Read the input file
 // Define the input and output file paths relative to the current directory
-const inputFilePath = path.join(__dirname, 'USADetailedMap.js');
+const inputFilePath = path.join(__dirname, 'WorldMap.js');
 const outputFilePath = path.join(__dirname, 'output.js');
 
 fs.readFile(inputFilePath, 'utf8', (err, data) => {
@@ -13,12 +11,12 @@ fs.readFile(inputFilePath, 'utf8', (err, data) => {
         return;
     }
 
-    // Regular expression to find the determineStatesColor and ID
-    const regex = /fill={(determineStatesColor)(\(".*?"\))?}[^>]*id="(\d{5})"/g;
+    // Regular expression to find the <path> elements and their id attributes
+    const regex = /<path\s+id="([^"]+)"[^>]*fill={[^}]*}[^>]*>/g;
 
-    // Replace occurrences with the modified function call
-    const result = data.replace(regex, (match, p1, p2, p3) => {
-        return match.replace(p1 + (p2 || ""), `${p1}("${p3}")`);
+    // Replace occurrences with the modified fill property
+    const result = data.replace(regex, (match, id) => {
+        return match.replace(/fill={[^}]*}/, `fill={determineCountryColor("${id}")}`);
     });
 
     // Write the output to a new file

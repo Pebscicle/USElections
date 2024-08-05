@@ -43,10 +43,6 @@ export default function Home() {
     }
   }, []); 
 
-  useEffect(() => {
-    console.log('mode has changed!');
-    console.log(mode);
-  }, [mode]);
 
   useEffect(() => {
     console.log('view has changed!');
@@ -63,7 +59,14 @@ export default function Home() {
     <main className="" style={{color: 'black'}}>
       <Dashboard user={loggedInUser}>
         {view === 'map' &&
-          <WorldMap infoType={mode} />
+          <>
+            <div style={{height: '100vh'}}>
+              <WorldMap infoType={mode} />
+            </div>
+            <div>
+              Info Area
+            </div>
+          </>
         }
         {view === 'table' && 
           <SubdivisionTable 
