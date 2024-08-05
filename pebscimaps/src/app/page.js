@@ -64,7 +64,7 @@ export default function Home() {
             <div className="min-h-screen px-2 sm:px-20 md:px-20 lg:px-96" style={{color: 'black', paddingTop: '16px', textAlign: 'justify'}}>
               <h1 style={{display: 'flex', justifyContent: 'center'}}>Atlaster</h1>
               <h2>Your Digital Atlas</h2>
-              <p>Atlaster is your digital atlas. Explore hundreds of countries, learn about the U.S. states, their counties, create hypothetical countries or even learn about elections: predict an election outcome, explore historical elections... Also, track the countries you've been to using the exploration mode, or even create your own maps using map creator!</p>
+              <p>Atlaster is your digital atlas. Explore hundreds of countries, learn about the U.S. states, their counties, create hypothetical countries or even learn about elections: predict an election outcome, explore historical elections... Also, track the countries you have been to using the exploration mode, or even create your own maps using map creator!</p>
             </div>
           </>
         }
