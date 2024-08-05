@@ -94,6 +94,7 @@ const determineCountryColor = (id) => {
 //MAP ZOOM
 const [width, setWidth] = useState(555);
 const [height, setHeight] = useState(351);
+const [isMobile, setIsMobile] = useState(false);
 
 const handleButtonClick = (theButton) => {
   console.log(theButton)
@@ -208,8 +209,8 @@ const handleMouseUp = () => {
   isDragging.current = false;
 };
 
-
 // END MAP ZOOM
+
 
 
 useEffect(() => {
@@ -217,15 +218,18 @@ useEffect(() => {
     const svgContainer = document.querySelector('.world-map-container');
     if (svgContainer) {
       setWidth(svgContainer.clientWidth);
-      setHeight(window.innerHeight-window.innerHeight*0.05);
+      setHeight(window.innerHeight-window.innerHeight*0.25);
     }
   };
 
   const handleResize = () => {
     const width = window.innerWidth;
     if (width > 767) {
+      setIsMobile(false);
       updateDimensions();
+      return;
     }
+    setIsMobile(true);
   };
 
 
@@ -252,8 +256,21 @@ useEffect(() => {
 
 
   useEffect(() => {
-    setViewBox({ ...viewBox, x: 0, y: 0, width: width, height: height});
+    if(isMobile){
+      setViewBox({ ...viewBox, x: 0, y: 0, width: width, height: height});
+    }else{
+      setViewBox({ ...viewBox, x: 0, y: 0, width: 1280, height: 720});
+    }
+    
     //Pan right 10 times for desktop devices.
+    if(!isMobile){
+      for(let i = 0; i < 2; i++){
+        panUp();
+      }
+      for(let i = 0; i < 4; i++){
+        panLeft();
+      }
+    }
     /*for(let i = 0; i < 10; i++){
       panRight();
     }*/

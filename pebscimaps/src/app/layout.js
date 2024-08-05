@@ -1,5 +1,6 @@
 'use client';
 
+
 import { SpeedInsights } from "@vercel/speed-insights/next"
 import { Provider } from 'react-redux';
 import store from '../store';
@@ -9,6 +10,8 @@ import "./globals.css";
 import Head from 'next/head';
 import Link from 'next/link';
 
+import { Suspense } from 'react';
+import LoadingPage from '../components/LoadingPage';
 import Sidebar from '../components/Sidebar';
 import Footer from '../components/Footer';
 import ControlBar from '../components/ControlBar';
@@ -90,8 +93,10 @@ export default function RootLayout({ children }) {
 
 
               <div style={{flexGrow: 1}}>
-                {children}
-                <SpeedInsights />
+                <Suspense fallback={<LoadingPage />}>
+                  {children}
+                  <SpeedInsights />
+                </Suspense>
               </div>
 
               <ControlBar user={loggedInUser} />

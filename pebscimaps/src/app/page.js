@@ -60,11 +60,10 @@ export default function Home() {
       <Dashboard user={loggedInUser}>
         {view === 'map' &&
           <>
-            <div style={{height: '100vh'}}>
-              <WorldMap infoType={mode} />
-            </div>
-            <div>
-              Info Area
+            <WorldMap infoType={mode} />
+            <div className="min-h-screen px-2 sm:px-20 md:px-20 lg:px-96" style={{color: 'black', paddingTop: '16px', textAlign: 'justify'}}>
+              <h1 style={{display: 'flex', justifyContent: 'center'}}>Atlaster</h1>
+              <h2>Your Digital Atlas</h2>
             </div>
           </>
         }
