@@ -231,7 +231,7 @@ return(
 <InfoModal infoType={infoType} selectedYear={selectedYear} isVisible={isModalVisible} closeModal={closeModal} entity={selectedState} imageLink={stateImage} />
 }
 
-<MapControls bottom={100} right={25} buttonClicked={handleButtonClick}/>
+<MapControls bottom={123} right={0} buttonClicked={handleButtonClick}/>
 
 <svg
    /*xmlns:dc="http://purl.org/dc/elements/1.1/"

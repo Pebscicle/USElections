@@ -299,7 +299,7 @@ useEffect(() => {
 return (
     <div className='world-map-container' style={{backgroundColor: water, width: '100%', height: {height}, display: 'flex', justifyContent: 'center'}}>
 
-      <MapControls bottom={100} right={25} buttonClicked={handleButtonClick}/>
+      <MapControls bottom={!isMobile ? 123 : 496} right={0} buttonClicked={handleButtonClick}/>
       
 
       {infoType != 'creator' &&
