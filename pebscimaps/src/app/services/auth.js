@@ -2,7 +2,7 @@ export const fetchUser = async () => {
     const token = localStorage.getItem('token');
   
     if (!token) {
-      alert('No token found, please login first');
+      //alert('No token found, please login first');
       return;
     }
   
@@ -15,10 +15,10 @@ export const fetchUser = async () => {
         const data = await res.json();
         return data.user;
       } else {
-        alert('Failed to retrieve profile');
+        //alert('Failed to retrieve profile');
       }
     } catch (error) {
       console.error('Error fetching profile:', error);
-      alert('An error occurred while fetching the profile');
+      //alert('An error occurred while fetching the profile');
     }
   };
