@@ -81,8 +81,7 @@ useEffect(() => {
 
     const fetchAUser = async () => {
         const aUser = await fetchUser();
-        console.log('A USER!');
-        console.log(aUser);
+        console.log('can delete this line');
         setUser(aUser);
     };
 
