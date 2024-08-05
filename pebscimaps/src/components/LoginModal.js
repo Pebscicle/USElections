@@ -130,6 +130,7 @@ function LoginModal( {isVisible, closeModal} ) {
                 } else {
                     setAlertSeverity('error');
                     setAlertMessage('An error occurred during registration.');
+                    console.log('CAN DELETE THIS LINE');
                 }
                 setShowAlert(true);
             });
