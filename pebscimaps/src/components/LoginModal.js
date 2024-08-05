@@ -24,6 +24,8 @@ function LoginModal( {isVisible, closeModal} ) {
     const [alertSeverity, setAlertSeverity] = useState('success');
     const [showAlert, setShowAlert] = useState(false);
 
+    
+    const [isMobile, setIsMobile] = useState(false);
     const [modalStyle, setModalStyle] = useState({
         position: 'fixed',
         color: 'black',
@@ -37,6 +39,10 @@ function LoginModal( {isVisible, closeModal} ) {
         width: '800px', // Default width
         height: '400px', // Default height
     });
+
+    const getGridStyle = () => {
+        return isMobile ? '1fr' : '1fr 1fr';
+    }
 
     const blurStyle = {
         backgroundColor: 'rgba(255, 255, 255, 0.87)', 
@@ -201,6 +207,7 @@ function LoginModal( {isVisible, closeModal} ) {
         const handleResize = () => {
             const width = window.innerWidth;
             if (width <= 767) {
+                setIsMobile(true);
                 setModalStyle(prevState => ({
                   ...prevState,
                     top: 0,
@@ -212,6 +219,7 @@ function LoginModal( {isVisible, closeModal} ) {
                     transform: 'none',
                 }));
             } else {
+                setIsMobile(false);
                 setModalStyle(prevState => ({
                   ...prevState,
                     top: '50%',
@@ -248,7 +256,7 @@ function LoginModal( {isVisible, closeModal} ) {
                 <div onClick={closeModal} style={{cursor: 'pointer', backgroundColor: colors.close, padding: '4px 2px', display: 'flex', justifyContent: 'center', alignItems: 'center'}}>Close</div>
             </div>
 
-            <div style={{display: 'grid', gridTemplateColumns: '1fr 1fr', height: '375px', width: '100%'}}>
+            <div style={{display: 'grid', gridTemplateColumns: getGridStyle(), height: '375px', width: '100%'}}>
                 
                 <div style={{padding: '32px 48px', display: 'flex', height: '100%', width: '100%', flexDirection: 'column', alignItems: 'stretch', justifyContent: 'space-between'}}>
                     {loginMode == 'none' &&

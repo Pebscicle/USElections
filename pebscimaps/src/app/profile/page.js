@@ -16,11 +16,12 @@ function Profile() {
 
     const [user, setUser] = useState(null);
 
-    const handleYearClick = (year) => {
-        // Assuming setSelectedYear is defined somewhere
-        setSelectedYear(year);
-        router.push(`${window.location.origin}/${pathname}?year=${year}`);
-    };
+
+    const logout = () => {
+        localStorage.removeItem('token');
+        window.location.href = '/';
+    }
+
 
     useEffect(() => {
         const fetchAUser = async () => {
@@ -37,6 +38,8 @@ function Profile() {
         <Suspense fallback={<div>Loading...</div>}>
             <div style={{ color: 'black', minHeight: '100vh', padding: '16px 0px 0px 8px' }}>
                 <h1>Profile</h1>
+
+                <button style={{color: 'red', fontWeight: 'semibold'}} onClick={() => logout()}>Logout</button>
 
                 {user && 
                     <div>
