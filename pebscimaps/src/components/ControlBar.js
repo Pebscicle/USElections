@@ -14,12 +14,15 @@ import MapIcon from '@mui/icons-material/Map';
 import {getCountryFromID} from '../app/services/dbFetcherService';
 
 import {useState, useEffect} from 'react';
+import {fetchUser} from '../app/services/auth.js';
 import { useSelector, useDispatch } from 'react-redux';
 import { setMode, setView } from '../actions/appActions';
 
 import colors from '../resources/colors.json';
 
-function ControlBar({user}) {
+function ControlBar( ) {
+
+    const [user, setUser] = useState(null);
     
     const [showLogin, setShowLogin] = useState(false);
     const [showSubdivisionsModal, setShowSubdivisionsModal] = useState(false);
@@ -76,7 +79,15 @@ useEffect(() => {
       setSubdivisionLinks(links);
     };
 
+    const fetchAUser = async () => {
+        const aUser = await fetchUser();
+        console.log('A USER!');
+        console.log(aUser);
+        setUser(aUser);
+    };
+
     fetchSubdivisionLinks();
+    fetchAUser();
   }, []);
 
     

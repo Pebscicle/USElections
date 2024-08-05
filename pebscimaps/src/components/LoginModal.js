@@ -1,5 +1,6 @@
 
 import { useEffect, useState } from "react";
+import axios from "axios";
 import { useFormik } from 'formik';
 import * as Yup from 'yup';
 import colors from '../resources/colors.json';
@@ -10,12 +11,18 @@ import TextField from '@mui/material/TextField';
 import Button from '@mui/material/Button';
 import FormControl from '@mui/material/FormControl';
 import FormLabel from '@mui/material/FormLabel';
+import Alert from '@mui/material/Alert';
 
 function LoginModal( {isVisible, closeModal} ) {
     
 
     const [loginMode, setLoginMode] = useState('none');
         const [emailLoginMode, setEmailLoginMode] = useState('login');
+
+
+    const [alertMessage, setAlertMessage] = useState('Login Successful!');
+    const [alertSeverity, setAlertSeverity] = useState('success');
+    const [showAlert, setShowAlert] = useState(false);
 
     const [modalStyle, setModalStyle] = useState({
         position: 'fixed',
@@ -61,26 +68,132 @@ function LoginModal( {isVisible, closeModal} ) {
             .min(8, 'Password is too short - should be 8 chars minimum.')
             .required('Required'),
         ...(emailLoginMode === 'register' && {
-            password2: Yup.string()
-            .oneOf([Yup.ref('password'), null], 'Passwords must match')
-            .required('Required'),
-        }),
+                password2: Yup.string()
+                    .oneOf([Yup.ref('password'), null], 'Passwords must match')
+                    .required('Required')
+                    .test('passwords-match', 'Passwords must match', function(value) {
+                        return value === this.parent.password;
+                    }),
+            }),
         });
     };
 
+    const getInitialValues = () => {
+        if(emailLoginMode === 'register'){
+            return {
+                email: '',
+                password: '',
+                password2: ''
+            }
+        }
+        return {
+            email: '',
+            password: ''
+        }
+    }
+
     const formik = useFormik({
-        initialValues: {
-          email: '',
-          password: '',
-        },
+        initialValues: getInitialValues(),
         validationSchema: getValidationSchema(),
         onSubmit: values => {
-          console.log(values);
-          console.log('submitting');
+            if(emailLoginMode === 'register'){
+                registerUser(values.email, values.password);
+            }else if (emailLoginMode === 'login'){
+                loginUser(values.email, values.password);
+            }
+            
         },
     });
 
+    function registerUser(email, password) {
+        console.log('registering user...');
 
+        try {
+            axios.post('/api/register', {
+                email: email,
+                password: password,
+            })
+            .then((response) => {
+                if (response.status === 201) {
+                    setAlertSeverity('success');
+                    setAlertMessage('Registered successfully.');
+                    setShowAlert(true);
+                }
+                console.log(response);
+            })
+            .catch((error) => {
+                // This will catch errors that occur during the request
+                console.log('An error occurred:', error);
+                if (error.response && error.response.status === 400) {
+                    setAlertSeverity('error');
+                    setAlertMessage('Email already registered!');
+                } else {
+                    setAlertSeverity('error');
+                    setAlertMessage('An error occurred during registration.');
+                }
+                setShowAlert(true);
+            });
+        } catch (error) {
+            // This catch block is redundant in this context because axios is a promise-based API and handles errors within the promise chain
+            console.log('This will not catch axios errors.');
+        }
+      }
+
+    function loginUser(email, password) {
+        console.log('Logging in user...');
+        axios.post('/api/login', {
+            email: email,
+            password: password,
+        }).then((response) => {
+        if (response.status === 200) {
+            setAlertSeverity('success');
+            localStorage.setItem('token', response.data.token);
+
+            setAlertMessage('Logged in successfully.');
+            setShowAlert(true);
+            // Handle successful login (e.g., store user info in state or localStorage)
+            // Redirect to a dashboard page
+
+            //Redirect...
+            window.location.href = '/profile';
+
+            
+        }
+        console.log(response);
+        }).catch((error) => {
+            console.error('There was a problem with the login:', error);
+            if (error.response) {
+                setAlertSeverity('error');
+                switch (error.response.status) {
+                case 400:
+                    setAlertMessage('Email and password are required.');
+                    break;
+                case 401:
+                    setAlertMessage('Invalid email or password.');
+                    break;
+                default:
+                    setAlertMessage('An error occurred during login.');
+                }
+            } else {
+                setAlertMessage('An error occurred during login.');
+            }
+            setShowAlert(true);
+        });
+    }
+      
+
+
+    useEffect(() => {
+        if (Object.keys(formik.errors).length > 0 && formik.submitCount > 0) {
+            setAlertSeverity('error');
+            if (formik.errors.password2 === 'Passwords must match') {
+                setAlertMessage('Passwords do not match!');
+            } else {
+                setAlertMessage('Please correct the errors in the form.');
+            }
+            setShowAlert(true);
+        }
+    }, [formik.errors, formik.submitCount]);
 
 
     useEffect(() => {
@@ -118,6 +231,17 @@ function LoginModal( {isVisible, closeModal} ) {
     return (
         isVisible &&
         <div style={modalStyle}>
+            {showAlert && <div style={{
+                    position: 'fixed',
+                    top: '10px',
+                    left: '50%',
+                    transform: 'translateX(-50%)',
+                    zIndex: 9999,  // Ensures it appears above other content
+                    width: '90%',  // Ensures the alert is not too wide on small screens
+                    maxWidth: '500px',  // Limits maximum width on large screens
+                }}><Alert severity={alertSeverity} className="App-alert" onClose={() => setShowAlert(false)}><span style={{color: 'black'}}>{alertMessage}</span></Alert>
+                </div>
+            }
             <div style={{display: 'grid', gridTemplateRows: '25px', gridTemplateColumns: '1fr 50px', width: '100%'}}>
                 <div style={{backgroundColor: colors.secondary}}></div>
                 <div onClick={closeModal} style={{cursor: 'pointer', backgroundColor: colors.close, padding: '4px 2px', display: 'flex', justifyContent: 'center', alignItems: 'center'}}>Close</div>
