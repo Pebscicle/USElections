@@ -172,10 +172,10 @@ function LoginModal( {isVisible, closeModal} ) {
                     setAlertMessage('Invalid email or password.');
                     break;
                 default:
-                    setAlertMessage('An error occurred during login.');
+                    setAlertMessage('Invalid email or password.');
                 }
             } else {
-                setAlertMessage('An error occurred during login.');
+                setAlertMessage('Invalid email or password.');
             }
             setShowAlert(true);
         });
